@@ -1,5 +1,5 @@
 import { useEffect, useId, useRef, useState, type FormEvent, type ReactElement } from "react";
-import { ArrowUpRight, Box, Check, ChevronDown, ChevronRight, Cpu, CircleAlert, CirclePause, Download, FileText, FlaskConical, LoaderCircle, Paperclip, Play, Search, Send, Settings2, Terminal, Wrench, X } from "lucide-react";
+import { ArrowUpRight, Box, Check, ChevronDown, ChevronRight, ClipboardList, Cpu, Gauge, Layers3, ListChecks, MessageSquare, ScanSearch, Upload, CircleAlert, CirclePause, Download, FileText, FlaskConical, LoaderCircle, Paperclip, Play, Search, Send, Settings2, Terminal, Wrench, X } from "lucide-react";
 import { api, jsonPost } from "./api";
 import { readWorkspace, saveWorkspace } from './workspace-state';
 import { drawingInputError, drawingPageCount } from './drawing-input';
@@ -30,7 +30,7 @@ const modes: { id: Mode; label: string; detail: string; icon: typeof Box }[] = [
   { id: "catalog_search", label: "零件检索", detail: "按用途、结构与规格找零件", icon: Search },
 ];
 const statusNames: Record<string, string> = { running: "正在执行", pending: "等待执行", queued: "排队等待", preparing: "准备中", completed: "执行完成", failed: "执行未完成", cancelled: "已停止", canceled: "已停止", interrupted: '执行已中断 · 请核对记录' };
-const kindNames: Record<DemoCase["kind"], string> = { normal: "正常", boundary: "边界", failure: "异常" };
+const kindNames: Record<DemoCase["kind"], string> = { normal: "常规测试", boundary: "边界测试", failure: "异常测试" };
 const toolNames: Record<string, string> = { industrial_request_clarification: "请求补充资料", browser_order_review: "评审采购与生产条件", browser_catalog_search: "检索工程资产", industrial_read_input: "读取输入资料", industrial_get_document: "读取图纸页面", industrial_geometry: "执行几何工具", industrial_catalog_search: "检索企业零件库", industrial_order_review: "评审采购与生产条件", industrial_search_catalog: "检索企业零件库", industrial_review_order: "评审采购与生产条件" };
 const fieldNames: Record<string, string> = { operation: "操作", documentId: "文档", query: "检索条件", text: "采购文本", instruction: "任务要求", path: "输入文件", name: "名称", id: "标识", units: "单位", status: "状态", message: "说明", error: "错误", success: "执行成功", runId: "运行编号", count: "数量", total: "总数", resultCount: "匹配数量", availableStock: "可用库存", toProduce: "待产数量", totalHours: "估算工时", model: "模型", category: "分类", material: "材料", format: "格式", limit: "最多返回", pages: "页码", features: "建模特征", checks: "检查项", items: "采购行", assets: "零件", candidates: "候选零件", results: "结果", parts: "零件定义", instances: "装配实例", warnings: "提醒", errors: "错误项", verification: "验证", measurements: "测量", passed: "检查通过", valid: "几何有效", solids: "实体数量", input: "输入", output: "输出", execution: "执行方式" };
 const operationNames: Record<string, string> = { build: "生成模型", patch: "局部修复", validate: "检查几何", project: "生成投影视图", compare_views: "对照图纸与投影", assembly: "构建装配" };
@@ -205,34 +205,46 @@ export function TaskRecordView({ task, assets, onSelectAsset, preview = false }:
   </>;
 }
 type Turn = { task: WorkspaceTask; snapshot: Snapshot };
-type ModeGuide = { title: string; tagline: string; summary: string; inputs: string[]; tools: string[]; outputs: string[]; placeholder: string };
+type FlowStep = { label: string; detail: string; icon: typeof Box };
+type ModeGuide = { title: string; tagline: string; flow: FlowStep[]; note: string; placeholder: string };
 const MAX_TURNS = 20;
 export const modeGuides: Record<Mode, ModeGuide> = {
   reconstruct: {
     title: "图纸重建",
     tagline: "上传零件图或装配图，生成可编辑 CAD 模型、装配爆炸视图和逐项实测检查报告。",
-    summary: "上传机械零件图或装配图，AGH 组织视觉模型逐项读取视图、尺寸与明细表，并为每个关键尺寸记录来源；随后调用工业几何工具构建参数化特征，对实体逐项实测并回投影成三视图。装配图会继续求解各零件位置、规划拆卸顺序并逐步检查爆炸路径。缺失或矛盾的尺寸会暂停并请求补充，不使用猜测值建模。",
-    inputs: ["PDF / PNG / JPG 图纸，每次最多 4 页", "可附加要求：需重点核对的尺寸、公差或装配关系"],
-    tools: ["读取图纸与文字层", "industrial_geometry：build / validate / project / assembly", "请求补充资料（缺尺寸时）"],
-    outputs: ["可编辑 STEP 与可旋转 GLB 模型", "装配体的爆炸视图、BOM 与路径检查", "逐项实测检查表与三视图投影"],
+    flow: [
+      { label: "上传图纸", detail: "零件图或装配图", icon: Upload },
+      { label: "读图取证", detail: "尺寸与明细逐项记录来源", icon: ScanSearch },
+      { label: "建模实测", detail: "参数化建模并逐项测量", icon: Box },
+      { label: "装配拆解", detail: "位置检查与爆炸路径", icon: Layers3 },
+      { label: "交付", detail: "STEP / GLB / 检查报告", icon: Download },
+    ],
+    note: "缺尺寸或尺寸冲突时暂停并请求补充，不使用猜测值建模。",
     placeholder: "例如：根据附件装配图重建全部零件并生成可拆解的装配模型，核对孔径、分度圆和叠层厚度；缺失的尺寸先向我确认。",
   },
   order_review: {
     title: "订单评审",
     tagline: "粘贴合同或采购明细，逐行匹配零件、分配库存，并估算待产工时与产能缺口。",
-    summary: "粘贴合同条款或采购明细，AGH 调用订单评审工具逐行解析内部编号、名称、数量、材料、版本、规格与交期，匹配企业零件库和生产台账，分配可用库存，并按工序估算待产工时与产能缺口。材料或版本冲突、规格缺项、未知编号会逐行标出并检索候选零件，不给出虚假工时。",
-    inputs: ["带列名的表格或“字段：值”形式的采购明细", "可附加要求：交期、优先级或需要重点核对的字段"],
-    tools: ["industrial_review_order：解析、匹配、库存与工时", "industrial_search_catalog：为冲突或未匹配行检索候选"],
-    outputs: ["逐行评审状态（条件满足 / 需确认 / 冲突 / 未匹配）", "库存分配、待产数量与工时估算", "每行的计算依据与匹配零件"],
+    flow: [
+      { label: "粘贴明细", detail: "表格或字段标签", icon: ClipboardList },
+      { label: "逐行解析", detail: "编号、数量、材料、版本", icon: ListChecks },
+      { label: "匹配零件库", detail: "核对材料与版本", icon: Search },
+      { label: "库存与工时", detail: "分配库存、估算工时", icon: Gauge },
+      { label: "评审结论", detail: "冲突逐行标出并给候选", icon: FileText },
+    ],
+    note: "生产台账为合成演示数据；条件冲突时不给出虚假工时。",
     placeholder: "粘贴合同或采购明细，说明需要核对的数量、材料、版本和交期…",
   },
   catalog_search: {
     title: "零件检索",
     tagline: "用自然语言在企业零件库中查找可用零件，直接查看三维模型、拆解视图与来源许可。",
-    summary: "用自然语言描述用途、结构、材料或文件格式，AGH 会组合关键词与筛选条件多次检索企业零件库，在 45 条带来源与许可的工程资产（公开机械资产、原创装配及配套零件）中给出候选，说明匹配依据并附稳定编号。点击结果可直接打开三维模型、拆解视图和部件清单；库中没有的零件会如实说明，不用无关零件凑数。",
-    inputs: ["用途、结构特征、材料、格式等自然语言描述", "可指定数量上限或是否需要装配层级"],
-    tools: ["industrial_search_catalog：关键词、分类、格式组合检索"],
-    outputs: ["带编号、用途与匹配依据的候选列表", "可打开的三维模型、爆炸视图与 BOM"],
+    flow: [
+      { label: "描述需求", detail: "用途、结构、材料或格式", icon: MessageSquare },
+      { label: "组合检索", detail: "关键词与筛选多次检索", icon: Search },
+      { label: "候选与依据", detail: "编号、用途与匹配理由", icon: ListChecks },
+      { label: "查看模型", detail: "三维、拆解视图与 BOM", icon: Box },
+    ],
+    note: "库中没有的零件会如实说明，不用无关零件凑数。",
     placeholder: "描述要找的零件，例如：用于定位夹具的带孔支架，优先查看可编辑的 STEP 资产…",
   },
 };
@@ -253,15 +265,9 @@ function EmptyGuide({ mode, selectable, onMode }: { mode: Mode; selectable: bool
   const guide = modeGuides[mode];
   return <div className="chat-empty">
     {selectable ? <div className="chat-mode-cards" role="group" aria-label="选择任务类型">{modes.map(({ id, label, detail, icon: Icon }) => <button type="button" key={id} aria-pressed={mode === id} onClick={() => onMode(id)}><Icon size={20} /><strong>{label}</strong><small>{detail}</small></button>)}</div> : null}
-    <section className="chat-guide" aria-label={`${guide.title}说明`}>
-      <h2>{guide.title}能做什么</h2>
-      <p>{guide.summary}</p>
-      <div className="chat-guide-grid">
-        <div><h3>输入</h3><ul>{guide.inputs.map((item) => <li key={item}>{item}</li>)}</ul></div>
-        <div><h3>AGH 调用的工具</h3><ul>{guide.tools.map((item) => <li key={item}>{item}</li>)}</ul></div>
-        <div><h3>输出</h3><ul>{guide.outputs.map((item) => <li key={item}>{item}</li>)}</ul></div>
-      </div>
-      <p className="chat-guide-hint">在下方输入任务，或直接点击一个测试案例运行。每次运行的工具调用都会显示在这里，并保存到“历史记录”。</p>
+    <section className="chat-guide" aria-label={`${guide.title}流程`}>
+      <ol className="chat-flow">{guide.flow.map(({ label, detail, icon: Icon }, index) => <li key={label}><span className="chat-flow-icon"><Icon size={18} /></span><strong>{index + 1}. {label}</strong><small>{detail}</small></li>)}</ol>
+      <p className="chat-guide-hint">{guide.note} 在下方输入任务，或点击一个测试案例直接运行。</p>
     </section>
   </div>;
 }

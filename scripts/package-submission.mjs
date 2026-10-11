@@ -14,6 +14,7 @@ export const ARCHIVE_NAME = '本科生组-U263-盼盼法式小面包-余梓丞.z
 export const INNER_NAME = 'EngineerAgent.zip';
 export const RECORDS_DIR = 'AGH执行记录';
 export const REPOSITORY_URL = 'https://github.com/zicheng-yu/Agnes-Hackathon-EngineerAgent';
+export const DEMO_URL = 'https://engineeragent.zichengyu.site/';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const exec = promisify(execFile);
 const FIXED_TIME = [2026, 10, 10, 0, 0, 0];
@@ -82,12 +83,12 @@ export function howToStart(demoUrl) {
 
 ## 本地运行
 
-1. 安装 Node.js ≥ 24.10、Python 3.12、Git。
+1. 安装 Node.js ≥ 24.10、Python 3.12、Git，以及本平台的编译工具：macOS 运行 \`xcode-select --install\`；Windows 安装 Visual Studio Build Tools（“使用 C++ 的桌面开发”）；Linux 安装 \`build-essential\` 和 \`python3.12-venv\`。
 2. 解压 \`${INNER_NAME}\`，进入 \`EngineerAgent\` 文件夹。
-3. macOS 双击 \`启动工程助手.command\`，Windows 双击 \`启动工程助手.bat\`（或运行 \`node scripts/start-local.mjs --install --open\`）。
+3. 启动：macOS 双击 \`启动工程助手.command\`；Windows 双击 \`启动工程助手.bat\`；Linux（或任意平台）在该文件夹运行 \`node scripts/start-local.mjs --install --open\`。
 4. 浏览器打开 http://127.0.0.1:4310 ，点击输入框下方的模型按钮填写 Agnes API Key，再点任一测试案例即可运行。
 
-首次启动会自动安装依赖（约 10 分钟）：Python 包走清华源，npm 包走 npmmirror，AGH 源码已随包附带，无需访问 GitHub。Windows 还需 Visual Studio Build Tools（“使用 C++ 的桌面开发”）。
+首次启动会自动安装依赖（约 10 分钟）：Python 包走清华源，npm 包走 npmmirror，AGH 源码已随包附带，无需访问 GitHub。
 
 ## 包内容
 
@@ -275,7 +276,7 @@ async function main(args) {
     if (!file || file.startsWith('--')) throw new Error('--verify requires an archive path.');
     console.log(json(await verifyArchive(path.resolve(file), root))); return;
   }
-  const demoUrl = valueOf('--demo-url') || process.env.ENGINEERAGENT_DEMO_URL || '';
+  const demoUrl = valueOf('--demo-url') || process.env.ENGINEERAGENT_DEMO_URL || DEMO_URL;
   if (demoUrl && !/^https:\/\/[^\s]+$/.test(demoUrl)) throw new Error('--demo-url must be an https URL.');
   const out = path.join(root, 'output/submission');
   await fs.mkdir(out, { recursive: true });

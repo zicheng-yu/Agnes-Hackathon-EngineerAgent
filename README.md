@@ -8,19 +8,26 @@
 
 每次任务的工具调用实时显示，并可导出 AGH 原生执行记录供复核。
 
-- 在线体验：（链接待发布）
+- 在线体验：<https://engineeragent.zichengyu.site/>（无需安装，使用官方 Agnes）
 - 开源仓库：<https://github.com/zicheng-yu/Agnes-Hackathon-EngineerAgent>
 
 ## 快速启动
 
-1. 安装 [Node.js](https://nodejs.org/) ≥ 24.10、[Python](https://www.python.org/downloads/) 3.12、[Git](https://git-scm.com/downloads)。
-2. macOS 双击 `启动工程助手.command`，Windows 双击 `启动工程助手.bat`；或在项目目录运行：
+三个平台都需要 [Node.js](https://nodejs.org/) ≥ 24.10、[Python](https://www.python.org/downloads/) 3.12 和 [Git](https://git-scm.com/downloads)，另需本平台的 C/C++ 编译工具（用于构建 AGH 的原生模块）。
 
-   ```sh
-   node scripts/start-local.mjs --install --open
-   ```
+| 平台 | 额外准备 | 启动 |
+|---|---|---|
+| macOS | Xcode 命令行工具：`xcode-select --install` | 双击 `启动工程助手.command`（首次若被拦截：右键 → 打开） |
+| Windows | Visual Studio Build Tools 的“使用 C++ 的桌面开发”与 Windows SDK；安装 Python 时勾选 “Add to PATH” | 双击 `启动工程助手.bat` |
+| Linux | `build-essential`、`python3.12-venv`（Debian/Ubuntu 包名） | 终端运行下方命令 |
 
-3. 浏览器打开 <http://127.0.0.1:4310> 后，点击输入框下方的模型按钮，填写 API Key 并保存。
+任何平台也都可以在项目目录运行：
+
+```sh
+node scripts/start-local.mjs --install --open
+```
+
+启动后浏览器打开 <http://127.0.0.1:4310>，点击输入框下方的模型按钮填写 API Key 并保存，再点任一测试案例即可运行。
 
 首次启动会安装依赖并构建 AGH，需要几分钟。依赖默认从国内镜像下载（Python：清华源；npm/pnpm：npmmirror）；海外网络可设置 `ENGINEERAGENT_MIRROR=off` 改用官方源。终端窗口保持打开，按 Ctrl+C 停止。
 
@@ -30,7 +37,7 @@
 
 ## 测试案例与执行记录
 
-每个任务页输入框下方都有测试案例，点击即经 AGH 运行：1 张装配图（4 种零件、15 个实例）、1 张缺尺寸零件图、2 份采购单、3 个检索，覆盖正常、边界与异常。Agnes 3.0 Flash 的运行结果与核对方法见 [docs/demo-cases.md](docs/demo-cases.md)；原生执行记录在 `assets/evaluation/agh-runs/`，也可在“历史记录”页导出。
+每个任务页输入框下方都有测试案例，点击即经 AGH 运行：1 张装配图（4 种零件、15 个实例）、1 张缺尺寸零件图、2 份采购单、3 个检索，分为常规测试、边界测试和异常测试。Agnes 3.0 Flash 的运行结果与核对方法见 [docs/demo-cases.md](docs/demo-cases.md)；原生执行记录在 `assets/evaluation/agh-runs/`，也可在“历史记录”页导出。
 
 ## 工作原理
 

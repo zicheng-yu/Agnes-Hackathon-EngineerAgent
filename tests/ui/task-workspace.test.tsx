@@ -58,7 +58,7 @@ describe("TaskWorkspace input and execution evidence", () => {
     expect(screen.getByRole("heading", { name: "订单评审", level: 1 })).toBeVisible();
     expect(screen.queryByRole("combobox", { name: "任务类型" })).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: "本地规则评审" })).not.toBeInTheDocument();
-    expect(screen.getByRole("region", { name: "订单评审说明" })).toHaveTextContent("industrial_review_order");
+    expect(screen.getByRole("region", { name: "订单评审流程" })).toHaveTextContent("库存与工时");
   });
   it("distinguishes verified artifacts from a blocked AGH turn without displaying execution completed", async () => {
     post = async () => ({ ...completed, result: { engineeringStatus: "verified", runtimeStatus: "blocked", runtimeWarning: { message: "工程产物通过检查，AGH 回合未正常结束。原始记录保留。" }, artifacts: { glb: "/runs/example/model.glb", step: "/runs/example/model.step" } } });

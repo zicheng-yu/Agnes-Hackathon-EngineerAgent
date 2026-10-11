@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "bolt-m8",
+  "name": "M8 六角螺栓（无螺纹简化）",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/precision-vise-18/parts/bolt-m8/model.step",
+    "glb": "assets/generated/precision-vise-18/parts/bolt-m8/model.glb",
+    "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+    "feature_plan": "assets/generated/precision-vise-18/parts/bolt-m8/feature-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/parts/bolt-m8/views/front.svg",
+      "top": "assets/generated/precision-vise-18/parts/bolt-m8/views/top.svg",
+      "side": "assets/generated/precision-vise-18/parts/bolt-m8/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/parts/bolt-m8/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3349.339763,
+      "area_mm2": 1802.824909,
+      "bbox": {
+        "min": [
+          -7.6,
+          -6.581793068761736,
+          0.0
+        ],
+        "max": [
+          7.6,
+          6.581793068761734,
+          55.6
+        ],
+        "size": [
+          15.2,
+          13.16358613752347,
+          55.6
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        -2.0365835494992012e-16,
+        1.7187711334326933e-16,
+        23.593045166011812
+      ],
+      "faces": 11,
+      "edges": 23
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3349.339763,
+    "area_mm2": 1802.824909,
+    "bbox": {
+      "min": [
+        -7.6,
+        -6.581793068761736,
+        0.0
+      ],
+      "max": [
+        7.6,
+        6.581793068761734,
+        55.6
+      ],
+      "size": [
+        15.2,
+        13.16358613752347,
+        55.6
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -2.0365835494992012e-16,
+      1.7187711334326933e-16,
+      23.593045166011812
+    ],
+    "faces": 11,
+    "edges": 23
+  },
+  "feature_log": [
+    {
+      "id": "head",
+      "op": "extrude",
+      "status": "completed",
+      "duration_ms": 4.17
+    },
+    {
+      "id": "shaft",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.56
+    },
+    {
+      "id": "fused",
+      "op": "union",
+      "status": "completed",
+      "duration_ms": 5.14
+    },
+    {
+      "id": "edge-break",
+      "op": "chamfer",
+      "status": "completed",
+      "duration_ms": 9.47
+    }
+  ],
+  "errors": []
+}

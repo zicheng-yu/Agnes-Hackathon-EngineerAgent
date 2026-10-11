@@ -1,0 +1,3363 @@
+[
+  {
+    "id": "compliant-gripper",
+    "name": "柔顺机器人夹爪主壳体",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "柔顺机器人夹爪主壳体，来自 PCrnjak/Compliant-robotic-gripper 的公开机械设计。",
+    "useCase": "柔顺夹爪驱动与传动安装",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/PCrnjak/Compliant-robotic-gripper/blob/df56e1deee1bd89c8db86a24df8e3240e2448c24/Gripper_STEP.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/PCrnjak/Compliant-robotic-gripper/df56e1deee1bd89c8db86a24df8e3240e2448c24/Gripper_STEP.zip",
+    "sourceProject": "compliant",
+    "author": "Petar Crnjak",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/PCrnjak/Compliant-robotic-gripper/blob/df56e1deee1bd89c8db86a24df8e3240e2448c24/LICENSE",
+    "licensePath": "assets/sources/compliant/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/compliant-gripper/source.step",
+    "sizeBytes": 695327,
+    "sha256": "211805c88520f2f85f122c5a876545d634e53db8ed79f016bee23899007cacfd",
+    "downloadedAt": "2026-10-09T04:04:01.797698+00:00",
+    "upstreamCommit": "df56e1deee1bd89c8db86a24df8e3240e2448c24",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "archivePath": "assets/catalog/compliant-gripper/source.zip",
+    "archiveMember": "Gripper_STEP/Gripper_main_body.STEP",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 695327,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "archiveSha256": "f51470293bdffb40fbf39e3629b34e5ffad880374861905f6e79414a499dc023",
+    "archiveSizeBytes": 972490,
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 67617.05199,
+        "area_mm2": 25337.077766,
+        "bbox": {
+          "min": [
+            -27.000435245198876,
+            -54.00000010000007,
+            -15.006605662811774
+          ],
+          "max": [
+            73.91413842408662,
+            22.505954135739174,
+            7.1060153973421505
+          ],
+          "size": [
+            100.91457366928549,
+            76.50595423573924,
+            22.112621060153923
+          ]
+        },
+        "center_of_mass": [
+          20.30600503166881,
+          -14.452844347590187,
+          -4.808447324291968
+        ],
+        "faces": 283,
+        "edges": 765,
+        "sum_of_solid_volumes_mm3": 67617.0519903188
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/compliant-gripper/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.443733+00:00"
+    },
+    "browserModelPath": "assets/catalog/compliant-gripper/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/compliant-gripper/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "ea932a47f3344d6193fd5c6b2e346d5d8c1a8ca32296249692af18923f6af8d0",
+    "browserModelSizeBytes": 535292,
+    "browserMeshPath": "assets/catalog/compliant-gripper/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/compliant-gripper/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/compliant-gripper/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/compliant-gripper/thumbnail.png",
+    "thumbnailSha256": "eb51ea5338ae0df9648eb8e94cc47388b7bbcfc9e223e9c348de4033a0d68747",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/compliant-gripper/preview-cad/mesh.json",
+      "sourceMeshSha256": "8c88f956fcbf303fd2a0ed76c1fea6850ba805b0b986880eb8bf8a2ae58ea85a",
+      "trianglesRendered": 22036,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "ssg48-drive-assembly",
+    "name": "SSG48 电动夹爪主体模型",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "来自官方 ROS 资源的低面数电动夹爪主体网格，原表面 STEP 同时保留。",
+    "useCase": "自动上下料、末端执行器集成",
+    "hero": true,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/SSG48_gripper_description/assets/gripper_SSG48.STL",
+    "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/SSG48_gripper_description/assets/gripper_SSG48.STL",
+    "sourceProject": "ssg48",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/ssg48-drive-assembly/source.stl",
+    "sizeBytes": 424884,
+    "sha256": "e90a8a4b0d9d53581854732babec0e8fd364d8ac9079a33215bef5e07274faf4",
+    "downloadedAt": "2026-10-09T04:04:57.882674+00:00",
+    "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "alternateCadPath": "assets/catalog/ssg48-drive-assembly/source.step",
+    "alternateCadSha256": "873b0c6b1db6cb1557c52f81152271ab4877462c7d3cf92612872870f6fa9e25",
+    "alternateCadSourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/3D%20MODEL/Gripper_body.STEP",
+    "alternateCadNote": "原官方 STEP 由 IGES 表面转换，文件中没有 MANIFOLD_SOLID_BREP；不得作为闭合实体或可加工性验证证据。",
+    "assemblyCompleteness": "body-only; jaws are separate in upstream URDF",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 424884,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 8496,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          -0.037463534623384476,
+          -0.052000001072883606,
+          -0.11015000194311142
+        ],
+        [
+          0.03750000149011612,
+          0.052000001072883606,
+          -0.04309999942779541
+        ]
+      ],
+      "extents": [
+        0.0749635361135006,
+        0.10400000214576721,
+        0.06705000251531601
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/ssg48-drive-assembly/preview-cad/mesh.json",
+      "sourceMeshSha256": "7ae76f67be6415d399bbbeeba19b5bcb4f2f66778e0534a4916c98472b91a696",
+      "trianglesRendered": 8500,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/ssg48-drive-assembly/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/ssg48-drive-assembly/thumbnail.png",
+    "thumbnailSha256": "e36226d6d9a297cbfe669a2cdd5349b121fb11a940e85586a9064b011049e05b",
+    "browserModelPath": "assets/catalog/ssg48-drive-assembly/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/ssg48-drive-assembly/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": false,
+        "solids": null,
+        "mesh_components": 9,
+        "volume_mm3": null,
+        "bbox": {
+          "min": [
+            -0.037463534623384476,
+            -0.052000001072883606,
+            -0.11015000194311142
+          ],
+          "max": [
+            0.03750000149011612,
+            0.052000001072883606,
+            -0.04309999942779541
+          ],
+          "size": [
+            0.0749635361135006,
+            0.10400000214576721,
+            0.06705000251531601
+          ]
+        },
+        "faces": 8496,
+        "surface_area_mm2": 0.0542215738073777
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/ssg48-drive-assembly/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 9,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:10.684294+00:00"
+    },
+    "browserModelSha256": "dbd514e9c43c383bf34954039daedd8d84f13f1e463a12e23dd3c20a9fe83f32",
+    "browserModelSizeBytes": 162040,
+    "browserMeshPath": "assets/catalog/ssg48-drive-assembly/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/ssg48-drive-assembly/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "ssg48-main-housing",
+    "name": "SSG48 多腔驱动壳体",
+    "category": "精密壳体",
+    "material": null,
+    "summary": "SSG48 多腔驱动壳体，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+    "useCase": "夹爪驱动系统定位与安装",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+    "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+    "sourceProject": "ssg48",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/ssg48-main-housing/source.step",
+    "sizeBytes": 717476,
+    "sha256": "6b5db5aa15fd5f476a3842267b5bbe830d7ee13deea2ed26c521943240976038",
+    "downloadedAt": "2026-10-09T04:04:01.796453+00:00",
+    "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 717476,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 0,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 3,
+      "lengthUnitHints": [
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 1
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 57743.716475,
+        "area_mm2": 25058.234435,
+        "bbox": {
+          "min": [
+            -54.665504181187956,
+            -21.878834195138634,
+            -22.1605372715014
+          ],
+          "max": [
+            53.98188894659944,
+            53.149292089288046,
+            20.12538450032579
+          ],
+          "size": [
+            108.6473931277874,
+            75.02812628442668,
+            42.28592177182719
+          ]
+        },
+        "center_of_mass": [
+          -2.195060121108921,
+          7.713465648789811,
+          3.7920121294812743
+        ],
+        "faces": 230,
+        "edges": 596,
+        "sum_of_solid_volumes_mm3": 57743.71647503383
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.573496+00:00"
+    },
+    "browserModelPath": "assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "c44cac86b97576fd4858b5a574124da99b5c8d315a4a53d905fd4be112892811",
+    "browserModelSizeBytes": 616672,
+    "browserMeshPath": "assets/catalog/ssg48-main-housing/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/ssg48-main-housing/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/ssg48-main-housing/thumbnail.png",
+    "thumbnailSha256": "421c42b25943d24fb2629539146bb1ba75bc1d3ef7ca73b2d523c2076e1fd55d",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/ssg48-main-housing/preview-cad/mesh.json",
+      "sourceMeshSha256": "9aa18f6835d7d9cc257cd077b724f82723b19d3853547ba433ce8f7f009a101f",
+      "trianglesRendered": 26912,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "ssg48-drive-gear",
+    "name": "SSG48 夹爪传动齿轮",
+    "category": "减速与传动",
+    "material": null,
+    "summary": "SSG48 夹爪传动齿轮，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+    "useCase": "小型电动夹爪动力传递",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/gripper_gear.STEP",
+    "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/gripper_gear.STEP",
+    "sourceProject": "ssg48",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/ssg48-drive-gear/source.step",
+    "sizeBytes": 445336,
+    "sha256": "754febce5eff2ffa30d25a5830b6e485eab768b65d82215acc52a63f22756b10",
+    "downloadedAt": "2026-10-09T04:04:01.796359+00:00",
+    "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 445336,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 2634.18826,
+        "area_mm2": 2197.829789,
+        "bbox": {
+          "min": [
+            -2.5007649962499134,
+            -13.500000100000005,
+            -13.504196142988983
+          ],
+          "max": [
+            8.154196142988981,
+            13.500000100000003,
+            13.504196142988983
+          ],
+          "size": [
+            10.654961139238894,
+            27.00000020000001,
+            27.008392285977965
+          ]
+        },
+        "center_of_mass": [
+          4.885605905679024,
+          1.8774014101971982e-07,
+          -1.216234777298332e-05
+        ],
+        "faces": 107,
+        "edges": 297,
+        "sum_of_solid_volumes_mm3": 2634.1882600943836
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/ssg48-drive-gear/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.683141+00:00"
+    },
+    "browserModelPath": "assets/catalog/ssg48-drive-gear/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/ssg48-drive-gear/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "d4162c1f36011bd7a9205879d87fb7f64bac3d3eebe6e6ddb29be20b440a2e56",
+    "browserModelSizeBytes": 231320,
+    "browserMeshPath": "assets/catalog/ssg48-drive-gear/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/ssg48-drive-gear/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/ssg48-drive-gear/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/ssg48-drive-gear/thumbnail.png",
+    "thumbnailSha256": "e46bb5bd7ab60c2ee9607159b1a166ffa6226bce8139a037ec22040c89a5ad16",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/ssg48-drive-gear/preview-cad/mesh.json",
+      "sourceMeshSha256": "04fe711deed9fd5f9d9cddd3468c718bed6ee68ff4449924bab85558f41ff409",
+      "trianglesRendered": 9516,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "ssg48-moving-jaw",
+    "name": "SSG48 导向滑动夹爪",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "SSG48 导向滑动夹爪，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+    "useCase": "平行抓取与末端改造",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/jaw.STEP",
+    "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/jaw.STEP",
+    "sourceProject": "ssg48",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/ssg48-moving-jaw/source.step",
+    "sizeBytes": 306885,
+    "sha256": "1db0f5d9c419b65804b187391e29dad033d6979865530916eaa93e8251c71c64",
+    "downloadedAt": "2026-10-09T04:04:01.796411+00:00",
+    "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 306885,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10278.645814,
+        "area_mm2": 6379.122023,
+        "bbox": {
+          "min": [
+            -18.90069944049754,
+            -2.025000100000281,
+            438.1618517999996
+          ],
+          "max": [
+            1.0000001000007859,
+            29.375000100000584,
+            513.5000001000002
+          ],
+          "size": [
+            19.900699540498326,
+            31.400000200000864,
+            75.33814830000057
+          ]
+        },
+        "center_of_mass": [
+          -8.733386012116986,
+          9.130275003193102,
+          491.0123751258898
+        ],
+        "faces": 137,
+        "edges": 372,
+        "sum_of_solid_volumes_mm3": 10278.645813875653
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/ssg48-moving-jaw/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.754990+00:00"
+    },
+    "browserModelPath": "assets/catalog/ssg48-moving-jaw/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/ssg48-moving-jaw/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "38d6e3bca252b779ac0d0588e9e81310b61d09ab5a5bdcd73a0568b08badc3da",
+    "browserModelSizeBytes": 158576,
+    "browserMeshPath": "assets/catalog/ssg48-moving-jaw/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/ssg48-moving-jaw/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/ssg48-moving-jaw/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/ssg48-moving-jaw/thumbnail.png",
+    "thumbnailSha256": "356f88c6866bca540f2f0a460d81a1177f871bc93505e9964033314f973914d5",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/ssg48-moving-jaw/preview-cad/mesh.json",
+      "sourceMeshSha256": "2804db8d0f692de13ce3fcd1f4bd2b6a4b0ac30ea118fc4c3ffd2abf89661cd2",
+      "trianglesRendered": 6456,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "ssg48-finray-finger",
+    "name": "Fin Ray 柔顺夹指",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "Fin Ray 柔顺夹指，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+    "useCase": "曲面或易损物体自适应抓取",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/gripper%20jaws/fin_ray_1.STEP",
+    "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/gripper%20jaws/fin_ray_1.STEP",
+    "sourceProject": "ssg48",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/ssg48-finray-finger/source.step",
+    "sizeBytes": 140202,
+    "sha256": "b804b246d8f978f41f5599e2a1212f95386c28146cd86445b9b1693948553abc",
+    "downloadedAt": "2026-10-09T04:04:01.796276+00:00",
+    "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 140202,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 18776.452193,
+        "area_mm2": 14610.18706,
+        "bbox": {
+          "min": [
+            -79.77614299896752,
+            74.50065947032843,
+            -0.01175282019656742
+          ],
+          "max": [
+            -53.735335650624656,
+            130.01607236720673,
+            31.411752820196565
+          ],
+          "size": [
+            26.04080734834286,
+            55.5154128968783,
+            31.42350564039313
+          ]
+        },
+        "center_of_mass": [
+          -66.45594431908425,
+          93.27668287342108,
+          15.69999999999999
+        ],
+        "faces": 56,
+        "edges": 162,
+        "sum_of_solid_volumes_mm3": 18776.45219294232
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/ssg48-finray-finger/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.805099+00:00"
+    },
+    "browserModelPath": "assets/catalog/ssg48-finray-finger/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/ssg48-finray-finger/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "7a672ad078ccf1f6600dc65c3c66d6399625fdef27a04e1f6dafe81ffee1b272",
+    "browserModelSizeBytes": 84964,
+    "browserMeshPath": "assets/catalog/ssg48-finray-finger/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/ssg48-finray-finger/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/ssg48-finray-finger/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/ssg48-finray-finger/thumbnail.png",
+    "thumbnailSha256": "c2bd4f6bd48bb0b8ac34013df914630bfcf8c668665b14b882dc89807df8e793",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/ssg48-finray-finger/preview-cad/mesh.json",
+      "sourceMeshSha256": "16cc777f0324f4c41cba5cb090e23053590db9d9089c3398c8471cd968b53157",
+      "trianglesRendered": 3468,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "ssg48-ur-adapter",
+    "name": "UR 机器人末端适配法兰",
+    "category": "机器人结构件",
+    "material": null,
+    "summary": "UR 机器人末端适配法兰，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+    "useCase": "末端执行器安装适配",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/UR5%20adapter%20plate/UR_coupler_gripper.STEP",
+    "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/UR5%20adapter%20plate/UR_coupler_gripper.STEP",
+    "sourceProject": "ssg48",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/ssg48-ur-adapter/source.step",
+    "sizeBytes": 235659,
+    "sha256": "371eb94dee2c1c3e62fa057c4236ad2839676072321c6d99636d58e185189ba5",
+    "downloadedAt": "2026-10-09T04:04:01.796505+00:00",
+    "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 235659,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI., .METRE.",
+        ".MILLI., .METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 39102.98754,
+        "area_mm2": 14710.782798,
+        "bbox": {
+          "min": [
+            -37.52148440043776,
+            -37.50982872546826,
+            -19.021484400437757
+          ],
+          "max": [
+            37.52148440043776,
+            37.50982872546837,
+            4.0190413329837495
+          ],
+          "size": [
+            75.04296880087551,
+            75.01965745093662,
+            23.040525733421507
+          ]
+        },
+        "center_of_mass": [
+          0.028991012028691338,
+          -0.0690657574121766,
+          -7.521161416264662
+        ],
+        "faces": 60,
+        "edges": 162,
+        "sum_of_solid_volumes_mm3": 39102.98754009358
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/ssg48-ur-adapter/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.859096+00:00"
+    },
+    "browserModelPath": "assets/catalog/ssg48-ur-adapter/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/ssg48-ur-adapter/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "de8cd5153a7acee00ca8f2fa661659fada94b137da9d8379e3a87d0560fd9bf3",
+    "browserModelSizeBytes": 319580,
+    "browserMeshPath": "assets/catalog/ssg48-ur-adapter/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/ssg48-ur-adapter/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/ssg48-ur-adapter/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/ssg48-ur-adapter/thumbnail.png",
+    "thumbnailSha256": "138411550437219c99c9b4ecc7161c25b70378fb9652df390f5da96c5b0a98d1",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/ssg48-ur-adapter/preview-cad/mesh.json",
+      "sourceMeshSha256": "06e53178690471f243956325522cceb1e7549fb9286b0db9e825cc461020bbb5",
+      "trianglesRendered": 14398,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "cycloid-main-ring",
+    "name": "摆线减速器主环壳",
+    "category": "减速与传动",
+    "material": "PETG",
+    "summary": "摆线减速器主环壳，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+    "useCase": "紧凑机器人关节减速",
+    "hero": true,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Main%20Ring.step",
+    "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Main%20Ring.step",
+    "sourceProject": "cycloid",
+    "author": "alireza-02",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+    "licensePath": "assets/sources/cycloid/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/cycloid-main-ring/source.step",
+    "sizeBytes": 2973305,
+    "sha256": "e6ca44df6b96997d2f9bdb848cc078ab7393ffd4f8a2c56729bcb766cd3c110d",
+    "downloadedAt": "2026-10-09T04:04:01.797624+00:00",
+    "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 2973305,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 20565.992787,
+        "area_mm2": 10812.217337,
+        "bbox": {
+          "min": [
+            -36.00000010000001,
+            -36.00000010000001,
+            -9.02543483669878
+          ],
+          "max": [
+            36.00000010000001,
+            36.00000010000001,
+            9.025435231479893
+          ],
+          "size": [
+            72.00000020000002,
+            72.00000020000002,
+            18.050870068178675
+          ]
+        },
+        "center_of_mass": [
+          5.677330933487931e-06,
+          -5.8887558337746434e-06,
+          -5.732499551791814e-06
+        ],
+        "faces": 654,
+        "edges": 1684,
+        "sum_of_solid_volumes_mm3": 20565.992786831066
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/cycloid-main-ring/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:09.698339+00:00"
+    },
+    "importExitCode": 0,
+    "browserModelPath": "assets/catalog/cycloid-main-ring/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/cycloid-main-ring/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "d4ea1af41af273b1d6155096a01eddd3d9b5c9f06614354ef786d8cf6dfb3708",
+    "browserModelSizeBytes": 4539268,
+    "browserMeshPath": "assets/catalog/cycloid-main-ring/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/cycloid-main-ring/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/cycloid-main-ring/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/cycloid-main-ring/thumbnail.png",
+    "thumbnailSha256": "8179b1f4e5a5e03b70089d660ec88c98c35b37d655dcf4ba4a32c56df8a52619",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/cycloid-main-ring/preview-cad/mesh.json",
+      "sourceMeshSha256": "1de02c3458c135f4580863239aadb1d371d1b02c9ffc424c2ba52df339a73b08",
+      "trianglesRendered": 197760,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "cycloid-disc",
+    "name": "多孔摆线齿盘",
+    "category": "减速与传动",
+    "material": "PETG",
+    "summary": "多孔摆线齿盘，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+    "useCase": "偏心摆线运动及输出传递",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Bottom%20Cycloid%20Disc.step",
+    "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Bottom%20Cycloid%20Disc.step",
+    "sourceProject": "cycloid",
+    "author": "alireza-02",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+    "licensePath": "assets/sources/cycloid/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/cycloid-disc/source.step",
+    "sizeBytes": 1565485,
+    "sha256": "4130a47f403abf62e971afd180a1264d7995cd60e46ae58ebacf0141f0debc7a",
+    "downloadedAt": "2026-10-09T04:04:01.799080+00:00",
+    "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 1565485,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE.",
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 11213.569228,
+        "area_mm2": 6388.163376,
+        "bbox": {
+          "min": [
+            -28.218311741300326,
+            -28.863139194582143,
+            -7.513062183258247
+          ],
+          "max": [
+            29.218348279719972,
+            28.863011300678608,
+            -0.7459460493516201
+          ],
+          "size": [
+            57.4366600210203,
+            57.726150495260754,
+            6.767116133906628
+          ]
+        },
+        "center_of_mass": [
+          -2.814080042565286,
+          -3.957328541203926,
+          -3.9152746712776696
+        ],
+        "faces": 55,
+        "edges": 107,
+        "sum_of_solid_volumes_mm3": 11213.569227901222
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/cycloid-disc/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:11.953325+00:00"
+    },
+    "browserModelPath": "assets/catalog/cycloid-disc/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/cycloid-disc/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "4161d45b87fe1067e107075b8f9b2e0940c6b1191d8a529e533f009ce2769a97",
+    "browserModelSizeBytes": 1003180,
+    "browserMeshPath": "assets/catalog/cycloid-disc/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/cycloid-disc/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/cycloid-disc/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/cycloid-disc/thumbnail.png",
+    "thumbnailSha256": "1e1d7b1eb7eceaa965ec9acc5a3b47edbd015a64c0c1a01297b3c8631efeb3c8",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/cycloid-disc/preview-cad/mesh.json",
+      "sourceMeshSha256": "ee9743ae891c9b5095190708b34502fe0d6bafee0d933f36ffa6513a4cd3e196",
+      "trianglesRendered": 46372,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "cycloid-shaft-adapter",
+    "name": "执行器输出轴适配件",
+    "category": "减速与传动",
+    "material": "PLA+",
+    "summary": "执行器输出轴适配件，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+    "useCase": "执行器输出轴连接",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Shaft%20Adapter.step",
+    "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Shaft%20Adapter.step",
+    "sourceProject": "cycloid",
+    "author": "alireza-02",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+    "licensePath": "assets/sources/cycloid/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/cycloid-shaft-adapter/source.step",
+    "sizeBytes": 725013,
+    "sha256": "2e2f3e755bb518a22055568fe98d115db9d977272e871b182146840e6b6b8387",
+    "downloadedAt": "2026-10-09T04:04:01.798110+00:00",
+    "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 725013,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5469.571691,
+        "area_mm2": 3084.896855,
+        "bbox": {
+          "min": [
+            -13.022329078805909,
+            -13.018288444816529,
+            19.77767092119409
+          ],
+          "max": [
+            13.02232907880591,
+            13.018288444816521,
+            36.02232907880591
+          ],
+          "size": [
+            26.04465815761182,
+            26.03657688963305,
+            16.24465815761182
+          ]
+        },
+        "center_of_mass": [
+          0.05973697667486996,
+          -0.05973852190380319,
+          27.152517254409936
+        ],
+        "faces": 100,
+        "edges": 279,
+        "sum_of_solid_volumes_mm3": 5469.5716909619605
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/cycloid-shaft-adapter/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:12.105762+00:00"
+    },
+    "browserModelPath": "assets/catalog/cycloid-shaft-adapter/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/cycloid-shaft-adapter/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "9b2423d39e5b62e13c1eb87014333c409efc81dfc6f4ca4850ba8d2135ad1f1a",
+    "browserModelSizeBytes": 990300,
+    "browserMeshPath": "assets/catalog/cycloid-shaft-adapter/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/cycloid-shaft-adapter/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/cycloid-shaft-adapter/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/cycloid-shaft-adapter/thumbnail.png",
+    "thumbnailSha256": "9c396550038d1d0d4f2bf28364622b9716700f86d9b37439c8a01e608f70a098",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/cycloid-shaft-adapter/preview-cad/mesh.json",
+      "sourceMeshSha256": "ef385df9ba222bd79e994aa6778340f66ffe6163b8ccfaa3b982d9685c0f94d2",
+      "trianglesRendered": 42658,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "cycloid-upper-mount",
+    "name": "关节执行器上支承壳",
+    "category": "精密壳体",
+    "material": "PLA+",
+    "summary": "关节执行器上支承壳，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+    "useCase": "电机、轴承与减速机构定位",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Upper%20Mount.step",
+    "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Upper%20Mount.step",
+    "sourceProject": "cycloid",
+    "author": "alireza-02",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+    "licensePath": "assets/sources/cycloid/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/cycloid-upper-mount/source.step",
+    "sizeBytes": 2770600,
+    "sha256": "c61989c3bf37df1eaf189b6dd3fe6f7a479e594a7ba057eb998876ac90c1f35f",
+    "downloadedAt": "2026-10-09T04:04:01.799856+00:00",
+    "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 2770600,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 18966.46394,
+        "area_mm2": 11065.105422,
+        "bbox": {
+          "min": [
+            -42.18867515760967,
+            -42.18867515762317,
+            19.94457254507681
+          ],
+          "max": [
+            42.18880607858367,
+            42.18880607859717,
+            35.89521900246852
+          ],
+          "size": [
+            84.37748123619335,
+            84.37748123622035,
+            15.950646457391713
+          ]
+        },
+        "center_of_mass": [
+          5.6425407382715e-06,
+          0.00017176414569745272,
+          24.184147718828015
+        ],
+        "faces": 436,
+        "edges": 1165,
+        "sum_of_solid_volumes_mm3": 18966.463939542253
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/cycloid-upper-mount/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:12.270147+00:00"
+    },
+    "browserModelPath": "assets/catalog/cycloid-upper-mount/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "02bacd2937bb8539397bc51ce4b761c10074b33d96975a7744b82f11b0ad57c8",
+    "browserModelSizeBytes": 5762512,
+    "browserMeshPath": "assets/catalog/cycloid-upper-mount/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/cycloid-upper-mount/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/cycloid-upper-mount/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/cycloid-upper-mount/thumbnail.png",
+    "thumbnailSha256": "e40b1ad9212feee2579d3811ddbfedc14a1c09d484c59b626c5ba37cb3deda0e",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/cycloid-upper-mount/preview-cad/mesh.json",
+      "sourceMeshSha256": "b719ac902a3df383c59cab411e469095e7f02e4f2b1a16a6c1f3d5999feb8e30",
+      "trianglesRendered": 274826,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "cycloid-testbench",
+    "name": "执行器测试台夹具",
+    "category": "治具与安装",
+    "material": null,
+    "summary": "执行器测试台夹具，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+    "useCase": "驱动器台架测试与固定",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Test%20Bench%20%28optional%29/Test%20Bench%20Mount.step",
+    "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Test%20Bench%20%28optional%29/Test%20Bench%20Mount.step",
+    "sourceProject": "cycloid",
+    "author": "alireza-02",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+    "licensePath": "assets/sources/cycloid/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/cycloid-testbench/source.step",
+    "sizeBytes": 834641,
+    "sha256": "c99fec8fea4778ba3bfaca08d0d3cc2a164c85defcc69ea6c819bebb826a117e",
+    "downloadedAt": "2026-10-09T04:04:01.798700+00:00",
+    "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 834641,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE.",
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 293757.866828,
+        "area_mm2": 57684.617295,
+        "bbox": {
+          "min": [
+            -60.053738363424756,
+            -90.03458987441465,
+            -47.553738339390655
+          ],
+          "max": [
+            50.05936680348746,
+            136.03458987441465,
+            24.264311979632254
+          ],
+          "size": [
+            110.11310516691222,
+            226.0691797488293,
+            71.81805031902292
+          ]
+        },
+        "center_of_mass": [
+          -12.874959680603354,
+          22.999993244644006,
+          -30.483472578105822
+        ],
+        "faces": 318,
+        "edges": 854,
+        "sum_of_solid_volumes_mm3": 293757.86682792613
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/cycloid-testbench/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.033213+00:00"
+    },
+    "browserModelPath": "assets/catalog/cycloid-testbench/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/cycloid-testbench/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "f5c0d8718a86175ae149ddfdf80d68d9fd8f6cf8acbe439a9dbcf159874b7525",
+    "browserModelSizeBytes": 2499960,
+    "browserMeshPath": "assets/catalog/cycloid-testbench/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/cycloid-testbench/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/cycloid-testbench/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/cycloid-testbench/thumbnail.png",
+    "thumbnailSha256": "7e7cdcca51b55892429b4418ef0c49fd963527f4653b5a4497291211847319f8",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/cycloid-testbench/preview-cad/mesh.json",
+      "sourceMeshSha256": "ce4473215d7d1ff3cc923cf16b7d00bc522bfe72f58e82f70082bd75f17f3a3a",
+      "trianglesRendered": 128250,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "pincopen-top-plate",
+    "name": "PincOpen 夹爪多孔顶板",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "PincOpen 夹爪多孔顶板，来自 pollen-robotics/PincOpen 的公开机械设计。",
+    "useCase": "低成本自动抓取装置",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+    "sourceProject": "pincopen",
+    "author": "Pollen Robotics",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+    "licensePath": "assets/sources/pincopen/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/pincopen-top-plate/source.step",
+    "sizeBytes": 404499,
+    "sha256": "36721fabaa80ee756b67f49f16e3d8c21fafe116e6d2aa0870a370a8310e6565",
+    "downloadedAt": "2026-10-09T04:04:01.798031+00:00",
+    "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 404499,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/pincopen-top-plate/preview.stl",
+    "previewSha256": "953a8381c7db1216d30b81d6f83ea830949b20f24ac4ea04322b456a0bfee7c4",
+    "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Top_Plate.stl",
+    "previewDownloadedAt": "2026-10-09T04:06:34.680942+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 54158,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/pincopen-top-plate/preview-cad/mesh.json",
+      "sourceMeshSha256": "81e185508bf947c478265c868c930cd7dfb625946c644669e15f76aaca0aeedc",
+      "trianglesRendered": 38916,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/pincopen-top-plate/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/pincopen-top-plate/thumbnail.png",
+    "thumbnailSha256": "c62a2596f87d45b99beb7ac9751c51e9e81ce9e7d56309f70850da4bb222d0ed",
+    "browserModelPath": "assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 41721.870598,
+        "area_mm2": 14907.825959,
+        "bbox": {
+          "min": [
+            -53.51727559198596,
+            -48.17395686711254,
+            -0.048325833106344106
+          ],
+          "max": [
+            4.693095450699419,
+            48.196661892475284,
+            20.436809243913054
+          ],
+          "size": [
+            58.210371042685374,
+            96.37061875958781,
+            20.485135077019397
+          ]
+        },
+        "center_of_mass": [
+          -25.098453583868807,
+          0.012234569149240556,
+          12.142761475530317
+        ],
+        "faces": 194,
+        "edges": 537,
+        "sum_of_solid_volumes_mm3": 41721.870597939596
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.408137+00:00"
+    },
+    "browserModelSha256": "e4fcbeae0a171325025020ecec613de67e2c1fc13f88d05a2a8291d711dd2fe9",
+    "browserModelSizeBytes": 834872,
+    "browserMeshPath": "assets/catalog/pincopen-top-plate/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "pincopen-inner-link",
+    "name": "PincOpen 精密内连杆",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "PincOpen 精密内连杆，来自 pollen-robotics/PincOpen 的公开机械设计。",
+    "useCase": "夹爪运动链与机构设计",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Internal_Rod.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Internal_Rod.step",
+    "sourceProject": "pincopen",
+    "author": "Pollen Robotics",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+    "licensePath": "assets/sources/pincopen/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/pincopen-inner-link/source.step",
+    "sizeBytes": 166474,
+    "sha256": "bba44f4facff4e416ae2a7df3316e7bbd96975d40bf2bd0dcb13c5d23ee3b4c8",
+    "downloadedAt": "2026-10-09T04:04:01.798930+00:00",
+    "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 166474,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/pincopen-inner-link/preview.stl",
+    "previewSha256": "2e9a95e483899713f8121ff064df31b6e0a1f4532bf965c3112c7912534d8b68",
+    "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Internal_Rod.stl",
+    "previewDownloadedAt": "2026-10-09T04:05:59.398053+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 15796,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/pincopen-inner-link/preview-cad/mesh.json",
+      "sourceMeshSha256": "f64fdf6cf533aaabdb0f68735c25872c8360f2235cd7782c3038fbebfb75c347",
+      "trianglesRendered": 14534,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/pincopen-inner-link/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/pincopen-inner-link/thumbnail.png",
+    "thumbnailSha256": "34a54bd3711136018bdc554fa015ab95ee63e04a7f642638e10d6477000e5bf5",
+    "browserModelPath": "assets/catalog/pincopen-inner-link/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/pincopen-inner-link/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5560.107606,
+        "area_mm2": 4679.019195,
+        "bbox": {
+          "min": [
+            -23.53503625809341,
+            -47.917291500834885,
+            -12.005061457398481
+          ],
+          "max": [
+            39.39501985699504,
+            -7.747472679878577,
+            12.00506145739847
+          ],
+          "size": [
+            62.93005611508845,
+            40.16981882095631,
+            24.010122914796952
+          ]
+        },
+        "center_of_mass": [
+          10.18633855723774,
+          -25.909763836455273,
+          -1.1139598317872893e-07
+        ],
+        "faces": 100,
+        "edges": 257,
+        "sum_of_solid_volumes_mm3": 5560.1076062916045
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/pincopen-inner-link/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.564935+00:00"
+    },
+    "browserModelSha256": "32d9d9a8673ae9612d7db996a6c04c992ab406881daa5a55e7ce21990245e78e",
+    "browserModelSizeBytes": 308488,
+    "browserMeshPath": "assets/catalog/pincopen-inner-link/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/pincopen-inner-link/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "pincopen-cam",
+    "name": "PincOpen 驱动凸轮",
+    "category": "减速与传动",
+    "material": null,
+    "summary": "PincOpen 驱动凸轮，来自 pollen-robotics/PincOpen 的公开机械设计。",
+    "useCase": "紧凑夹爪运动转换",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Cam.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Cam.step",
+    "sourceProject": "pincopen",
+    "author": "Pollen Robotics",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+    "licensePath": "assets/sources/pincopen/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/pincopen-cam/source.step",
+    "sizeBytes": 35679,
+    "sha256": "5f0be3215e5bc3a0316f69f5e2c94f1e91b2e7a71f64f96368f9bcaa0d42ae1e",
+    "downloadedAt": "2026-10-09T04:04:01.798737+00:00",
+    "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 35679,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/pincopen-cam/preview.stl",
+    "previewSha256": "1fbb2277df16643444b35aa46078f8d2b4a4a991cd8bc130379f0eb337c3d6c3",
+    "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Cam.stl",
+    "previewDownloadedAt": "2026-10-09T04:05:58.733107+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 10444,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/pincopen-cam/preview-cad/mesh.json",
+      "sourceMeshSha256": "fb64724606af56f71e5f575433ce169c96b0e5c5c4af96662387111939bc1734",
+      "trianglesRendered": 9102,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/pincopen-cam/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/pincopen-cam/thumbnail.png",
+    "thumbnailSha256": "60e1e9fdd5e2103be47098764c3b8444fafb2a2c845ff9417fdff247540b1ff5",
+    "browserModelPath": "assets/catalog/pincopen-cam/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/pincopen-cam/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 4576.891225,
+        "area_mm2": 2753.448852,
+        "bbox": {
+          "min": [
+            -34.05032720309838,
+            -16.006939094365872,
+            -2.700808226797881
+          ],
+          "max": [
+            -2.0305845207606916,
+            16.006939094365876,
+            4.1579254385665845
+          ],
+          "size": [
+            32.019742682337686,
+            32.01387818873175,
+            6.858733665364465
+          ]
+        },
+        "center_of_mass": [
+          -18.05167423953955,
+          -0.0012603614271494612,
+          0.9766386516961431
+        ],
+        "faces": 35,
+        "edges": 71,
+        "sum_of_solid_volumes_mm3": 4576.891225140573
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/pincopen-cam/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.631667+00:00"
+    },
+    "browserModelSha256": "a399a6d921efc4fcc4a26b9e53f2e83d340940309429dac2aa5244fce73b437c",
+    "browserModelSizeBytes": 219604,
+    "browserMeshPath": "assets/catalog/pincopen-cam/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/pincopen-cam/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "pincopen-tip-support",
+    "name": "PincOpen 可换指尖支架",
+    "category": "夹持与末端执行",
+    "material": null,
+    "summary": "PincOpen 可换指尖支架，来自 pollen-robotics/PincOpen 的公开机械设计。",
+    "useCase": "接触面适配与夹具快速更换",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Tip_Support.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Tip_Support.step",
+    "sourceProject": "pincopen",
+    "author": "Pollen Robotics",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+    "licensePath": "assets/sources/pincopen/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/pincopen-tip-support/source.step",
+    "sizeBytes": 142583,
+    "sha256": "152722ba44b0e9d649b687ce99c3dbfae99892452333618b62c1bd93b17533b3",
+    "downloadedAt": "2026-10-09T04:04:01.798968+00:00",
+    "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 142583,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/pincopen-tip-support/preview.stl",
+    "previewSha256": "ed9a6f752d4c7c3ccd9b646d664b4c85c0599042028d28516cc233e158b9d7fe",
+    "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Tip_Support.stl",
+    "previewDownloadedAt": "2026-10-09T04:06:28.017099+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 43214,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/pincopen-tip-support/preview-cad/mesh.json",
+      "sourceMeshSha256": "83f5392772f32328f90b2828d3a02e7c76a6f7d6e1092142fd07d5e6042ee554",
+      "trianglesRendered": 29664,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/pincopen-tip-support/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/pincopen-tip-support/thumbnail.png",
+    "thumbnailSha256": "5f2b309663b005c8d0beffccaae36cf4909bfa1a8da937522ab830057f968f14",
+    "browserModelPath": "assets/catalog/pincopen-tip-support/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/pincopen-tip-support/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 4011.828426,
+        "area_mm2": 2025.532517,
+        "bbox": {
+          "min": [
+            39.88495843481844,
+            -7.778536289301911,
+            -12.877984816799211
+          ],
+          "max": [
+            70.64660892026967,
+            0.01201346076099919,
+            12.877984816797206
+          ],
+          "size": [
+            30.761650485451234,
+            7.790549750062911,
+            25.755969633596415
+          ]
+        },
+        "center_of_mass": [
+          55.49303851569597,
+          -4.514297860888663,
+          -4.10263925612698e-05
+        ],
+        "faces": 90,
+        "edges": 195,
+        "sum_of_solid_volumes_mm3": 4011.82842595286
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/pincopen-tip-support/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.695551+00:00"
+    },
+    "browserModelSha256": "0fe92670f10dfe4b5488eaf2d17e84e2126f59b26e109c4278f6aa978b6fbda9",
+    "browserModelSizeBytes": 572724,
+    "browserMeshPath": "assets/catalog/pincopen-tip-support/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/pincopen-tip-support/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "pincopen-camera-base",
+    "name": "夹爪视觉相机安装座",
+    "category": "治具与安装",
+    "material": null,
+    "summary": "夹爪视觉相机安装座，来自 pollen-robotics/PincOpen 的公开机械设计。",
+    "useCase": "手眼视觉与末端相机安装",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Camera_basement.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Camera_basement.step",
+    "sourceProject": "pincopen",
+    "author": "Pollen Robotics",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+    "licensePath": "assets/sources/pincopen/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/pincopen-camera-base/source.step",
+    "sizeBytes": 112417,
+    "sha256": "7be9852b0a85edf7240f6e8ee78e0586cd294fd973cba69ff9df2ab7855aaf49",
+    "downloadedAt": "2026-10-09T04:04:01.799177+00:00",
+    "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 112417,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/pincopen-camera-base/preview.stl",
+    "previewSha256": "eea097b2721e8c07ea930d2f37913b60b3be9ca647919a881db639ecb7310605",
+    "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Camera_basement.stl",
+    "previewDownloadedAt": "2026-10-09T04:05:59.244980+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 11766,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/pincopen-camera-base/preview-cad/mesh.json",
+      "sourceMeshSha256": "95e31a2472d66da9a26ce0aaaa302a4fa894c5b9b87245c96f20f735a6d236bb",
+      "trianglesRendered": 9618,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/pincopen-camera-base/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/pincopen-camera-base/thumbnail.png",
+    "thumbnailSha256": "96e585952f66b37c78b14db6a12943af1ba07b22e5bf39f2992bd14f9f798315",
+    "browserModelPath": "assets/catalog/pincopen-camera-base/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/pincopen-camera-base/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10341.777835,
+        "area_mm2": 8142.925448,
+        "bbox": {
+          "min": [
+            -78.35757543050117,
+            -21.41060246260764,
+            19.499397537392362
+          ],
+          "max": [
+            -23.341799301924205,
+            21.41060246260764,
+            70.70073213850291
+          ],
+          "size": [
+            55.01577612857697,
+            42.82120492521528,
+            51.20133460111055
+          ]
+        },
+        "center_of_mass": [
+          -49.03474922019687,
+          -3.391285348318399e-08,
+          46.10497846729572
+        ],
+        "faces": 74,
+        "edges": 224,
+        "sum_of_solid_volumes_mm3": 10341.777835471665
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/pincopen-camera-base/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.800251+00:00"
+    },
+    "browserModelSha256": "81ab808f3cc1e87186f8d0f7e8301bb191607abb1706c9b59ff590787803c0d3",
+    "browserModelSizeBytes": 232856,
+    "browserMeshPath": "assets/catalog/pincopen-camera-base/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/pincopen-camera-base/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "moveo-shoulder",
+    "name": "BCN3D Moveo 肩关节结构体",
+    "category": "机器人结构件",
+    "material": null,
+    "summary": "BCN3D Moveo 肩关节结构体，来自 BCN3D/BCN3D-Moveo 的公开机械设计。",
+    "useCase": "多轴机器人肩关节支撑",
+    "hero": true,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%202/2M1.STL",
+    "downloadUrl": "https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%202/2M1.STL",
+    "sourceProject": "moveo",
+    "author": "BCN3D Technologies",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+    "licensePath": "assets/sources/moveo/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/moveo-shoulder/source.stl",
+    "sizeBytes": 12145584,
+    "sha256": "f30505b1d4e21fd92530f2f00def872e3872272d1c7767b466c216dcd0acf42d",
+    "downloadedAt": "2026-10-09T04:04:01.803543+00:00",
+    "upstreamCommit": "0866a92501277636f76000a195d8a16d44b5b476",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 12145584,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 242910,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          8.326672684688674e-14,
+          2.60770320892334e-05,
+          0.0
+        ],
+        [
+          160.0,
+          200.00003051757812,
+          160.0
+        ]
+      ],
+      "extents": [
+        159.99999999999991,
+        200.00000444054604,
+        160.0
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/moveo-shoulder/preview-cad/mesh.json",
+      "sourceMeshSha256": "8396153156ee292498d4da5b9cde5a6b104d00e73fb54c00f42dadb290289b9e",
+      "trianglesRendered": 242978,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/moveo-shoulder/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/moveo-shoulder/thumbnail.png",
+    "thumbnailSha256": "20b710232abb48e4514ed18fe6da0dc027b393e596257fb1199a9274507e5c2b",
+    "browserModelPath": "assets/catalog/moveo-shoulder/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/moveo-shoulder/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": false,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": null,
+        "bbox": {
+          "min": [
+            8.326672684688674e-14,
+            2.60770320892334e-05,
+            0.0
+          ],
+          "max": [
+            160.0,
+            200.00003051757812,
+            160.0
+          ],
+          "size": [
+            159.99999999999991,
+            200.00000444054604,
+            160.0
+          ]
+        },
+        "faces": 242910,
+        "surface_area_mm2": 157353.76524823392
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/moveo-shoulder/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:10.749178+00:00"
+    },
+    "browserModelSha256": "fea67e812e72ce74c1119354735b6dd10094d5c6ec81812038f6e74367ab57f7",
+    "browserModelSizeBytes": 4373904,
+    "browserMeshPath": "assets/catalog/moveo-shoulder/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/moveo-shoulder/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "moveo-elbow",
+    "name": "BCN3D Moveo 肘关节结构体",
+    "category": "机器人结构件",
+    "material": null,
+    "summary": "BCN3D Moveo 肘关节结构体，来自 BCN3D/BCN3D-Moveo 的公开机械设计。",
+    "useCase": "多轴机器人肘关节集成",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%203/3M1.STL",
+    "downloadUrl": "https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%203/3M1.STL",
+    "sourceProject": "moveo",
+    "author": "BCN3D Technologies",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+    "licensePath": "assets/sources/moveo/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/moveo-elbow/source.stl",
+    "sizeBytes": 3565184,
+    "sha256": "efb291f7e8ec12f0f62b42892730889d0f596e68ca1ca676dcdebe521ed6a842",
+    "downloadedAt": "2026-10-09T04:04:01.801105+00:00",
+    "upstreamCommit": "0866a92501277636f76000a195d8a16d44b5b476",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 3565184,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 71302,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          2.560534954071045,
+          -1.3925467549913417e-11,
+          8.819169998168945
+        ],
+        [
+          137.15896606445312,
+          190.10000610351562,
+          103.817138671875
+        ]
+      ],
+      "extents": [
+        134.59843111038208,
+        190.10000610352955,
+        94.99796867370605
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/moveo-elbow/preview-cad/mesh.json",
+      "sourceMeshSha256": "5380ceabd1dad364d67d75df2ff8c34484e10879654a12ff7b210d5fa1667d44",
+      "trianglesRendered": 71308,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/moveo-elbow/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/moveo-elbow/thumbnail.png",
+    "thumbnailSha256": "5bfa8cbd2b826e71880e36e1ec3baa362699e070b6fdfe36273068b6b0eb5d18",
+    "browserModelPath": "assets/catalog/moveo-elbow/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/moveo-elbow/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": false,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": null,
+        "bbox": {
+          "min": [
+            2.560534954071045,
+            -4.337467884862889e-12,
+            8.819169998168945
+          ],
+          "max": [
+            137.15896606445312,
+            190.10000610351562,
+            103.817138671875
+          ],
+          "size": [
+            134.59843111038208,
+            190.10000610351997,
+            94.99796867370605
+          ]
+        },
+        "faces": 71302,
+        "surface_area_mm2": 105010.27921060516
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/moveo-elbow/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.161021+00:00"
+    },
+    "browserModelSha256": "9cae55cb5a98f9c4bafb874a9ec87e21bb00345ea7aa7e2456fc15dd5a57bcfe",
+    "browserModelSizeBytes": 1284044,
+    "browserMeshPath": "assets/catalog/moveo-elbow/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/moveo-elbow/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "moveo-wrist",
+    "name": "BCN3D Moveo 腕关节结构体",
+    "category": "机器人结构件",
+    "material": null,
+    "summary": "BCN3D Moveo 腕关节结构体，来自 BCN3D/BCN3D-Moveo 的公开机械设计。",
+    "useCase": "机器人腕部传动支撑",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%204/4M1.STL",
+    "downloadUrl": "https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%204/4M1.STL",
+    "sourceProject": "moveo",
+    "author": "BCN3D Technologies",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+    "licensePath": "assets/sources/moveo/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/moveo-wrist/source.stl",
+    "sizeBytes": 6703284,
+    "sha256": "b6484d9562264d61bbcfb587e392932ec219b0019c7304c73116969f364802f2",
+    "downloadedAt": "2026-10-09T04:04:01.802391+00:00",
+    "upstreamCommit": "0866a92501277636f76000a195d8a16d44b5b476",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 6703284,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 134064,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          13.978934288024902,
+          0.25,
+          1.239953637123108
+        ],
+        [
+          85.9197769165039,
+          130.24998474121094,
+          90.3883056640625
+        ]
+      ],
+      "extents": [
+        71.940842628479,
+        129.99998474121094,
+        89.14835202693939
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/moveo-wrist/preview-cad/mesh.json",
+      "sourceMeshSha256": "a6c5d17d3072a02e9776b5c926b13aae93b71351f35738fac7e0dbd048ee46f6",
+      "trianglesRendered": 134072,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/moveo-wrist/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/moveo-wrist/thumbnail.png",
+    "thumbnailSha256": "616e9faa6d48e3738f086ff4b1e7384b81054edea59268e87380a707fb8d86fe",
+    "browserModelPath": "assets/catalog/moveo-wrist/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/moveo-wrist/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": false,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": null,
+        "bbox": {
+          "min": [
+            13.978934288024902,
+            0.25,
+            1.239953637123108
+          ],
+          "max": [
+            85.9197769165039,
+            130.24998474121094,
+            90.3883056640625
+          ],
+          "size": [
+            71.940842628479,
+            129.99998474121094,
+            89.14835202693939
+          ]
+        },
+        "faces": 134064,
+        "surface_area_mm2": 56636.37286758922
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/moveo-wrist/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.379623+00:00"
+    },
+    "browserModelSha256": "9189c1890c1973a0a61ebfbd32e2dc5c5fdb60df249abf5e80a5cd8b85bc6c13",
+    "browserModelSizeBytes": 2413972,
+    "browserMeshPath": "assets/catalog/moveo-wrist/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/moveo-wrist/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "poseidon-pump-base",
+    "name": "Poseidon 注射泵导轨基座",
+    "category": "流体与泵",
+    "material": null,
+    "summary": "Poseidon 注射泵导轨基座，来自 pachterlab/poseidon 的公开机械设计。",
+    "useCase": "精密液体输送与实验室自动化",
+    "hero": true,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/step/Pump%20Base.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pachterlab/poseidon/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/step/Pump%20Base.step",
+    "sourceProject": "poseidon",
+    "author": "Pachter Lab / Poseidon contributors",
+    "license": "BSD-2-Clause",
+    "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+    "licensePath": "assets/sources/poseidon/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/poseidon-pump-base/source.step",
+    "sizeBytes": 2006686,
+    "sha256": "8c93638242aee174187e1569061a0ca0076d2072f913b4650c0397de8b94c674",
+    "downloadedAt": "2026-10-09T04:04:01.801233+00:00",
+    "upstreamCommit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 2006686,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE.",
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/poseidon-pump-base/preview.stl",
+    "previewSha256": "190f31212ed1d1ac62dcdcae16a9056f044d52ac2cc36a005a93014b2949ea56",
+    "previewSourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/stl/Pump%20Base%20v51.stl",
+    "previewDownloadedAt": "2026-10-09T04:06:01.807509+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 15016,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 305869.604673,
+        "area_mm2": 69773.278268,
+        "bbox": {
+          "min": [
+            -123.50952622274752,
+            -3.0086482323705113,
+            -36.0095567910871
+          ],
+          "max": [
+            123.50886161825264,
+            79.25304842720496,
+            36.0095567910871
+          ],
+          "size": [
+            247.01838784100016,
+            82.26169665957548,
+            72.0191135821742
+          ]
+        },
+        "center_of_mass": [
+          35.86228174144845,
+          18.118690615707642,
+          0.6456218336230937
+        ],
+        "faces": 993,
+        "edges": 2586,
+        "sum_of_solid_volumes_mm3": 305869.60467251315
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/poseidon-pump-base/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:10.474652+00:00"
+    },
+    "browserModelPath": "assets/catalog/poseidon-pump-base/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/poseidon-pump-base/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "browserModelSha256": "4b567ed18fe0a44acaa0dde96656b825e2af64a42c5736eceb187f564d766707",
+    "browserModelSizeBytes": 1354212,
+    "browserMeshPath": "assets/catalog/poseidon-pump-base/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/poseidon-pump-base/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+    "thumbnailPath": "assets/catalog/poseidon-pump-base/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/poseidon-pump-base/thumbnail.png",
+    "thumbnailSha256": "f4f00da7f15da206a30234ae939ecc4106f099d06bd30c53daf487853be1a902",
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/poseidon-pump-base/preview-cad/mesh.json",
+      "sourceMeshSha256": "1b0e6128c84768beb049b8d0a282230505da1211aa9bb9d315cd2cede3696906",
+      "trianglesRendered": 57906,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    }
+  },
+  {
+    "id": "poseidon-pump-carriage",
+    "name": "Poseidon 注射泵滑动推座",
+    "category": "流体与泵",
+    "material": null,
+    "summary": "Poseidon 注射泵滑动推座，来自 pachterlab/poseidon 的公开机械设计。",
+    "useCase": "定量推注运动机构",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/step/Pump%20Carriage.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pachterlab/poseidon/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/step/Pump%20Carriage.step",
+    "sourceProject": "poseidon",
+    "author": "Pachter Lab / Poseidon contributors",
+    "license": "BSD-2-Clause",
+    "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+    "licensePath": "assets/sources/poseidon/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/poseidon-pump-carriage/source.step",
+    "sizeBytes": 147190,
+    "sha256": "fbfbf8e976e1dafe7db874f0c76309d4a402453450dafebe7eb478a7a44e2563",
+    "downloadedAt": "2026-10-09T04:04:01.800587+00:00",
+    "upstreamCommit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 147190,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE.",
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/poseidon-pump-carriage/preview.stl",
+    "previewSha256": "51e41033be62c80a04a3551e02158eb95f128512e59a978c4342f1ae41810ef3",
+    "previewSourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/stl/Pump%20Carriage%20Sled%20v51.stl",
+    "previewDownloadedAt": "2026-10-09T04:05:57.492963+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 3786,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/poseidon-pump-carriage/preview-cad/mesh.json",
+      "sourceMeshSha256": "b273014ae0fe228b7999b37cfb156505f1934e0fca4d47510f2e630b615774b9",
+      "trianglesRendered": 10390,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/poseidon-pump-carriage/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/poseidon-pump-carriage/thumbnail.png",
+    "thumbnailSha256": "90a17052944aba621642cc16c9ee373dd606c2db2c4483d538062fc7680a0de3",
+    "browserModelPath": "assets/catalog/poseidon-pump-carriage/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/poseidon-pump-carriage/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 48191.378641,
+        "area_mm2": 12987.461927,
+        "bbox": {
+          "min": [
+            -105.50675094464839,
+            17.993199697886297,
+            -35.50586749807374
+          ],
+          "max": [
+            -76.4931996978863,
+            61.00867752614194,
+            35.50467979617868
+          ],
+          "size": [
+            29.01355124676209,
+            43.01547782825564,
+            71.01054729425242
+          ]
+        },
+        "center_of_mass": [
+          -90.4333895208706,
+          36.41397566966527,
+          0.5134511286843817
+        ],
+        "faces": 111,
+        "edges": 269,
+        "sum_of_solid_volumes_mm3": 48191.378640614006
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/poseidon-pump-carriage/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.886910+00:00"
+    },
+    "browserModelSha256": "c772cc18f486dae6d412b4c6d913edf801dcde8e4e4c7d7a09a4ae6afe412f6a",
+    "browserModelSizeBytes": 244076,
+    "browserMeshPath": "assets/catalog/poseidon-pump-carriage/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/poseidon-pump-carriage/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "poseidon-optical-stage",
+    "name": "Poseidon 显微成像上平台",
+    "category": "光学与精密平台",
+    "material": null,
+    "summary": "Poseidon 显微成像上平台，来自 pachterlab/poseidon 的公开机械设计。",
+    "useCase": "光学模块与样品观测定位",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Top%20Stage.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pachterlab/poseidon/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Top%20Stage.step",
+    "sourceProject": "poseidon",
+    "author": "Pachter Lab / Poseidon contributors",
+    "license": "BSD-2-Clause",
+    "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+    "licensePath": "assets/sources/poseidon/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/poseidon-optical-stage/source.step",
+    "sizeBytes": 1438314,
+    "sha256": "0e800b9cb2a8ca5c80dacd0b14b0f7722c219ae7f366858ce99b5ee8861a441a",
+    "downloadedAt": "2026-10-09T04:04:01.801279+00:00",
+    "upstreamCommit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 1438314,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE.",
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/poseidon-optical-stage/preview.stl",
+    "previewSha256": "419e88c9c6594c8e3da699dce5b54915ce5d45e7600a3713e6873694fbc7145b",
+    "previewSourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/stl/Scope%20Top%20Stage%20v33.stl",
+    "previewDownloadedAt": "2026-10-09T04:05:58.827516+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 8498,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/poseidon-optical-stage/preview-cad/mesh.json",
+      "sourceMeshSha256": "331c1cb9e75719168c0a21cb5953a01a672afdcf175b105eebb4a16691e5fc3c",
+      "trianglesRendered": 27102,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/poseidon-optical-stage/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/poseidon-optical-stage/thumbnail.png",
+    "thumbnailSha256": "e5c2e9c78bcf3d350ec06d9ed78b24ed1bf88af52b8a5208fb5070569319d185",
+    "browserModelPath": "assets/catalog/poseidon-optical-stage/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 109224.088877,
+        "area_mm2": 39922.896334,
+        "bbox": {
+          "min": [
+            -151.21729498720728,
+            94.98270501279269,
+            -200.0172949872073
+          ],
+          "max": [
+            0.01729498720728624,
+            105.0172949872073,
+            -91.72943402664731
+          ],
+          "size": [
+            151.23458997441458,
+            10.034589974414601,
+            108.28786096055998
+          ]
+        },
+        "center_of_mass": [
+          -75.59819130929576,
+          98.71427740311584,
+          -146.01322002659532
+        ],
+        "faces": 647,
+        "edges": 1731,
+        "sum_of_solid_volumes_mm3": 109224.08887664898
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/poseidon-optical-stage/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:13.957035+00:00"
+    },
+    "browserModelSha256": "c24df47d5f81547368842be69f11453e8f0f56a9b1677ae1c65ba964fba48ba9",
+    "browserModelSizeBytes": 648804,
+    "browserMeshPath": "assets/catalog/poseidon-optical-stage/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/poseidon-optical-stage/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "poseidon-scope-base",
+    "name": "Poseidon 显微平台基座",
+    "category": "光学与精密平台",
+    "material": null,
+    "summary": "Poseidon 显微平台基座，来自 pachterlab/poseidon 的公开机械设计。",
+    "useCase": "实验室精密仪器安装",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Base.step",
+    "downloadUrl": "https://raw.githubusercontent.com/pachterlab/poseidon/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Base.step",
+    "sourceProject": "poseidon",
+    "author": "Pachter Lab / Poseidon contributors",
+    "license": "BSD-2-Clause",
+    "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+    "licensePath": "assets/sources/poseidon/LICENSE",
+    "format": "STEP",
+    "localPath": "assets/catalog/poseidon-scope-base/source.step",
+    "sizeBytes": 392610,
+    "sha256": "ecc727d51852c3c618859dc728d530546604743f5dacf0b02a154e72336f3597",
+    "downloadedAt": "2026-10-09T04:04:01.800306+00:00",
+    "upstreamCommit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 392610,
+      "formatValid": true,
+      "manifoldSolidBrepEntities": 1,
+      "facetedBrepEntities": 0,
+      "closedShellEntities": 1,
+      "lengthUnitHints": [
+        ".MILLI.,.METRE.",
+        "$,.METRE."
+      ],
+      "kernelValidation": "passed",
+      "brepWithVoidsEntities": 0
+    },
+    "previewPath": "assets/catalog/poseidon-scope-base/preview.stl",
+    "previewSha256": "da06fd946e8b3cdf5836c33a2790db1cd7f59a99d5f8952ab2fee2a3e1e99a31",
+    "previewSourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/stl/Scope%20Base%20v33.stl",
+    "previewDownloadedAt": "2026-10-09T04:05:57.848526+00:00",
+    "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+    "previewValidation": {
+      "binaryLengthValid": true,
+      "triangles": 4500,
+      "sha256Matches": true,
+      "units": "unspecified-in-STL"
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/poseidon-scope-base/preview-cad/mesh.json",
+      "sourceMeshSha256": "1570e74d598ea9c63d6f67c697ff6c78ebf56a8d2e8c1520c3bada9e5ab28091",
+      "trianglesRendered": 21140,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/poseidon-scope-base/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/poseidon-scope-base/thumbnail.png",
+    "thumbnailSha256": "43a1d0ee75c7a409064cca1d9f622b49866039ef8d50b1f743d3b79dc9e4ca26",
+    "browserModelPath": "assets/catalog/poseidon-scope-base/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/poseidon-scope-base/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "passed",
+      "topologyValidated": true,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 432796.269334,
+        "area_mm2": 104099.821513,
+        "bbox": {
+          "min": [
+            -151.21772313650527,
+            -10.01772313650529,
+            -200.01757240667476
+          ],
+          "max": [
+            0.017723136505315536,
+            95.001506006519,
+            0.01729498720728237
+          ],
+          "size": [
+            151.23544627301058,
+            105.01922914302429,
+            200.03486739388205
+          ]
+        },
+        "center_of_mass": [
+          -74.90552624658547,
+          15.861312351331518,
+          -128.4469072289108
+        ],
+        "faces": 248,
+        "edges": 610,
+        "sum_of_solid_volumes_mm3": 432796.2693335775
+      },
+      "sourceFormat": "STEP",
+      "manifestPath": "assets/catalog/poseidon-scope-base/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.063242+00:00"
+    },
+    "browserModelSha256": "62e39c077e820c748ce54d34fb13a2786f0b0a45b196407b2964cbc53466adcb",
+    "browserModelSizeBytes": 494264,
+    "browserMeshPath": "assets/catalog/poseidon-scope-base/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/poseidon-scope-base/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "micropump-stator",
+    "name": "微流控蠕动泵定子",
+    "category": "流体与泵",
+    "material": null,
+    "summary": "微流控蠕动泵定子，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+    "useCase": "微流控小体积液体处理",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/6%20peristaltic%20pump%20stator.stl",
+    "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/6%20peristaltic%20pump%20stator.stl",
+    "sourceProject": "micropump",
+    "author": "Synthetic-Automated-Systems",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+    "licensePath": "assets/sources/micropump/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/micropump-stator/source.stl",
+    "sizeBytes": 211984,
+    "sha256": "89efd7bc0e331fc4e22338a3cfc82ffa4e7d20a56bd997fb5ddbc1fb292c36cf",
+    "downloadedAt": "2026-10-09T04:04:01.800844+00:00",
+    "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 211984,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 4238,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          -51.0,
+          5.0,
+          -41.0
+        ],
+        [
+          0.0,
+          37.0,
+          0.0
+        ]
+      ],
+      "extents": [
+        51.0,
+        32.0,
+        41.0
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/micropump-stator/preview-cad/mesh.json",
+      "sourceMeshSha256": "a30841c85fffd767143a827bfd970879963164dc6429fd07aa5af53892c1f8ae",
+      "trianglesRendered": 4238,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/micropump-stator/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/micropump-stator/thumbnail.png",
+    "thumbnailSha256": "570c75d342f5d9cc7da3e1c2507bdbd17ed4b87287cdfa9ac975522512566fb8",
+    "browserModelPath": "assets/catalog/micropump-stator/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/micropump-stator/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": true,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": 16201.355723229213,
+        "bbox": {
+          "min": [
+            -51.0,
+            5.0,
+            -41.0
+          ],
+          "max": [
+            0.0,
+            37.0,
+            0.0
+          ],
+          "size": [
+            51.0,
+            32.0,
+            41.0
+          ]
+        },
+        "faces": 4238,
+        "surface_area_mm2": 8706.338191334627
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/micropump-stator/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.784482+00:00"
+    },
+    "browserModelSha256": "8a3afcf7e5cef4de6cedbf87ff7fd8cfb63c93455492a10ceb3d33f6ce46064f",
+    "browserModelSizeBytes": 76836,
+    "browserMeshPath": "assets/catalog/micropump-stator/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/micropump-stator/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "micropump-gearbox",
+    "name": "微流控泵减速箱基座",
+    "category": "流体与泵",
+    "material": null,
+    "summary": "微流控泵减速箱基座，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+    "useCase": "低成本微流控驱动机构",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/1%20gear%20box%20base.stl",
+    "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/1%20gear%20box%20base.stl",
+    "sourceProject": "micropump",
+    "author": "Synthetic-Automated-Systems",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+    "licensePath": "assets/sources/micropump/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/micropump-gearbox/source.stl",
+    "sizeBytes": 395684,
+    "sha256": "28fe822ba036ce83f9b98c68167c032d8bca1b6da4baa45c371b0487e18d2864",
+    "downloadedAt": "2026-10-09T04:04:01.801134+00:00",
+    "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 395684,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 7912,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          -51.0,
+          -39.25,
+          -70.0
+        ],
+        [
+          10.0,
+          12.0,
+          10.0
+        ]
+      ],
+      "extents": [
+        61.0,
+        51.25,
+        80.0
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/micropump-gearbox/preview-cad/mesh.json",
+      "sourceMeshSha256": "d225a0a7c28533c443fd17492e69ea205261e2665476714af7dc05d15a624aca",
+      "trianglesRendered": 7912,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/micropump-gearbox/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/micropump-gearbox/thumbnail.png",
+    "thumbnailSha256": "360c32f92ecc85a7c94822ee294977413ef8d89590f56e5a2a2de0034c3490e9",
+    "browserModelPath": "assets/catalog/micropump-gearbox/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/micropump-gearbox/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": true,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": 34288.40175840614,
+        "bbox": {
+          "min": [
+            -51.0,
+            -39.25,
+            -70.0
+          ],
+          "max": [
+            10.0,
+            12.0,
+            10.0
+          ],
+          "size": [
+            61.0,
+            51.25,
+            80.0
+          ]
+        },
+        "faces": 7912,
+        "surface_area_mm2": 15001.196261890404
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/micropump-gearbox/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.835980+00:00"
+    },
+    "browserModelSha256": "4f4e80fed427d849d8ed5aeee789fa89e2de3d6c6dbab50ceaa54b2feb8c9f11",
+    "browserModelSizeBytes": 142880,
+    "browserMeshPath": "assets/catalog/micropump-gearbox/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/micropump-gearbox/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "micropump-compound-gear",
+    "name": "微流控泵双联齿轮",
+    "category": "减速与传动",
+    "material": null,
+    "summary": "微流控泵双联齿轮，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+    "useCase": "泵驱动减速传动",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/3%20stacked%20gear.stl",
+    "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/3%20stacked%20gear.stl",
+    "sourceProject": "micropump",
+    "author": "Synthetic-Automated-Systems",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+    "licensePath": "assets/sources/micropump/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/micropump-compound-gear/source.stl",
+    "sizeBytes": 209684,
+    "sha256": "6096a3cb425eea74d111338722c89b1631f3805b65d688f29364d260a2ecbd45",
+    "downloadedAt": "2026-10-09T04:04:01.801066+00:00",
+    "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 209684,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 4192,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          -21.532052993774414,
+          -21.532052993774414,
+          0.0
+        ],
+        [
+          21.532052993774414,
+          21.532052993774414,
+          17.0
+        ]
+      ],
+      "extents": [
+        43.06410598754883,
+        43.06410598754883,
+        17.0
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/micropump-compound-gear/preview-cad/mesh.json",
+      "sourceMeshSha256": "4313001e6ea944d81d64199f15995e04df2c8426b110b455ba819466d4f3cf30",
+      "trianglesRendered": 4192,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/micropump-compound-gear/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/micropump-compound-gear/thumbnail.png",
+    "thumbnailSha256": "1dfdd75748286c0cc72d786b50205b6d922730419f2972b66be1089c28e9d0a8",
+    "browserModelPath": "assets/catalog/micropump-compound-gear/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/micropump-compound-gear/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": true,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": 8149.8095057215,
+        "bbox": {
+          "min": [
+            -21.532052993774414,
+            -21.532052993774414,
+            0.0
+          ],
+          "max": [
+            21.532052993774414,
+            21.532052993774414,
+            17.0
+          ],
+          "size": [
+            43.06410598754883,
+            43.06410598754883,
+            17.0
+          ]
+        },
+        "faces": 4192,
+        "surface_area_mm2": 5673.05614188688
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/micropump-compound-gear/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.896866+00:00"
+    },
+    "browserModelSha256": "4f096b5e2b430b2bddda4627af0d21a5d5dddbed2981349a78298a719c5493db",
+    "browserModelSizeBytes": 76260,
+    "browserMeshPath": "assets/catalog/micropump-compound-gear/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/micropump-compound-gear/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  },
+  {
+    "id": "micropump-rotor",
+    "name": "微流控蠕动泵转子",
+    "category": "流体与泵",
+    "material": null,
+    "summary": "微流控蠕动泵转子，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+    "useCase": "定量蠕动泵送",
+    "hero": false,
+    "sourceType": "public-open-hardware",
+    "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/9%20rotor%202.0.stl",
+    "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/9%20rotor%202.0.stl",
+    "sourceProject": "micropump",
+    "author": "Synthetic-Automated-Systems",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+    "licensePath": "assets/sources/micropump/LICENSE",
+    "format": "STL",
+    "localPath": "assets/catalog/micropump-rotor/source.stl",
+    "sizeBytes": 343584,
+    "sha256": "b182ae8918c6850e320d370aff8557bdce568c1d65c10ae10505a00ad55f84b2",
+    "downloadedAt": "2026-10-09T04:04:01.801542+00:00",
+    "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+    "geometryOrigin": "downloaded-original",
+    "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+    "manufacturingHistory": null,
+    "inventoryQuantity": null,
+    "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+    "fileValidation": {
+      "sha256Matches": true,
+      "sizeBytes": 343584,
+      "formatValid": true,
+      "meshEncoding": "binary STL",
+      "triangles": 6870,
+      "finiteCoordinates": true,
+      "bounds": [
+        [
+          -12.292452812194824,
+          0.0,
+          -13.729999542236328
+        ],
+        [
+          3.0,
+          12.699999809265137,
+          3.0
+        ]
+      ],
+      "extents": [
+        15.292452812194824,
+        12.699999809265137,
+        16.729999542236328
+      ],
+      "units": "unspecified-in-STL",
+      "closedSolidValidated": false
+    },
+    "thumbnailProvenance": {
+      "renderer": "matplotlib Poly3DCollection",
+      "sourceMeshPath": "assets/catalog/micropump-rotor/preview-cad/mesh.json",
+      "sourceMeshSha256": "9369a5f014366c5223dedd9fa86511392f0127a33549d2082ac6ecfdd0df7bac",
+      "trianglesRendered": 6870,
+      "geometryDecimated": false,
+      "view": {
+        "projection": "orthographic",
+        "elevation": 29,
+        "azimuth": -53
+      },
+      "framing": "alpha bounds centered on a transparent canvas",
+      "background": "transparent",
+      "appearance": "metallic grey visualization; not actual material"
+    },
+    "thumbnailPath": "assets/catalog/micropump-rotor/thumbnail.png",
+    "thumbnailUrl": "/assets/catalog/micropump-rotor/thumbnail.png",
+    "thumbnailSha256": "12d22f637be95acdde68a7c5cf907b8a3e039be62d3b6fee3b86fb94ee8b017e",
+    "browserModelPath": "assets/catalog/micropump-rotor/preview-cad/model.glb",
+    "browserModelUrl": "/assets/catalog/micropump-rotor/preview-cad/model.glb",
+    "browserModelFormat": "GLB",
+    "importExitCode": 0,
+    "kernelValidation": {
+      "status": "mesh-only",
+      "topologyValidated": false,
+      "importStatus": "completed",
+      "measurements": {
+        "valid": null,
+        "watertight": true,
+        "solids": null,
+        "mesh_components": 1,
+        "volume_mm3": 1212.8295932220992,
+        "bbox": {
+          "min": [
+            -12.292452812194824,
+            0.0,
+            -13.729999542236328
+          ],
+          "max": [
+            3.0,
+            12.699999809265137,
+            3.0
+          ],
+          "size": [
+            15.292452812194824,
+            12.699999809265137,
+            16.729999542236328
+          ]
+        },
+        "faces": 6870,
+        "surface_area_mm2": 1396.2260760531115
+      },
+      "sourceFormat": "STL",
+      "manifestPath": "assets/catalog/micropump-rotor/preview-cad/manifest.json",
+      "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+      "solidOrComponentCount": 1,
+      "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+      "tool": "tools/cad/runner.py import",
+      "errors": [],
+      "checkedAt": "2026-10-09T04:15:14.945993+00:00"
+    },
+    "browserModelSha256": "e6a5767657975d54f7e6b9c9f4983dc99b9ad87bd823ae616a5ec9daa2a5e0b9",
+    "browserModelSizeBytes": 124376,
+    "browserMeshPath": "assets/catalog/micropump-rotor/preview-cad/mesh.json",
+    "browserManifestPath": "assets/catalog/micropump-rotor/preview-cad/manifest.json",
+    "previewIsReconstruction": false,
+    "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+  }
+]

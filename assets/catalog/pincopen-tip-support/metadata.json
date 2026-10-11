@@ -1,0 +1,124 @@
+{
+  "id": "pincopen-tip-support",
+  "name": "PincOpen 可换指尖支架",
+  "category": "夹持与末端执行",
+  "material": null,
+  "summary": "PincOpen 可换指尖支架，来自 pollen-robotics/PincOpen 的公开机械设计。",
+  "useCase": "接触面适配与夹具快速更换",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Tip_Support.step",
+  "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Tip_Support.step",
+  "sourceProject": "pincopen",
+  "author": "Pollen Robotics",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+  "licensePath": "assets/sources/pincopen/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/pincopen-tip-support/source.step",
+  "sizeBytes": 142583,
+  "sha256": "152722ba44b0e9d649b687ce99c3dbfae99892452333618b62c1bd93b17533b3",
+  "downloadedAt": "2026-10-09T04:04:01.798968+00:00",
+  "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 142583,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "previewPath": "assets/catalog/pincopen-tip-support/preview.stl",
+  "previewSha256": "ed9a6f752d4c7c3ccd9b646d664b4c85c0599042028d28516cc233e158b9d7fe",
+  "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Tip_Support.stl",
+  "previewDownloadedAt": "2026-10-09T04:06:28.017099+00:00",
+  "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+  "previewValidation": {
+    "binaryLengthValid": true,
+    "triangles": 43214,
+    "sha256Matches": true,
+    "units": "unspecified-in-STL"
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/pincopen-tip-support/preview-cad/mesh.json",
+    "sourceMeshSha256": "83f5392772f32328f90b2828d3a02e7c76a6f7d6e1092142fd07d5e6042ee554",
+    "trianglesRendered": 29664,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/pincopen-tip-support/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/pincopen-tip-support/thumbnail.png",
+  "thumbnailSha256": "5f2b309663b005c8d0beffccaae36cf4909bfa1a8da937522ab830057f968f14",
+  "browserModelPath": "assets/catalog/pincopen-tip-support/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/pincopen-tip-support/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4011.828426,
+      "area_mm2": 2025.532517,
+      "bbox": {
+        "min": [
+          39.88495843481844,
+          -7.778536289301911,
+          -12.877984816799211
+        ],
+        "max": [
+          70.64660892026967,
+          0.01201346076099919,
+          12.877984816797206
+        ],
+        "size": [
+          30.761650485451234,
+          7.790549750062911,
+          25.755969633596415
+        ]
+      },
+      "center_of_mass": [
+        55.49303851569597,
+        -4.514297860888663,
+        -4.10263925612698e-05
+      ],
+      "faces": 90,
+      "edges": 195,
+      "sum_of_solid_volumes_mm3": 4011.82842595286
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/pincopen-tip-support/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:13.695551+00:00"
+  },
+  "browserModelSha256": "0fe92670f10dfe4b5488eaf2d17e84e2126f59b26e109c4278f6aa978b6fbda9",
+  "browserModelSizeBytes": 572724,
+  "browserMeshPath": "assets/catalog/pincopen-tip-support/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/pincopen-tip-support/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

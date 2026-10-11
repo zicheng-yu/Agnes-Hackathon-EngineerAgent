@@ -1,0 +1,70 @@
+{
+  "id": "flange-ea-d02",
+  "name": "EA-D02 Bolted Flange",
+  "units": "mm",
+  "features": [
+    {
+      "id": "disk",
+      "op": "cylinder",
+      "diameter": 140,
+      "height": 16
+    },
+    {
+      "id": "center-bore",
+      "op": "hole",
+      "diameter": 60,
+      "points": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "bolt-holes",
+      "op": "hole",
+      "diameter": 14,
+      "polar": {
+        "count": 6,
+        "pcd": 110,
+        "start_angle": 0
+      }
+    }
+  ],
+  "checks": [
+    {
+      "kind": "bbox",
+      "axis": "x",
+      "expected": 140
+    },
+    {
+      "kind": "bbox",
+      "axis": "z",
+      "expected": 16
+    },
+    {
+      "kind": "circular_edge_diameter",
+      "expected": 140
+    },
+    {
+      "kind": "hole_count",
+      "diameter": 60,
+      "expected": 1
+    },
+    {
+      "kind": "hole_count",
+      "diameter": 14,
+      "expected": 6
+    },
+    {
+      "kind": "hole_pcd",
+      "diameter": 14,
+      "expected": 110
+    },
+    {
+      "kind": "solids",
+      "expected": 1,
+      "tolerance": 0
+    }
+  ]
+}

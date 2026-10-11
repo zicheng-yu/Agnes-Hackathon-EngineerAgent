@@ -1,0 +1,95 @@
+{
+  "id": "handwheel",
+  "name": "四辐调节手轮",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "material": "Black oxide steel",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "features": [
+    {
+      "id": "rim",
+      "op": "cylinder",
+      "radius": 40,
+      "height": 8
+    },
+    {
+      "id": "rim-bore",
+      "op": "hole",
+      "diameter": 62
+    },
+    {
+      "id": "spoke-a",
+      "op": "box",
+      "size": [
+        66,
+        10,
+        8
+      ]
+    },
+    {
+      "id": "spoke-b",
+      "op": "box",
+      "size": [
+        10,
+        66,
+        8
+      ]
+    },
+    {
+      "id": "spokes",
+      "op": "union",
+      "base": "spoke-a",
+      "tool": "spoke-b"
+    },
+    {
+      "id": "wheel",
+      "op": "union",
+      "base": "rim-bore",
+      "tool": "spokes"
+    },
+    {
+      "id": "hub",
+      "op": "cylinder",
+      "radius": 14,
+      "height": 14
+    },
+    {
+      "id": "combined",
+      "op": "union",
+      "base": "wheel",
+      "tool": "hub"
+    },
+    {
+      "id": "center-bore",
+      "op": "hole",
+      "diameter": 16.2
+    },
+    {
+      "id": "handle-hole",
+      "op": "hole",
+      "diameter": 6.5,
+      "points": [
+        [
+          0,
+          35
+        ]
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "kind": "valid",
+      "expected": 1
+    },
+    {
+      "kind": "solids",
+      "expected": 1
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "cycloid-main-ring",
+  "name": "摆线减速器主环壳",
+  "category": "减速与传动",
+  "material": "PETG",
+  "summary": "摆线减速器主环壳，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+  "useCase": "紧凑机器人关节减速",
+  "hero": true,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Main%20Ring.step",
+  "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Main%20Ring.step",
+  "sourceProject": "cycloid",
+  "author": "alireza-02",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+  "licensePath": "assets/sources/cycloid/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/cycloid-main-ring/source.step",
+  "sizeBytes": 2973305,
+  "sha256": "e6ca44df6b96997d2f9bdb848cc078ab7393ffd4f8a2c56729bcb766cd3c110d",
+  "downloadedAt": "2026-10-09T04:04:01.797624+00:00",
+  "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 2973305,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI.,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 20565.992787,
+      "area_mm2": 10812.217337,
+      "bbox": {
+        "min": [
+          -36.00000010000001,
+          -36.00000010000001,
+          -9.02543483669878
+        ],
+        "max": [
+          36.00000010000001,
+          36.00000010000001,
+          9.025435231479893
+        ],
+        "size": [
+          72.00000020000002,
+          72.00000020000002,
+          18.050870068178675
+        ]
+      },
+      "center_of_mass": [
+        5.677330933487931e-06,
+        -5.8887558337746434e-06,
+        -5.732499551791814e-06
+      ],
+      "faces": 654,
+      "edges": 1684,
+      "sum_of_solid_volumes_mm3": 20565.992786831066
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/cycloid-main-ring/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:09.698339+00:00"
+  },
+  "importExitCode": 0,
+  "browserModelPath": "assets/catalog/cycloid-main-ring/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/cycloid-main-ring/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "d4ea1af41af273b1d6155096a01eddd3d9b5c9f06614354ef786d8cf6dfb3708",
+  "browserModelSizeBytes": 4539268,
+  "browserMeshPath": "assets/catalog/cycloid-main-ring/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/cycloid-main-ring/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/cycloid-main-ring/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/cycloid-main-ring/thumbnail.png",
+  "thumbnailSha256": "8179b1f4e5a5e03b70089d660ec88c98c35b37d655dcf4ba4a32c56df8a52619",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/cycloid-main-ring/preview-cad/mesh.json",
+    "sourceMeshSha256": "1de02c3458c135f4580863239aadb1d371d1b02c9ffc424c2ba52df339a73b08",
+    "trianglesRendered": 197760,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

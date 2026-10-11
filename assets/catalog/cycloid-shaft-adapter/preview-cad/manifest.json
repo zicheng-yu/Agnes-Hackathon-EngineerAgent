@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "cycloid-shaft-adapter",
+  "name": "执行器输出轴适配件",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/cycloid-shaft-adapter/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/cycloid-shaft-adapter/preview-cad/model.glb",
+    "mesh": "assets/catalog/cycloid-shaft-adapter/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/cycloid-shaft-adapter/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/cycloid-shaft-adapter/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/cycloid-shaft-adapter/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5469.571691,
+        "area_mm2": 3084.896855,
+        "bbox": {
+          "min": [
+            -13.022329078805909,
+            -13.018288444816529,
+            19.77767092119409
+          ],
+          "max": [
+            13.02232907880591,
+            13.018288444816521,
+            36.02232907880591
+          ],
+          "size": [
+            26.04465815761182,
+            26.03657688963305,
+            16.24465815761182
+          ]
+        },
+        "center_of_mass": [
+          0.05973697667486996,
+          -0.05973852190380319,
+          27.152517254409936
+        ],
+        "faces": 100,
+        "edges": 279
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/cycloid-shaft-adapter/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5469.571691,
+    "area_mm2": 3084.896855,
+    "bbox": {
+      "min": [
+        -13.022329078805909,
+        -13.018288444816529,
+        19.77767092119409
+      ],
+      "max": [
+        13.02232907880591,
+        13.018288444816521,
+        36.02232907880591
+      ],
+      "size": [
+        26.04465815761182,
+        26.03657688963305,
+        16.24465815761182
+      ]
+    },
+    "center_of_mass": [
+      0.05973697667486996,
+      -0.05973852190380319,
+      27.152517254409936
+    ],
+    "faces": 100,
+    "edges": 279,
+    "sum_of_solid_volumes_mm3": 5469.5716909619605
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

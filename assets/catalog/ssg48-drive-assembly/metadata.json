@@ -1,0 +1,127 @@
+{
+  "id": "ssg48-drive-assembly",
+  "name": "SSG48 电动夹爪主体模型",
+  "category": "夹持与末端执行",
+  "material": null,
+  "summary": "来自官方 ROS 资源的低面数电动夹爪主体网格，原表面 STEP 同时保留。",
+  "useCase": "自动上下料、末端执行器集成",
+  "hero": true,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/SSG48_gripper_description/assets/gripper_SSG48.STL",
+  "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/SSG48_gripper_description/assets/gripper_SSG48.STL",
+  "sourceProject": "ssg48",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/ssg48-drive-assembly/source.stl",
+  "sizeBytes": 424884,
+  "sha256": "e90a8a4b0d9d53581854732babec0e8fd364d8ac9079a33215bef5e07274faf4",
+  "downloadedAt": "2026-10-09T04:04:57.882674+00:00",
+  "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "alternateCadPath": "assets/catalog/ssg48-drive-assembly/source.step",
+  "alternateCadSha256": "873b0c6b1db6cb1557c52f81152271ab4877462c7d3cf92612872870f6fa9e25",
+  "alternateCadSourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/3D%20MODEL/Gripper_body.STEP",
+  "alternateCadNote": "原官方 STEP 由 IGES 表面转换，文件中没有 MANIFOLD_SOLID_BREP；不得作为闭合实体或可加工性验证证据。",
+  "assemblyCompleteness": "body-only; jaws are separate in upstream URDF",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 424884,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 8496,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        -0.037463534623384476,
+        -0.052000001072883606,
+        -0.11015000194311142
+      ],
+      [
+        0.03750000149011612,
+        0.052000001072883606,
+        -0.04309999942779541
+      ]
+    ],
+    "extents": [
+      0.0749635361135006,
+      0.10400000214576721,
+      0.06705000251531601
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/ssg48-drive-assembly/preview-cad/mesh.json",
+    "sourceMeshSha256": "7ae76f67be6415d399bbbeeba19b5bcb4f2f66778e0534a4916c98472b91a696",
+    "trianglesRendered": 8500,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/ssg48-drive-assembly/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/ssg48-drive-assembly/thumbnail.png",
+  "thumbnailSha256": "e36226d6d9a297cbfe669a2cdd5349b121fb11a940e85586a9064b011049e05b",
+  "browserModelPath": "assets/catalog/ssg48-drive-assembly/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/ssg48-drive-assembly/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": false,
+      "solids": null,
+      "mesh_components": 9,
+      "volume_mm3": null,
+      "bbox": {
+        "min": [
+          -0.037463534623384476,
+          -0.052000001072883606,
+          -0.11015000194311142
+        ],
+        "max": [
+          0.03750000149011612,
+          0.052000001072883606,
+          -0.04309999942779541
+        ],
+        "size": [
+          0.0749635361135006,
+          0.10400000214576721,
+          0.06705000251531601
+        ]
+      },
+      "faces": 8496,
+      "surface_area_mm2": 0.0542215738073777
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/ssg48-drive-assembly/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 9,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:10.684294+00:00"
+  },
+  "browserModelSha256": "dbd514e9c43c383bf34954039daedd8d84f13f1e463a12e23dd3c20a9fe83f32",
+  "browserModelSizeBytes": 162040,
+  "browserMeshPath": "assets/catalog/ssg48-drive-assembly/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/ssg48-drive-assembly/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

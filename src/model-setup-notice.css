@@ -1,0 +1,8 @@
+.model-setup-notice { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: var(--radius); color: var(--text); background: var(--accent-soft); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
+.model-setup-notice > svg { flex-shrink: 0; color: var(--accent); }
+.model-setup-notice > div { flex: 1; min-width: 0; }
+.model-setup-notice strong { display: block; font-size: 14px; line-height: 1.5; }
+.model-setup-notice p { margin-top: 2px; color: var(--text-2); font-size: 13px; line-height: 1.6; }
+.model-setup-notice .primary-button { flex-shrink: 0; }
+.settings-key-notice { margin: 8px 20px 0; }
+@media (max-width: 640px) { .model-setup-notice { flex-wrap: wrap; } .model-setup-notice .primary-button { margin-left: 36px; } }

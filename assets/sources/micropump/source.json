@@ -1,0 +1,13 @@
+{
+  "id": "micropump",
+  "repo": "Synthetic-Automated-Systems/open_micro_pump",
+  "url": "https://github.com/Synthetic-Automated-Systems/open_micro_pump",
+  "commit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+  "author": "Synthetic-Automated-Systems",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+  "licensePath": "assets/sources/micropump/LICENSE",
+  "licenseSha256": "467b520ee39b2efda23eaca4cf69f909182cf6edbc6e2a09f5afd4c670b523db",
+  "retrievedAt": "2026-10-09T04:04:01.794097+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

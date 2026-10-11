@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "poseidon-pump-carriage",
+  "name": "Poseidon 注射泵滑动推座",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/poseidon-pump-carriage/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/poseidon-pump-carriage/preview-cad/model.glb",
+    "mesh": "assets/catalog/poseidon-pump-carriage/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/poseidon-pump-carriage/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/poseidon-pump-carriage/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/poseidon-pump-carriage/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 48191.378641,
+        "area_mm2": 12987.461927,
+        "bbox": {
+          "min": [
+            -105.50675094464839,
+            17.993199697886297,
+            -35.50586749807374
+          ],
+          "max": [
+            -76.4931996978863,
+            61.00867752614194,
+            35.50467979617868
+          ],
+          "size": [
+            29.01355124676209,
+            43.01547782825564,
+            71.01054729425242
+          ]
+        },
+        "center_of_mass": [
+          -90.4333895208706,
+          36.41397566966527,
+          0.5134511286843817
+        ],
+        "faces": 111,
+        "edges": 269
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/poseidon-pump-carriage/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 48191.378641,
+    "area_mm2": 12987.461927,
+    "bbox": {
+      "min": [
+        -105.50675094464839,
+        17.993199697886297,
+        -35.50586749807374
+      ],
+      "max": [
+        -76.4931996978863,
+        61.00867752614194,
+        35.50467979617868
+      ],
+      "size": [
+        29.01355124676209,
+        43.01547782825564,
+        71.01054729425242
+      ]
+    },
+    "center_of_mass": [
+      -90.4333895208706,
+      36.41397566966527,
+      0.5134511286843817
+    ],
+    "faces": 111,
+    "edges": 269,
+    "sum_of_solid_volumes_mm3": 48191.378640614006
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

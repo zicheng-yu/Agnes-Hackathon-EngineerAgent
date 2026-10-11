@@ -1,0 +1,13 @@
+{
+  "id": "pincopen",
+  "repo": "pollen-robotics/PincOpen",
+  "url": "https://github.com/pollen-robotics/PincOpen",
+  "commit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+  "author": "Pollen Robotics",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+  "licensePath": "assets/sources/pincopen/LICENSE",
+  "licenseSha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+  "retrievedAt": "2026-10-09T04:04:01.793977+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

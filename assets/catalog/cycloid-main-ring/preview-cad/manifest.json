@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "cycloid-main-ring",
+  "name": "摆线减速器主环壳",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/cycloid-main-ring/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/cycloid-main-ring/preview-cad/model.glb",
+    "mesh": "assets/catalog/cycloid-main-ring/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/cycloid-main-ring/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/cycloid-main-ring/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/cycloid-main-ring/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 20565.992787,
+        "area_mm2": 10812.217337,
+        "bbox": {
+          "min": [
+            -36.00000010000001,
+            -36.00000010000001,
+            -9.02543483669878
+          ],
+          "max": [
+            36.00000010000001,
+            36.00000010000001,
+            9.025435231479893
+          ],
+          "size": [
+            72.00000020000002,
+            72.00000020000002,
+            18.050870068178675
+          ]
+        },
+        "center_of_mass": [
+          5.677330933487931e-06,
+          -5.8887558337746434e-06,
+          -5.732499551791814e-06
+        ],
+        "faces": 654,
+        "edges": 1684
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/cycloid-main-ring/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 20565.992787,
+    "area_mm2": 10812.217337,
+    "bbox": {
+      "min": [
+        -36.00000010000001,
+        -36.00000010000001,
+        -9.02543483669878
+      ],
+      "max": [
+        36.00000010000001,
+        36.00000010000001,
+        9.025435231479893
+      ],
+      "size": [
+        72.00000020000002,
+        72.00000020000002,
+        18.050870068178675
+      ]
+    },
+    "center_of_mass": [
+      5.677330933487931e-06,
+      -5.8887558337746434e-06,
+      -5.732499551791814e-06
+    ],
+    "faces": 654,
+    "edges": 1684,
+    "sum_of_solid_volumes_mm3": 20565.992786831066
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

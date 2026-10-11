@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/AgnesAI-Labs/agnes-harness.git",
+  "commit": "cde816b88c737b9fd04e7ef55b899e7b4cd55eb7",
+  "nodeRequirement": ">=24.10",
+  "pnpm": "10.34.5",
+  "license": "Apache-2.0"
+}

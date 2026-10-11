@@ -1,0 +1,122 @@
+{
+  "id": "micropump-stator",
+  "name": "微流控蠕动泵定子",
+  "category": "流体与泵",
+  "material": null,
+  "summary": "微流控蠕动泵定子，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+  "useCase": "微流控小体积液体处理",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/6%20peristaltic%20pump%20stator.stl",
+  "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/6%20peristaltic%20pump%20stator.stl",
+  "sourceProject": "micropump",
+  "author": "Synthetic-Automated-Systems",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+  "licensePath": "assets/sources/micropump/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/micropump-stator/source.stl",
+  "sizeBytes": 211984,
+  "sha256": "89efd7bc0e331fc4e22338a3cfc82ffa4e7d20a56bd997fb5ddbc1fb292c36cf",
+  "downloadedAt": "2026-10-09T04:04:01.800844+00:00",
+  "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 211984,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 4238,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        -51.0,
+        5.0,
+        -41.0
+      ],
+      [
+        0.0,
+        37.0,
+        0.0
+      ]
+    ],
+    "extents": [
+      51.0,
+      32.0,
+      41.0
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/micropump-stator/preview-cad/mesh.json",
+    "sourceMeshSha256": "a30841c85fffd767143a827bfd970879963164dc6429fd07aa5af53892c1f8ae",
+    "trianglesRendered": 4238,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/micropump-stator/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/micropump-stator/thumbnail.png",
+  "thumbnailSha256": "570c75d342f5d9cc7da3e1c2507bdbd17ed4b87287cdfa9ac975522512566fb8",
+  "browserModelPath": "assets/catalog/micropump-stator/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/micropump-stator/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": true,
+      "solids": null,
+      "mesh_components": 1,
+      "volume_mm3": 16201.355723229213,
+      "bbox": {
+        "min": [
+          -51.0,
+          5.0,
+          -41.0
+        ],
+        "max": [
+          0.0,
+          37.0,
+          0.0
+        ],
+        "size": [
+          51.0,
+          32.0,
+          41.0
+        ]
+      },
+      "faces": 4238,
+      "surface_area_mm2": 8706.338191334627
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/micropump-stator/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:14.784482+00:00"
+  },
+  "browserModelSha256": "8a3afcf7e5cef4de6cedbf87ff7fd8cfb63c93455492a10ceb3d33f6ce46064f",
+  "browserModelSizeBytes": 76836,
+  "browserMeshPath": "assets/catalog/micropump-stator/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/micropump-stator/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

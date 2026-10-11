@@ -1,0 +1,1202 @@
+{
+  "id": "precision-vise-18",
+  "name": "18 件双导柱精密夹持组件",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "description": "Bench fixture with replaceable jaw inserts, dual guide rods, lead screw envelope and four-spoke handwheel.",
+  "parts": [
+    {
+      "id": "vise-base",
+      "name": "双导柱精密夹具底座",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "6061-T6 aluminium",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "blank",
+          "op": "box",
+          "size": [
+            260,
+            140,
+            14
+          ]
+        },
+        {
+          "id": "mount-slots",
+          "op": "hole",
+          "diameter": 12,
+          "points": [
+            [
+              -112,
+              -56
+            ],
+            [
+              -112,
+              56
+            ],
+            [
+              112,
+              -56
+            ],
+            [
+              112,
+              56
+            ]
+          ]
+        },
+        {
+          "id": "support-fastener-holes",
+          "op": "hole",
+          "diameter": 8.5,
+          "points": [
+            [
+              103,
+              -13
+            ],
+            [
+              103,
+              43
+            ]
+          ]
+        },
+        {
+          "id": "edge-break",
+          "op": "chamfer",
+          "selector": "|Z",
+          "length": 3
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "fixed-tower",
+      "name": "固定支架（双导孔与丝杠孔）",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "45 steel",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "body",
+          "op": "box",
+          "size": [
+            32,
+            104,
+            54
+          ]
+        },
+        {
+          "id": "rod-a",
+          "op": "cylinder",
+          "radius": 7.3,
+          "height": 42,
+          "translation": [
+            -21,
+            -28,
+            24
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "id": "rod-b",
+          "op": "cylinder",
+          "radius": 7.3,
+          "height": 42,
+          "translation": [
+            -21,
+            28,
+            24
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "id": "guide-bore-a",
+          "op": "cut",
+          "base": "body",
+          "tool": "rod-a"
+        },
+        {
+          "id": "guide-bore-b",
+          "op": "cut",
+          "base": "guide-bore-a",
+          "tool": "rod-b"
+        },
+        {
+          "id": "spindle-tool",
+          "op": "cylinder",
+          "radius": 9,
+          "height": 42,
+          "translation": [
+            -21,
+            0,
+            24
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "id": "spindle-bore",
+          "op": "cut",
+          "base": "guide-bore-b",
+          "tool": "spindle-tool"
+        },
+        {
+          "id": "mount-holes",
+          "op": "hole",
+          "diameter": 8.5,
+          "points": [
+            [
+              -8,
+              -44
+            ],
+            [
+              -8,
+              44
+            ],
+            [
+              8,
+              -44
+            ],
+            [
+              8,
+              44
+            ]
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "moving-jaw",
+      "name": "活动滑台",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "45 steel",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "body",
+          "op": "box",
+          "size": [
+            32,
+            104,
+            54
+          ]
+        },
+        {
+          "id": "rod-a",
+          "op": "cylinder",
+          "radius": 7.3,
+          "height": 42,
+          "translation": [
+            -21,
+            -28,
+            24
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "id": "rod-b",
+          "op": "cylinder",
+          "radius": 7.3,
+          "height": 42,
+          "translation": [
+            -21,
+            28,
+            24
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "id": "guide-bore-a",
+          "op": "cut",
+          "base": "body",
+          "tool": "rod-a"
+        },
+        {
+          "id": "guide-bore-b",
+          "op": "cut",
+          "base": "guide-bore-a",
+          "tool": "rod-b"
+        },
+        {
+          "id": "spindle-tool",
+          "op": "cylinder",
+          "radius": 9,
+          "height": 42,
+          "translation": [
+            -21,
+            0,
+            24
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ]
+        },
+        {
+          "id": "spindle-bore",
+          "op": "cut",
+          "base": "guide-bore-b",
+          "tool": "spindle-tool"
+        },
+        {
+          "id": "mount-holes",
+          "op": "hole",
+          "diameter": 8.5,
+          "points": [
+            [
+              -8,
+              -44
+            ],
+            [
+              -8,
+              44
+            ],
+            [
+              8,
+              -44
+            ],
+            [
+              8,
+              44
+            ]
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "guide-rod",
+      "name": "淬硬导向轴",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "GCr15 (demo)",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "turned",
+          "op": "cylinder",
+          "radius": 7,
+          "height": 216
+        },
+        {
+          "id": "end-break",
+          "op": "chamfer",
+          "selector": ">Z",
+          "length": 0.8
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "lead-screw",
+      "name": "传动丝杠（螺纹包络简化）",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "45 steel",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "turned",
+          "op": "cylinder",
+          "radius": 8,
+          "height": 262
+        },
+        {
+          "id": "end-break",
+          "op": "chamfer",
+          "selector": ">Z",
+          "length": 0.6
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "guide-support",
+      "name": "导柱端部支承座",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "45 steel",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "body",
+          "op": "box",
+          "size": [
+            24,
+            40,
+            38
+          ]
+        },
+        {
+          "id": "rod-tool",
+          "op": "cylinder",
+          "radius": 7.3,
+          "height": 34,
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "translation": [
+            -17,
+            0,
+            24
+          ]
+        },
+        {
+          "id": "guide-hole",
+          "op": "cut",
+          "base": "body",
+          "tool": "rod-tool"
+        },
+        {
+          "id": "mount-hole",
+          "op": "hole",
+          "diameter": 8.5,
+          "points": [
+            [
+              0,
+              15
+            ]
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "jaw-insert",
+      "name": "可更换夹持钳口",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "Tool steel",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "blank",
+          "op": "box",
+          "size": [
+            6,
+            84,
+            20
+          ]
+        },
+        {
+          "id": "edge-break",
+          "op": "chamfer",
+          "selector": "|Z",
+          "length": 0.8
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "handwheel",
+      "name": "四辐调节手轮",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "Black oxide steel",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "rim",
+          "op": "cylinder",
+          "radius": 40,
+          "height": 8
+        },
+        {
+          "id": "rim-bore",
+          "op": "hole",
+          "diameter": 62
+        },
+        {
+          "id": "spoke-a",
+          "op": "box",
+          "size": [
+            66,
+            10,
+            8
+          ]
+        },
+        {
+          "id": "spoke-b",
+          "op": "box",
+          "size": [
+            10,
+            66,
+            8
+          ]
+        },
+        {
+          "id": "spokes",
+          "op": "union",
+          "base": "spoke-a",
+          "tool": "spoke-b"
+        },
+        {
+          "id": "wheel",
+          "op": "union",
+          "base": "rim-bore",
+          "tool": "spokes"
+        },
+        {
+          "id": "hub",
+          "op": "cylinder",
+          "radius": 14,
+          "height": 14
+        },
+        {
+          "id": "combined",
+          "op": "union",
+          "base": "wheel",
+          "tool": "hub"
+        },
+        {
+          "id": "center-bore",
+          "op": "hole",
+          "diameter": 16.2
+        },
+        {
+          "id": "handle-hole",
+          "op": "hole",
+          "diameter": 6.5,
+          "points": [
+            [
+              0,
+              35
+            ]
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "wheel-handle",
+      "name": "手轮旋转握柄",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "Polymer grip / steel stem",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "stem",
+          "op": "cylinder",
+          "radius": 3,
+          "height": 9
+        },
+        {
+          "id": "grip",
+          "op": "cylinder",
+          "radius": 7,
+          "height": 32,
+          "translation": [
+            0,
+            0,
+            9
+          ]
+        },
+        {
+          "id": "combined",
+          "op": "union",
+          "base": "stem",
+          "tool": "grip"
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "id": "bolt-m8",
+      "name": "M8 六角螺栓（无螺纹简化）",
+      "units": "mm",
+      "source_type": "original-parametric-demo",
+      "material": "Grade 8.8 steel (demo)",
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "features": [
+        {
+          "id": "head",
+          "op": "extrude",
+          "profile": {
+            "kind": "regular_polygon",
+            "sides": 6,
+            "diameter": 15.2
+          },
+          "distance": 5.6
+        },
+        {
+          "id": "shaft",
+          "op": "cylinder",
+          "radius": 4.0,
+          "height": 50,
+          "translation": [
+            0,
+            0,
+            5.6
+          ]
+        },
+        {
+          "id": "fused",
+          "op": "union",
+          "base": "head",
+          "tool": "shaft"
+        },
+        {
+          "id": "edge-break",
+          "op": "chamfer",
+          "selector": ">Z",
+          "length": 0.6
+        }
+      ],
+      "checks": [
+        {
+          "kind": "valid",
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "base",
+      "part_id": "vise-base",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 100,
+      "color": [
+        63,
+        83,
+        98,
+        255
+      ]
+    },
+    {
+      "id": "fixed-tower",
+      "part_id": "fixed-tower",
+      "translation": [
+        -94,
+        0,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        135
+      ],
+      "sequence": 70,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ]
+    },
+    {
+      "id": "moving-carriage",
+      "part_id": "moving-jaw",
+      "translation": [
+        32,
+        0,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        85
+      ],
+      "sequence": 71,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ]
+    },
+    {
+      "id": "rod-left",
+      "part_id": "guide-rod",
+      "translation": [
+        -110,
+        -28,
+        38
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "explode": [
+        280,
+        0,
+        0
+      ],
+      "sequence": 60,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ]
+    },
+    {
+      "id": "rod-right",
+      "part_id": "guide-rod",
+      "translation": [
+        -110,
+        28,
+        38
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "explode": [
+        280,
+        0,
+        0
+      ],
+      "sequence": 61,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ]
+    },
+    {
+      "id": "spindle",
+      "part_id": "lead-screw",
+      "translation": [
+        -110,
+        0,
+        38
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "explode": [
+        310,
+        0,
+        0
+      ],
+      "sequence": 50,
+      "color": [
+        185,
+        190,
+        190,
+        255
+      ]
+    },
+    {
+      "id": "wheel",
+      "part_id": "handwheel",
+      "translation": [
+        138,
+        0,
+        38
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "explode": [
+        450,
+        0,
+        0
+      ],
+      "sequence": 10,
+      "color": [
+        214,
+        145,
+        43,
+        255
+      ]
+    },
+    {
+      "id": "grip",
+      "part_id": "wheel-handle",
+      "translation": [
+        138,
+        35,
+        38
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "explode": [
+        510,
+        0,
+        0
+      ],
+      "sequence": 1,
+      "color": [
+        52,
+        58,
+        65,
+        255
+      ]
+    },
+    {
+      "id": "support-left",
+      "part_id": "guide-support",
+      "translation": [
+        103,
+        -28,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        -95,
+        65
+      ],
+      "sequence": 65,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ]
+    },
+    {
+      "id": "support-right",
+      "part_id": "guide-support",
+      "translation": [
+        103,
+        28,
+        14
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        95,
+        65
+      ],
+      "sequence": 66,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ]
+    },
+    {
+      "id": "insert-fixed",
+      "part_id": "jaw-insert",
+      "translation": [
+        -75,
+        0,
+        48
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        200
+      ],
+      "sequence": 40,
+      "color": [
+        190,
+        196,
+        194,
+        255
+      ]
+    },
+    {
+      "id": "insert-moving",
+      "part_id": "jaw-insert",
+      "translation": [
+        13,
+        0,
+        48
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        165
+      ],
+      "sequence": 41,
+      "color": [
+        190,
+        196,
+        194,
+        255
+      ]
+    },
+    {
+      "id": "mount-bolt-1",
+      "part_id": "bolt-m8",
+      "translation": [
+        -102,
+        -44,
+        73.6
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        252
+      ],
+      "sequence": 21,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ]
+    },
+    {
+      "id": "mount-bolt-2",
+      "part_id": "bolt-m8",
+      "translation": [
+        -102,
+        44,
+        73.6
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        264
+      ],
+      "sequence": 22,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ]
+    },
+    {
+      "id": "mount-bolt-3",
+      "part_id": "bolt-m8",
+      "translation": [
+        -86,
+        -44,
+        73.6
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        276
+      ],
+      "sequence": 23,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ]
+    },
+    {
+      "id": "mount-bolt-4",
+      "part_id": "bolt-m8",
+      "translation": [
+        -86,
+        44,
+        73.6
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        288
+      ],
+      "sequence": 24,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ]
+    },
+    {
+      "id": "mount-bolt-5",
+      "part_id": "bolt-m8",
+      "translation": [
+        103,
+        -13,
+        57.6
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        300
+      ],
+      "sequence": 25,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ]
+    },
+    {
+      "id": "mount-bolt-6",
+      "part_id": "bolt-m8",
+      "translation": [
+        103,
+        43,
+        57.6
+      ],
+      "rotation": [
+        180,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        312
+      ],
+      "sequence": 26,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ]
+    }
+  ],
+  "path_samples": 6
+}

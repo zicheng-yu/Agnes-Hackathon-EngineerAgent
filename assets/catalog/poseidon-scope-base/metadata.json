@@ -1,0 +1,125 @@
+{
+  "id": "poseidon-scope-base",
+  "name": "Poseidon 显微平台基座",
+  "category": "光学与精密平台",
+  "material": null,
+  "summary": "Poseidon 显微平台基座，来自 pachterlab/poseidon 的公开机械设计。",
+  "useCase": "实验室精密仪器安装",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Base.step",
+  "downloadUrl": "https://raw.githubusercontent.com/pachterlab/poseidon/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Base.step",
+  "sourceProject": "poseidon",
+  "author": "Pachter Lab / Poseidon contributors",
+  "license": "BSD-2-Clause",
+  "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+  "licensePath": "assets/sources/poseidon/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/poseidon-scope-base/source.step",
+  "sizeBytes": 392610,
+  "sha256": "ecc727d51852c3c618859dc728d530546604743f5dacf0b02a154e72336f3597",
+  "downloadedAt": "2026-10-09T04:04:01.800306+00:00",
+  "upstreamCommit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 392610,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI.,.METRE.",
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "previewPath": "assets/catalog/poseidon-scope-base/preview.stl",
+  "previewSha256": "da06fd946e8b3cdf5836c33a2790db1cd7f59a99d5f8952ab2fee2a3e1e99a31",
+  "previewSourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/stl/Scope%20Base%20v33.stl",
+  "previewDownloadedAt": "2026-10-09T04:05:57.848526+00:00",
+  "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+  "previewValidation": {
+    "binaryLengthValid": true,
+    "triangles": 4500,
+    "sha256Matches": true,
+    "units": "unspecified-in-STL"
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/poseidon-scope-base/preview-cad/mesh.json",
+    "sourceMeshSha256": "1570e74d598ea9c63d6f67c697ff6c78ebf56a8d2e8c1520c3bada9e5ab28091",
+    "trianglesRendered": 21140,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/poseidon-scope-base/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/poseidon-scope-base/thumbnail.png",
+  "thumbnailSha256": "43a1d0ee75c7a409064cca1d9f622b49866039ef8d50b1f743d3b79dc9e4ca26",
+  "browserModelPath": "assets/catalog/poseidon-scope-base/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/poseidon-scope-base/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 432796.269334,
+      "area_mm2": 104099.821513,
+      "bbox": {
+        "min": [
+          -151.21772313650527,
+          -10.01772313650529,
+          -200.01757240667476
+        ],
+        "max": [
+          0.017723136505315536,
+          95.001506006519,
+          0.01729498720728237
+        ],
+        "size": [
+          151.23544627301058,
+          105.01922914302429,
+          200.03486739388205
+        ]
+      },
+      "center_of_mass": [
+        -74.90552624658547,
+        15.861312351331518,
+        -128.4469072289108
+      ],
+      "faces": 248,
+      "edges": 610,
+      "sum_of_solid_volumes_mm3": 432796.2693335775
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/poseidon-scope-base/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:14.063242+00:00"
+  },
+  "browserModelSha256": "62e39c077e820c748ce54d34fb13a2786f0b0a45b196407b2964cbc53466adcb",
+  "browserModelSizeBytes": 494264,
+  "browserMeshPath": "assets/catalog/poseidon-scope-base/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/poseidon-scope-base/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

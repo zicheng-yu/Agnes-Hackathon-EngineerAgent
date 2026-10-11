@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "jaw-insert",
+  "name": "可更换夹持钳口",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/precision-vise-18/parts/jaw-insert/model.step",
+    "glb": "assets/generated/precision-vise-18/parts/jaw-insert/model.glb",
+    "mesh": "assets/generated/precision-vise-18/parts/jaw-insert/mesh.json",
+    "feature_plan": "assets/generated/precision-vise-18/parts/jaw-insert/feature-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/parts/jaw-insert/views/front.svg",
+      "top": "assets/generated/precision-vise-18/parts/jaw-insert/views/top.svg",
+      "side": "assets/generated/precision-vise-18/parts/jaw-insert/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/parts/jaw-insert/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10054.4,
+      "area_mm2": 4567.949668,
+      "bbox": {
+        "min": [
+          -3.000000000000001,
+          -42.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          42.0,
+          20.0
+        ],
+        "size": [
+          6.000000000000001,
+          84.0,
+          20.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        4.5228691009554437e-17,
+        -9.808501230499103e-16,
+        9.999999999999998
+      ],
+      "faces": 10,
+      "edges": 24
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 10054.4,
+    "area_mm2": 4567.949668,
+    "bbox": {
+      "min": [
+        -3.000000000000001,
+        -42.0,
+        0.0
+      ],
+      "max": [
+        3.0,
+        42.0,
+        20.0
+      ],
+      "size": [
+        6.000000000000001,
+        84.0,
+        20.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      4.5228691009554437e-17,
+      -9.808501230499103e-16,
+      9.999999999999998
+    ],
+    "faces": 10,
+    "edges": 24
+  },
+  "feature_log": [
+    {
+      "id": "blank",
+      "op": "box",
+      "status": "completed",
+      "duration_ms": 0.79
+    },
+    {
+      "id": "edge-break",
+      "op": "chamfer",
+      "status": "completed",
+      "duration_ms": 14.81
+    }
+  ],
+  "errors": []
+}

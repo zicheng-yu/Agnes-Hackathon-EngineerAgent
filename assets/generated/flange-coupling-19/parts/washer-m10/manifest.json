@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "washer-m10",
+  "name": "M10 平垫圈",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/flange-coupling-19/parts/washer-m10/model.step",
+    "glb": "assets/generated/flange-coupling-19/parts/washer-m10/model.glb",
+    "mesh": "assets/generated/flange-coupling-19/parts/washer-m10/mesh.json",
+    "feature_plan": "assets/generated/flange-coupling-19/parts/washer-m10/feature-plan.json",
+    "views": {
+      "front": "assets/generated/flange-coupling-19/parts/washer-m10/views/front.svg",
+      "top": "assets/generated/flange-coupling-19/parts/washer-m10/views/top.svg",
+      "side": "assets/generated/flange-coupling-19/parts/washer-m10/views/side.svg"
+    },
+    "view_metadata": "assets/generated/flange-coupling-19/parts/washer-m10/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 753.982237,
+      "area_mm2": 804.247719,
+      "bbox": {
+        "min": [
+          -10.5,
+          -10.5,
+          0.0
+        ],
+        "max": [
+          10.5,
+          10.5,
+          3.0
+        ],
+        "size": [
+          21.0,
+          21.0,
+          3.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        -2.6386824023993614e-16,
+        -1.4687057476433437e-16,
+        1.5
+      ],
+      "faces": 4,
+      "edges": 6
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 753.982237,
+    "area_mm2": 804.247719,
+    "bbox": {
+      "min": [
+        -10.5,
+        -10.5,
+        0.0
+      ],
+      "max": [
+        10.5,
+        10.5,
+        3.0
+      ],
+      "size": [
+        21.0,
+        21.0,
+        3.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -2.6386824023993614e-16,
+      -1.4687057476433437e-16,
+      1.5
+    ],
+    "faces": 4,
+    "edges": 6
+  },
+  "feature_log": [
+    {
+      "id": "blank",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.26
+    },
+    {
+      "id": "bore",
+      "op": "hole",
+      "status": "completed",
+      "duration_ms": 5.76
+    }
+  ],
+  "errors": []
+}

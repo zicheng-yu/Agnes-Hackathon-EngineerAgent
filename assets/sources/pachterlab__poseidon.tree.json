@@ -1,0 +1,625 @@
+{
+  "repo": {
+    "id": 114494683,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxMTQ0OTQ2ODM=",
+    "name": "poseidon",
+    "full_name": "pachterlab/poseidon",
+    "private": false,
+    "owner": {
+      "login": "pachterlab",
+      "id": 10359946,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwMzU5OTQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10359946?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pachterlab",
+      "html_url": "https://github.com/pachterlab",
+      "followers_url": "https://api.github.com/users/pachterlab/followers",
+      "following_url": "https://api.github.com/users/pachterlab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pachterlab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pachterlab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pachterlab/subscriptions",
+      "organizations_url": "https://api.github.com/users/pachterlab/orgs",
+      "repos_url": "https://api.github.com/users/pachterlab/repos",
+      "events_url": "https://api.github.com/users/pachterlab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pachterlab/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/pachterlab/poseidon",
+    "description": "poseidon system - open source syringe pumps and microscope for laboratories ",
+    "fork": false,
+    "url": "https://api.github.com/repos/pachterlab/poseidon",
+    "forks_url": "https://api.github.com/repos/pachterlab/poseidon/forks",
+    "keys_url": "https://api.github.com/repos/pachterlab/poseidon/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/pachterlab/poseidon/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/pachterlab/poseidon/teams",
+    "hooks_url": "https://api.github.com/repos/pachterlab/poseidon/hooks",
+    "issue_events_url": "https://api.github.com/repos/pachterlab/poseidon/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/pachterlab/poseidon/events",
+    "assignees_url": "https://api.github.com/repos/pachterlab/poseidon/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/pachterlab/poseidon/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/pachterlab/poseidon/tags",
+    "blobs_url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/pachterlab/poseidon/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/pachterlab/poseidon/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/pachterlab/poseidon/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/pachterlab/poseidon/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/pachterlab/poseidon/languages",
+    "stargazers_url": "https://api.github.com/repos/pachterlab/poseidon/stargazers",
+    "contributors_url": "https://api.github.com/repos/pachterlab/poseidon/contributors",
+    "subscribers_url": "https://api.github.com/repos/pachterlab/poseidon/subscribers",
+    "subscription_url": "https://api.github.com/repos/pachterlab/poseidon/subscription",
+    "commits_url": "https://api.github.com/repos/pachterlab/poseidon/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/pachterlab/poseidon/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/pachterlab/poseidon/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/pachterlab/poseidon/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/pachterlab/poseidon/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/pachterlab/poseidon/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/pachterlab/poseidon/merges",
+    "archive_url": "https://api.github.com/repos/pachterlab/poseidon/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/pachterlab/poseidon/downloads",
+    "issues_url": "https://api.github.com/repos/pachterlab/poseidon/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/pachterlab/poseidon/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/pachterlab/poseidon/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/pachterlab/poseidon/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/pachterlab/poseidon/labels{/name}",
+    "releases_url": "https://api.github.com/repos/pachterlab/poseidon/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/pachterlab/poseidon/deployments",
+    "created_at": "2017-12-16T22:40:30Z",
+    "updated_at": "2026-09-29T00:24:01Z",
+    "pushed_at": "2023-07-25T17:55:51Z",
+    "git_url": "git://github.com/pachterlab/poseidon.git",
+    "ssh_url": "git@github.com:pachterlab/poseidon.git",
+    "clone_url": "https://github.com/pachterlab/poseidon.git",
+    "svn_url": "https://github.com/pachterlab/poseidon",
+    "homepage": "https://pachterlab.github.io/poseidon",
+    "size": 115929,
+    "stargazers_count": 253,
+    "watchers_count": 253,
+    "language": "Jupyter Notebook",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false,
+    "forks_count": 62,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 20,
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [
+      "biology",
+      "open-source-hardware",
+      "science-research",
+      "wetlab"
+    ],
+    "visibility": "public",
+    "forks": 62,
+    "open_issues": 20,
+    "watchers": 253,
+    "default_branch": "release",
+    "temp_clone_token": null,
+    "custom_properties": {},
+    "organization": {
+      "login": "pachterlab",
+      "id": 10359946,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwMzU5OTQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10359946?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pachterlab",
+      "html_url": "https://github.com/pachterlab",
+      "followers_url": "https://api.github.com/users/pachterlab/followers",
+      "following_url": "https://api.github.com/users/pachterlab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pachterlab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pachterlab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pachterlab/subscriptions",
+      "organizations_url": "https://api.github.com/users/pachterlab/orgs",
+      "repos_url": "https://api.github.com/users/pachterlab/repos",
+      "events_url": "https://api.github.com/users/pachterlab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pachterlab/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "network_count": 62,
+    "subscribers_count": 22
+  },
+  "tree": {
+    "sha": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "tree": [
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8012df6b0acf9fc498e4c6d413c45445fd63027a",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/8012df6b0acf9fc498e4c6d413c45445fd63027a"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5b1e3190c651d1c8392dbc91e3ea6ced6ac33370",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/5b1e3190c651d1c8392dbc91e3ea6ced6ac33370"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fac6f677206af56d5d113f65d882682fec641432",
+        "size": 663,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/fac6f677206af56d5d113f65d882682fec641432"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f805c15fe045f73917b6303038788a6fe867c06",
+        "size": 175,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/3f805c15fe045f73917b6303038788a6fe867c06"
+      },
+      {
+        "path": "HARDWARE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a2d80ed3bda8d42c5aa9be1af2f7af7068ffa9db",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/a2d80ed3bda8d42c5aa9be1af2f7af7068ffa9db"
+      },
+      {
+        "path": "HARDWARE/microscope",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "514e4ca2d54a5a9402495cfb78e96ea8f3bdcc07",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/514e4ca2d54a5a9402495cfb78e96ea8f3bdcc07"
+      },
+      {
+        "path": "HARDWARE/microscope/fusion360",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b30d1036ee79acb505962242b55d251e866bd16d",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/b30d1036ee79acb505962242b55d251e866bd16d"
+      },
+      {
+        "path": "HARDWARE/microscope/fusion360/poseidon_microscope_controller_station_v34.f3d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb0a8d7562b55e28eac4fc7fc30de31993d986ba",
+        "size": 15701480,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/fb0a8d7562b55e28eac4fc7fc30de31993d986ba"
+      },
+      {
+        "path": "HARDWARE/microscope/iges",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e04ec9d2fdcb8300b735364237da5dfcf1a2d221",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/e04ec9d2fdcb8300b735364237da5dfcf1a2d221"
+      },
+      {
+        "path": "HARDWARE/microscope/iges/Scope Base.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96953748471a6cf2c570ec0f4a716e2f97657207",
+        "size": 694737,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/96953748471a6cf2c570ec0f4a716e2f97657207"
+      },
+      {
+        "path": "HARDWARE/microscope/iges/Scope Screen Leg Mount.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a565a9fbe93fe2e317ac13db4613bd7bd5fed57",
+        "size": 292410,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/3a565a9fbe93fe2e317ac13db4613bd7bd5fed57"
+      },
+      {
+        "path": "HARDWARE/microscope/iges/Scope Top Stage.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "169eb4afe6edc44e9a4347bd83f8d0e88a3ec92c",
+        "size": 2071413,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/169eb4afe6edc44e9a4347bd83f8d0e88a3ec92c"
+      },
+      {
+        "path": "HARDWARE/microscope/step",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "06167eb6e5f6f7b720174444b525b595110e9108",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/06167eb6e5f6f7b720174444b525b595110e9108"
+      },
+      {
+        "path": "HARDWARE/microscope/step/Scope Base.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b81db103977b8f90f616e4613e5cb55aac97dbcf",
+        "size": 392610,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/b81db103977b8f90f616e4613e5cb55aac97dbcf"
+      },
+      {
+        "path": "HARDWARE/microscope/step/Scope Screen Leg Mount.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e7d68eb21febfec5d635dba55bb9f8ab22edd20",
+        "size": 148302,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/0e7d68eb21febfec5d635dba55bb9f8ab22edd20"
+      },
+      {
+        "path": "HARDWARE/microscope/step/Scope Top Stage.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18537feeaae13aad44ebe501af7b5dee88189344",
+        "size": 1438314,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/18537feeaae13aad44ebe501af7b5dee88189344"
+      },
+      {
+        "path": "HARDWARE/microscope/stl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9b6215654000644746c9d9253cc1be889cfff75d",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/9b6215654000644746c9d9253cc1be889cfff75d"
+      },
+      {
+        "path": "HARDWARE/microscope/stl/Scope Base v33.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4a0b55651f88b7614e409e3eb8bedee6bbf306e",
+        "size": 225084,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/a4a0b55651f88b7614e409e3eb8bedee6bbf306e"
+      },
+      {
+        "path": "HARDWARE/microscope/stl/Scope Screen Leg Mount v33.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93b034cbe4f03c80c5c142734fd00b6fd3ce8a50",
+        "size": 100684,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/93b034cbe4f03c80c5c142734fd00b6fd3ce8a50"
+      },
+      {
+        "path": "HARDWARE/microscope/stl/Scope Top Stage v33.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01efc7e844bbd46fc161b232f16073522c135ad0",
+        "size": 424984,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/01efc7e844bbd46fc161b232f16073522c135ad0"
+      },
+      {
+        "path": "HARDWARE/poseidon_bill-of-materials_v1.0_2019-01-28.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "424f549424424601327bae2ac0c1171d10f1a279",
+        "size": 8887,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/424f549424424601327bae2ac0c1171d10f1a279"
+      },
+      {
+        "path": "HARDWARE/pump",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9f5da034c51907ea561f59f49aac9622db594d54",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/9f5da034c51907ea561f59f49aac9622db594d54"
+      },
+      {
+        "path": "HARDWARE/pump/fusion360",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5c1bcc521e8126f2afc05713483cf42824cd36e4",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/5c1bcc521e8126f2afc05713483cf42824cd36e4"
+      },
+      {
+        "path": "HARDWARE/pump/fusion360/poseidon_pump_v52.f3d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c875d2b3134398195bd0c4bb096162fb2f58f86",
+        "size": 13046355,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/3c875d2b3134398195bd0c4bb096162fb2f58f86"
+      },
+      {
+        "path": "HARDWARE/pump/iges",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "be765e22a887c7a7195efe8a4d5c482f92821a03",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/be765e22a887c7a7195efe8a4d5c482f92821a03"
+      },
+      {
+        "path": "HARDWARE/pump/iges/Pump Base.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e120971a26cf616ab760aef607166fed3db18176",
+        "size": 3200067,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/e120971a26cf616ab760aef607166fed3db18176"
+      },
+      {
+        "path": "HARDWARE/pump/iges/Pump Carriage.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb61b33c798506e50d4309da77f37d37ce86b2a1",
+        "size": 324891,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/fb61b33c798506e50d4309da77f37d37ce86b2a1"
+      },
+      {
+        "path": "HARDWARE/pump/iges/Pump Cover Slide.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9363edb96c1a6fa7d1862a0507a886e5d00b4207",
+        "size": 48357,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/9363edb96c1a6fa7d1862a0507a886e5d00b4207"
+      },
+      {
+        "path": "HARDWARE/pump/iges/Pump Syringe Brace.iges",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf0c92322fad68c5009f5bb546e2a1ba1ecaad97",
+        "size": 40824,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/bf0c92322fad68c5009f5bb546e2a1ba1ecaad97"
+      },
+      {
+        "path": "HARDWARE/pump/step",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1d9d69eb7f1b58430eb22b5c845f849e53b5dd6a",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/1d9d69eb7f1b58430eb22b5c845f849e53b5dd6a"
+      },
+      {
+        "path": "HARDWARE/pump/step/Pump Base.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f26e48c7e3a8402e386913b7ab15b60399c2501e",
+        "size": 2006686,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/f26e48c7e3a8402e386913b7ab15b60399c2501e"
+      },
+      {
+        "path": "HARDWARE/pump/step/Pump Carriage.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "558c1331a86704f6621a4b2b08317179c72a9cd8",
+        "size": 147190,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/558c1331a86704f6621a4b2b08317179c72a9cd8"
+      },
+      {
+        "path": "HARDWARE/pump/step/Pump Cover Slide.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52def7de00a25d12fb88b4f9b6b5b8801f62b483",
+        "size": 26195,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/52def7de00a25d12fb88b4f9b6b5b8801f62b483"
+      },
+      {
+        "path": "HARDWARE/pump/step/Pump Syringe Brace.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "667fbe69ac3dbb2a128b769c6f93ef832c2939b8",
+        "size": 24036,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/667fbe69ac3dbb2a128b769c6f93ef832c2939b8"
+      },
+      {
+        "path": "HARDWARE/pump/stl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1d8c17097474b4555ae15c443f0ce6bc331f0cb8",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/1d8c17097474b4555ae15c443f0ce6bc331f0cb8"
+      },
+      {
+        "path": "HARDWARE/pump/stl/Pump Base v51.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e003a763e73e343938570aee69109809a5eada4",
+        "size": 750884,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/3e003a763e73e343938570aee69109809a5eada4"
+      },
+      {
+        "path": "HARDWARE/pump/stl/Pump Carriage Sled v51.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6624f2cb1d7eee52c6c307fa556ba37164cd6cc",
+        "size": 189384,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/f6624f2cb1d7eee52c6c307fa556ba37164cd6cc"
+      },
+      {
+        "path": "HARDWARE/pump/stl/Pump Cover Slide v51.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "092b3d4489ab6b2e3fd459e53609acffa59a3c53",
+        "size": 8884,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/092b3d4489ab6b2e3fd459e53609acffa59a3c53"
+      },
+      {
+        "path": "HARDWARE/pump/stl/Pump Syringe Brace v51.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0aebca67a929d150ca368f5bb90e40509273b3fb",
+        "size": 26484,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/0aebca67a929d150ca368f5bb90e40509273b3fb"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fc2e0e1510063dbc7a1978601cc132fd1f66c63",
+        "size": 1316,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/4fc2e0e1510063dbc7a1978601cc132fd1f66c63"
+      },
+      {
+        "path": "README.MD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47ecd0b643585c5bf478676c0e152e9a5822a920",
+        "size": 15198,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/47ecd0b643585c5bf478676c0e152e9a5822a920"
+      },
+      {
+        "path": "SOFTWARE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4ad1237016223d46ac3bd6f96358c00fab556129",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/4ad1237016223d46ac3bd6f96358c00fab556129"
+      },
+      {
+        "path": "SOFTWARE/arduino_serialCOM_v0.1",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3a7dc359a2a217c7a5442b7a48214d29e5a7e737",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/3a7dc359a2a217c7a5442b7a48214d29e5a7e737"
+      },
+      {
+        "path": "SOFTWARE/arduino_serialCOM_v0.1/arduino_serialCOM_v0.1.ino",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99ae6690ad25ab36955048c8d1a4adc38e92e1b5",
+        "size": 20198,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/99ae6690ad25ab36955048c8d1a4adc38e92e1b5"
+      },
+      {
+        "path": "SOFTWARE/poseidon_controller_gui.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "956b57b39efbe3cd1baaddb965c689b7490f21a5",
+        "size": 45680,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/956b57b39efbe3cd1baaddb965c689b7490f21a5"
+      },
+      {
+        "path": "SOFTWARE/poseidon_controller_gui.ui",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9856d767fd78e0304dfa5b636b4428a99fc2274a",
+        "size": 46832,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/9856d767fd78e0304dfa5b636b4428a99fc2274a"
+      },
+      {
+        "path": "SOFTWARE/poseidon_main.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7faac8c74002d1dad7a13be9db258b3f161abd42",
+        "size": 48692,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/7faac8c74002d1dad7a13be9db258b3f161abd42"
+      },
+      {
+        "path": "SOFTWARE/test_settings.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "486477d631cf2eb3353d8d3cf4d2443ebf0e6244",
+        "size": 489,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/486477d631cf2eb3353d8d3cf4d2443ebf0e6244"
+      },
+      {
+        "path": "TESTING",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6ecfcf71f8ab6479933d75b10214b5be6408eb6a",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/6ecfcf71f8ab6479933d75b10214b5be6408eb6a"
+      },
+      {
+        "path": "TESTING/Speed & Position Analysis.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "823195b22ebc605be17c2bef844e301b185275b2",
+        "size": 10948,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/823195b22ebc605be17c2bef844e301b185275b2"
+      },
+      {
+        "path": "TESTING/benchmark.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e430330c849675fc8d7025c4252fba80985f661e",
+        "size": 392302,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/e430330c849675fc8d7025c4252fba80985f661e"
+      },
+      {
+        "path": "TESTING/droplets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "51f1dc19cb5c492c19481b61b7ab38a3020a7aad",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/51f1dc19cb5c492c19481b61b7ab38a3020a7aad"
+      },
+      {
+        "path": "TESTING/droplets/harvard",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b7e2f0d4b36de25fa92f8fc028b79bc37f579fe6",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/b7e2f0d4b36de25fa92f8fc028b79bc37f579fe6"
+      },
+      {
+        "path": "TESTING/droplets/harvard/2_harvard.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36911d401bdf18136c12d8051e50236874ae8596",
+        "size": 44489,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/36911d401bdf18136c12d8051e50236874ae8596"
+      },
+      {
+        "path": "TESTING/droplets/harvard/3_harvard.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09ed5a8c36d998ffa57c401d7c50a95a028741be",
+        "size": 31757,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/09ed5a8c36d998ffa57c401d7c50a95a028741be"
+      },
+      {
+        "path": "TESTING/droplets/harvard/6_harvard.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36911d401bdf18136c12d8051e50236874ae8596",
+        "size": 44489,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/36911d401bdf18136c12d8051e50236874ae8596"
+      },
+      {
+        "path": "TESTING/droplets/harvard/harvard.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18d7d74e0bb5f9b132b59f2aa2499edf44ecca8a",
+        "size": 136575,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/18d7d74e0bb5f9b132b59f2aa2499edf44ecca8a"
+      },
+      {
+        "path": "TESTING/droplets/poseidon",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "deb7c92c285131d98e445b70f437fc31fdbdf89e",
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/trees/deb7c92c285131d98e445b70f437fc31fdbdf89e"
+      },
+      {
+        "path": "TESTING/droplets/poseidon/1_poseidon.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52c3a4cd633423773d98187e51f3308abe7f86e5",
+        "size": 31394,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/52c3a4cd633423773d98187e51f3308abe7f86e5"
+      },
+      {
+        "path": "TESTING/droplets/poseidon/4_poseidon.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37eb8212047d4bf416d5ee7a28e7f63ae6ac72e5",
+        "size": 44515,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/37eb8212047d4bf416d5ee7a28e7f63ae6ac72e5"
+      },
+      {
+        "path": "TESTING/droplets/poseidon/5_poseidon.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aca262dddaab155e98b4b674c715dc82c5bb11b7",
+        "size": 37909,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/aca262dddaab155e98b4b674c715dc82c5bb11b7"
+      },
+      {
+        "path": "TESTING/droplets/poseidon/poseidon.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "781163ce8d059bc01bf66f62fb09a56bdfba27ec",
+        "size": 133257,
+        "url": "https://api.github.com/repos/pachterlab/poseidon/git/blobs/781163ce8d059bc01bf66f62fb09a56bdfba27ec"
+      }
+    ],
+    "truncated": false
+  }
+}

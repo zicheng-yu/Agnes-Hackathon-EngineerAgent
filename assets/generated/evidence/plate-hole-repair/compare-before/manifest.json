@@ -1,0 +1,448 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "compare_views",
+  "metrics": {
+    "source_edge_pixels": 4492,
+    "projection_edge_pixels": 4636,
+    "missing_pixels": 608,
+    "extra_pixels": 752,
+    "missing_fraction": 0.13535173642030277,
+    "extra_fraction": 0.1622088006902502,
+    "precision": 0.8377911993097498,
+    "recall": 0.8646482635796973,
+    "f1": 0.8510078878177038,
+    "symmetric_mean_distance_mm": 0.06967447324711773,
+    "p95_distance_mm": 0.5,
+    "max_distance_mm": 0.6009252125773316,
+    "normalized_mean_distance": 0.0008709309155889716,
+    "normalization_length_mm": 80.0,
+    "tolerance_mm": 0.15,
+    "missing_regions": [
+      {
+        "pixels": 144,
+        "bbox_px": [
+          104,
+          104,
+          52,
+          52
+        ]
+      },
+      {
+        "pixels": 144,
+        "bbox_px": [
+          404,
+          104,
+          52,
+          52
+        ]
+      },
+      {
+        "pixels": 144,
+        "bbox_px": [
+          104,
+          284,
+          52,
+          52
+        ]
+      },
+      {
+        "pixels": 144,
+        "bbox_px": [
+          404,
+          284,
+          52,
+          52
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          435,
+          337,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          102,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          124,
+          157,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          457,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          402,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          157,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          402,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          457,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          424,
+          157,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          157,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          102,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          435,
+          102,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          424,
+          102,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          135,
+          102,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          135,
+          157,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          435,
+          157,
+          1,
+          1
+        ]
+      }
+    ],
+    "extra_regions": [
+      {
+        "pixels": 180,
+        "bbox_px": [
+          98,
+          98,
+          64,
+          64
+        ]
+      },
+      {
+        "pixels": 180,
+        "bbox_px": [
+          398,
+          98,
+          64,
+          64
+        ]
+      },
+      {
+        "pixels": 180,
+        "bbox_px": [
+          98,
+          278,
+          64,
+          64
+        ]
+      },
+      {
+        "pixels": 180,
+        "bbox_px": [
+          398,
+          278,
+          64,
+          64
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          458,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          124,
+          158,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          458,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          401,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          158,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          101,
+          135,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          401,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          424,
+          158,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          158,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          101,
+          124,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          435,
+          101,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          424,
+          101,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          135,
+          101,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          124,
+          101,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          135,
+          158,
+          1,
+          1
+        ]
+      },
+      {
+        "pixels": 1,
+        "bbox_px": [
+          435,
+          338,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "passed": false,
+    "minimum_match_fraction": 0.995,
+    "scope": "Corresponding calibrated 2-D contour agreement only; not proof of a unique or manufacturing-correct 3-D reconstruction."
+  },
+  "registration": {
+    "source_px_per_mm": 6.0,
+    "projection_px_per_mm": 6.0,
+    "derived_uniform_scale": 1.0,
+    "rotation_degrees": 0.0,
+    "translation_px": [
+      0.0,
+      0.0
+    ],
+    "source_origin_px": [
+      280.0,
+      220.0
+    ],
+    "projection_origin_px": [
+      280.0,
+      220.0
+    ],
+    "forward_matrix_2x2": [
+      [
+        1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "offset_px": [
+      0.0,
+      0.0
+    ],
+    "scale_evidence": {
+      "source": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "projection": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry."
+    }
+  },
+  "files": {
+    "overlay": "assets/generated/evidence/plate-hole-repair/compare-before/overlay.png",
+    "missing": "assets/generated/evidence/plate-hole-repair/compare-before/missing.png",
+    "extra": "assets/generated/evidence/plate-hole-repair/compare-before/extra.png",
+    "metrics": "assets/generated/evidence/plate-hole-repair/compare-before/metrics.json",
+    "source_raster": "assets/generated/evidence/plate-hole-repair/compare-before/source-raster.png",
+    "registered_projection": "assets/generated/evidence/plate-hole-repair/compare-before/projection-registered.png"
+  },
+  "legend": {
+    "green": "matched contour",
+    "red": "source contour missing from projection",
+    "blue": "extra projected contour",
+    "gray": "caller-excluded annotation region"
+  },
+  "limitations": [
+    "Caller must isolate the same view and supply calibrated scale and rigid registration.",
+    "Scale metadata is not inferred or independently verified from drawing dimensions.",
+    "Annotation removal is explicit; no page segmentation, OCR or automatic hole semantics.",
+    "Occluded and hidden lines must use consistent inclusion rules on both images."
+  ],
+  "errors": []
+}

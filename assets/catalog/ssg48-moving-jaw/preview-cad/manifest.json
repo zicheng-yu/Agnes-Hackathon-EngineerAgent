@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "ssg48-moving-jaw",
+  "name": "SSG48 导向滑动夹爪",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/ssg48-moving-jaw/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/ssg48-moving-jaw/preview-cad/model.glb",
+    "mesh": "assets/catalog/ssg48-moving-jaw/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/ssg48-moving-jaw/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/ssg48-moving-jaw/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/ssg48-moving-jaw/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10278.645814,
+        "area_mm2": 6379.122023,
+        "bbox": {
+          "min": [
+            -18.90069944049754,
+            -2.025000100000281,
+            438.1618517999996
+          ],
+          "max": [
+            1.0000001000007859,
+            29.375000100000584,
+            513.5000001000002
+          ],
+          "size": [
+            19.900699540498326,
+            31.400000200000864,
+            75.33814830000057
+          ]
+        },
+        "center_of_mass": [
+          -8.733386012116986,
+          9.130275003193102,
+          491.0123751258898
+        ],
+        "faces": 137,
+        "edges": 372
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/ssg48-moving-jaw/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 10278.645814,
+    "area_mm2": 6379.122023,
+    "bbox": {
+      "min": [
+        -18.90069944049754,
+        -2.025000100000281,
+        438.1618517999996
+      ],
+      "max": [
+        1.0000001000007859,
+        29.375000100000584,
+        513.5000001000002
+      ],
+      "size": [
+        19.900699540498326,
+        31.400000200000864,
+        75.33814830000057
+      ]
+    },
+    "center_of_mass": [
+      -8.733386012116986,
+      9.130275003193102,
+      491.0123751258898
+    ],
+    "faces": 137,
+    "edges": 372,
+    "sum_of_solid_volumes_mm3": 10278.645813875653
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

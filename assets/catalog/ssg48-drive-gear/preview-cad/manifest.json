@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "ssg48-drive-gear",
+  "name": "SSG48 夹爪传动齿轮",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/ssg48-drive-gear/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/ssg48-drive-gear/preview-cad/model.glb",
+    "mesh": "assets/catalog/ssg48-drive-gear/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/ssg48-drive-gear/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-gear/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-gear/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 2634.18826,
+        "area_mm2": 2197.829789,
+        "bbox": {
+          "min": [
+            -2.5007649962499134,
+            -13.500000100000005,
+            -13.504196142988983
+          ],
+          "max": [
+            8.154196142988981,
+            13.500000100000003,
+            13.504196142988983
+          ],
+          "size": [
+            10.654961139238894,
+            27.00000020000001,
+            27.008392285977965
+          ]
+        },
+        "center_of_mass": [
+          4.885605905679024,
+          1.8774014101971982e-07,
+          -1.216234777298332e-05
+        ],
+        "faces": 107,
+        "edges": 297
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/ssg48-drive-gear/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2634.18826,
+    "area_mm2": 2197.829789,
+    "bbox": {
+      "min": [
+        -2.5007649962499134,
+        -13.500000100000005,
+        -13.504196142988983
+      ],
+      "max": [
+        8.154196142988981,
+        13.500000100000003,
+        13.504196142988983
+      ],
+      "size": [
+        10.654961139238894,
+        27.00000020000001,
+        27.008392285977965
+      ]
+    },
+    "center_of_mass": [
+      4.885605905679024,
+      1.8774014101971982e-07,
+      -1.216234777298332e-05
+    ],
+    "faces": 107,
+    "edges": 297,
+    "sum_of_solid_volumes_mm3": 2634.1882600943836
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

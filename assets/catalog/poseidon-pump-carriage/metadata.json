@@ -1,0 +1,125 @@
+{
+  "id": "poseidon-pump-carriage",
+  "name": "Poseidon 注射泵滑动推座",
+  "category": "流体与泵",
+  "material": null,
+  "summary": "Poseidon 注射泵滑动推座，来自 pachterlab/poseidon 的公开机械设计。",
+  "useCase": "定量推注运动机构",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/step/Pump%20Carriage.step",
+  "downloadUrl": "https://raw.githubusercontent.com/pachterlab/poseidon/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/step/Pump%20Carriage.step",
+  "sourceProject": "poseidon",
+  "author": "Pachter Lab / Poseidon contributors",
+  "license": "BSD-2-Clause",
+  "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+  "licensePath": "assets/sources/poseidon/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/poseidon-pump-carriage/source.step",
+  "sizeBytes": 147190,
+  "sha256": "fbfbf8e976e1dafe7db874f0c76309d4a402453450dafebe7eb478a7a44e2563",
+  "downloadedAt": "2026-10-09T04:04:01.800587+00:00",
+  "upstreamCommit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 147190,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI.,.METRE.",
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "previewPath": "assets/catalog/poseidon-pump-carriage/preview.stl",
+  "previewSha256": "51e41033be62c80a04a3551e02158eb95f128512e59a978c4342f1ae41810ef3",
+  "previewSourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/pump/stl/Pump%20Carriage%20Sled%20v51.stl",
+  "previewDownloadedAt": "2026-10-09T04:05:57.492963+00:00",
+  "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+  "previewValidation": {
+    "binaryLengthValid": true,
+    "triangles": 3786,
+    "sha256Matches": true,
+    "units": "unspecified-in-STL"
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/poseidon-pump-carriage/preview-cad/mesh.json",
+    "sourceMeshSha256": "b273014ae0fe228b7999b37cfb156505f1934e0fca4d47510f2e630b615774b9",
+    "trianglesRendered": 10390,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/poseidon-pump-carriage/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/poseidon-pump-carriage/thumbnail.png",
+  "thumbnailSha256": "90a17052944aba621642cc16c9ee373dd606c2db2c4483d538062fc7680a0de3",
+  "browserModelPath": "assets/catalog/poseidon-pump-carriage/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/poseidon-pump-carriage/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 48191.378641,
+      "area_mm2": 12987.461927,
+      "bbox": {
+        "min": [
+          -105.50675094464839,
+          17.993199697886297,
+          -35.50586749807374
+        ],
+        "max": [
+          -76.4931996978863,
+          61.00867752614194,
+          35.50467979617868
+        ],
+        "size": [
+          29.01355124676209,
+          43.01547782825564,
+          71.01054729425242
+        ]
+      },
+      "center_of_mass": [
+        -90.4333895208706,
+        36.41397566966527,
+        0.5134511286843817
+      ],
+      "faces": 111,
+      "edges": 269,
+      "sum_of_solid_volumes_mm3": 48191.378640614006
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/poseidon-pump-carriage/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:13.886910+00:00"
+  },
+  "browserModelSha256": "c772cc18f486dae6d412b4c6d913edf801dcde8e4e4c7d7a09a4ae6afe412f6a",
+  "browserModelSizeBytes": 244076,
+  "browserMeshPath": "assets/catalog/poseidon-pump-carriage/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/poseidon-pump-carriage/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

@@ -1,0 +1,122 @@
+{
+  "id": "micropump-gearbox",
+  "name": "微流控泵减速箱基座",
+  "category": "流体与泵",
+  "material": null,
+  "summary": "微流控泵减速箱基座，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+  "useCase": "低成本微流控驱动机构",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/1%20gear%20box%20base.stl",
+  "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/1%20gear%20box%20base.stl",
+  "sourceProject": "micropump",
+  "author": "Synthetic-Automated-Systems",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+  "licensePath": "assets/sources/micropump/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/micropump-gearbox/source.stl",
+  "sizeBytes": 395684,
+  "sha256": "28fe822ba036ce83f9b98c68167c032d8bca1b6da4baa45c371b0487e18d2864",
+  "downloadedAt": "2026-10-09T04:04:01.801134+00:00",
+  "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 395684,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 7912,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        -51.0,
+        -39.25,
+        -70.0
+      ],
+      [
+        10.0,
+        12.0,
+        10.0
+      ]
+    ],
+    "extents": [
+      61.0,
+      51.25,
+      80.0
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/micropump-gearbox/preview-cad/mesh.json",
+    "sourceMeshSha256": "d225a0a7c28533c443fd17492e69ea205261e2665476714af7dc05d15a624aca",
+    "trianglesRendered": 7912,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/micropump-gearbox/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/micropump-gearbox/thumbnail.png",
+  "thumbnailSha256": "360c32f92ecc85a7c94822ee294977413ef8d89590f56e5a2a2de0034c3490e9",
+  "browserModelPath": "assets/catalog/micropump-gearbox/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/micropump-gearbox/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": true,
+      "solids": null,
+      "mesh_components": 1,
+      "volume_mm3": 34288.40175840614,
+      "bbox": {
+        "min": [
+          -51.0,
+          -39.25,
+          -70.0
+        ],
+        "max": [
+          10.0,
+          12.0,
+          10.0
+        ],
+        "size": [
+          61.0,
+          51.25,
+          80.0
+        ]
+      },
+      "faces": 7912,
+      "surface_area_mm2": 15001.196261890404
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/micropump-gearbox/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:14.835980+00:00"
+  },
+  "browserModelSha256": "4f4e80fed427d849d8ed5aeee789fa89e2de3d6c6dbab50ceaa54b2feb8c9f11",
+  "browserModelSizeBytes": 142880,
+  "browserMeshPath": "assets/catalog/micropump-gearbox/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/micropump-gearbox/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

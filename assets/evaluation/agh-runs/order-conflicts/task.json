@@ -1,0 +1,788 @@
+{
+  "id": "e9761319-5f86-4c7e-9752-002e07d63da1",
+  "status": "completed",
+  "createdAt": "2026-10-10T09:47:56.969Z",
+  "title": "订单评审",
+  "mode": "order_review",
+  "events": [
+    {
+      "time": "2026-10-10T09:48:06.676Z",
+      "type": "session",
+      "message": "AGH 会话已创建"
+    },
+    {
+      "time": "2026-10-10T09:48:11.940Z",
+      "type": "tool/call",
+      "message": "评审采购与生产条件",
+      "phase": "running",
+      "toolUseId": "t0-63c0ab1ede7e8867db14bed1b1754f27",
+      "toolName": "industrial_review_order",
+      "input": "数据来源：synthetic_demo\n内部编号 | 零件名称 | 数量 | 单位 | 材料 | 版本 | 规格 | 交期\nCYR-001 | 摆线减速器主环壳 | 8 | 件 | 6061-T6 | A | CYR-001-A | 2026-10-20\nSGH-003 | SSG48 多腔驱动壳体 | 5 | 件 | PA12 | A | SGH-003-A | 2026-10-20\nFIN-004 | Fin Ray 柔顺夹指 | 6 | 件 | TPU | A | 未注明 | 2026-10-20\nUNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 | 件 | PLA+ | A | PPB-006-A | 2026-10-20"
+    },
+    {
+      "time": "2026-10-10T09:48:11.972Z",
+      "type": "tool/result",
+      "message": "评审采购与生产条件",
+      "phase": "completed",
+      "toolUseId": "t0-63c0ab1ede7e8867db14bed1b1754f27",
+      "toolName": "industrial_review_order",
+      "output": "识别 4 行，估算 0 小时。"
+    },
+    {
+      "time": "2026-10-10T09:48:15.264Z",
+      "type": "assistant",
+      "message": "\n\n\n"
+    },
+    {
+      "time": "2026-10-10T09:48:15.265Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t1-7fe59f2800edf0b7f33ef8a7886b9eba",
+      "toolName": "industrial_search_catalog",
+      "input": "摆线减速器主环壳"
+    },
+    {
+      "time": "2026-10-10T09:48:15.265Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t2-eed90c05fe0c91bf5ce1e56ee3505906",
+      "toolName": "industrial_search_catalog",
+      "input": "SSG48 多腔驱动壳体"
+    },
+    {
+      "time": "2026-10-10T09:48:15.266Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t3-af899ce88fe08bbe267b9083b82893e9",
+      "toolName": "industrial_search_catalog",
+      "input": "Fin Ray 柔顺夹指"
+    },
+    {
+      "time": "2026-10-10T09:48:15.266Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t4-ba3df6b3e34fc795cf1124e5b7630fcf",
+      "toolName": "industrial_search_catalog",
+      "input": "Poseidon 注射泵导轨基座"
+    },
+    {
+      "time": "2026-10-10T09:48:15.296Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t1-7fe59f2800edf0b7f33ef8a7886b9eba",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 1 条：FG-002 摆线减速器主环壳"
+    },
+    {
+      "time": "2026-10-10T09:48:15.297Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t3-af899ce88fe08bbe267b9083b82893e9",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 1 条：FG-011 Fin Ray 柔顺夹指"
+    },
+    {
+      "time": "2026-10-10T09:48:15.298Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t4-ba3df6b3e34fc795cf1124e5b7630fcf",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 1 条：FG-004 Poseidon 注射泵导轨基座"
+    },
+    {
+      "time": "2026-10-10T09:48:15.299Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t2-eed90c05fe0c91bf5ce1e56ee3505906",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 1 条：FG-008 SSG48 多腔驱动壳体"
+    },
+    {
+      "time": "2026-10-10T09:48:40.242Z",
+      "type": "assistant",
+      "message": "# 采购订单审查结果（synthetic_demo 演示台账）\n\n**数据来源：synthetic_demo — 本地企业台账为合成演示数据，所有结果均为确定性情景估算，不构成真实生产或交期承诺。**\n\n- 订单共 4 行，请求总量 21 件；**0 行可估算就绪**（3 行 blocked、1 行 unmatched），因此**无法形成任何工时/产能估算**，库存与生产数量字段全部保持未确定。\n\n## 逐行明细\n\n| 行 | 内部编号 | 零件名称 | 数量 | 材料/版本 | 台账核对结果 | 分配库存 | 待生产 | 工时 | 状态 |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | CYR-001 | 摆线减速器主环壳 | 8 件 | 6061-T6 / A | 代码精确匹配「摆线减速器主环壳」（公开源模型 FG-002，MIT），但材料冲突：源模型为 PETG，演示台账规格也为 PETG，请求 6061-T6 | 未确定 | 未确定 | 未确定 | **blocked** |\n| 2 | SGH-003 | SSG48 多腔驱动壳体 | 5 件 | PA12 / A | 代码精确匹配「SSG48 多腔驱动壳体」（FG-008，Apache-2.0）；源模型材料未登记；**版本冲突：请求 A，台账版本 B** | 未确定 | 未确定 | 未确定 | **blocked** |\n| 3 | FIN-004 | Fin Ray 柔顺夹指 | 6 件 | TPU / A | 代码精确匹配「Fin Ray 柔顺夹指」（FG-011，Apache-2.0）；源模型材料未登记；**缺少规格/图号（订单中为“未注明”）** | 未确定 | 未确定 | 未确定 | **blocked** |\n| 4 | UNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 件 | PLA+ / A | 内部编号 UNKNOWN-999 未在资产登记中找到；按名称最佳候选为「Poseidon 注射泵导轨基座」（FG-004，BSD-2-Clause，得分 0.9），但编号、版本、材料、规格均未核对 | 未确定 | 未确定 | 未确定 | **unmatched** |\n\n## 阻断项与缺失字段\n\n1. **CYR-001（blocked，材料双重冲突）**：请求材料 6061-T6 与公开源模型材料 PETG 不同，且与演示台账规格 PETG 不一致。不能按同一设计直接评审；需确认是否改用 6061-T6 重制，或接受 PETG 源设计。\n2. **SGH-003（blocked，版本冲突）**：请求版本 A，演示台账登记版本为 B；且源模型材料未登记，PA12 只能作为独立台账假设。\n3. **FIN-004（blocked，缺规格）**：订单规格栏为“未注明”，无法形成完整生产评审；源模型材料也未登记。\n4. **UNKNOWN-999（unmatched，身份未确认）**：内部编号未登记；名称候选仅供检索，不覆盖编号差异；材料 PLA+ 同样未核对。\n\n## 本地目录参考候选\n\n| 候选 ID | 显示代码 | 名称 | 材料（目录登记） | 来源/许可 | 对应订单行 |\n|---|---|---|---|---|---|\n| cycloid-main-ring | FG-002 | 摆线减速器主环壳 | PETG | open-cycloidal-actuator，MIT | CYR-001 |\n| ssg48-main-housing | FG-008 | SSG48 多腔驱动壳体 | 未登记 | SSG-48-adaptive-electric-gripper，Apache-2.0 | SGH-003 |\n| ssg48-finray-finger | FG-011 | Fin Ray 柔顺夹指 | 未登记 | SSG-48-adaptive-electric-gripper，Apache-2.0 | FIN-004 |\n| poseidon-pump-base | FG-004 | Poseidon 注射泵导轨基座 | 未登记 | poseidon，BSD-2-Clause | UNKNOWN-999 |\n\n目录命中只是参考候选，不构成材料、版本、可制造性或图纸等效的证明。\n\n## 建议\n\n- 请补齐/澄清以下证据后再评审：**CYR-001 的材料裁决（6061-T6 vs PETG）、SGH-003 的版本 B 说明或 A 的登记、FIN-004 的规格图号、UNKNOWN-999 的正确内部编号及材料/版本确认**。\n- 若需要，我可以用 `industrial_request_clarification` 把上述缺失字段作为结构化澄清请求发出；当前 4 行均无库存、无工时、无产能缺口可报（完整估算 = 否，canCommit = 否）。\n- 交期 2026-10-20：合成台账未做排程校验，交期承诺一律不成立。"
+    },
+    {
+      "time": "2026-10-10T09:48:40.245Z",
+      "type": "turn/end",
+      "message": "AGH 任务轮次结束"
+    },
+    {
+      "time": "2026-10-10T09:48:40.767Z",
+      "type": "success",
+      "message": "AGH 已完成任务与结果检查"
+    }
+  ],
+  "instruction": "数据来源：synthetic_demo\n内部编号 | 零件名称 | 数量 | 单位 | 材料 | 版本 | 规格 | 交期\nCYR-001 | 摆线减速器主环壳 | 8 | 件 | 6061-T6 | A | CYR-001-A | 2026-10-20\nSGH-003 | SSG48 多腔驱动壳体 | 5 | 件 | PA12 | A | SGH-003-A | 2026-10-20\nFIN-004 | Fin Ray 柔顺夹指 | 6 | 件 | TPU | A | 未注明 | 2026-10-20\nUNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 | 件 | PLA+ | A | PPB-006-A | 2026-10-20",
+  "sessionId": "agnes:local:local-dev:cli:session:17a3fcb8-d352-400a-baf0-708352604c2c",
+  "result": {
+    "type": "result",
+    "success": true,
+    "outcome": "completed",
+    "mode": "order_review",
+    "execution": "real-agh-external-account",
+    "sessionId": "agnes:local:local-dev:cli:session:17a3fcb8-d352-400a-baf0-708352604c2c",
+    "model": "agnes-3.0-flash",
+    "result": {
+      "stopReason": "end_turn",
+      "reason": "completed",
+      "lastSeq": 78,
+      "credits": {
+        "used": 0,
+        "source": "estimated"
+      }
+    },
+    "geometryRuns": [],
+    "orderReview": {
+      "schemaVersion": "1.0",
+      "parser": "rule-based",
+      "dataSource": "synthetic_demo",
+      "datasetId": "forge-synthetic-enterprise-2026-10",
+      "items": [
+        {
+          "lineId": "line-3",
+          "lineNumber": 3,
+          "sourceText": "CYR-001 | 摆线减速器主环壳 | 8 | 件 | 6061-T6 | A | CYR-001-A | 2026-10-20",
+          "name": "摆线减速器主环壳",
+          "internalCode": "CYR-001",
+          "quantity": 8,
+          "quantityUnit": "件",
+          "requestedMaterial": "6061-T6",
+          "requestedRevision": "A",
+          "specification": "CYR-001-A",
+          "requestedDelivery": "2026-10-20",
+          "deliveryDate": "2026-10-20",
+          "parser": "rule-based",
+          "issues": [
+            {
+              "code": "source_material_conflict",
+              "message": "请求材料与公开源模型材料不同，不能按同一设计直接评审",
+              "severity": "blocker"
+            },
+            {
+              "code": "material_conflict",
+              "message": "请求材料与演示规格 PETG 不一致",
+              "severity": "blocker"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "cycloid-main-ring",
+              "name": "摆线减速器主环壳",
+              "score": 1,
+              "reasons": [
+                "内部编号或资产 ID 完全匹配"
+              ],
+              "codeExact": true,
+              "nameExact": true,
+              "materialStatus": "conflict",
+              "sourceMaterial": "PETG"
+            }
+          ],
+          "matchedAssetId": "cycloid-main-ring",
+          "identityStatus": "exact_code",
+          "materialStatus": "conflict",
+          "status": "blocked",
+          "dataSource": "synthetic_demo",
+          "production": {
+            "availableStock": null,
+            "allocatedStock": null,
+            "toProduce": null,
+            "setupHours": null,
+            "unitHours": null,
+            "totalHours": null,
+            "route": [],
+            "machine": [],
+            "evidence": [],
+            "canEstimate": false,
+            "canCommit": false,
+            "commitment": "not_a_real_production_commitment",
+            "blockedReason": "请求材料与公开源模型材料不同，不能按同一设计直接评审；请求材料与演示规格 PETG 不一致"
+          }
+        },
+        {
+          "lineId": "line-4",
+          "lineNumber": 4,
+          "sourceText": "SGH-003 | SSG48 多腔驱动壳体 | 5 | 件 | PA12 | A | SGH-003-A | 2026-10-20",
+          "name": "SSG48 多腔驱动壳体",
+          "internalCode": "SGH-003",
+          "quantity": 5,
+          "quantityUnit": "件",
+          "requestedMaterial": "PA12",
+          "requestedRevision": "A",
+          "specification": "SGH-003-A",
+          "requestedDelivery": "2026-10-20",
+          "deliveryDate": "2026-10-20",
+          "parser": "rule-based",
+          "issues": [
+            {
+              "code": "source_material_unknown",
+              "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+              "severity": "info"
+            },
+            {
+              "code": "revision_conflict",
+              "message": "请求版本未登记；演示台账版本为 B",
+              "severity": "blocker"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "ssg48-main-housing",
+              "name": "SSG48 多腔驱动壳体",
+              "score": 1,
+              "reasons": [
+                "内部编号或资产 ID 完全匹配"
+              ],
+              "codeExact": true,
+              "nameExact": true,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            }
+          ],
+          "matchedAssetId": "ssg48-main-housing",
+          "identityStatus": "exact_code",
+          "materialStatus": "unknown_source",
+          "status": "blocked",
+          "dataSource": "synthetic_demo",
+          "production": {
+            "availableStock": null,
+            "allocatedStock": null,
+            "toProduce": null,
+            "setupHours": null,
+            "unitHours": null,
+            "totalHours": null,
+            "route": [],
+            "machine": [],
+            "evidence": [],
+            "canEstimate": false,
+            "canCommit": false,
+            "commitment": "not_a_real_production_commitment",
+            "blockedReason": "请求版本未登记；演示台账版本为 B"
+          }
+        },
+        {
+          "lineId": "line-5",
+          "lineNumber": 5,
+          "sourceText": "FIN-004 | Fin Ray 柔顺夹指 | 6 | 件 | TPU | A | 未注明 | 2026-10-20",
+          "name": "Fin Ray 柔顺夹指",
+          "internalCode": "FIN-004",
+          "quantity": 6,
+          "quantityUnit": "件",
+          "requestedMaterial": "TPU",
+          "requestedRevision": "A",
+          "specification": null,
+          "requestedDelivery": "2026-10-20",
+          "deliveryDate": "2026-10-20",
+          "parser": "rule-based",
+          "issues": [
+            {
+              "code": "source_material_unknown",
+              "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+              "severity": "info"
+            },
+            {
+              "code": "missing_specification",
+              "message": "缺少规格/图号，不能形成完整生产评审",
+              "severity": "blocker"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "ssg48-finray-finger",
+              "name": "Fin Ray 柔顺夹指",
+              "score": 1,
+              "reasons": [
+                "内部编号或资产 ID 完全匹配"
+              ],
+              "codeExact": true,
+              "nameExact": true,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            }
+          ],
+          "matchedAssetId": "ssg48-finray-finger",
+          "identityStatus": "exact_code",
+          "materialStatus": "unknown_source",
+          "status": "blocked",
+          "dataSource": "synthetic_demo",
+          "production": {
+            "availableStock": null,
+            "allocatedStock": null,
+            "toProduce": null,
+            "setupHours": null,
+            "unitHours": null,
+            "totalHours": null,
+            "route": [],
+            "machine": [],
+            "evidence": [],
+            "canEstimate": false,
+            "canCommit": false,
+            "commitment": "not_a_real_production_commitment",
+            "blockedReason": "缺少规格/图号，不能形成完整生产评审"
+          }
+        },
+        {
+          "lineId": "line-6",
+          "lineNumber": 6,
+          "sourceText": "UNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 | 件 | PLA+ | A | PPB-006-A | 2026-10-20",
+          "name": "Poseidon 注射泵导轨基座",
+          "internalCode": "UNKNOWN-999",
+          "quantity": 2,
+          "quantityUnit": "件",
+          "requestedMaterial": "PLA+",
+          "requestedRevision": "A",
+          "specification": "PPB-006-A",
+          "requestedDelivery": "2026-10-20",
+          "deliveryDate": "2026-10-20",
+          "parser": "rule-based",
+          "issues": [
+            {
+              "code": "unknown_internal_code",
+              "message": "内部编号未在资产登记中找到；名称相似不能覆盖编号差异",
+              "severity": "blocker"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "poseidon-pump-base",
+              "name": "Poseidon 注射泵导轨基座",
+              "score": 0.9,
+              "reasons": [
+                "名称完全匹配；仍需核对内部编号、版本、材料和规格"
+              ],
+              "codeExact": false,
+              "nameExact": true,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            },
+            {
+              "id": "poseidon-pump-carriage",
+              "name": "Poseidon 注射泵滑动推座",
+              "score": 0.5,
+              "reasons": [
+                "名称字符相似，仅供候选检索"
+              ],
+              "codeExact": false,
+              "nameExact": false,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            },
+            {
+              "id": "poseidon-scope-base",
+              "name": "Poseidon 显微平台基座",
+              "score": 0.414815,
+              "reasons": [
+                "名称字符相似，仅供候选检索"
+              ],
+              "codeExact": false,
+              "nameExact": false,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            },
+            {
+              "id": "poseidon-optical-stage",
+              "name": "Poseidon 显微成像上平台",
+              "score": 0.35,
+              "reasons": [
+                "名称字符相似，仅供候选检索"
+              ],
+              "codeExact": false,
+              "nameExact": false,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            }
+          ],
+          "matchedAssetId": null,
+          "identityStatus": "candidate_only",
+          "materialStatus": "unresolved",
+          "status": "unmatched",
+          "dataSource": "synthetic_demo",
+          "production": {
+            "availableStock": null,
+            "allocatedStock": null,
+            "toProduce": null,
+            "setupHours": null,
+            "unitHours": null,
+            "totalHours": null,
+            "route": [],
+            "machine": [],
+            "evidence": [],
+            "canEstimate": false,
+            "canCommit": false,
+            "commitment": "not_a_real_production_commitment",
+            "blockedReason": "身份、订单要求及台账尚未全部核对"
+          }
+        }
+      ],
+      "warnings": [],
+      "unparsedLines": [],
+      "summary": {
+        "lineCount": 4,
+        "ready": 0,
+        "needs_review": 0,
+        "blocked": 3,
+        "unmatched": 1,
+        "estimatedLineCount": 0,
+        "requestedQuantity": 21,
+        "allocatedStock": 0,
+        "toProduce": 0,
+        "totalHours": 0,
+        "totalsScope": "only_estimable_lines; quantities are piece counts, not weight or batch equivalents",
+        "completeEstimate": false,
+        "canCommit": false,
+        "note": "基于合成台账的确定性情景估算，不构成真实生产或交期承诺。",
+        "machineLoad": []
+      }
+    },
+    "toolEvidence": [
+      {
+        "toolUseId": "t0-63c0ab1ede7e8867db14bed1b1754f27",
+        "name": "industrial_review_order",
+        "input": {
+          "text": "数据来源：synthetic_demo\n内部编号 | 零件名称 | 数量 | 单位 | 材料 | 版本 | 规格 | 交期\nCYR-001 | 摆线减速器主环壳 | 8 | 件 | 6061-T6 | A | CYR-001-A | 2026-10-20\nSGH-003 | SSG48 多腔驱动壳体 | 5 | 件 | PA12 | A | SGH-003-A | 2026-10-20\nFIN-004 | Fin Ray 柔顺夹指 | 6 | 件 | TPU | A | 未注明 | 2026-10-20\nUNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 | 件 | PLA+ | A | PPB-006-A | 2026-10-20"
+        },
+        "result": {
+          "schemaVersion": "1.0",
+          "parser": "rule-based",
+          "dataSource": "synthetic_demo",
+          "datasetId": "forge-synthetic-enterprise-2026-10",
+          "items": [
+            {
+              "lineId": "line-3",
+              "lineNumber": 3,
+              "sourceText": "CYR-001 | 摆线减速器主环壳 | 8 | 件 | 6061-T6 | A | CYR-001-A | 2026-10-20",
+              "name": "摆线减速器主环壳",
+              "internalCode": "CYR-001",
+              "quantity": 8,
+              "quantityUnit": "件",
+              "requestedMaterial": "6061-T6",
+              "requestedRevision": "A",
+              "specification": "CYR-001-A",
+              "requestedDelivery": "2026-10-20",
+              "deliveryDate": "2026-10-20",
+              "parser": "rule-based",
+              "issues": [
+                {
+                  "code": "source_material_conflict",
+                  "message": "请求材料与公开源模型材料不同，不能按同一设计直接评审",
+                  "severity": "blocker"
+                },
+                {
+                  "code": "material_conflict",
+                  "message": "请求材料与演示规格 PETG 不一致",
+                  "severity": "blocker"
+                }
+              ],
+              "candidates": [
+                {
+                  "id": "cycloid-main-ring",
+                  "name": "摆线减速器主环壳",
+                  "score": 1,
+                  "reasons": [
+                    "内部编号或资产 ID 完全匹配"
+                  ],
+                  "codeExact": true,
+                  "nameExact": true,
+                  "materialStatus": "conflict",
+                  "sourceMaterial": "PETG"
+                }
+              ],
+              "matchedAssetId": "cycloid-main-ring",
+              "identityStatus": "exact_code",
+              "materialStatus": "conflict",
+              "status": "blocked",
+              "dataSource": "synthetic_demo",
+              "production": {
+                "availableStock": null,
+                "allocatedStock": null,
+                "toProduce": null,
+                "setupHours": null,
+                "unitHours": null,
+                "totalHours": null,
+                "route": [],
+                "machine": [],
+                "evidence": [],
+                "canEstimate": false,
+                "canCommit": false,
+                "commitment": "not_a_real_production_commitment",
+                "blockedReason": "请求材料与公开源模型材料不同，不能按同一设计直接评审；请求材料与演示规格 PETG 不一致"
+              }
+            },
+            {
+              "lineId": "line-4",
+              "lineNumber": 4,
+              "sourceText": "SGH-003 | SSG48 多腔驱动壳体 | 5 | 件 | PA12 | A | SGH-003-A | 2026-10-20",
+              "name": "SSG48 多腔驱动壳体",
+              "internalCode": "SGH-003",
+              "quantity": 5,
+              "quantityUnit": "件",
+              "requestedMaterial": "PA12",
+              "requestedRevision": "A",
+              "specification": "SGH-003-A",
+              "requestedDelivery": "2026-10-20",
+              "deliveryDate": "2026-10-20",
+              "parser": "rule-based",
+              "issues": [
+                {
+                  "code": "source_material_unknown",
+                  "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+                  "severity": "info"
+                },
+                {
+                  "code": "revision_conflict",
+                  "message": "请求版本未登记；演示台账版本为 B",
+                  "severity": "blocker"
+                }
+              ],
+              "candidates": [
+                {
+                  "id": "ssg48-main-housing",
+                  "name": "SSG48 多腔驱动壳体",
+                  "score": 1,
+                  "reasons": [
+                    "内部编号或资产 ID 完全匹配"
+                  ],
+                  "codeExact": true,
+                  "nameExact": true,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                }
+              ],
+              "matchedAssetId": "ssg48-main-housing",
+              "identityStatus": "exact_code",
+              "materialStatus": "unknown_source",
+              "status": "blocked",
+              "dataSource": "synthetic_demo",
+              "production": {
+                "availableStock": null,
+                "allocatedStock": null,
+                "toProduce": null,
+                "setupHours": null,
+                "unitHours": null,
+                "totalHours": null,
+                "route": [],
+                "machine": [],
+                "evidence": [],
+                "canEstimate": false,
+                "canCommit": false,
+                "commitment": "not_a_real_production_commitment",
+                "blockedReason": "请求版本未登记；演示台账版本为 B"
+              }
+            },
+            {
+              "lineId": "line-5",
+              "lineNumber": 5,
+              "sourceText": "FIN-004 | Fin Ray 柔顺夹指 | 6 | 件 | TPU | A | 未注明 | 2026-10-20",
+              "name": "Fin Ray 柔顺夹指",
+              "internalCode": "FIN-004",
+              "quantity": 6,
+              "quantityUnit": "件",
+              "requestedMaterial": "TPU",
+              "requestedRevision": "A",
+              "specification": null,
+              "requestedDelivery": "2026-10-20",
+              "deliveryDate": "2026-10-20",
+              "parser": "rule-based",
+              "issues": [
+                {
+                  "code": "source_material_unknown",
+                  "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+                  "severity": "info"
+                },
+                {
+                  "code": "missing_specification",
+                  "message": "缺少规格/图号，不能形成完整生产评审",
+                  "severity": "blocker"
+                }
+              ],
+              "candidates": [
+                {
+                  "id": "ssg48-finray-finger",
+                  "name": "Fin Ray 柔顺夹指",
+                  "score": 1,
+                  "reasons": [
+                    "内部编号或资产 ID 完全匹配"
+                  ],
+                  "codeExact": true,
+                  "nameExact": true,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                }
+              ],
+              "matchedAssetId": "ssg48-finray-finger",
+              "identityStatus": "exact_code",
+              "materialStatus": "unknown_source",
+              "status": "blocked",
+              "dataSource": "synthetic_demo",
+              "production": {
+                "availableStock": null,
+                "allocatedStock": null,
+                "toProduce": null,
+                "setupHours": null,
+                "unitHours": null,
+                "totalHours": null,
+                "route": [],
+                "machine": [],
+                "evidence": [],
+                "canEstimate": false,
+                "canCommit": false,
+                "commitment": "not_a_real_production_commitment",
+                "blockedReason": "缺少规格/图号，不能形成完整生产评审"
+              }
+            },
+            {
+              "lineId": "line-6",
+              "lineNumber": 6,
+              "sourceText": "UNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 | 件 | PLA+ | A | PPB-006-A | 2026-10-20",
+              "name": "Poseidon 注射泵导轨基座",
+              "internalCode": "UNKNOWN-999",
+              "quantity": 2,
+              "quantityUnit": "件",
+              "requestedMaterial": "PLA+",
+              "requestedRevision": "A",
+              "specification": "PPB-006-A",
+              "requestedDelivery": "2026-10-20",
+              "deliveryDate": "2026-10-20",
+              "parser": "rule-based",
+              "issues": [
+                {
+                  "code": "unknown_internal_code",
+                  "message": "内部编号未在资产登记中找到；名称相似不能覆盖编号差异",
+                  "severity": "blocker"
+                }
+              ],
+              "candidates": [
+                {
+                  "id": "poseidon-pump-base",
+                  "name": "Poseidon 注射泵导轨基座",
+                  "score": 0.9,
+                  "reasons": [
+                    "名称完全匹配；仍需核对内部编号、版本、材料和规格"
+                  ],
+                  "codeExact": false,
+                  "nameExact": true,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                },
+                {
+                  "id": "poseidon-pump-carriage",
+                  "name": "Poseidon 注射泵滑动推座",
+                  "score": 0.5,
+                  "reasons": [
+                    "名称字符相似，仅供候选检索"
+                  ],
+                  "codeExact": false,
+                  "nameExact": false,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                },
+                {
+                  "id": "poseidon-scope-base",
+                  "name": "Poseidon 显微平台基座",
+                  "score": 0.414815,
+                  "reasons": [
+                    "名称字符相似，仅供候选检索"
+                  ],
+                  "codeExact": false,
+                  "nameExact": false,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                },
+                {
+                  "id": "poseidon-optical-stage",
+                  "name": "Poseidon 显微成像上平台",
+                  "score": 0.35,
+                  "reasons": [
+                    "名称字符相似，仅供候选检索"
+                  ],
+                  "codeExact": false,
+                  "nameExact": false,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                }
+              ],
+              "matchedAssetId": null,
+              "identityStatus": "candidate_only",
+              "materialStatus": "unresolved",
+              "status": "unmatched",
+              "dataSource": "synthetic_demo",
+              "production": {
+                "availableStock": null,
+                "allocatedStock": null,
+                "toProduce": null,
+                "setupHours": null,
+                "unitHours": null,
+                "totalHours": null,
+                "route": [],
+                "machine": [],
+                "evidence": [],
+                "canEstimate": false,
+                "canCommit": false,
+                "commitment": "not_a_real_production_commitment",
+                "blockedReason": "身份、订单要求及台账尚未全部核对"
+              }
+            }
+          ],
+          "warnings": [],
+          "unparsedLines": [],
+          "summary": {
+            "lineCount": 4,
+            "ready": 0,
+            "needs_review": 0,
+            "blocked": 3,
+            "unmatched": 1,
+            "estimatedLineCount": 0,
+            "requestedQuantity": 21,
+            "allocatedStock": 0,
+            "toProduce": 0,
+            "totalHours": 0,
+            "totalsScope": "only_estimable_lines; quantities are piece counts, not weight or batch equivalents",
+            "completeEstimate": false,
+            "canCommit": false,
+            "note": "基于合成台账的确定性情景估算，不构成真实生产或交期承诺。",
+            "machineLoad": []
+          }
+        },
+        "isError": false
+      }
+    ],
+    "runIds": [],
+    "providerId": "agnes-ai",
+    "usage": {
+      "billingMode": "external",
+      "providerId": "agnes-ai",
+      "model": "agnes-3.0-flash",
+      "costUsd": null,
+      "status": "unavailable",
+      "tokenScope": "agh_main_turn",
+      "requestCount": 4,
+      "promptTokens": 9419,
+      "completionTokens": 1634,
+      "cachedTokens": 7680,
+      "reasoningTokens": 0
+    },
+    "answer": "# 采购订单审查结果（synthetic_demo 演示台账）\n\n**数据来源：synthetic_demo — 本地企业台账为合成演示数据，所有结果均为确定性情景估算，不构成真实生产或交期承诺。**\n\n- 订单共 4 行，请求总量 21 件；**0 行可估算就绪**（3 行 blocked、1 行 unmatched），因此**无法形成任何工时/产能估算**，库存与生产数量字段全部保持未确定。\n\n## 逐行明细\n\n| 行 | 内部编号 | 零件名称 | 数量 | 材料/版本 | 台账核对结果 | 分配库存 | 待生产 | 工时 | 状态 |\n|---|---|---|---|---|---|---|---|---|---|\n| 1 | CYR-001 | 摆线减速器主环壳 | 8 件 | 6061-T6 / A | 代码精确匹配「摆线减速器主环壳」（公开源模型 FG-002，MIT），但材料冲突：源模型为 PETG，演示台账规格也为 PETG，请求 6061-T6 | 未确定 | 未确定 | 未确定 | **blocked** |\n| 2 | SGH-003 | SSG48 多腔驱动壳体 | 5 件 | PA12 / A | 代码精确匹配「SSG48 多腔驱动壳体」（FG-008，Apache-2.0）；源模型材料未登记；**版本冲突：请求 A，台账版本 B** | 未确定 | 未确定 | 未确定 | **blocked** |\n| 3 | FIN-004 | Fin Ray 柔顺夹指 | 6 件 | TPU / A | 代码精确匹配「Fin Ray 柔顺夹指」（FG-011，Apache-2.0）；源模型材料未登记；**缺少规格/图号（订单中为“未注明”）** | 未确定 | 未确定 | 未确定 | **blocked** |\n| 4 | UNKNOWN-999 | Poseidon 注射泵导轨基座 | 2 件 | PLA+ / A | 内部编号 UNKNOWN-999 未在资产登记中找到；按名称最佳候选为「Poseidon 注射泵导轨基座」（FG-004，BSD-2-Clause，得分 0.9），但编号、版本、材料、规格均未核对 | 未确定 | 未确定 | 未确定 | **unmatched** |\n\n## 阻断项与缺失字段\n\n1. **CYR-001（blocked，材料双重冲突）**：请求材料 6061-T6 与公开源模型材料 PETG 不同，且与演示台账规格 PETG 不一致。不能按同一设计直接评审；需确认是否改用 6061-T6 重制，或接受 PETG 源设计。\n2. **SGH-003（blocked，版本冲突）**：请求版本 A，演示台账登记版本为 B；且源模型材料未登记，PA12 只能作为独立台账假设。\n3. **FIN-004（blocked，缺规格）**：订单规格栏为“未注明”，无法形成完整生产评审；源模型材料也未登记。\n4. **UNKNOWN-999（unmatched，身份未确认）**：内部编号未登记；名称候选仅供检索，不覆盖编号差异；材料 PLA+ 同样未核对。\n\n## 本地目录参考候选\n\n| 候选 ID | 显示代码 | 名称 | 材料（目录登记） | 来源/许可 | 对应订单行 |\n|---|---|---|---|---|---|\n| cycloid-main-ring | FG-002 | 摆线减速器主环壳 | PETG | open-cycloidal-actuator，MIT | CYR-001 |\n| ssg48-main-housing | FG-008 | SSG48 多腔驱动壳体 | 未登记 | SSG-48-adaptive-electric-gripper，Apache-2.0 | SGH-003 |\n| ssg48-finray-finger | FG-011 | Fin Ray 柔顺夹指 | 未登记 | SSG-48-adaptive-electric-gripper，Apache-2.0 | FIN-004 |\n| poseidon-pump-base | FG-004 | Poseidon 注射泵导轨基座 | 未登记 | poseidon，BSD-2-Clause | UNKNOWN-999 |\n\n目录命中只是参考候选，不构成材料、版本、可制造性或图纸等效的证明。\n\n## 建议\n\n- 请补齐/澄清以下证据后再评审：**CYR-001 的材料裁决（6061-T6 vs PETG）、SGH-003 的版本 B 说明或 A 的登记、FIN-004 的规格图号、UNKNOWN-999 的正确内部编号及材料/版本确认**。\n- 若需要，我可以用 `industrial_request_clarification` 把上述缺失字段作为结构化澄清请求发出；当前 4 行均无库存、无工时、无产能缺口可报（完整估算 = 否，canCommit = 否）。\n- 交期 2026-10-20：合成台账未做排程校验，交期承诺一律不成立。"
+  },
+  "usage": {
+    "billingMode": "external",
+    "providerId": "agnes-ai",
+    "model": "agnes-3.0-flash",
+    "costUsd": null,
+    "status": "unavailable",
+    "tokenScope": "agh_main_turn",
+    "requestCount": 4,
+    "promptTokens": 9419,
+    "completionTokens": 1634,
+    "cachedTokens": 7680,
+    "reasoningTokens": 0
+  }
+}

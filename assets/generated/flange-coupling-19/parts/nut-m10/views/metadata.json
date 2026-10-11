@@ -1,0 +1,118 @@
+{
+  "units": "mm",
+  "source": "Measured analytic B-rep; not declared feature dimensions",
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1171.854942,
+    "area_mm2": 989.276346,
+    "bbox": {
+      "min": [
+        -9.500000000000002,
+        -8.22724133595217,
+        0.0
+      ],
+      "max": [
+        9.5,
+        8.227241335952172,
+        8.0
+      ],
+      "size": [
+        19.0,
+        16.454482671904344,
+        8.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -2.952876673675525e-15,
+      2.2966626382808187e-16,
+      3.9632492344098504
+    ],
+    "faces": 16,
+    "edges": 35
+  },
+  "views": {
+    "front": {
+      "path": "assets/generated/flange-coupling-19/parts/nut-m10/views/front.svg",
+      "projection_direction": [
+        0,
+        -1,
+        0
+      ],
+      "x_axis_world": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "y_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "measured_width_mm": 8.0,
+      "measured_height_mm": 19.0,
+      "px_per_mm": 18.94736842105263,
+      "origin_px": [
+        191.57894926315785,
+        219.99999999999997
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "top": {
+      "path": "assets/generated/flange-coupling-19/parts/nut-m10/views/top.svg",
+      "projection_direction": [
+        0,
+        0,
+        1
+      ],
+      "x_axis_world": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "y_axis_world": [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "measured_width_mm": 19.0,
+      "measured_height_mm": 16.454482671904344,
+      "px_per_mm": 21.87853651665949,
+      "origin_px": [
+        247.8460969082652,
+        220.0
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "side": {
+      "path": "assets/generated/flange-coupling-19/parts/nut-m10/views/side.svg",
+      "projection_direction": [
+        1,
+        0,
+        0
+      ],
+      "x_axis_world": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "y_axis_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "measured_width_mm": 8.0,
+      "measured_height_mm": 16.454482671904344,
+      "px_per_mm": 21.87853651665949,
+      "origin_px": [
+        40.00000218785365,
+        219.99999999999997
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    }
+  }
+}

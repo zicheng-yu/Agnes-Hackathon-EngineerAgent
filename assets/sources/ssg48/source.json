@@ -1,0 +1,13 @@
+{
+  "id": "ssg48",
+  "repo": "Source-Robotics/SSG-48-adaptive-electric-gripper",
+  "url": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper",
+  "commit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "licenseSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "retrievedAt": "2026-10-09T04:04:01.793866+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

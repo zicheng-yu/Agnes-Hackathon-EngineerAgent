@@ -1,0 +1,86 @@
+{
+  "id": "ea-d01-plate",
+  "name": "EA-D01 mounting base plate",
+  "units": "mm",
+  "features": [
+    {
+      "id": "plate",
+      "op": "box",
+      "size": [
+        120,
+        80,
+        12
+      ]
+    },
+    {
+      "id": "mount-holes",
+      "op": "hole",
+      "diameter": 10,
+      "grid": {
+        "pitch": [
+          96,
+          56
+        ],
+        "count": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "center-bore",
+      "op": "hole",
+      "diameter": 30,
+      "points": [
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "kind": "bbox",
+      "axis": "x",
+      "expected": 120
+    },
+    {
+      "kind": "bbox",
+      "axis": "y",
+      "expected": 80
+    },
+    {
+      "kind": "bbox",
+      "axis": "z",
+      "expected": 12
+    },
+    {
+      "kind": "hole_count",
+      "diameter": 10,
+      "expected": 4
+    },
+    {
+      "kind": "hole_pitch",
+      "diameter": 10,
+      "axis": "x",
+      "expected": 96
+    },
+    {
+      "kind": "hole_pitch",
+      "diameter": 10,
+      "axis": "y",
+      "expected": 56
+    },
+    {
+      "kind": "hole_count",
+      "diameter": 30,
+      "expected": 1
+    },
+    {
+      "kind": "solids",
+      "expected": 1,
+      "tolerance": 0
+    }
+  ]
+}

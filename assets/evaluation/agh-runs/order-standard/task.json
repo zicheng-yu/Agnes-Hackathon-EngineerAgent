@@ -1,0 +1,777 @@
+{
+  "id": "184cb9e2-136f-4c77-b170-9d2e162e7882",
+  "status": "completed",
+  "createdAt": "2026-10-10T09:47:24.933Z",
+  "title": "订单评审",
+  "mode": "order_review",
+  "events": [
+    {
+      "time": "2026-10-10T09:47:34.621Z",
+      "type": "session",
+      "message": "AGH 会话已创建"
+    },
+    {
+      "time": "2026-10-10T09:47:37.383Z",
+      "type": "tool/call",
+      "message": "评审采购与生产条件",
+      "phase": "running",
+      "toolUseId": "t0-5cbb9047ae5663672241a252f6107349",
+      "toolName": "industrial_review_order",
+      "input": "数据来源：synthetic_demo，原创参数化件与机加工台账均为演示，非真实制造履历。\n内部编号 | 零件名称 | 数量 | 单位 | 材料 | 版本 | 规格 | 交期\nFH-101 | 带颈连接法兰 | 30 | 件 | 45钢 | B | FH-101-B | 2026-10-20\nGR-102 | 淬硬导向轴 | 20 | 件 | 40Cr | A | GR-102-A | 2026-10-20"
+    },
+    {
+      "time": "2026-10-10T09:47:37.423Z",
+      "type": "tool/result",
+      "message": "评审采购与生产条件",
+      "phase": "completed",
+      "toolUseId": "t0-5cbb9047ae5663672241a252f6107349",
+      "toolName": "industrial_review_order",
+      "output": "识别 2 行，估算 10.68 小时。"
+    },
+    {
+      "time": "2026-10-10T09:47:54.109Z",
+      "type": "assistant",
+      "message": "**订单审查结果（synthetic_demo，演示台账，非真实生产/交期承诺）**\n\n**第 1 行：FH-101 带颈连接法兰**\n\n| 项目 | 数值 |\n|---|---|\n| 身份 | FH-101 / 版本 B / 材料 45钢 / 规格 FH-101-B（身份完全匹配：code+name） |\n| 数量 | 30 件 |\n| 可分配库存 | 12（同版本/材料合格库存 18 − 预留 6 − 前序占用 0） |\n| 待生产 | 18 |\n| 工时估算 | 准备 1.4 h + 单件 0.26 h × 18 = **共 6.08 h** |\n| 状态 | **ready**（可估算，不可承诺；交期 2026-10-20，产能窗口 2026-10-10 ~ 2026-10-20） |\n\n**第 2 行：GR-102 淬硬导向轴**\n\n| 项目 | 数值 |\n|---|---|\n| 身份 | GR-102 / 版本 A / 材料 40Cr / 规格 GR-102-A（身份完全匹配：code+name） |\n| 数量 | 20 件 |\n| 可分配库存 | 8（同版本/材料合格库存 10 − 预留 2 − 前序占用 0） |\n| 待生产 | 12 |\n| 工时估算 | 准备 1.6 h + 单件 0.25 h × 12 = **共 4.6 h** |\n| 状态 | **ready**（可估算，不可承诺；交期 2026-10-20，产能窗口同上） |\n\n**合计（仅可估算行）：需求 50 件，库存 20 件，待产 30 件，总工时约 10.68 h**\n\n**备注 / 局限**\n- 数据来源 `synthetic_demo`：所有工序、设备、库存与工时均为演示假设，未检查真实材料采购、装夹、公差或连续排程，不构成生产或交期承诺。\n- 两行均有提示：资产文件未登记材料，演示企业材料（45钢/40Cr）只能作为单独的台账假设，建议按真实料批确认。\n- 两行均 ready，无 blocked / needs_review / unmatched，无需候选件搜索。"
+    },
+    {
+      "time": "2026-10-10T09:47:54.114Z",
+      "type": "turn/end",
+      "message": "AGH 任务轮次结束"
+    },
+    {
+      "time": "2026-10-10T09:47:54.616Z",
+      "type": "success",
+      "message": "AGH 已完成任务与结果检查"
+    }
+  ],
+  "instruction": "数据来源：synthetic_demo，原创参数化件与机加工台账均为演示，非真实制造履历。\n内部编号 | 零件名称 | 数量 | 单位 | 材料 | 版本 | 规格 | 交期\nFH-101 | 带颈连接法兰 | 30 | 件 | 45钢 | B | FH-101-B | 2026-10-20\nGR-102 | 淬硬导向轴 | 20 | 件 | 40Cr | A | GR-102-A | 2026-10-20",
+  "sessionId": "agnes:local:local-dev:cli:session:ed3dd00d-95e6-4888-a72e-32ef554390b1",
+  "result": {
+    "type": "result",
+    "success": true,
+    "outcome": "completed",
+    "mode": "order_review",
+    "execution": "real-agh-external-account",
+    "sessionId": "agnes:local:local-dev:cli:session:ed3dd00d-95e6-4888-a72e-32ef554390b1",
+    "model": "agnes-3.0-flash",
+    "result": {
+      "stopReason": "end_turn",
+      "reason": "completed",
+      "lastSeq": 43,
+      "credits": {
+        "used": 0,
+        "source": "estimated"
+      }
+    },
+    "geometryRuns": [],
+    "orderReview": {
+      "schemaVersion": "1.0",
+      "parser": "rule-based",
+      "dataSource": "synthetic_demo",
+      "datasetId": "forge-synthetic-enterprise-2026-10",
+      "items": [
+        {
+          "lineId": "line-3",
+          "lineNumber": 3,
+          "sourceText": "FH-101 | 带颈连接法兰 | 30 | 件 | 45钢 | B | FH-101-B | 2026-10-20",
+          "name": "带颈连接法兰",
+          "internalCode": "FH-101",
+          "quantity": 30,
+          "quantityUnit": "件",
+          "requestedMaterial": "45钢",
+          "requestedRevision": "B",
+          "specification": "FH-101-B",
+          "requestedDelivery": "2026-10-20",
+          "deliveryDate": "2026-10-20",
+          "parser": "rule-based",
+          "issues": [
+            {
+              "code": "source_material_unknown",
+              "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+              "severity": "info"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "flange-hub",
+              "name": "带颈连接法兰",
+              "score": 1,
+              "reasons": [
+                "内部编号或资产 ID 完全匹配"
+              ],
+              "codeExact": true,
+              "nameExact": true,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            }
+          ],
+          "matchedAssetId": "flange-hub",
+          "identityStatus": "exact_code",
+          "materialStatus": "unknown_source",
+          "status": "ready",
+          "dataSource": "synthetic_demo",
+          "production": {
+            "availableStock": 12,
+            "allocatedStock": 12,
+            "toProduce": 18,
+            "setupHours": 1.4,
+            "unitHours": 0.26,
+            "totalHours": 6.08,
+            "route": [
+              {
+                "operation": "CNC 车削外圆、端面与内孔",
+                "machineId": "cnc-lathe-01",
+                "setupHours": 0.8,
+                "unitHours": 0.12,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示 CNC 车削中心",
+                "productionQuantity": 18,
+                "requiredHours": 2.96,
+                "availableHoursBeforeThisLine": 64
+              },
+              {
+                "operation": "CNC 钻削法兰孔系",
+                "machineId": "cnc-drill-01",
+                "setupHours": 0.5,
+                "unitHours": 0.08,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示 CNC 钻铣工位",
+                "productionQuantity": 18,
+                "requiredHours": 1.94,
+                "availableHoursBeforeThisLine": 40
+              },
+              {
+                "operation": "尺寸与孔距检查",
+                "machineId": "qa-01",
+                "setupHours": 0.1,
+                "unitHours": 0.06,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示尺寸检查台",
+                "productionQuantity": 18,
+                "requiredHours": 1.18,
+                "availableHoursBeforeThisLine": 32
+              }
+            ],
+            "machine": [
+              "演示 CNC 车削中心",
+              "演示 CNC 钻铣工位",
+              "演示尺寸检查台"
+            ],
+            "canEstimate": true,
+            "canCommit": false,
+            "commitment": "synthetic_scenario_only",
+            "capacityWindow": {
+              "start": "2026-10-10",
+              "end": "2026-10-20"
+            },
+            "inventoryEvidence": [
+              {
+                "lotId": "demo-FH-101-qualified",
+                "onHand": 18,
+                "reserved": 6,
+                "availableBeforeThisLine": 12,
+                "allocated": 12,
+                "revision": "B",
+                "material": "45钢",
+                "qualityStatus": "qualified",
+                "sourceType": "synthetic_demo"
+              }
+            ],
+            "evidence": [
+              {
+                "type": "part_master",
+                "id": "demo-master-09",
+                "internalCode": "FH-101",
+                "revision": "B",
+                "material": "45钢",
+                "specification": "FH-101-B",
+                "sourceType": "synthetic_demo"
+              },
+              {
+                "type": "formula",
+                "expression": "availableStock = 同版本/材料/规格合格库存 - 预留 - 本订单前序行占用；toProduce = max(0, quantity - allocatedStock)；totalHours = Σ(准备工时 + 单件工时 × 待产量)",
+                "sourceType": "deterministic_rule"
+              },
+              {
+                "type": "assumptions",
+                "text": "工序、设备能力、库存及工时均为演示假设；未检查真实材料采购、装夹、尺寸公差或连续排程。",
+                "sourceType": "synthetic_demo"
+              }
+            ]
+          }
+        },
+        {
+          "lineId": "line-4",
+          "lineNumber": 4,
+          "sourceText": "GR-102 | 淬硬导向轴 | 20 | 件 | 40Cr | A | GR-102-A | 2026-10-20",
+          "name": "淬硬导向轴",
+          "internalCode": "GR-102",
+          "quantity": 20,
+          "quantityUnit": "件",
+          "requestedMaterial": "40Cr",
+          "requestedRevision": "A",
+          "specification": "GR-102-A",
+          "requestedDelivery": "2026-10-20",
+          "deliveryDate": "2026-10-20",
+          "parser": "rule-based",
+          "issues": [
+            {
+              "code": "source_material_unknown",
+              "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+              "severity": "info"
+            }
+          ],
+          "candidates": [
+            {
+              "id": "guide-rod",
+              "name": "淬硬导向轴",
+              "score": 1,
+              "reasons": [
+                "内部编号或资产 ID 完全匹配"
+              ],
+              "codeExact": true,
+              "nameExact": true,
+              "materialStatus": "unknown_source",
+              "sourceMaterial": null
+            }
+          ],
+          "matchedAssetId": "guide-rod",
+          "identityStatus": "exact_code",
+          "materialStatus": "unknown_source",
+          "status": "ready",
+          "dataSource": "synthetic_demo",
+          "production": {
+            "availableStock": 8,
+            "allocatedStock": 8,
+            "toProduce": 12,
+            "setupHours": 1.6,
+            "unitHours": 0.25,
+            "totalHours": 4.6,
+            "route": [
+              {
+                "operation": "CNC 车削轴体",
+                "machineId": "cnc-lathe-01",
+                "setupHours": 0.6,
+                "unitHours": 0.1,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示 CNC 车削中心",
+                "productionQuantity": 12,
+                "requiredHours": 1.8,
+                "availableHoursBeforeThisLine": 61.04
+              },
+              {
+                "operation": "热处理外协占用（仅演示假设）",
+                "machineId": "heat-treatment-demo",
+                "setupHours": 0.4,
+                "unitHours": 0.03,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示热处理外协资源",
+                "productionQuantity": 12,
+                "requiredHours": 0.76,
+                "availableHoursBeforeThisLine": 20
+              },
+              {
+                "operation": "外圆精磨",
+                "machineId": "grinder-01",
+                "setupHours": 0.5,
+                "unitHours": 0.08,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示外圆精磨工位",
+                "productionQuantity": 12,
+                "requiredHours": 1.46,
+                "availableHoursBeforeThisLine": 32
+              },
+              {
+                "operation": "尺寸与表面检查",
+                "machineId": "qa-01",
+                "setupHours": 0.1,
+                "unitHours": 0.04,
+                "sourceType": "synthetic_demo",
+                "machineName": "演示尺寸检查台",
+                "productionQuantity": 12,
+                "requiredHours": 0.58,
+                "availableHoursBeforeThisLine": 30.82
+              }
+            ],
+            "machine": [
+              "演示 CNC 车削中心",
+              "演示热处理外协资源",
+              "演示外圆精磨工位",
+              "演示尺寸检查台"
+            ],
+            "canEstimate": true,
+            "canCommit": false,
+            "commitment": "synthetic_scenario_only",
+            "capacityWindow": {
+              "start": "2026-10-10",
+              "end": "2026-10-20"
+            },
+            "inventoryEvidence": [
+              {
+                "lotId": "demo-GR-102-qualified",
+                "onHand": 10,
+                "reserved": 2,
+                "availableBeforeThisLine": 8,
+                "allocated": 8,
+                "revision": "A",
+                "material": "40Cr",
+                "qualityStatus": "qualified",
+                "sourceType": "synthetic_demo"
+              }
+            ],
+            "evidence": [
+              {
+                "type": "part_master",
+                "id": "demo-master-10",
+                "internalCode": "GR-102",
+                "revision": "A",
+                "material": "40Cr",
+                "specification": "GR-102-A",
+                "sourceType": "synthetic_demo"
+              },
+              {
+                "type": "formula",
+                "expression": "availableStock = 同版本/材料/规格合格库存 - 预留 - 本订单前序行占用；toProduce = max(0, quantity - allocatedStock)；totalHours = Σ(准备工时 + 单件工时 × 待产量)",
+                "sourceType": "deterministic_rule"
+              },
+              {
+                "type": "assumptions",
+                "text": "工序、设备能力、库存及工时均为演示假设；未检查真实材料采购、装夹、尺寸公差或连续排程。",
+                "sourceType": "synthetic_demo"
+              }
+            ]
+          }
+        }
+      ],
+      "warnings": [],
+      "unparsedLines": [],
+      "summary": {
+        "lineCount": 2,
+        "ready": 2,
+        "needs_review": 0,
+        "blocked": 0,
+        "unmatched": 0,
+        "estimatedLineCount": 2,
+        "requestedQuantity": 50,
+        "allocatedStock": 20,
+        "toProduce": 30,
+        "totalHours": 10.68,
+        "totalsScope": "only_estimable_lines; quantities are piece counts, not weight or batch equivalents",
+        "completeEstimate": true,
+        "canCommit": false,
+        "note": "基于合成台账的确定性情景估算，不构成真实生产或交期承诺。",
+        "machineLoad": [
+          {
+            "id": "cnc-lathe-01",
+            "name": "演示 CNC 车削中心",
+            "requiredHours": 4.76,
+            "availableHours": 64,
+            "remainingHours": 59.24
+          },
+          {
+            "id": "cnc-drill-01",
+            "name": "演示 CNC 钻铣工位",
+            "requiredHours": 1.94,
+            "availableHours": 40,
+            "remainingHours": 38.06
+          },
+          {
+            "id": "qa-01",
+            "name": "演示尺寸检查台",
+            "requiredHours": 1.76,
+            "availableHours": 32,
+            "remainingHours": 30.24
+          },
+          {
+            "id": "heat-treatment-demo",
+            "name": "演示热处理外协资源",
+            "requiredHours": 0.76,
+            "availableHours": 20,
+            "remainingHours": 19.24
+          },
+          {
+            "id": "grinder-01",
+            "name": "演示外圆精磨工位",
+            "requiredHours": 1.46,
+            "availableHours": 32,
+            "remainingHours": 30.54
+          }
+        ]
+      }
+    },
+    "toolEvidence": [
+      {
+        "toolUseId": "t0-5cbb9047ae5663672241a252f6107349",
+        "name": "industrial_review_order",
+        "input": {
+          "text": "数据来源：synthetic_demo，原创参数化件与机加工台账均为演示，非真实制造履历。\n内部编号 | 零件名称 | 数量 | 单位 | 材料 | 版本 | 规格 | 交期\nFH-101 | 带颈连接法兰 | 30 | 件 | 45钢 | B | FH-101-B | 2026-10-20\nGR-102 | 淬硬导向轴 | 20 | 件 | 40Cr | A | GR-102-A | 2026-10-20"
+        },
+        "result": {
+          "schemaVersion": "1.0",
+          "parser": "rule-based",
+          "dataSource": "synthetic_demo",
+          "datasetId": "forge-synthetic-enterprise-2026-10",
+          "items": [
+            {
+              "lineId": "line-3",
+              "lineNumber": 3,
+              "sourceText": "FH-101 | 带颈连接法兰 | 30 | 件 | 45钢 | B | FH-101-B | 2026-10-20",
+              "name": "带颈连接法兰",
+              "internalCode": "FH-101",
+              "quantity": 30,
+              "quantityUnit": "件",
+              "requestedMaterial": "45钢",
+              "requestedRevision": "B",
+              "specification": "FH-101-B",
+              "requestedDelivery": "2026-10-20",
+              "deliveryDate": "2026-10-20",
+              "parser": "rule-based",
+              "issues": [
+                {
+                  "code": "source_material_unknown",
+                  "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+                  "severity": "info"
+                }
+              ],
+              "candidates": [
+                {
+                  "id": "flange-hub",
+                  "name": "带颈连接法兰",
+                  "score": 1,
+                  "reasons": [
+                    "内部编号或资产 ID 完全匹配"
+                  ],
+                  "codeExact": true,
+                  "nameExact": true,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                }
+              ],
+              "matchedAssetId": "flange-hub",
+              "identityStatus": "exact_code",
+              "materialStatus": "unknown_source",
+              "status": "ready",
+              "dataSource": "synthetic_demo",
+              "production": {
+                "availableStock": 12,
+                "allocatedStock": 12,
+                "toProduce": 18,
+                "setupHours": 1.4,
+                "unitHours": 0.26,
+                "totalHours": 6.08,
+                "route": [
+                  {
+                    "operation": "CNC 车削外圆、端面与内孔",
+                    "machineId": "cnc-lathe-01",
+                    "setupHours": 0.8,
+                    "unitHours": 0.12,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示 CNC 车削中心",
+                    "productionQuantity": 18,
+                    "requiredHours": 2.96,
+                    "availableHoursBeforeThisLine": 64
+                  },
+                  {
+                    "operation": "CNC 钻削法兰孔系",
+                    "machineId": "cnc-drill-01",
+                    "setupHours": 0.5,
+                    "unitHours": 0.08,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示 CNC 钻铣工位",
+                    "productionQuantity": 18,
+                    "requiredHours": 1.94,
+                    "availableHoursBeforeThisLine": 40
+                  },
+                  {
+                    "operation": "尺寸与孔距检查",
+                    "machineId": "qa-01",
+                    "setupHours": 0.1,
+                    "unitHours": 0.06,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示尺寸检查台",
+                    "productionQuantity": 18,
+                    "requiredHours": 1.18,
+                    "availableHoursBeforeThisLine": 32
+                  }
+                ],
+                "machine": [
+                  "演示 CNC 车削中心",
+                  "演示 CNC 钻铣工位",
+                  "演示尺寸检查台"
+                ],
+                "canEstimate": true,
+                "canCommit": false,
+                "commitment": "synthetic_scenario_only",
+                "capacityWindow": {
+                  "start": "2026-10-10",
+                  "end": "2026-10-20"
+                },
+                "inventoryEvidence": [
+                  {
+                    "lotId": "demo-FH-101-qualified",
+                    "onHand": 18,
+                    "reserved": 6,
+                    "availableBeforeThisLine": 12,
+                    "allocated": 12,
+                    "revision": "B",
+                    "material": "45钢",
+                    "qualityStatus": "qualified",
+                    "sourceType": "synthetic_demo"
+                  }
+                ],
+                "evidence": [
+                  {
+                    "type": "part_master",
+                    "id": "demo-master-09",
+                    "internalCode": "FH-101",
+                    "revision": "B",
+                    "material": "45钢",
+                    "specification": "FH-101-B",
+                    "sourceType": "synthetic_demo"
+                  },
+                  {
+                    "type": "formula",
+                    "expression": "availableStock = 同版本/材料/规格合格库存 - 预留 - 本订单前序行占用；toProduce = max(0, quantity - allocatedStock)；totalHours = Σ(准备工时 + 单件工时 × 待产量)",
+                    "sourceType": "deterministic_rule"
+                  },
+                  {
+                    "type": "assumptions",
+                    "text": "工序、设备能力、库存及工时均为演示假设；未检查真实材料采购、装夹、尺寸公差或连续排程。",
+                    "sourceType": "synthetic_demo"
+                  }
+                ]
+              }
+            },
+            {
+              "lineId": "line-4",
+              "lineNumber": 4,
+              "sourceText": "GR-102 | 淬硬导向轴 | 20 | 件 | 40Cr | A | GR-102-A | 2026-10-20",
+              "name": "淬硬导向轴",
+              "internalCode": "GR-102",
+              "quantity": 20,
+              "quantityUnit": "件",
+              "requestedMaterial": "40Cr",
+              "requestedRevision": "A",
+              "specification": "GR-102-A",
+              "requestedDelivery": "2026-10-20",
+              "deliveryDate": "2026-10-20",
+              "parser": "rule-based",
+              "issues": [
+                {
+                  "code": "source_material_unknown",
+                  "message": "资产文件未登记材料；演示企业材料只能作为单独的台账假设",
+                  "severity": "info"
+                }
+              ],
+              "candidates": [
+                {
+                  "id": "guide-rod",
+                  "name": "淬硬导向轴",
+                  "score": 1,
+                  "reasons": [
+                    "内部编号或资产 ID 完全匹配"
+                  ],
+                  "codeExact": true,
+                  "nameExact": true,
+                  "materialStatus": "unknown_source",
+                  "sourceMaterial": null
+                }
+              ],
+              "matchedAssetId": "guide-rod",
+              "identityStatus": "exact_code",
+              "materialStatus": "unknown_source",
+              "status": "ready",
+              "dataSource": "synthetic_demo",
+              "production": {
+                "availableStock": 8,
+                "allocatedStock": 8,
+                "toProduce": 12,
+                "setupHours": 1.6,
+                "unitHours": 0.25,
+                "totalHours": 4.6,
+                "route": [
+                  {
+                    "operation": "CNC 车削轴体",
+                    "machineId": "cnc-lathe-01",
+                    "setupHours": 0.6,
+                    "unitHours": 0.1,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示 CNC 车削中心",
+                    "productionQuantity": 12,
+                    "requiredHours": 1.8,
+                    "availableHoursBeforeThisLine": 61.04
+                  },
+                  {
+                    "operation": "热处理外协占用（仅演示假设）",
+                    "machineId": "heat-treatment-demo",
+                    "setupHours": 0.4,
+                    "unitHours": 0.03,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示热处理外协资源",
+                    "productionQuantity": 12,
+                    "requiredHours": 0.76,
+                    "availableHoursBeforeThisLine": 20
+                  },
+                  {
+                    "operation": "外圆精磨",
+                    "machineId": "grinder-01",
+                    "setupHours": 0.5,
+                    "unitHours": 0.08,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示外圆精磨工位",
+                    "productionQuantity": 12,
+                    "requiredHours": 1.46,
+                    "availableHoursBeforeThisLine": 32
+                  },
+                  {
+                    "operation": "尺寸与表面检查",
+                    "machineId": "qa-01",
+                    "setupHours": 0.1,
+                    "unitHours": 0.04,
+                    "sourceType": "synthetic_demo",
+                    "machineName": "演示尺寸检查台",
+                    "productionQuantity": 12,
+                    "requiredHours": 0.58,
+                    "availableHoursBeforeThisLine": 30.82
+                  }
+                ],
+                "machine": [
+                  "演示 CNC 车削中心",
+                  "演示热处理外协资源",
+                  "演示外圆精磨工位",
+                  "演示尺寸检查台"
+                ],
+                "canEstimate": true,
+                "canCommit": false,
+                "commitment": "synthetic_scenario_only",
+                "capacityWindow": {
+                  "start": "2026-10-10",
+                  "end": "2026-10-20"
+                },
+                "inventoryEvidence": [
+                  {
+                    "lotId": "demo-GR-102-qualified",
+                    "onHand": 10,
+                    "reserved": 2,
+                    "availableBeforeThisLine": 8,
+                    "allocated": 8,
+                    "revision": "A",
+                    "material": "40Cr",
+                    "qualityStatus": "qualified",
+                    "sourceType": "synthetic_demo"
+                  }
+                ],
+                "evidence": [
+                  {
+                    "type": "part_master",
+                    "id": "demo-master-10",
+                    "internalCode": "GR-102",
+                    "revision": "A",
+                    "material": "40Cr",
+                    "specification": "GR-102-A",
+                    "sourceType": "synthetic_demo"
+                  },
+                  {
+                    "type": "formula",
+                    "expression": "availableStock = 同版本/材料/规格合格库存 - 预留 - 本订单前序行占用；toProduce = max(0, quantity - allocatedStock)；totalHours = Σ(准备工时 + 单件工时 × 待产量)",
+                    "sourceType": "deterministic_rule"
+                  },
+                  {
+                    "type": "assumptions",
+                    "text": "工序、设备能力、库存及工时均为演示假设；未检查真实材料采购、装夹、尺寸公差或连续排程。",
+                    "sourceType": "synthetic_demo"
+                  }
+                ]
+              }
+            }
+          ],
+          "warnings": [],
+          "unparsedLines": [],
+          "summary": {
+            "lineCount": 2,
+            "ready": 2,
+            "needs_review": 0,
+            "blocked": 0,
+            "unmatched": 0,
+            "estimatedLineCount": 2,
+            "requestedQuantity": 50,
+            "allocatedStock": 20,
+            "toProduce": 30,
+            "totalHours": 10.68,
+            "totalsScope": "only_estimable_lines; quantities are piece counts, not weight or batch equivalents",
+            "completeEstimate": true,
+            "canCommit": false,
+            "note": "基于合成台账的确定性情景估算，不构成真实生产或交期承诺。",
+            "machineLoad": [
+              {
+                "id": "cnc-lathe-01",
+                "name": "演示 CNC 车削中心",
+                "requiredHours": 4.76,
+                "availableHours": 64,
+                "remainingHours": 59.24
+              },
+              {
+                "id": "cnc-drill-01",
+                "name": "演示 CNC 钻铣工位",
+                "requiredHours": 1.94,
+                "availableHours": 40,
+                "remainingHours": 38.06
+              },
+              {
+                "id": "qa-01",
+                "name": "演示尺寸检查台",
+                "requiredHours": 1.76,
+                "availableHours": 32,
+                "remainingHours": 30.24
+              },
+              {
+                "id": "heat-treatment-demo",
+                "name": "演示热处理外协资源",
+                "requiredHours": 0.76,
+                "availableHours": 20,
+                "remainingHours": 19.24
+              },
+              {
+                "id": "grinder-01",
+                "name": "演示外圆精磨工位",
+                "requiredHours": 1.46,
+                "availableHours": 32,
+                "remainingHours": 30.54
+              }
+            ]
+          }
+        },
+        "isError": false
+      }
+    ],
+    "runIds": [],
+    "providerId": "agnes-ai",
+    "usage": {
+      "billingMode": "external",
+      "providerId": "agnes-ai",
+      "model": "agnes-3.0-flash",
+      "costUsd": null,
+      "status": "unavailable",
+      "tokenScope": "agh_main_turn",
+      "requestCount": 3,
+      "promptTokens": 6221,
+      "completionTokens": 755,
+      "cachedTokens": 3584,
+      "reasoningTokens": 0
+    },
+    "answer": "**订单审查结果（synthetic_demo，演示台账，非真实生产/交期承诺）**\n\n**第 1 行：FH-101 带颈连接法兰**\n\n| 项目 | 数值 |\n|---|---|\n| 身份 | FH-101 / 版本 B / 材料 45钢 / 规格 FH-101-B（身份完全匹配：code+name） |\n| 数量 | 30 件 |\n| 可分配库存 | 12（同版本/材料合格库存 18 − 预留 6 − 前序占用 0） |\n| 待生产 | 18 |\n| 工时估算 | 准备 1.4 h + 单件 0.26 h × 18 = **共 6.08 h** |\n| 状态 | **ready**（可估算，不可承诺；交期 2026-10-20，产能窗口 2026-10-10 ~ 2026-10-20） |\n\n**第 2 行：GR-102 淬硬导向轴**\n\n| 项目 | 数值 |\n|---|---|\n| 身份 | GR-102 / 版本 A / 材料 40Cr / 规格 GR-102-A（身份完全匹配：code+name） |\n| 数量 | 20 件 |\n| 可分配库存 | 8（同版本/材料合格库存 10 − 预留 2 − 前序占用 0） |\n| 待生产 | 12 |\n| 工时估算 | 准备 1.6 h + 单件 0.25 h × 12 = **共 4.6 h** |\n| 状态 | **ready**（可估算，不可承诺；交期 2026-10-20，产能窗口同上） |\n\n**合计（仅可估算行）：需求 50 件，库存 20 件，待产 30 件，总工时约 10.68 h**\n\n**备注 / 局限**\n- 数据来源 `synthetic_demo`：所有工序、设备、库存与工时均为演示假设，未检查真实材料采购、装夹、公差或连续排程，不构成生产或交期承诺。\n- 两行均有提示：资产文件未登记材料，演示企业材料（45钢/40Cr）只能作为单独的台账假设，建议按真实料批确认。\n- 两行均 ready，无 blocked / needs_review / unmatched，无需候选件搜索。"
+  },
+  "usage": {
+    "billingMode": "external",
+    "providerId": "agnes-ai",
+    "model": "agnes-3.0-flash",
+    "costUsd": null,
+    "status": "unavailable",
+    "tokenScope": "agh_main_turn",
+    "requestCount": 3,
+    "promptTokens": 6221,
+    "completionTokens": 755,
+    "cachedTokens": 3584,
+    "reasoningTokens": 0
+  }
+}

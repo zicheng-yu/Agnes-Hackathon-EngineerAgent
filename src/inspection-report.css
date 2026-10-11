@@ -1,0 +1,229 @@
+.inspection-report {
+  --report-surface: var(--surface, #ffffff);
+  --report-subtle: var(--surface-subtle, #f5f7fa);
+  --report-text: var(--text-primary, #243140);
+  --report-muted: var(--text-secondary, #596979);
+  --report-border: var(--border-color, #d9e1e8);
+  --report-success: var(--success-color, #276749);
+  --report-danger: var(--danger-color, #a63732);
+  color: var(--report-text);
+  background: var(--report-surface);
+  border: 1px solid var(--report-border);
+  border-radius: var(--radius);
+  padding: 18px;
+  font-size: 12px;
+  line-height: 1.65;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.inspection-report *,
+.inspection-report *::before,
+.inspection-report *::after {
+  box-sizing: border-box;
+}
+.inspection-report h3,
+.inspection-report p,
+.inspection-report dl,
+.inspection-report dd {
+  margin: 0;
+}
+.inspection-report h3 {
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.4;
+  color: var(--report-text);
+}
+.inspection-report p + p {
+  margin-top: 8px;
+}
+.inspection-report__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.inspection-report__header p {
+  margin-top: 5px;
+  color: var(--report-muted);
+}
+.inspection-report__status {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 600;
+  padding: 1px 9px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--report-muted);
+  white-space: nowrap;
+}
+.inspection-report__status--pass {
+  color: var(--report-success);
+  background: var(--success-soft);
+}
+.inspection-report__status--fail {
+  color: var(--report-danger);
+  background: var(--danger-soft);
+}
+.inspection-report__summary {
+  padding: 16px;
+  background: var(--report-subtle);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.inspection-report__summary--fail {
+  border-left: 3px solid var(--report-danger);
+}
+.inspection-report__summary strong {
+  font-size: 12px;
+}
+.inspection-report__summary ul {
+  margin: 10px 0 0;
+  padding-left: 22px;
+}
+.inspection-report__summary li + li {
+  margin-top: 8px;
+}
+.inspection-report__metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
+  gap: 10px;
+  margin-bottom: 16px !important;
+}
+.inspection-report__metric {
+  padding: 14px;
+  border: 1px solid var(--report-border);
+  border-radius: 8px;
+  min-width: 0;
+}
+.inspection-report__metric dt {
+  font-size: 12px;
+  color: var(--report-muted);
+  margin-bottom: 6px;
+}
+.inspection-report__metric dd {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--report-text);
+  font-variant-numeric: tabular-nums;
+}
+.inspection-report__metric small,
+.inspection-report__metric .inspection-report__note {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.inspection-report__section {
+  border-top: 1px solid var(--report-border);
+  padding-top: 16px;
+  margin-top: 18px;
+}
+.inspection-report__section summary {
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--report-text);
+}
+.inspection-report__section summary span {
+  margin-left: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--report-muted);
+}
+.inspection-report__section-body {
+  margin-top: 16px;
+}
+.inspection-report__table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--report-border);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.inspection-report table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--report-text);
+}
+.inspection-report th,
+.inspection-report td {
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--report-border);
+  font-size: 13px;
+}
+.inspection-report thead th {
+  background: var(--report-subtle);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--report-muted);
+  white-space: nowrap;
+}
+.inspection-report tbody th {
+  min-width: 150px;
+  font-weight: 500;
+}
+.inspection-report tbody td {
+  min-width: 100px;
+  font-variant-numeric: tabular-nums;
+}
+.inspection-report tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.inspection-report table small {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: var(--report-muted);
+  font-weight: 400;
+}
+.inspection-report__note {
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--report-muted);
+}
+.inspection-report__failure {
+  color: var(--report-danger);
+}
+.inspection-report__path-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.inspection-report__path-heading > span:not(.inspection-report__status) {
+  font-size: 12px;
+  color: var(--report-muted);
+}
+.inspection-report__scope {
+  margin-top: 18px !important;
+}
+.inspection-report--compact {
+  padding: 18px;
+}
+.inspection-report--compact .inspection-report__metrics {
+  gap: 10px;
+}
+.inspection-report--compact .inspection-report__metric {
+  padding: 12px;
+}
+@media (max-width: 600px) {
+  .inspection-report {
+    padding: 16px;
+  }
+  .inspection-report__header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .inspection-report__metrics {
+    grid-template-columns: 1fr;
+  }
+}

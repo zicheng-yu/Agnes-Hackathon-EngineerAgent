@@ -1,0 +1,90 @@
+{
+  "id": "flange-hub",
+  "name": "带颈连接法兰",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "material": "45 steel",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "features": [
+    {
+      "id": "plate",
+      "op": "cylinder",
+      "radius": 80,
+      "height": 18
+    },
+    {
+      "id": "hub",
+      "op": "cylinder",
+      "radius": 45,
+      "height": 24,
+      "translation": [
+        0,
+        0,
+        -24
+      ]
+    },
+    {
+      "id": "blank",
+      "op": "union",
+      "base": "plate",
+      "tool": "hub"
+    },
+    {
+      "id": "flow-bore",
+      "op": "hole",
+      "diameter": 60
+    },
+    {
+      "id": "bolt-holes",
+      "op": "hole",
+      "diameter": 11.5,
+      "points": [
+        [
+          43.84062043356595,
+          43.840620433565945
+        ],
+        [
+          -43.840620433565945,
+          43.84062043356595
+        ],
+        [
+          -43.84062043356596,
+          -43.840620433565945
+        ],
+        [
+          43.84062043356594,
+          -43.84062043356596
+        ]
+      ]
+    },
+    {
+      "id": "edge-break",
+      "op": "chamfer",
+      "selector": ">Z",
+      "length": 1
+    }
+  ],
+  "checks": [
+    {
+      "kind": "bbox",
+      "axis": "x",
+      "expected": 160
+    },
+    {
+      "kind": "bbox",
+      "axis": "z",
+      "expected": 42
+    },
+    {
+      "kind": "circular_edge_diameter",
+      "expected": 60,
+      "feature_id": "flow-bore"
+    }
+  ]
+}

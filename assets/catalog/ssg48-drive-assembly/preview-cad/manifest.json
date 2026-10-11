@@ -1,0 +1,613 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "ssg48-drive-assembly",
+  "name": "SSG48 电动夹爪主体模型",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/ssg48-drive-assembly/source.stl",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/model.glb",
+    "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/mesh.json",
+    "views": {}
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -0.0374576561152935,
+            -0.0374978743493557,
+            -0.06210000067949295
+          ],
+          "max": [
+            0.0374576561152935,
+            0.0374978743493557,
+            -0.04309999942779541
+          ],
+          "size": [
+            0.074915312230587,
+            0.0749957486987114,
+            0.01900000125169754
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-002",
+      "name": "imported-002",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-002/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-002/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -0.037463534623384476,
+            -0.052000001072883606,
+            -0.1043500006198883
+          ],
+          "max": [
+            0.037482939660549164,
+            0.052000001072883606,
+            -0.06210000067949295
+          ],
+          "size": [
+            0.07494647428393364,
+            0.10400000214576721,
+            0.042249999940395355
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-003",
+      "name": "imported-003",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-003/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-003/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            0.00449999887496233,
+            -0.052000001072883606,
+            -0.1043500006198883
+          ],
+          "max": [
+            0.03750000149011612,
+            0.052000001072883606,
+            -0.06970000267028809
+          ],
+          "size": [
+            0.03300000261515379,
+            0.10400000214576721,
+            0.03464999794960022
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-004",
+      "name": "imported-004",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-004/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-004/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -0.0010554513428360224,
+            0.028875000774860382,
+            -0.09763558208942413
+          ],
+          "max": [
+            0.0010554512264207006,
+            0.02961057983338833,
+            -0.09690000116825104
+          ],
+          "size": [
+            0.002110902569256723,
+            0.0007355790585279465,
+            0.0007355809211730957
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-005",
+      "name": "imported-005",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-005/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-005/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -0.0010554520413279533,
+            -0.02961057983338833,
+            -0.09763558208942413
+          ],
+          "max": [
+            0.0010554511100053787,
+            -0.028874998912215233,
+            -0.09690000116825104
+          ],
+          "size": [
+            0.002110903151333332,
+            0.0007355809211730957,
+            0.0007355809211730957
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-006",
+      "name": "imported-006",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-006/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-006/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -0.008500000461935997,
+            -0.05000000074505806,
+            -0.10535000264644623
+          ],
+          "max": [
+            0.008500000461935997,
+            0.05000000074505806,
+            -0.1043500006198883
+          ],
+          "size": [
+            0.017000000923871994,
+            0.10000000149011612,
+            0.0010000020265579224
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-007",
+      "name": "imported-007",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-007/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-007/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -0.0035000001080334187,
+            -0.05000000074505806,
+            -0.11015000194311142
+          ],
+          "max": [
+            0.0035000001080334187,
+            0.05000000074505806,
+            -0.10535000264644623
+          ],
+          "size": [
+            0.007000000216066837,
+            0.10000000149011612,
+            0.004799999296665192
+          ]
+        },
+        "watertight": true
+      }
+    },
+    {
+      "id": "imported-008",
+      "name": "imported-008",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-008/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-008/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            0.00449999887496233,
+            -0.0372290201485157,
+            -0.07422980666160583
+          ],
+          "max": [
+            0.004500000271946192,
+            0.04138587415218353,
+            -0.07010000199079514
+          ],
+          "size": [
+            1.3969838619232178e-09,
+            0.07861489430069923,
+            0.0041298046708106995
+          ]
+        },
+        "watertight": false
+      }
+    },
+    {
+      "id": "imported-009",
+      "name": "imported-009",
+      "files": {
+        "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-009/mesh.json",
+        "glb": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-009/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            0.00449999887496233,
+            -0.0372290201485157,
+            -0.07422980666160583
+          ],
+          "max": [
+            0.004500000271946192,
+            0.04138587415218353,
+            -0.07010000199079514
+          ],
+          "size": [
+            1.3969838619232178e-09,
+            0.07861489430069923,
+            0.0041298046708106995
+          ]
+        },
+        "watertight": false
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        -0.05408367022698761,
+        0.05126732340575344,
+        19.99986116497226
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-002",
+      "part_id": "imported-002",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-002/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        -15.543299823088233,
+        -1.4950125979703714,
+        -12.496830315783885
+      ],
+      "sequence": 1,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-003",
+      "part_id": "imported-003",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-003/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        17.580745904616897,
+        0.0005473416862867488,
+        -9.535060206297247
+      ],
+      "sequence": 2,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-004",
+      "part_id": "imported-004",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-004/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        -0.010325021444004143,
+        16.375194075802547,
+        -11.482722341576208
+      ],
+      "sequence": 3,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-005",
+      "part_id": "imported-005",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-005/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        -0.010110746944582097,
+        -16.375194183352587,
+        -11.48272237887391
+      ],
+      "sequence": 4,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-006",
+      "part_id": "imported-006",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-006/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        -0.012919940727610215,
+        -5.528295908508918e-07,
+        -19.999995826877846
+      ],
+      "sequence": 5,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-007",
+      "part_id": "imported-007",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-007/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        -0.011720563837281112,
+        -1.9817747207653085e-16,
+        -19.99999656570929
+      ],
+      "sequence": 6,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-008",
+      "part_id": "imported-008",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-008/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        5.823640648557721,
+        17.925705126174577,
+        6.689865867557038
+      ],
+      "sequence": 7,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    },
+    {
+      "id": "imported-009",
+      "part_id": "imported-009",
+      "mesh": "assets/catalog/ssg48-drive-assembly/preview-cad/parts/imported-009/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        5.823640648557721,
+        17.925705126174577,
+        6.689865867557038
+      ],
+      "sequence": 8,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 9,
+  "measurements": {
+    "valid": null,
+    "watertight": false,
+    "solids": null,
+    "mesh_components": 9,
+    "volume_mm3": null,
+    "bbox": {
+      "min": [
+        -0.037463534623384476,
+        -0.052000001072883606,
+        -0.11015000194311142
+      ],
+      "max": [
+        0.03750000149011612,
+        0.052000001072883606,
+        -0.04309999942779541
+      ],
+      "size": [
+        0.0749635361135006,
+        0.10400000214576721,
+        0.06705000251531601
+      ]
+    },
+    "faces": 8496,
+    "surface_area_mm2": 0.0542215738073777
+  },
+  "hierarchy_note": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

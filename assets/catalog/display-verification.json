@@ -1,0 +1,12 @@
+{
+  "assets": 28,
+  "browserModels": 28,
+  "thumbnails": 28,
+  "kernelStatuses": {
+    "passed": 20,
+    "mesh-only": 8
+  },
+  "totalGLBMB": 30.306,
+  "maxGLBMB": 5.763,
+  "errors": []
+}

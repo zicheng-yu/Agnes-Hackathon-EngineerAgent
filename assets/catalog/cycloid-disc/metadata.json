@@ -1,0 +1,114 @@
+{
+  "id": "cycloid-disc",
+  "name": "多孔摆线齿盘",
+  "category": "减速与传动",
+  "material": "PETG",
+  "summary": "多孔摆线齿盘，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+  "useCase": "偏心摆线运动及输出传递",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Bottom%20Cycloid%20Disc.step",
+  "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Bottom%20Cycloid%20Disc.step",
+  "sourceProject": "cycloid",
+  "author": "alireza-02",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+  "licensePath": "assets/sources/cycloid/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/cycloid-disc/source.step",
+  "sizeBytes": 1565485,
+  "sha256": "4130a47f403abf62e971afd180a1264d7995cd60e46ae58ebacf0141f0debc7a",
+  "downloadedAt": "2026-10-09T04:04:01.799080+00:00",
+  "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 1565485,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI.,.METRE.",
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 11213.569228,
+      "area_mm2": 6388.163376,
+      "bbox": {
+        "min": [
+          -28.218311741300326,
+          -28.863139194582143,
+          -7.513062183258247
+        ],
+        "max": [
+          29.218348279719972,
+          28.863011300678608,
+          -0.7459460493516201
+        ],
+        "size": [
+          57.4366600210203,
+          57.726150495260754,
+          6.767116133906628
+        ]
+      },
+      "center_of_mass": [
+        -2.814080042565286,
+        -3.957328541203926,
+        -3.9152746712776696
+      ],
+      "faces": 55,
+      "edges": 107,
+      "sum_of_solid_volumes_mm3": 11213.569227901222
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/cycloid-disc/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:11.953325+00:00"
+  },
+  "browserModelPath": "assets/catalog/cycloid-disc/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/cycloid-disc/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "4161d45b87fe1067e107075b8f9b2e0940c6b1191d8a529e533f009ce2769a97",
+  "browserModelSizeBytes": 1003180,
+  "browserMeshPath": "assets/catalog/cycloid-disc/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/cycloid-disc/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/cycloid-disc/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/cycloid-disc/thumbnail.png",
+  "thumbnailSha256": "1e1d7b1eb7eceaa965ec9acc5a3b47edbd015a64c0c1a01297b3c8631efeb3c8",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/cycloid-disc/preview-cad/mesh.json",
+    "sourceMeshSha256": "ee9743ae891c9b5095190708b34502fe0d6bafee0d933f36ffa6513a4cd3e196",
+    "trianglesRendered": 46372,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

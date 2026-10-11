@@ -1,0 +1,5 @@
+-r tools/cad/requirements.txt
+pypdf==6.19.0
+pillow==12.3.0
+pypdfium2==5.14.0
+matplotlib>=3.10,<4

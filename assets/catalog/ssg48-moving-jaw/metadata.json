@@ -1,0 +1,115 @@
+{
+  "id": "ssg48-moving-jaw",
+  "name": "SSG48 导向滑动夹爪",
+  "category": "夹持与末端执行",
+  "material": null,
+  "summary": "SSG48 导向滑动夹爪，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+  "useCase": "平行抓取与末端改造",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/jaw.STEP",
+  "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/jaw.STEP",
+  "sourceProject": "ssg48",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/ssg48-moving-jaw/source.step",
+  "sizeBytes": 306885,
+  "sha256": "1db0f5d9c419b65804b187391e29dad033d6979865530916eaa93e8251c71c64",
+  "downloadedAt": "2026-10-09T04:04:01.796411+00:00",
+  "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 306885,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10278.645814,
+      "area_mm2": 6379.122023,
+      "bbox": {
+        "min": [
+          -18.90069944049754,
+          -2.025000100000281,
+          438.1618517999996
+        ],
+        "max": [
+          1.0000001000007859,
+          29.375000100000584,
+          513.5000001000002
+        ],
+        "size": [
+          19.900699540498326,
+          31.400000200000864,
+          75.33814830000057
+        ]
+      },
+      "center_of_mass": [
+        -8.733386012116986,
+        9.130275003193102,
+        491.0123751258898
+      ],
+      "faces": 137,
+      "edges": 372,
+      "sum_of_solid_volumes_mm3": 10278.645813875653
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/ssg48-moving-jaw/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:11.754990+00:00"
+  },
+  "browserModelPath": "assets/catalog/ssg48-moving-jaw/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/ssg48-moving-jaw/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "38d6e3bca252b779ac0d0588e9e81310b61d09ab5a5bdcd73a0568b08badc3da",
+  "browserModelSizeBytes": 158576,
+  "browserMeshPath": "assets/catalog/ssg48-moving-jaw/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/ssg48-moving-jaw/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/ssg48-moving-jaw/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/ssg48-moving-jaw/thumbnail.png",
+  "thumbnailSha256": "356f88c6866bca540f2f0a460d81a1177f871bc93505e9964033314f973914d5",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/ssg48-moving-jaw/preview-cad/mesh.json",
+    "sourceMeshSha256": "2804db8d0f692de13ce3fcd1f4bd2b6a4b0ac30ea118fc4c3ffd2abf89661cd2",
+    "trianglesRendered": 6456,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

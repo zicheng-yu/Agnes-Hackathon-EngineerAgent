@@ -1,0 +1,93 @@
+[
+  {
+    "id": "compliant",
+    "repo": "PCrnjak/Compliant-robotic-gripper",
+    "url": "https://github.com/PCrnjak/Compliant-robotic-gripper",
+    "commit": "df56e1deee1bd89c8db86a24df8e3240e2448c24",
+    "author": "Petar Crnjak",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/PCrnjak/Compliant-robotic-gripper/blob/df56e1deee1bd89c8db86a24df8e3240e2448c24/LICENSE",
+    "licensePath": "assets/sources/compliant/LICENSE",
+    "licenseSha256": "4e91c5d3ddacaf76e7f64df321611c59171ec01c24fb2743fb43da7067586d80",
+    "retrievedAt": "2026-10-09T04:04:01.793909+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  },
+  {
+    "id": "ssg48",
+    "repo": "Source-Robotics/SSG-48-adaptive-electric-gripper",
+    "url": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper",
+    "commit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+    "author": "Source Robotics / Petar Crnjak",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+    "licensePath": "assets/sources/ssg48/LICENSE",
+    "licenseSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "retrievedAt": "2026-10-09T04:04:01.793866+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  },
+  {
+    "id": "cycloid",
+    "repo": "alireza-02/open-cycloidal-actuator",
+    "url": "https://github.com/alireza-02/open-cycloidal-actuator",
+    "commit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+    "author": "alireza-02",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+    "licensePath": "assets/sources/cycloid/LICENSE",
+    "licenseSha256": "1849042c923560658ab804112e69e57c77f3049b6e9bffca6d1d1fd19ad73f3f",
+    "retrievedAt": "2026-10-09T04:04:01.793715+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  },
+  {
+    "id": "pincopen",
+    "repo": "pollen-robotics/PincOpen",
+    "url": "https://github.com/pollen-robotics/PincOpen",
+    "commit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+    "author": "Pollen Robotics",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+    "licensePath": "assets/sources/pincopen/LICENSE",
+    "licenseSha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+    "retrievedAt": "2026-10-09T04:04:01.793977+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  },
+  {
+    "id": "moveo",
+    "repo": "BCN3D/BCN3D-Moveo",
+    "url": "https://github.com/BCN3D/BCN3D-Moveo",
+    "commit": "0866a92501277636f76000a195d8a16d44b5b476",
+    "author": "BCN3D Technologies",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+    "licensePath": "assets/sources/moveo/LICENSE",
+    "licenseSha256": "6d0323944039e416103ce14b47b940202990d85aaf2ded007f6da545bfb00680",
+    "retrievedAt": "2026-10-09T04:04:01.794148+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  },
+  {
+    "id": "poseidon",
+    "repo": "pachterlab/poseidon",
+    "url": "https://github.com/pachterlab/poseidon",
+    "commit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+    "author": "Pachter Lab / Poseidon contributors",
+    "license": "BSD-2-Clause",
+    "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+    "licensePath": "assets/sources/poseidon/LICENSE",
+    "licenseSha256": "5188559ecc761ecb869ed20b8eccce9cb43cb93b4afec9b62530b3f49b3af9b6",
+    "retrievedAt": "2026-10-09T04:04:01.794314+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  },
+  {
+    "id": "micropump",
+    "repo": "Synthetic-Automated-Systems/open_micro_pump",
+    "url": "https://github.com/Synthetic-Automated-Systems/open_micro_pump",
+    "commit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+    "author": "Synthetic-Automated-Systems",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+    "licensePath": "assets/sources/micropump/LICENSE",
+    "licenseSha256": "467b520ee39b2efda23eaca4cf69f909182cf6edbc6e2a09f5afd4c670b523db",
+    "retrievedAt": "2026-10-09T04:04:01.794097+00:00",
+    "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+  }
+]

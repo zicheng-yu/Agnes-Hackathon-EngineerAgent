@@ -1,0 +1,118 @@
+{
+  "units": "mm",
+  "source": "Measured analytic B-rep; not declared feature dimensions",
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 54453.663947,
+    "area_mm2": 13730.973355,
+    "bbox": {
+      "min": [
+        -40.0,
+        -30.0,
+        0.0
+      ],
+      "max": [
+        40.0,
+        30.0,
+        12.0
+      ],
+      "size": [
+        80.0,
+        60.0,
+        12.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      2.6723482266410114e-16,
+      -6.680870566602528e-16,
+      5.999999999999999
+    ],
+    "faces": 14,
+    "edges": 36
+  },
+  "views": {
+    "front": {
+      "path": "assets/generated/evidence/plate-hole-repair/after/views/front.svg",
+      "projection_direction": [
+        0,
+        -1,
+        0
+      ],
+      "x_axis_world": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "y_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "measured_width_mm": 12.0,
+      "measured_height_mm": 80.0,
+      "px_per_mm": 4.49999998875,
+      "origin_px": [
+        94.000000315,
+        220.0
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "top": {
+      "path": "assets/generated/evidence/plate-hole-repair/after/views/top.svg",
+      "projection_direction": [
+        0,
+        0,
+        1
+      ],
+      "x_axis_world": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "y_axis_world": [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "measured_width_mm": 80.0,
+      "measured_height_mm": 60.0,
+      "px_per_mm": 6.0,
+      "origin_px": [
+        280.0,
+        220.0
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "side": {
+      "path": "assets/generated/evidence/plate-hole-repair/after/views/side.svg",
+      "projection_direction": [
+        1,
+        0,
+        0
+      ],
+      "x_axis_world": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "y_axis_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "measured_width_mm": 12.0,
+      "measured_height_mm": 60.0,
+      "px_per_mm": 5.99999998,
+      "origin_px": [
+        40.0000006,
+        220.0
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    }
+  }
+}

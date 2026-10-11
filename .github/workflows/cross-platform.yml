@@ -1,0 +1,33 @@
+name: Cross-platform local verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  local:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 40
+    env:
+      PYTHONUTF8: '1'
+      ENGINEERAGENT_MIRROR: 'off'
+      PYTHONIOENCODING: utf-8
+      AGNES_NODE_HEADERS: ${{ github.workspace }}/.runtime/node-headers/24.15.0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.15.0'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --include=dev
+      - run: python -m venv .venv
+      - run: npx --yes --package=node-gyp@13.1.0 node-gyp install --target=24.15.0 --devdir=.runtime/node-headers
+      - run: node scripts/setup-local.mjs
+      - run: node scripts/verify-local.mjs

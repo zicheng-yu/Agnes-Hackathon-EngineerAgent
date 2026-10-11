@@ -1,0 +1,114 @@
+{
+  "id": "cycloid-testbench",
+  "name": "执行器测试台夹具",
+  "category": "治具与安装",
+  "material": null,
+  "summary": "执行器测试台夹具，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+  "useCase": "驱动器台架测试与固定",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Test%20Bench%20%28optional%29/Test%20Bench%20Mount.step",
+  "downloadUrl": "https://raw.githubusercontent.com/alireza-02/open-cycloidal-actuator/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Test%20Bench%20%28optional%29/Test%20Bench%20Mount.step",
+  "sourceProject": "cycloid",
+  "author": "alireza-02",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+  "licensePath": "assets/sources/cycloid/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/cycloid-testbench/source.step",
+  "sizeBytes": 834641,
+  "sha256": "c99fec8fea4778ba3bfaca08d0d3cc2a164c85defcc69ea6c819bebb826a117e",
+  "downloadedAt": "2026-10-09T04:04:01.798700+00:00",
+  "upstreamCommit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 834641,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI.,.METRE.",
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 293757.866828,
+      "area_mm2": 57684.617295,
+      "bbox": {
+        "min": [
+          -60.053738363424756,
+          -90.03458987441465,
+          -47.553738339390655
+        ],
+        "max": [
+          50.05936680348746,
+          136.03458987441465,
+          24.264311979632254
+        ],
+        "size": [
+          110.11310516691222,
+          226.0691797488293,
+          71.81805031902292
+        ]
+      },
+      "center_of_mass": [
+        -12.874959680603354,
+        22.999993244644006,
+        -30.483472578105822
+      ],
+      "faces": 318,
+      "edges": 854,
+      "sum_of_solid_volumes_mm3": 293757.86682792613
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/cycloid-testbench/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:13.033213+00:00"
+  },
+  "browserModelPath": "assets/catalog/cycloid-testbench/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/cycloid-testbench/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "f5c0d8718a86175ae149ddfdf80d68d9fd8f6cf8acbe439a9dbcf159874b7525",
+  "browserModelSizeBytes": 2499960,
+  "browserMeshPath": "assets/catalog/cycloid-testbench/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/cycloid-testbench/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/cycloid-testbench/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/cycloid-testbench/thumbnail.png",
+  "thumbnailSha256": "7e7cdcca51b55892429b4418ef0c49fd963527f4653b5a4497291211847319f8",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/cycloid-testbench/preview-cad/mesh.json",
+    "sourceMeshSha256": "ce4473215d7d1ff3cc923cf16b7d00bc522bfe72f58e82f70082bd75f17f3a3a",
+    "trianglesRendered": 128250,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "ssg48-main-housing",
+  "name": "SSG48 多腔驱动壳体",
+  "category": "精密壳体",
+  "material": null,
+  "summary": "SSG48 多腔驱动壳体，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+  "useCase": "夹爪驱动系统定位与安装",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+  "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+  "sourceProject": "ssg48",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/ssg48-main-housing/source.step",
+  "sizeBytes": 717476,
+  "sha256": "6b5db5aa15fd5f476a3842267b5bbe830d7ee13deea2ed26c521943240976038",
+  "downloadedAt": "2026-10-09T04:04:01.796453+00:00",
+  "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 717476,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 0,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 3,
+    "lengthUnitHints": [
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 1
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 57743.716475,
+      "area_mm2": 25058.234435,
+      "bbox": {
+        "min": [
+          -54.665504181187956,
+          -21.878834195138634,
+          -22.1605372715014
+        ],
+        "max": [
+          53.98188894659944,
+          53.149292089288046,
+          20.12538450032579
+        ],
+        "size": [
+          108.6473931277874,
+          75.02812628442668,
+          42.28592177182719
+        ]
+      },
+      "center_of_mass": [
+        -2.195060121108921,
+        7.713465648789811,
+        3.7920121294812743
+      ],
+      "faces": 230,
+      "edges": 596,
+      "sum_of_solid_volumes_mm3": 57743.71647503383
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:11.573496+00:00"
+  },
+  "browserModelPath": "assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "c44cac86b97576fd4858b5a574124da99b5c8d315a4a53d905fd4be112892811",
+  "browserModelSizeBytes": 616672,
+  "browserMeshPath": "assets/catalog/ssg48-main-housing/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/ssg48-main-housing/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/ssg48-main-housing/thumbnail.png",
+  "thumbnailSha256": "421c42b25943d24fb2629539146bb1ba75bc1d3ef7ca73b2d523c2076e1fd55d",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/ssg48-main-housing/preview-cad/mesh.json",
+    "sourceMeshSha256": "9aa18f6835d7d9cc257cd077b724f82723b19d3853547ba433ce8f7f009a101f",
+    "trianglesRendered": 26912,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

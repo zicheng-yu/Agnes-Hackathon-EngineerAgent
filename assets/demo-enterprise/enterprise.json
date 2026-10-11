@@ -1,0 +1,693 @@
+{
+  "schemaVersion": "1.0",
+  "datasetId": "forge-synthetic-enterprise-2026-10",
+  "dataSource": "synthetic_demo",
+  "title": "合成机加工与工程验证企业台账",
+  "asOf": "2026-10-09",
+  "description": "主案例为原创法兰/导向轴的机加工情景；公开聚合物模型保留为增材验证案例。所有库存、材料选定、设备、版本、规格编号、工序及工时均为合成假设，无真实企业制造履历。",
+  "capacityWindow": {
+    "start": "2026-10-10",
+    "end": "2026-10-20"
+  },
+  "machines": [
+    {
+      "id": "fdm-01",
+      "name": "演示 FDM 工位 01",
+      "process": "FDM",
+      "materials": [
+        "PETG",
+        "PLA+"
+      ],
+      "availableHours": 72,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "fdm-flex-01",
+      "name": "演示柔性材料工位 02",
+      "process": "FDM",
+      "materials": [
+        "TPU"
+      ],
+      "availableHours": 36,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "sls-01",
+      "name": "演示 PA12 外协工位",
+      "process": "SLS",
+      "materials": [
+        "PA12"
+      ],
+      "availableHours": 48,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "qa-01",
+      "name": "演示尺寸检查台",
+      "process": "inspection",
+      "materials": [],
+      "availableHours": 32,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "cnc-lathe-01",
+      "name": "演示 CNC 车削中心",
+      "process": "CNC-turning",
+      "materials": [
+        "45钢",
+        "40Cr"
+      ],
+      "availableHours": 64,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "cnc-drill-01",
+      "name": "演示 CNC 钻铣工位",
+      "process": "CNC-drilling",
+      "materials": [
+        "45钢",
+        "40Cr"
+      ],
+      "availableHours": 40,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "grinder-01",
+      "name": "演示外圆精磨工位",
+      "process": "cylindrical-grinding",
+      "materials": [
+        "45钢",
+        "40Cr"
+      ],
+      "availableHours": 32,
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "heat-treatment-demo",
+      "name": "演示热处理外协资源",
+      "process": "heat-treatment-assumption",
+      "materials": [
+        "45钢",
+        "40Cr"
+      ],
+      "availableHours": 20,
+      "sourceType": "synthetic_demo",
+      "note": "占用工时为演示估算值，不代表实际热处理配方、炉次或交期。"
+    }
+  ],
+  "partMasters": [
+    {
+      "id": "demo-master-01",
+      "assetId": "cycloid-main-ring",
+      "internalCode": "CYR-001",
+      "name": "摆线减速器主环壳",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "CYR-001-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "上游目录标注PETG",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "fdm-01",
+          "setupHours": 0.5,
+          "unitHours": 1.1,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-02",
+      "assetId": "cycloid-disc",
+      "internalCode": "CYD-002",
+      "name": "多孔摆线齿盘",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "CYD-002-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "上游目录标注PETG",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "fdm-01",
+          "setupHours": 0.4,
+          "unitHours": 0.6,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-03",
+      "assetId": "ssg48-main-housing",
+      "internalCode": "SGH-003",
+      "name": "SSG48 多腔驱动壳体",
+      "revision": "B",
+      "material": "PA12",
+      "specification": "SGH-003-B",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "演示材料假设；上游未声明该材料。",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "sls-01",
+          "setupHours": 1.0,
+          "unitHours": 1.2,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-04",
+      "assetId": "ssg48-finray-finger",
+      "internalCode": "FIN-004",
+      "name": "Fin Ray 柔顺夹指",
+      "revision": "A",
+      "material": "TPU",
+      "specification": "FIN-004-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "演示材料假设；上游未声明该材料。",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "fdm-flex-01",
+          "setupHours": 0.3,
+          "unitHours": 0.7,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-05",
+      "assetId": "moveo-shoulder",
+      "internalCode": "MV-005",
+      "name": "BCN3D Moveo 肩关节结构体",
+      "revision": "A",
+      "material": "PA12",
+      "specification": "MV-005-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "演示材料假设；上游未声明该材料。",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "sls-01",
+          "setupHours": 1.2,
+          "unitHours": 3.8,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-06",
+      "assetId": "poseidon-pump-base",
+      "internalCode": "PPB-006",
+      "name": "Poseidon 注射泵导轨基座",
+      "revision": "A",
+      "material": "PLA+",
+      "specification": "PPB-006-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "演示材料假设；上游未声明该材料。",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "fdm-01",
+          "setupHours": 0.5,
+          "unitHours": 3.0,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-07",
+      "assetId": "pincopen-top-plate",
+      "internalCode": "PIN-007",
+      "name": "PincOpen 夹爪多孔顶板",
+      "revision": "A",
+      "material": "PA12",
+      "specification": "PIN-007-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "演示材料假设；上游未声明该材料。",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "sls-01",
+          "setupHours": 0.6,
+          "unitHours": 0.8,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-08",
+      "assetId": "micropump-stator",
+      "internalCode": "PUM-008",
+      "name": "微流控蠕动泵定子",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "PUM-008-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成规格标识；关联源几何用于展示，尚无已批准的生产图纸或公差评审。",
+      "materialBasis": "演示材料假设；上游未声明该材料。",
+      "route": [
+        {
+          "operation": "演示增材制造/成形",
+          "machineId": "fdm-01",
+          "setupHours": 0.3,
+          "unitHours": 0.5,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "演示后处理与尺寸检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-09",
+      "assetId": "flange-hub",
+      "internalCode": "FH-101",
+      "name": "带颈连接法兰",
+      "revision": "B",
+      "material": "45钢",
+      "specification": "FH-101-B",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成受控图号；关联本项目原创参数化法兰，不代表已批准生产图纸。",
+      "materialBasis": "原创机加工演示材料假设，非上游材料声明。",
+      "route": [
+        {
+          "operation": "CNC 车削外圆、端面与内孔",
+          "machineId": "cnc-lathe-01",
+          "setupHours": 0.8,
+          "unitHours": 0.12,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "CNC 钻削法兰孔系",
+          "machineId": "cnc-drill-01",
+          "setupHours": 0.5,
+          "unitHours": 0.08,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "尺寸与孔距检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.06,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-master-10",
+      "assetId": "guide-rod",
+      "internalCode": "GR-102",
+      "name": "淬硬导向轴",
+      "revision": "A",
+      "material": "40Cr",
+      "specification": "GR-102-A",
+      "unit": "件",
+      "sourceType": "synthetic_demo",
+      "specificationEvidence": "合成受控图号；关联本项目原创导向轴，尚无真实热处理/公差记录。",
+      "materialBasis": "原创机加工演示材料假设，非上游材料声明。",
+      "route": [
+        {
+          "operation": "CNC 车削轴体",
+          "machineId": "cnc-lathe-01",
+          "setupHours": 0.6,
+          "unitHours": 0.1,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "热处理外协占用（仅演示假设）",
+          "machineId": "heat-treatment-demo",
+          "setupHours": 0.4,
+          "unitHours": 0.03,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "外圆精磨",
+          "machineId": "grinder-01",
+          "setupHours": 0.5,
+          "unitHours": 0.08,
+          "sourceType": "synthetic_demo"
+        },
+        {
+          "operation": "尺寸与表面检查",
+          "machineId": "qa-01",
+          "setupHours": 0.1,
+          "unitHours": 0.04,
+          "sourceType": "synthetic_demo"
+        }
+      ]
+    }
+  ],
+  "inventoryLots": [
+    {
+      "id": "demo-CYR-001-qualified",
+      "assetId": "cycloid-main-ring",
+      "internalCode": "CYR-001",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "CYR-001-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 16,
+      "reserved": 4,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-CYR-001-hold",
+      "assetId": "cycloid-main-ring",
+      "internalCode": "CYR-001",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "CYR-001-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-CYD-002-qualified",
+      "assetId": "cycloid-disc",
+      "internalCode": "CYD-002",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "CYD-002-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 8,
+      "reserved": 2,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-CYD-002-hold",
+      "assetId": "cycloid-disc",
+      "internalCode": "CYD-002",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "CYD-002-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-SGH-003-qualified",
+      "assetId": "ssg48-main-housing",
+      "internalCode": "SGH-003",
+      "revision": "B",
+      "material": "PA12",
+      "specification": "SGH-003-B",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 4,
+      "reserved": 1,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-SGH-003-hold",
+      "assetId": "ssg48-main-housing",
+      "internalCode": "SGH-003",
+      "revision": "B",
+      "material": "PA12",
+      "specification": "SGH-003-B",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-FIN-004-qualified",
+      "assetId": "ssg48-finray-finger",
+      "internalCode": "FIN-004",
+      "revision": "A",
+      "material": "TPU",
+      "specification": "FIN-004-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 9,
+      "reserved": 5,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-FIN-004-hold",
+      "assetId": "ssg48-finray-finger",
+      "internalCode": "FIN-004",
+      "revision": "A",
+      "material": "TPU",
+      "specification": "FIN-004-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-MV-005-qualified",
+      "assetId": "moveo-shoulder",
+      "internalCode": "MV-005",
+      "revision": "A",
+      "material": "PA12",
+      "specification": "MV-005-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 2,
+      "reserved": 1,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-MV-005-hold",
+      "assetId": "moveo-shoulder",
+      "internalCode": "MV-005",
+      "revision": "A",
+      "material": "PA12",
+      "specification": "MV-005-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-PPB-006-qualified",
+      "assetId": "poseidon-pump-base",
+      "internalCode": "PPB-006",
+      "revision": "A",
+      "material": "PLA+",
+      "specification": "PPB-006-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-PPB-006-hold",
+      "assetId": "poseidon-pump-base",
+      "internalCode": "PPB-006",
+      "revision": "A",
+      "material": "PLA+",
+      "specification": "PPB-006-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-PIN-007-qualified",
+      "assetId": "pincopen-top-plate",
+      "internalCode": "PIN-007",
+      "revision": "A",
+      "material": "PA12",
+      "specification": "PIN-007-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 14,
+      "reserved": 10,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-PIN-007-hold",
+      "assetId": "pincopen-top-plate",
+      "internalCode": "PIN-007",
+      "revision": "A",
+      "material": "PA12",
+      "specification": "PIN-007-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-PUM-008-qualified",
+      "assetId": "micropump-stator",
+      "internalCode": "PUM-008",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "PUM-008-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 20,
+      "reserved": 10,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-PUM-008-hold",
+      "assetId": "micropump-stator",
+      "internalCode": "PUM-008",
+      "revision": "A",
+      "material": "PETG",
+      "specification": "PUM-008-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 3,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-FH-101-qualified",
+      "assetId": "flange-hub",
+      "internalCode": "FH-101",
+      "revision": "B",
+      "material": "45钢",
+      "specification": "FH-101-B",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 18,
+      "reserved": 6,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-FH-101-hold",
+      "assetId": "flange-hub",
+      "internalCode": "FH-101",
+      "revision": "B",
+      "material": "45钢",
+      "specification": "FH-101-B",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 2,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-GR-102-qualified",
+      "assetId": "guide-rod",
+      "internalCode": "GR-102",
+      "revision": "A",
+      "material": "40Cr",
+      "specification": "GR-102-A",
+      "unit": "件",
+      "qualityStatus": "qualified",
+      "onHand": 10,
+      "reserved": 2,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    },
+    {
+      "id": "demo-GR-102-hold",
+      "assetId": "guide-rod",
+      "internalCode": "GR-102",
+      "revision": "A",
+      "material": "40Cr",
+      "specification": "GR-102-A",
+      "unit": "件",
+      "qualityStatus": "quarantine",
+      "onHand": 2,
+      "reserved": 0,
+      "asOf": "2026-10-09",
+      "sourceType": "synthetic_demo"
+    }
+  ]
+}

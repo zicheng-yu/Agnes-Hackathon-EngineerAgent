@@ -1,0 +1,2201 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "assembly",
+  "id": "ea-d04-flange-coupling",
+  "name": "EA-D04 Flange Coupling Assembly",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "user-assembly-plan",
+  "provenance": null,
+  "parts": [
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "flange",
+      "name": "Flange",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "user-feature-plan",
+      "files": {
+        "step": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/model.step",
+        "glb": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/model.glb",
+        "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/mesh.json",
+        "feature_plan": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/feature-plan.json",
+        "views": {
+          "front": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/views/front.svg",
+          "top": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/views/top.svg",
+          "side": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/views/side.svg"
+        },
+        "view_metadata": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "circular_edge_diameter",
+            "axis": null,
+            "feature_id": null,
+            "actual": 100,
+            "expected": 100,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "bbox",
+            "axis": "z",
+            "feature_id": null,
+            "actual": 12,
+            "expected": 12,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-3",
+            "kind": "hole_count",
+            "diameter": 40,
+            "axis": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "check-4",
+            "kind": "hole_count",
+            "diameter": 11,
+            "axis": null,
+            "actual": 4,
+            "expected": 4,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                -38
+              ],
+              [
+                -38,
+                0
+              ],
+              [
+                38,
+                0
+              ],
+              [
+                0,
+                38
+              ]
+            ]
+          },
+          {
+            "id": "check-5",
+            "kind": "hole_pcd",
+            "diameter": 11,
+            "axis": null,
+            "actual": 76,
+            "expected": 76,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                -38
+              ],
+              [
+                -38,
+                0
+              ],
+              [
+                38,
+                0
+              ],
+              [
+                0,
+                38
+              ]
+            ]
+          },
+          {
+            "id": "check-6",
+            "kind": "solids",
+            "axis": null,
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 74606.542337,
+          "area_mm2": 19371.060302,
+          "bbox": {
+            "min": [
+              -50,
+              -50,
+              0
+            ],
+            "max": [
+              50,
+              50,
+              12
+            ],
+            "size": [
+              100,
+              100,
+              12
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -4.232977624234534e-15,
+            1.5116280621844604e-15,
+            5.999999999999997
+          ],
+          "faces": 8,
+          "edges": 18
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 74606.542337,
+        "area_mm2": 19371.060302,
+        "bbox": {
+          "min": [
+            -50,
+            -50,
+            0
+          ],
+          "max": [
+            50,
+            50,
+            12
+          ],
+          "size": [
+            100,
+            100,
+            12
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -4.232977624234534e-15,
+          1.5116280621844604e-15,
+          5.999999999999997
+        ],
+        "faces": 8,
+        "edges": 18
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 4.48
+        },
+        {
+          "id": "bore",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 5.91,
+          "hole_placement": "points",
+          "hole_centres_mm": [
+            [
+              0,
+              0
+            ]
+          ],
+          "hole_cuts": [
+            {
+              "index": 0,
+              "point_local_mm": [
+                0,
+                0
+              ],
+              "point_world_mm": [
+                0,
+                0,
+                12
+              ],
+              "removed_volume_mm3": 15079.644737231007,
+              "volume_resolution_mm3": 1e-9
+            }
+          ]
+        },
+        {
+          "id": "bolts",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 15.54,
+          "hole_placement": "polar",
+          "hole_centres_mm": [
+            [
+              38,
+              0
+            ],
+            [
+              0,
+              38
+            ],
+            [
+              -38,
+              0
+            ],
+            [
+              0,
+              -38
+            ]
+          ],
+          "hole_cuts": [
+            {
+              "index": 0,
+              "point_local_mm": [
+                38,
+                0
+              ],
+              "point_world_mm": [
+                38,
+                0,
+                12
+              ],
+              "removed_volume_mm3": 1140.398133253082,
+              "volume_resolution_mm3": 1e-9
+            },
+            {
+              "index": 1,
+              "point_local_mm": [
+                0,
+                38
+              ],
+              "point_world_mm": [
+                0,
+                38,
+                12
+              ],
+              "removed_volume_mm3": 1140.3981332530966,
+              "volume_resolution_mm3": 1e-9
+            },
+            {
+              "index": 2,
+              "point_local_mm": [
+                -38,
+                0
+              ],
+              "point_world_mm": [
+                -38,
+                0,
+                12
+              ],
+              "removed_volume_mm3": 1140.3981332530966,
+              "volume_resolution_mm3": 1e-9
+            },
+            {
+              "index": 3,
+              "point_local_mm": [
+                0,
+                -38
+              ],
+              "point_world_mm": [
+                0,
+                -38,
+                12
+              ],
+              "removed_volume_mm3": 1140.398133253082,
+              "volume_resolution_mm3": 1e-9
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "gasket",
+      "name": "Gasket",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "user-feature-plan",
+      "files": {
+        "step": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/model.step",
+        "glb": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/model.glb",
+        "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/mesh.json",
+        "feature_plan": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/feature-plan.json",
+        "views": {
+          "front": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/views/front.svg",
+          "top": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/views/top.svg",
+          "side": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/views/side.svg"
+        },
+        "view_metadata": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "circular_edge_diameter",
+            "axis": null,
+            "feature_id": null,
+            "actual": 100,
+            "expected": 100,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "bbox",
+            "axis": "z",
+            "feature_id": null,
+            "actual": 2,
+            "expected": 2,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-3",
+            "kind": "hole_count",
+            "diameter": 40,
+            "axis": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "check-4",
+            "kind": "hole_count",
+            "diameter": 11,
+            "axis": null,
+            "actual": 4,
+            "expected": 4,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                -38
+              ],
+              [
+                -38,
+                0
+              ],
+              [
+                38,
+                0
+              ],
+              [
+                0,
+                38
+              ]
+            ]
+          },
+          {
+            "id": "check-5",
+            "kind": "hole_pcd",
+            "diameter": 11,
+            "axis": null,
+            "actual": 76,
+            "expected": 76,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                -38
+              ],
+              [
+                -38,
+                0
+              ],
+              [
+                38,
+                0
+              ],
+              [
+                0,
+                38
+              ]
+            ]
+          },
+          {
+            "id": "check-6",
+            "kind": "solids",
+            "axis": null,
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 12434.423723,
+          "area_mm2": 13590.529819,
+          "bbox": {
+            "min": [
+              -50,
+              -50,
+              0
+            ],
+            "max": [
+              50,
+              50,
+              2
+            ],
+            "size": [
+              100,
+              100,
+              2
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -2.7234448126402988e-15,
+            2.0480122132821717e-15,
+            1
+          ],
+          "faces": 8,
+          "edges": 18
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 12434.423723,
+        "area_mm2": 13590.529819,
+        "bbox": {
+          "min": [
+            -50,
+            -50,
+            0
+          ],
+          "max": [
+            50,
+            50,
+            2
+          ],
+          "size": [
+            100,
+            100,
+            2
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.7234448126402988e-15,
+          2.0480122132821717e-15,
+          1
+        ],
+        "faces": 8,
+        "edges": 18
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 4.58
+        },
+        {
+          "id": "bore",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 6.41,
+          "hole_placement": "points",
+          "hole_centres_mm": [
+            [
+              0,
+              0
+            ]
+          ],
+          "hole_cuts": [
+            {
+              "index": 0,
+              "point_local_mm": [
+                0,
+                0
+              ],
+              "point_world_mm": [
+                0,
+                0,
+                2
+              ],
+              "removed_volume_mm3": 2513.274122871835,
+              "volume_resolution_mm3": 1e-9
+            }
+          ]
+        },
+        {
+          "id": "bolts",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 17.52,
+          "hole_placement": "polar",
+          "hole_centres_mm": [
+            [
+              38,
+              0
+            ],
+            [
+              0,
+              38
+            ],
+            [
+              -38,
+              0
+            ],
+            [
+              0,
+              -38
+            ]
+          ],
+          "hole_cuts": [
+            {
+              "index": 0,
+              "point_local_mm": [
+                38,
+                0
+              ],
+              "point_world_mm": [
+                38,
+                0,
+                2
+              ],
+              "removed_volume_mm3": 190.06635554217974,
+              "volume_resolution_mm3": 1e-9
+            },
+            {
+              "index": 1,
+              "point_local_mm": [
+                0,
+                38
+              ],
+              "point_world_mm": [
+                0,
+                38,
+                2
+              ],
+              "removed_volume_mm3": 190.06635554218337,
+              "volume_resolution_mm3": 1e-9
+            },
+            {
+              "index": 2,
+              "point_local_mm": [
+                -38,
+                0
+              ],
+              "point_world_mm": [
+                -38,
+                0,
+                2
+              ],
+              "removed_volume_mm3": 190.06635554217974,
+              "volume_resolution_mm3": 1e-9
+            },
+            {
+              "index": 3,
+              "point_local_mm": [
+                0,
+                -38
+              ],
+              "point_world_mm": [
+                0,
+                -38,
+                2
+              ],
+              "removed_volume_mm3": 190.06635554218155,
+              "volume_resolution_mm3": 1e-9
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "stud",
+      "name": "Stud M10",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "user-feature-plan",
+      "files": {
+        "step": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/model.step",
+        "glb": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/model.glb",
+        "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/mesh.json",
+        "feature_plan": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/feature-plan.json",
+        "views": {
+          "front": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/views/front.svg",
+          "top": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/views/top.svg",
+          "side": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/views/side.svg"
+        },
+        "view_metadata": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "circular_edge_diameter",
+            "axis": null,
+            "feature_id": null,
+            "actual": 10,
+            "expected": 10,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "bbox",
+            "axis": "z",
+            "feature_id": null,
+            "actual": 46,
+            "expected": 46,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-3",
+            "kind": "solids",
+            "axis": null,
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 3612.831552,
+          "area_mm2": 1602.212253,
+          "bbox": {
+            "min": [
+              -5,
+              -5,
+              0
+            ],
+            "max": [
+              5,
+              5,
+              46
+            ],
+            "size": [
+              10,
+              10,
+              46
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            6.293503369697858e-17,
+            2.4191558533332815e-16,
+            22.999999999999996
+          ],
+          "faces": 3,
+          "edges": 3
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3612.831552,
+        "area_mm2": 1602.212253,
+        "bbox": {
+          "min": [
+            -5,
+            -5,
+            0
+          ],
+          "max": [
+            5,
+            5,
+            46
+          ],
+          "size": [
+            10,
+            10,
+            46
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          6.293503369697858e-17,
+          2.4191558533332815e-16,
+          22.999999999999996
+        ],
+        "faces": 3,
+        "edges": 3
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 4.9
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "nut",
+      "name": "Nut M10",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "user-feature-plan",
+      "files": {
+        "step": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/model.step",
+        "glb": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/model.glb",
+        "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+        "feature_plan": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/feature-plan.json",
+        "views": {
+          "front": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/views/front.svg",
+          "top": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/views/top.svg",
+          "side": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/views/side.svg"
+        },
+        "view_metadata": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "circular_edge_diameter",
+            "axis": null,
+            "feature_id": null,
+            "actual": 17,
+            "expected": 17,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "bbox",
+            "axis": "z",
+            "feature_id": null,
+            "actual": 8,
+            "expected": 8,
+            "tolerance": 0.05,
+            "error": 0,
+            "passed": true
+          },
+          {
+            "id": "check-3",
+            "kind": "hole_count",
+            "diameter": 10,
+            "axis": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true,
+            "measured_hole_centres": [
+              [
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "check-4",
+            "kind": "solids",
+            "axis": null,
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1,
+            "tolerance": 0,
+            "error": 0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 1187.522023,
+          "area_mm2": 975.464519,
+          "bbox": {
+            "min": [
+              -8.5,
+              -8.5,
+              0
+            ],
+            "max": [
+              8.5,
+              8.5,
+              8
+            ],
+            "size": [
+              17,
+              17,
+              8
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -2.8720352679176735e-16,
+            3.2483232913122514e-16,
+            4.000000000000002
+          ],
+          "faces": 4,
+          "edges": 6
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -8.5,
+            -8.5,
+            0
+          ],
+          "max": [
+            8.5,
+            8.5,
+            8
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.8720352679176735e-16,
+          3.2483232913122514e-16,
+          4.000000000000002
+        ],
+        "faces": 4,
+        "edges": 6
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 5.25
+        },
+        {
+          "id": "bore",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 6.5,
+          "hole_placement": "points",
+          "hole_centres_mm": [
+            [
+              0,
+              0
+            ]
+          ],
+          "hole_cuts": [
+            {
+              "index": 0,
+              "point_local_mm": [
+                0,
+                0
+              ],
+              "point_world_mm": [
+                0,
+                0,
+                8
+              ],
+              "removed_volume_mm3": 628.3185307179585,
+              "volume_resolution_mm3": 1e-9
+            }
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "instances": [
+    {
+      "id": "flangeA",
+      "part_id": "flange",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 74606.542337,
+        "area_mm2": 19371.060302,
+        "bbox": {
+          "min": [
+            -50,
+            -50,
+            0
+          ],
+          "max": [
+            50,
+            50,
+            12
+          ],
+          "size": [
+            100,
+            100,
+            12
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -4.232977624234534e-15,
+          1.5116280621844604e-15,
+          5.999999999999997
+        ],
+        "faces": 8,
+        "edges": 18
+      }
+    },
+    {
+      "id": "gasket",
+      "part_id": "gasket",
+      "translation": [
+        0,
+        0,
+        12
+      ],
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "sequence": 3,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          12
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/gasket/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 12434.423723,
+        "area_mm2": 13590.529819,
+        "bbox": {
+          "min": [
+            -50,
+            -50,
+            12
+          ],
+          "max": [
+            50,
+            50,
+            14
+          ],
+          "size": [
+            100,
+            100,
+            2
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.7234448126402988e-15,
+          2.0480122132821717e-15,
+          12.999999999999996
+        ],
+        "faces": 8,
+        "edges": 18
+      }
+    },
+    {
+      "id": "flangeB",
+      "part_id": "flange",
+      "translation": [
+        0,
+        0,
+        14
+      ],
+      "explode": [
+        0,
+        0,
+        80
+      ],
+      "sequence": 2,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          14
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/flange/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 74606.542337,
+        "area_mm2": 19371.060302,
+        "bbox": {
+          "min": [
+            -50,
+            -50,
+            14
+          ],
+          "max": [
+            50,
+            50,
+            26
+          ],
+          "size": [
+            100,
+            100,
+            12
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -4.232977624234534e-15,
+          1.5116280621844604e-15,
+          19.999999999999993
+        ],
+        "faces": 8,
+        "edges": 18
+      }
+    },
+    {
+      "id": "nutLower-1",
+      "part_id": "nut",
+      "translation": [
+        38,
+        0,
+        -8
+      ],
+      "explode": [
+        0,
+        0,
+        -40
+      ],
+      "sequence": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          38,
+          0,
+          -8
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            29.5,
+            -8.5,
+            -8
+          ],
+          "max": [
+            46.5,
+            8.5,
+            0
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          38,
+          1.3309253250997655e-16,
+          -4.000000000000002
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutLower-2",
+      "part_id": "nut",
+      "translation": [
+        0,
+        38,
+        -8
+      ],
+      "explode": [
+        0,
+        0,
+        -40
+      ],
+      "sequence": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          38,
+          -8
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -8.5,
+            29.5,
+            -8
+          ],
+          "max": [
+            8.5,
+            46.5,
+            0
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          1.9146901786117823e-16,
+          38.00000000000001,
+          -4.000000000000002
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutLower-3",
+      "part_id": "nut",
+      "translation": [
+        -38,
+        0,
+        -8
+      ],
+      "explode": [
+        0,
+        0,
+        -40
+      ],
+      "sequence": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          -38,
+          0,
+          -8
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -46.5,
+            -8.5,
+            -8
+          ],
+          "max": [
+            -29.5,
+            8.5,
+            0
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -38.00000000000001,
+          1.7068738625389722e-16,
+          -4.000000000000002
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutLower-4",
+      "part_id": "nut",
+      "translation": [
+        0,
+        -38,
+        -8
+      ],
+      "explode": [
+        0,
+        0,
+        -40
+      ],
+      "sequence": 4,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          -38,
+          -8
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -8.5,
+            -46.5,
+            -8
+          ],
+          "max": [
+            8.5,
+            -29.5,
+            0
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.1540264509382552e-16,
+          -37.99999999999999,
+          -4.000000000000002
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutUpper-1",
+      "part_id": "nut",
+      "translation": [
+        38,
+        0,
+        26
+      ],
+      "explode": [
+        0,
+        0,
+        120
+      ],
+      "sequence": 1,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          38,
+          0,
+          26
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            29.5,
+            -8.5,
+            26
+          ],
+          "max": [
+            46.5,
+            8.5,
+            34
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          38,
+          1.3309253250997655e-16,
+          30.00000000000001
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutUpper-2",
+      "part_id": "nut",
+      "translation": [
+        0,
+        38,
+        26
+      ],
+      "explode": [
+        0,
+        0,
+        120
+      ],
+      "sequence": 1,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          38,
+          26
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -8.5,
+            29.5,
+            26
+          ],
+          "max": [
+            8.5,
+            46.5,
+            34
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          1.9146901786117823e-16,
+          38.00000000000001,
+          30.00000000000001
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutUpper-3",
+      "part_id": "nut",
+      "translation": [
+        -38,
+        0,
+        26
+      ],
+      "explode": [
+        0,
+        0,
+        120
+      ],
+      "sequence": 1,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          -38,
+          0,
+          26
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -46.5,
+            -8.5,
+            26
+          ],
+          "max": [
+            -29.5,
+            8.5,
+            34
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -38.00000000000001,
+          1.7068738625389722e-16,
+          30.00000000000001
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "nutUpper-4",
+      "part_id": "nut",
+      "translation": [
+        0,
+        -38,
+        26
+      ],
+      "explode": [
+        0,
+        0,
+        120
+      ],
+      "sequence": 1,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          -38,
+          26
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/nut/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 1187.522023,
+        "area_mm2": 975.464519,
+        "bbox": {
+          "min": [
+            -8.5,
+            -46.5,
+            26
+          ],
+          "max": [
+            8.5,
+            -29.5,
+            34
+          ],
+          "size": [
+            17,
+            17,
+            8
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.1540264509382552e-16,
+          -37.99999999999999,
+          30.000000000000004
+        ],
+        "faces": 4,
+        "edges": 6
+      }
+    },
+    {
+      "id": "stud-1",
+      "part_id": "stud",
+      "translation": [
+        38,
+        0,
+        -10
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          38,
+          0,
+          -10
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3612.831552,
+        "area_mm2": 1602.212253,
+        "bbox": {
+          "min": [
+            33,
+            -5,
+            -10
+          ],
+          "max": [
+            43,
+            5,
+            36
+          ],
+          "size": [
+            10,
+            10,
+            46
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          38,
+          6.97381071337346e-17,
+          13
+        ],
+        "faces": 3,
+        "edges": 3
+      }
+    },
+    {
+      "id": "stud-2",
+      "part_id": "stud",
+      "translation": [
+        0,
+        38,
+        -10
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          38,
+          -10
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3612.831552,
+        "area_mm2": 1602.212253,
+        "bbox": {
+          "min": [
+            -5,
+            33,
+            -10
+          ],
+          "max": [
+            5,
+            43,
+            36
+          ],
+          "size": [
+            10,
+            10,
+            46
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          6.293503369697858e-17,
+          38,
+          13
+        ],
+        "faces": 3,
+        "edges": 3
+      }
+    },
+    {
+      "id": "stud-3",
+      "part_id": "stud",
+      "translation": [
+        -38,
+        0,
+        -10
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          -38,
+          0,
+          -10
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3612.831552,
+        "area_mm2": 1602.212253,
+        "bbox": {
+          "min": [
+            -43,
+            -5,
+            -10
+          ],
+          "max": [
+            -33,
+            5,
+            36
+          ],
+          "size": [
+            10,
+            10,
+            46
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -38,
+          6.97381071337346e-17,
+          13
+        ],
+        "faces": 3,
+        "edges": 3
+      }
+    },
+    {
+      "id": "stud-4",
+      "part_id": "stud",
+      "translation": [
+        0,
+        -38,
+        -10
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          -38,
+          -10
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "mesh": "data/runs/59f9223b-f92e-45fe-b2a1-aa8dd470f116/parts/stud/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3612.831552,
+        "area_mm2": 1602.212253,
+        "bbox": {
+          "min": [
+            -5,
+            -43,
+            -10
+          ],
+          "max": [
+            5,
+            -33,
+            36
+          ],
+          "size": [
+            10,
+            10,
+            46
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          6.293503369697858e-17,
+          -38,
+          13
+        ],
+        "faces": 3,
+        "edges": 3
+      }
+    }
+  ],
+  "bom": [
+    {
+      "part_id": "flange",
+      "name": "Flange",
+      "quantity": 2,
+      "instance_ids": [
+        "flangeA",
+        "flangeB"
+      ],
+      "material": "unspecified"
+    },
+    {
+      "part_id": "gasket",
+      "name": "Gasket",
+      "quantity": 1,
+      "instance_ids": [
+        "gasket"
+      ],
+      "material": "unspecified"
+    },
+    {
+      "part_id": "stud",
+      "name": "Stud M10",
+      "quantity": 4,
+      "instance_ids": [
+        "stud-1",
+        "stud-2",
+        "stud-3",
+        "stud-4"
+      ],
+      "material": "unspecified"
+    },
+    {
+      "part_id": "nut",
+      "name": "Nut M10",
+      "quantity": 8,
+      "instance_ids": [
+        "nutLower-1",
+        "nutLower-2",
+        "nutLower-3",
+        "nutLower-4",
+        "nutUpper-1",
+        "nutUpper-2",
+        "nutUpper-3",
+        "nutUpper-4"
+      ],
+      "material": "unspecified"
+    }
+  ],
+  "instance_count": 15,
+  "measurements": {
+    "valid": true,
+    "solids": 15,
+    "volume_mm3": 185599.010789,
+    "area_mm2": 66545.215588,
+    "bbox": {
+      "min": [
+        -50,
+        -50,
+        -10
+      ],
+      "max": [
+        50,
+        50,
+        36
+      ],
+      "size": [
+        100,
+        100,
+        46
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      4.900320847119088e-18,
+      2.1169386059554457e-15,
+      12.999999999999998
+    ],
+    "faces": 68,
+    "edges": 114
+  },
+  "verification": {
+    "passed": true,
+    "geometry_valid": true,
+    "part_checks_passed": true,
+    "assembly_checks_passed": true,
+    "assembly_checks": [
+      {
+        "id": "assembly-check-1",
+        "kind": "instance_z",
+        "instance": "flangeA",
+        "actual": {
+          "flangeA": -0.015541
+        },
+        "expected": 0,
+        "tolerance": 0.05,
+        "error": 0.015541,
+        "passed": true
+      },
+      {
+        "id": "assembly-check-2",
+        "kind": "instance_z",
+        "instance": "gasket",
+        "actual": {
+          "gasket": 11.984459
+        },
+        "expected": 12,
+        "tolerance": 0.05,
+        "error": 0.015541000000000693,
+        "passed": true
+      },
+      {
+        "id": "assembly-check-3",
+        "kind": "instance_z",
+        "instance": "flangeB",
+        "actual": {
+          "flangeB": 13.984459
+        },
+        "expected": 14,
+        "tolerance": 0.05,
+        "error": 0.015541000000000693,
+        "passed": true
+      },
+      {
+        "id": "assembly-check-4",
+        "kind": "instance_z",
+        "instance": "nutLower",
+        "actual": {
+          "nutLower-1": -8.002642,
+          "nutLower-2": -8.002642,
+          "nutLower-3": -8.002642,
+          "nutLower-4": -8.002642
+        },
+        "expected": -8,
+        "tolerance": 0.05,
+        "error": 0.002641999999999811,
+        "passed": true
+      },
+      {
+        "id": "assembly-check-5",
+        "kind": "instance_z",
+        "instance": "nutUpper",
+        "actual": {
+          "nutUpper-1": 25.997358,
+          "nutUpper-2": 25.997358,
+          "nutUpper-3": 25.997358,
+          "nutUpper-4": 25.997358
+        },
+        "expected": 26,
+        "tolerance": 0.05,
+        "error": 0.0026420000000015875,
+        "passed": true
+      },
+      {
+        "id": "assembly-check-6",
+        "kind": "instance_z",
+        "instance": "stud",
+        "actual": {
+          "stud-1": -10.001554,
+          "stud-2": -10.001554,
+          "stud-3": -10.001554,
+          "stud-4": -10.001554
+        },
+        "expected": -10,
+        "tolerance": 0.05,
+        "error": 0.0015540000000004994,
+        "passed": true
+      },
+      {
+        "id": "assembly-check-7",
+        "kind": "bbox",
+        "axis": "z",
+        "actual": 46.003108,
+        "expected": 46,
+        "tolerance": 0.05,
+        "error": 0.003108379991857646,
+        "passed": true
+      }
+    ],
+    "path_check_passed": true,
+    "scope": "All part B-rep checks, listed assembly placement checks, initial interference and sampled sequential explosion paths. Not a continuous-clearance proof."
+  },
+  "path_check": {
+    "method": "sequential translation; axis-aligned bounds broad phase and exact B-rep intersection at discrete samples",
+    "samples_per_path": 6,
+    "volume_tolerance_mm3": 0.01,
+    "initial_interferences": [],
+    "steps": [
+      {
+        "instance_id": "nutUpper-1",
+        "sequence": 1,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutUpper-2",
+        "sequence": 1,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutUpper-3",
+        "sequence": 1,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutUpper-4",
+        "sequence": 1,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "flangeB",
+        "sequence": 2,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "gasket",
+        "sequence": 3,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutLower-1",
+        "sequence": 4,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutLower-2",
+        "sequence": 4,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutLower-3",
+        "sequence": 4,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "nutLower-4",
+        "sequence": 4,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      }
+    ],
+    "repair_hints": [],
+    "passed": true,
+    "limitations": [
+      "Discrete sampling does not prove continuous-path clearance.",
+      "No thread, friction, deformation, tool access or dynamic effects are simulated.",
+      "Viewer simultaneous explosion is illustrative; only the reported sequential trajectories were checked."
+    ]
+  },
+  "errors": []
+}

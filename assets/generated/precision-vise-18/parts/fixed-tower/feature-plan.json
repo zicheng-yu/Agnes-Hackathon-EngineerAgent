@@ -1,0 +1,124 @@
+{
+  "id": "fixed-tower",
+  "name": "固定支架（双导孔与丝杠孔）",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "material": "45 steel",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "features": [
+    {
+      "id": "body",
+      "op": "box",
+      "size": [
+        32,
+        104,
+        54
+      ]
+    },
+    {
+      "id": "rod-a",
+      "op": "cylinder",
+      "radius": 7.3,
+      "height": 42,
+      "translation": [
+        -21,
+        -28,
+        24
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "rod-b",
+      "op": "cylinder",
+      "radius": 7.3,
+      "height": 42,
+      "translation": [
+        -21,
+        28,
+        24
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "guide-bore-a",
+      "op": "cut",
+      "base": "body",
+      "tool": "rod-a"
+    },
+    {
+      "id": "guide-bore-b",
+      "op": "cut",
+      "base": "guide-bore-a",
+      "tool": "rod-b"
+    },
+    {
+      "id": "spindle-tool",
+      "op": "cylinder",
+      "radius": 9,
+      "height": 42,
+      "translation": [
+        -21,
+        0,
+        24
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ]
+    },
+    {
+      "id": "spindle-bore",
+      "op": "cut",
+      "base": "guide-bore-b",
+      "tool": "spindle-tool"
+    },
+    {
+      "id": "mount-holes",
+      "op": "hole",
+      "diameter": 8.5,
+      "points": [
+        [
+          -8,
+          -44
+        ],
+        [
+          -8,
+          44
+        ],
+        [
+          8,
+          -44
+        ],
+        [
+          8,
+          44
+        ]
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "kind": "valid",
+      "expected": 1
+    },
+    {
+      "kind": "solids",
+      "expected": 1
+    }
+  ]
+}

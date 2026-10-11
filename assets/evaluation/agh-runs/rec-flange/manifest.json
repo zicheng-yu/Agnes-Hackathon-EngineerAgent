@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "flange-ea-d02",
+  "name": "EA-D02 Bolted Flange",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "user-feature-plan",
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "bbox",
+        "axis": "x",
+        "feature_id": null,
+        "actual": 140,
+        "expected": 140,
+        "tolerance": 0.05,
+        "error": 0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "bbox",
+        "axis": "z",
+        "feature_id": null,
+        "actual": 16,
+        "expected": 16,
+        "tolerance": 0.05,
+        "error": 0,
+        "passed": true
+      },
+      {
+        "id": "check-3",
+        "kind": "circular_edge_diameter",
+        "axis": null,
+        "feature_id": null,
+        "actual": 140,
+        "expected": 140,
+        "tolerance": 0.05,
+        "error": 0,
+        "passed": true
+      },
+      {
+        "id": "check-4",
+        "kind": "hole_count",
+        "diameter": 60,
+        "axis": null,
+        "actual": 1,
+        "expected": 1,
+        "tolerance": 0,
+        "error": 0,
+        "passed": true,
+        "measured_hole_centres": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "check-5",
+        "kind": "hole_count",
+        "diameter": 14,
+        "axis": null,
+        "actual": 6,
+        "expected": 6,
+        "tolerance": 0,
+        "error": 0,
+        "passed": true,
+        "measured_hole_centres": [
+          [
+            -27.5,
+            -47.6314
+          ],
+          [
+            27.5,
+            -47.6314
+          ],
+          [
+            -55,
+            0
+          ],
+          [
+            -27.5,
+            47.6314
+          ],
+          [
+            55,
+            0
+          ],
+          [
+            27.5,
+            47.6314
+          ]
+        ]
+      },
+      {
+        "id": "check-6",
+        "kind": "hole_pcd",
+        "diameter": 14,
+        "axis": null,
+        "actual": 110,
+        "expected": 110,
+        "tolerance": 0.05,
+        "error": 2.496278739272384e-10,
+        "passed": true,
+        "measured_hole_centres": [
+          [
+            -27.5,
+            -47.6314
+          ],
+          [
+            27.5,
+            -47.6314
+          ],
+          [
+            -55,
+            0
+          ],
+          [
+            -27.5,
+            47.6314
+          ],
+          [
+            55,
+            0
+          ],
+          [
+            27.5,
+            47.6314
+          ]
+        ]
+      },
+      {
+        "id": "check-7",
+        "kind": "solids",
+        "axis": null,
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1,
+        "tolerance": 0,
+        "error": 0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 186283.877987,
+      "area_mm2": 37560.881766,
+      "bbox": {
+        "min": [
+          -70,
+          -70,
+          0
+        ],
+        "max": [
+          70,
+          70,
+          16
+        ],
+        "size": [
+          140,
+          140,
+          16
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        1.7576297861946249e-15,
+        3.593376451775678e-15,
+        8.000000000000002
+      ],
+      "faces": 10,
+      "edges": 24
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 186283.877987,
+    "area_mm2": 37560.881766,
+    "bbox": {
+      "min": [
+        -70,
+        -70,
+        0
+      ],
+      "max": [
+        70,
+        70,
+        16
+      ],
+      "size": [
+        140,
+        140,
+        16
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      1.7576297861946249e-15,
+      3.593376451775678e-15,
+      8.000000000000002
+    ],
+    "faces": 10,
+    "edges": 24
+  },
+  "feature_log": [
+    {
+      "id": "disk",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 15.61
+    },
+    {
+      "id": "center-bore",
+      "op": "hole",
+      "status": "completed",
+      "duration_ms": 8.07,
+      "hole_placement": "points",
+      "hole_centres_mm": [
+        [
+          0,
+          0
+        ]
+      ],
+      "hole_cuts": [
+        {
+          "index": 0,
+          "point_local_mm": [
+            0,
+            0
+          ],
+          "point_world_mm": [
+            0,
+            0,
+            16
+          ],
+          "removed_volume_mm3": 45238.934211693006,
+          "volume_resolution_mm3": 1e-9
+        }
+      ]
+    },
+    {
+      "id": "bolt-holes",
+      "op": "hole",
+      "status": "completed",
+      "duration_ms": 19.69,
+      "hole_placement": "polar",
+      "hole_centres_mm": [
+        [
+          55,
+          0
+        ],
+        [
+          27.5,
+          47.631397208
+        ],
+        [
+          -27.5,
+          47.631397208
+        ],
+        [
+          -55,
+          0
+        ],
+        [
+          -27.5,
+          -47.631397208
+        ],
+        [
+          27.5,
+          -47.631397208
+        ]
+      ],
+      "hole_cuts": [
+        {
+          "index": 0,
+          "point_local_mm": [
+            55,
+            0
+          ],
+          "point_world_mm": [
+            55,
+            0,
+            16
+          ],
+          "removed_volume_mm3": 2463.008640414424,
+          "volume_resolution_mm3": 1e-9
+        },
+        {
+          "index": 1,
+          "point_local_mm": [
+            27.5,
+            47.631397208
+          ],
+          "point_world_mm": [
+            27.5,
+            47.631397208,
+            16
+          ],
+          "removed_volume_mm3": 2463.008640414366,
+          "volume_resolution_mm3": 1e-9
+        },
+        {
+          "index": 2,
+          "point_local_mm": [
+            -27.5,
+            47.631397208
+          ],
+          "point_world_mm": [
+            -27.5,
+            47.631397208,
+            16
+          ],
+          "removed_volume_mm3": 2463.008640414395,
+          "volume_resolution_mm3": 1e-9
+        },
+        {
+          "index": 3,
+          "point_local_mm": [
+            -55,
+            0
+          ],
+          "point_world_mm": [
+            -55,
+            0,
+            16
+          ],
+          "removed_volume_mm3": 2463.0086404143367,
+          "volume_resolution_mm3": 1e-9
+        },
+        {
+          "index": 4,
+          "point_local_mm": [
+            -27.5,
+            -47.631397208
+          ],
+          "point_world_mm": [
+            -27.5,
+            -47.631397208,
+            16
+          ],
+          "removed_volume_mm3": 2463.008640414366,
+          "volume_resolution_mm3": 1e-9
+        },
+        {
+          "index": 5,
+          "point_local_mm": [
+            27.5,
+            -47.631397208
+          ],
+          "point_world_mm": [
+            27.5,
+            -47.631397208,
+            16
+          ],
+          "removed_volume_mm3": 2463.008640414424,
+          "volume_resolution_mm3": 1e-9
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

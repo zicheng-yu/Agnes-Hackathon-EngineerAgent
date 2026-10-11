@@ -1,0 +1,13 @@
+{
+  "id": "moveo",
+  "repo": "BCN3D/BCN3D-Moveo",
+  "url": "https://github.com/BCN3D/BCN3D-Moveo",
+  "commit": "0866a92501277636f76000a195d8a16d44b5b476",
+  "author": "BCN3D Technologies",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+  "licensePath": "assets/sources/moveo/LICENSE",
+  "licenseSha256": "6d0323944039e416103ce14b47b940202990d85aaf2ded007f6da545bfb00680",
+  "retrievedAt": "2026-10-09T04:04:01.794148+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

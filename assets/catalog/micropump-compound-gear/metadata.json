@@ -1,0 +1,122 @@
+{
+  "id": "micropump-compound-gear",
+  "name": "微流控泵双联齿轮",
+  "category": "减速与传动",
+  "material": null,
+  "summary": "微流控泵双联齿轮，来自 Synthetic-Automated-Systems/open_micro_pump 的公开机械设计。",
+  "useCase": "泵驱动减速传动",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/3%20stacked%20gear.stl",
+  "downloadUrl": "https://raw.githubusercontent.com/Synthetic-Automated-Systems/open_micro_pump/6b410f499fa4bcb784e252840af7f00f384c7a48/pump1_1/parts_files/STL/3%20stacked%20gear.stl",
+  "sourceProject": "micropump",
+  "author": "Synthetic-Automated-Systems",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/Synthetic-Automated-Systems/open_micro_pump/blob/6b410f499fa4bcb784e252840af7f00f384c7a48/LICENSE",
+  "licensePath": "assets/sources/micropump/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/micropump-compound-gear/source.stl",
+  "sizeBytes": 209684,
+  "sha256": "6096a3cb425eea74d111338722c89b1631f3805b65d688f29364d260a2ecbd45",
+  "downloadedAt": "2026-10-09T04:04:01.801066+00:00",
+  "upstreamCommit": "6b410f499fa4bcb784e252840af7f00f384c7a48",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 209684,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 4192,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        -21.532052993774414,
+        -21.532052993774414,
+        0.0
+      ],
+      [
+        21.532052993774414,
+        21.532052993774414,
+        17.0
+      ]
+    ],
+    "extents": [
+      43.06410598754883,
+      43.06410598754883,
+      17.0
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/micropump-compound-gear/preview-cad/mesh.json",
+    "sourceMeshSha256": "4313001e6ea944d81d64199f15995e04df2c8426b110b455ba819466d4f3cf30",
+    "trianglesRendered": 4192,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/micropump-compound-gear/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/micropump-compound-gear/thumbnail.png",
+  "thumbnailSha256": "1dfdd75748286c0cc72d786b50205b6d922730419f2972b66be1089c28e9d0a8",
+  "browserModelPath": "assets/catalog/micropump-compound-gear/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/micropump-compound-gear/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": true,
+      "solids": null,
+      "mesh_components": 1,
+      "volume_mm3": 8149.8095057215,
+      "bbox": {
+        "min": [
+          -21.532052993774414,
+          -21.532052993774414,
+          0.0
+        ],
+        "max": [
+          21.532052993774414,
+          21.532052993774414,
+          17.0
+        ],
+        "size": [
+          43.06410598754883,
+          43.06410598754883,
+          17.0
+        ]
+      },
+      "faces": 4192,
+      "surface_area_mm2": 5673.05614188688
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/micropump-compound-gear/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:14.896866+00:00"
+  },
+  "browserModelSha256": "4f096b5e2b430b2bddda4627af0d21a5d5dddbed2981349a78298a719c5493db",
+  "browserModelSizeBytes": 76260,
+  "browserMeshPath": "assets/catalog/micropump-compound-gear/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/micropump-compound-gear/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

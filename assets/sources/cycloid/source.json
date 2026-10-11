@@ -1,0 +1,13 @@
+{
+  "id": "cycloid",
+  "repo": "alireza-02/open-cycloidal-actuator",
+  "url": "https://github.com/alireza-02/open-cycloidal-actuator",
+  "commit": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+  "author": "alireza-02",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/LICENSE",
+  "licensePath": "assets/sources/cycloid/LICENSE",
+  "licenseSha256": "1849042c923560658ab804112e69e57c77f3049b6e9bffca6d1d1fd19ad73f3f",
+  "retrievedAt": "2026-10-09T04:04:01.793715+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

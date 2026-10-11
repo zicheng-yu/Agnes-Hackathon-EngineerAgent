@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "guide-rod",
+  "name": "淬硬导向轴",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/precision-vise-18/parts/guide-rod/model.step",
+    "glb": "assets/generated/precision-vise-18/parts/guide-rod/model.glb",
+    "mesh": "assets/generated/precision-vise-18/parts/guide-rod/mesh.json",
+    "feature_plan": "assets/generated/precision-vise-18/parts/guide-rod/feature-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/parts/guide-rod/views/front.svg",
+      "top": "assets/generated/precision-vise-18/parts/guide-rod/views/top.svg",
+      "side": "assets/generated/precision-vise-18/parts/guide-rod/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/parts/guide-rod/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 33237.078476,
+      "area_mm2": 9786.608052,
+      "bbox": {
+        "min": [
+          -7.0,
+          -7.0,
+          0.0
+        ],
+        "max": [
+          7.0,
+          7.0,
+          216.0
+        ],
+        "size": [
+          14.0,
+          14.0,
+          216.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        -8.482796036244359e-16,
+        2.0675899361623203e-16,
+        107.95611899427932
+      ],
+      "faces": 4,
+      "edges": 5
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 33237.078476,
+    "area_mm2": 9786.608052,
+    "bbox": {
+      "min": [
+        -7.0,
+        -7.0,
+        0.0
+      ],
+      "max": [
+        7.0,
+        7.0,
+        216.0
+      ],
+      "size": [
+        14.0,
+        14.0,
+        216.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -8.482796036244359e-16,
+      2.0675899361623203e-16,
+      107.95611899427932
+    ],
+    "faces": 4,
+    "edges": 5
+  },
+  "feature_log": [
+    {
+      "id": "turned",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.5
+    },
+    {
+      "id": "end-break",
+      "op": "chamfer",
+      "status": "completed",
+      "duration_ms": 6.52
+    }
+  ],
+  "errors": []
+}

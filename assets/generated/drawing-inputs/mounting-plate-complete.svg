@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#263e50"/></marker></defs>
+<rect width="1400" height="1200" fill="#fff"/><rect x="25" y="25" width="1350" height="1150" fill="none" stroke="#183446" stroke-width="2"/>
+<g font-family="monospace" fill="#183446"><text x="65" y="78" font-size="30">MP-080 / MACHINED MOUNTING PLATE</text><text x="65" y="112" font-size="19">ALL DIMENSIONS IN mm | NOMINAL GEOMETRY | ORIGINAL DEMO DRAWING</text></g>
+<g fill="none" stroke="#183446" stroke-width="3">
+<rect x="240" y="220" width="640" height="480" rx="24"/>
+<circle cx="360" cy="340" r="36"/><circle cx="760" cy="340" r="36"/><circle cx="360" cy="580" r="36"/><circle cx="760" cy="580" r="36"/>
+<rect x="240" y="835" width="640" height="96"/>
+<path stroke-dasharray="10 6" stroke-width="1.5" d="M324 835V931 M396 835V931 M724 835V931 M796 835V931"/>
+<rect x="1080" y="220" width="96" height="480"/>
+<path stroke-dasharray="10 6" stroke-width="1.5" d="M1080 304H1176 M1080 376H1176 M1080 544H1176 M1080 616H1176"/>
+</g>
+<g stroke="#718696" stroke-width="1.2" stroke-dasharray="18 6 3 6"><path d="M560 200V720 M220 460H900 M345 340H375 M360 325V355 M745 340H775 M760 325V355 M345 580H375 M360 565V595 M745 580H775 M760 565V595"/></g>
+<g stroke="#263e50" stroke-width="1.4" fill="none">
+<path d="M240 155V211 M880 155V211 M160 220H231 M160 700H231 M360 610V774 M760 610V774 M796 340H965 M796 580H965 M886 835H965 M886 931H965"/>
+<path marker-start="url(#arrow)" marker-end="url(#arrow)" d="M240 170H880 M175 220V700 M360 757H760 M945 340V580 M945 835V931"/>
+<path d="M800 312L940 230H1050 M254 232L185 195H70"/>
+</g>
+<g font-family="monospace" fill="#183446" font-size="23">
+<text x="544" y="160">80</text><text x="145" y="472" transform="rotate(-90 145 472)">60</text>
+<text x="544" y="746">50</text><text x="936" y="472" transform="rotate(-90 936 472)">30</text><text x="937" y="898" transform="rotate(-90 937 898)">12</text>
+<text x="947" y="218">4 x Ø9 THRU</text><text x="72" y="184">4 x R3</text>
+<text x="242" y="798">TOP</text><text x="242" y="971">FRONT</text><text x="1080" y="742">RIGHT</text>
+</g>
+<g font-family="monospace" fill="#183446" font-size="20"><text x="70" y="1030">Hole pattern centered on plate: 50 x 30. All four holes are through.</text>
+<text x="70" y="1066">Corner fillets R3 extend through the full 12 mm thickness.</text><text x="70" y="1102">No unspecified chamfers. Material: 6061-T6 (illustrative). No tolerances.</text>
+<text x="70" y="1138">Self-authored input. Reference CAD is excluded from agent input folders.</text></g></svg>

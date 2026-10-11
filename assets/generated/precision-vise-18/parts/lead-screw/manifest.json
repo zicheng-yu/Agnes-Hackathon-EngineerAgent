@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "lead-screw",
+  "name": "传动丝杠（螺纹包络简化）",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/precision-vise-18/parts/lead-screw/model.step",
+    "glb": "assets/generated/precision-vise-18/parts/lead-screw/model.glb",
+    "mesh": "assets/generated/precision-vise-18/parts/lead-screw/mesh.json",
+    "feature_plan": "assets/generated/precision-vise-18/parts/lead-screw/feature-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/parts/lead-screw/views/front.svg",
+      "top": "assets/generated/precision-vise-18/parts/lead-screw/views/top.svg",
+      "side": "assets/generated/precision-vise-18/parts/lead-screw/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/parts/lead-screw/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 52669.404023,
+      "area_mm2": 13553.544896,
+      "bbox": {
+        "min": [
+          -8.0,
+          -8.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          8.0,
+          262.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          262.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        -1.3469031604574479e-15,
+        2.8877566325637085e-16,
+        130.9780925383974
+      ],
+      "faces": 4,
+      "edges": 5
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 52669.404023,
+    "area_mm2": 13553.544896,
+    "bbox": {
+      "min": [
+        -8.0,
+        -8.0,
+        0.0
+      ],
+      "max": [
+        8.0,
+        8.0,
+        262.0
+      ],
+      "size": [
+        16.0,
+        16.0,
+        262.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -1.3469031604574479e-15,
+      2.8877566325637085e-16,
+      130.9780925383974
+    ],
+    "faces": 4,
+    "edges": 5
+  },
+  "feature_log": [
+    {
+      "id": "turned",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.35
+    },
+    {
+      "id": "end-break",
+      "op": "chamfer",
+      "status": "completed",
+      "duration_ms": 6.22
+    }
+  ],
+  "errors": []
+}

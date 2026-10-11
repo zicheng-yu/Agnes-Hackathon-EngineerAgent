@@ -1,0 +1,19 @@
+{
+  "source_edge_pixels": 4492,
+  "projection_edge_pixels": 4492,
+  "missing_pixels": 0,
+  "extra_pixels": 0,
+  "missing_fraction": 0.0,
+  "extra_fraction": 0.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "symmetric_mean_distance_mm": 0.0,
+  "p95_distance_mm": 0.0,
+  "max_distance_mm": 0.0,
+  "normalized_mean_distance": 0.0,
+  "normalization_length_mm": 80.0,
+  "tolerance_mm": 0.15,
+  "missing_regions": [],
+  "extra_regions": []
+}

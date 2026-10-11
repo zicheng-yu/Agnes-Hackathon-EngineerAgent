@@ -1,0 +1,9 @@
+{
+  "PCrnjak/Compliant-robotic-gripper": "df56e1deee1bd89c8db86a24df8e3240e2448c24",
+  "Source-Robotics/SSG-48-adaptive-electric-gripper": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "alireza-02/open-cycloidal-actuator": "ef5e5e4dedef7c80a84d478d734db8392664ccbf",
+  "pollen-robotics/PincOpen": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+  "BCN3D/BCN3D-Moveo": "0866a92501277636f76000a195d8a16d44b5b476",
+  "pachterlab/poseidon": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+  "Synthetic-Automated-Systems/open_micro_pump": "6b410f499fa4bcb784e252840af7f00f384c7a48"
+}

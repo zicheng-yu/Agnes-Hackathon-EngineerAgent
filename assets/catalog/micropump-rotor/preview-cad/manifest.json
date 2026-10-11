@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "micropump-rotor",
+  "name": "微流控蠕动泵转子",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/micropump-rotor/source.stl",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/micropump-rotor/preview-cad/model.glb",
+    "mesh": "assets/catalog/micropump-rotor/preview-cad/mesh.json",
+    "views": {}
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/micropump-rotor/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/micropump-rotor/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            -12.292452812194824,
+            0.0,
+            -13.729999542236328
+          ],
+          "max": [
+            3.0,
+            12.699999809265137,
+            3.0
+          ],
+          "size": [
+            15.292452812194824,
+            12.699999809265137,
+            16.729999542236328
+          ]
+        },
+        "watertight": true
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/micropump-rotor/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": null,
+    "watertight": true,
+    "solids": null,
+    "mesh_components": 1,
+    "volume_mm3": 1212.8295932220992,
+    "bbox": {
+      "min": [
+        -12.292452812194824,
+        0.0,
+        -13.729999542236328
+      ],
+      "max": [
+        3.0,
+        12.699999809265137,
+        3.0
+      ],
+      "size": [
+        15.292452812194824,
+        12.699999809265137,
+        16.729999542236328
+      ]
+    },
+    "faces": 6870,
+    "surface_area_mm2": 1396.2260760531115
+  },
+  "hierarchy_note": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

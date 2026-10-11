@@ -1,0 +1,114 @@
+{
+  "id": "ssg48-ur-adapter",
+  "name": "UR 机器人末端适配法兰",
+  "category": "机器人结构件",
+  "material": null,
+  "summary": "UR 机器人末端适配法兰，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+  "useCase": "末端执行器安装适配",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/UR5%20adapter%20plate/UR_coupler_gripper.STEP",
+  "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/UR5%20adapter%20plate/UR_coupler_gripper.STEP",
+  "sourceProject": "ssg48",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/ssg48-ur-adapter/source.step",
+  "sizeBytes": 235659,
+  "sha256": "371eb94dee2c1c3e62fa057c4236ad2839676072321c6d99636d58e185189ba5",
+  "downloadedAt": "2026-10-09T04:04:01.796505+00:00",
+  "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 235659,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 39102.98754,
+      "area_mm2": 14710.782798,
+      "bbox": {
+        "min": [
+          -37.52148440043776,
+          -37.50982872546826,
+          -19.021484400437757
+        ],
+        "max": [
+          37.52148440043776,
+          37.50982872546837,
+          4.0190413329837495
+        ],
+        "size": [
+          75.04296880087551,
+          75.01965745093662,
+          23.040525733421507
+        ]
+      },
+      "center_of_mass": [
+        0.028991012028691338,
+        -0.0690657574121766,
+        -7.521161416264662
+      ],
+      "faces": 60,
+      "edges": 162,
+      "sum_of_solid_volumes_mm3": 39102.98754009358
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/ssg48-ur-adapter/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:11.859096+00:00"
+  },
+  "browserModelPath": "assets/catalog/ssg48-ur-adapter/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/ssg48-ur-adapter/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "de8cd5153a7acee00ca8f2fa661659fada94b137da9d8379e3a87d0560fd9bf3",
+  "browserModelSizeBytes": 319580,
+  "browserMeshPath": "assets/catalog/ssg48-ur-adapter/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/ssg48-ur-adapter/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/ssg48-ur-adapter/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/ssg48-ur-adapter/thumbnail.png",
+  "thumbnailSha256": "138411550437219c99c9b4ecc7161c25b70378fb9652df390f5da96c5b0a98d1",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/ssg48-ur-adapter/preview-cad/mesh.json",
+    "sourceMeshSha256": "06e53178690471f243956325522cceb1e7549fb9286b0db9e825cc461020bbb5",
+    "trianglesRendered": 14398,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

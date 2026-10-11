@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "guide-support",
+  "name": "导柱端部支承座",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/precision-vise-18/parts/guide-support/model.step",
+    "glb": "assets/generated/precision-vise-18/parts/guide-support/model.glb",
+    "mesh": "assets/generated/precision-vise-18/parts/guide-support/mesh.json",
+    "feature_plan": "assets/generated/precision-vise-18/parts/guide-support/feature-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/parts/guide-support/views/front.svg",
+      "top": "assets/generated/precision-vise-18/parts/guide-support/views/top.svg",
+      "side": "assets/generated/precision-vise-18/parts/guide-support/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/parts/guide-support/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 30305.718002,
+      "area_mm2": 8451.227513,
+      "bbox": {
+        "min": [
+          -12.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          12.0,
+          20.0,
+          38.0
+        ],
+        "size": [
+          24.0,
+          40.0,
+          38.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        3.9388995700151444e-16,
+        -1.0672791141860818,
+        18.337093524735298
+      ],
+      "faces": 8,
+      "edges": 18
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 30305.718002,
+    "area_mm2": 8451.227513,
+    "bbox": {
+      "min": [
+        -12.0,
+        -20.0,
+        0.0
+      ],
+      "max": [
+        12.0,
+        20.0,
+        38.0
+      ],
+      "size": [
+        24.0,
+        40.0,
+        38.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      3.9388995700151444e-16,
+      -1.0672791141860818,
+      18.337093524735298
+    ],
+    "faces": 8,
+    "edges": 18
+  },
+  "feature_log": [
+    {
+      "id": "body",
+      "op": "box",
+      "status": "completed",
+      "duration_ms": 0.87
+    },
+    {
+      "id": "rod-tool",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.5
+    },
+    {
+      "id": "guide-hole",
+      "op": "cut",
+      "status": "completed",
+      "duration_ms": 2.84
+    },
+    {
+      "id": "mount-hole",
+      "op": "hole",
+      "status": "completed",
+      "duration_ms": 11.31
+    }
+  ],
+  "errors": []
+}

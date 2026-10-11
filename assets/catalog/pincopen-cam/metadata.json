@@ -1,0 +1,124 @@
+{
+  "id": "pincopen-cam",
+  "name": "PincOpen 驱动凸轮",
+  "category": "减速与传动",
+  "material": null,
+  "summary": "PincOpen 驱动凸轮，来自 pollen-robotics/PincOpen 的公开机械设计。",
+  "useCase": "紧凑夹爪运动转换",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Cam.step",
+  "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Cam.step",
+  "sourceProject": "pincopen",
+  "author": "Pollen Robotics",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+  "licensePath": "assets/sources/pincopen/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/pincopen-cam/source.step",
+  "sizeBytes": 35679,
+  "sha256": "5f0be3215e5bc3a0316f69f5e2c94f1e91b2e7a71f64f96368f9bcaa0d42ae1e",
+  "downloadedAt": "2026-10-09T04:04:01.798737+00:00",
+  "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 35679,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "previewPath": "assets/catalog/pincopen-cam/preview.stl",
+  "previewSha256": "1fbb2277df16643444b35aa46078f8d2b4a4a991cd8bc130379f0eb337c3d6c3",
+  "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Cam.stl",
+  "previewDownloadedAt": "2026-10-09T04:05:58.733107+00:00",
+  "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+  "previewValidation": {
+    "binaryLengthValid": true,
+    "triangles": 10444,
+    "sha256Matches": true,
+    "units": "unspecified-in-STL"
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/pincopen-cam/preview-cad/mesh.json",
+    "sourceMeshSha256": "fb64724606af56f71e5f575433ce169c96b0e5c5c4af96662387111939bc1734",
+    "trianglesRendered": 9102,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/pincopen-cam/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/pincopen-cam/thumbnail.png",
+  "thumbnailSha256": "60e1e9fdd5e2103be47098764c3b8444fafb2a2c845ff9417fdff247540b1ff5",
+  "browserModelPath": "assets/catalog/pincopen-cam/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/pincopen-cam/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4576.891225,
+      "area_mm2": 2753.448852,
+      "bbox": {
+        "min": [
+          -34.05032720309838,
+          -16.006939094365872,
+          -2.700808226797881
+        ],
+        "max": [
+          -2.0305845207606916,
+          16.006939094365876,
+          4.1579254385665845
+        ],
+        "size": [
+          32.019742682337686,
+          32.01387818873175,
+          6.858733665364465
+        ]
+      },
+      "center_of_mass": [
+        -18.05167423953955,
+        -0.0012603614271494612,
+        0.9766386516961431
+      ],
+      "faces": 35,
+      "edges": 71,
+      "sum_of_solid_volumes_mm3": 4576.891225140573
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/pincopen-cam/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:13.631667+00:00"
+  },
+  "browserModelSha256": "a399a6d921efc4fcc4a26b9e53f2e83d340940309429dac2aa5244fce73b437c",
+  "browserModelSizeBytes": 219604,
+  "browserMeshPath": "assets/catalog/pincopen-cam/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/pincopen-cam/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

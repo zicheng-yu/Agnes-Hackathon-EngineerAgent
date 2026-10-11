@@ -1,0 +1,59 @@
+{
+  "id": "bolt-m10",
+  "name": "M10 六角螺栓（无螺纹简化）",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "material": "Grade 8.8 steel (demo)",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "features": [
+    {
+      "id": "head",
+      "op": "extrude",
+      "profile": {
+        "kind": "regular_polygon",
+        "sides": 6,
+        "diameter": 19.0
+      },
+      "distance": 7.0
+    },
+    {
+      "id": "shaft",
+      "op": "cylinder",
+      "radius": 5.0,
+      "height": 54,
+      "translation": [
+        0,
+        0,
+        7.0
+      ]
+    },
+    {
+      "id": "fused",
+      "op": "union",
+      "base": "head",
+      "tool": "shaft"
+    },
+    {
+      "id": "edge-break",
+      "op": "chamfer",
+      "selector": ">Z",
+      "length": 0.6
+    }
+  ],
+  "checks": [
+    {
+      "kind": "valid",
+      "expected": 1
+    },
+    {
+      "kind": "solids",
+      "expected": 1
+    }
+  ]
+}

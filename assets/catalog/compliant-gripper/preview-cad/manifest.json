@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "compliant-gripper",
+  "name": "柔顺机器人夹爪主壳体",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/compliant-gripper/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/compliant-gripper/preview-cad/model.glb",
+    "mesh": "assets/catalog/compliant-gripper/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/compliant-gripper/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/compliant-gripper/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/compliant-gripper/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 67617.05199,
+        "area_mm2": 25337.077766,
+        "bbox": {
+          "min": [
+            -27.000435245198876,
+            -54.00000010000007,
+            -15.006605662811774
+          ],
+          "max": [
+            73.91413842408662,
+            22.505954135739174,
+            7.1060153973421505
+          ],
+          "size": [
+            100.91457366928549,
+            76.50595423573924,
+            22.112621060153923
+          ]
+        },
+        "center_of_mass": [
+          20.30600503166881,
+          -14.452844347590187,
+          -4.808447324291968
+        ],
+        "faces": 283,
+        "edges": 765
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/compliant-gripper/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 67617.05199,
+    "area_mm2": 25337.077766,
+    "bbox": {
+      "min": [
+        -27.000435245198876,
+        -54.00000010000007,
+        -15.006605662811774
+      ],
+      "max": [
+        73.91413842408662,
+        22.505954135739174,
+        7.1060153973421505
+      ],
+      "size": [
+        100.91457366928549,
+        76.50595423573924,
+        22.112621060153923
+      ]
+    },
+    "center_of_mass": [
+      20.30600503166881,
+      -14.452844347590187,
+      -4.808447324291968
+    ],
+    "faces": 283,
+    "edges": 765,
+    "sum_of_solid_volumes_mm3": 67617.0519903188
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

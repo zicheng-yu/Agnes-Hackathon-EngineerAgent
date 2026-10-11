@@ -1,0 +1,292 @@
+{
+  "id": "425c2d20-688d-4475-8428-d142e6e63a90",
+  "status": "completed",
+  "createdAt": "2026-10-10T09:49:13.062Z",
+  "title": "历史件检索",
+  "mode": "catalog_search",
+  "events": [
+    {
+      "time": "2026-10-10T09:49:22.658Z",
+      "type": "session",
+      "message": "AGH 会话已创建"
+    },
+    {
+      "time": "2026-10-10T09:49:23.964Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t0-da78637cb92a552b14713d894f1e0a51",
+      "toolName": "industrial_search_catalog",
+      "input": "总成 装配 爆炸"
+    },
+    {
+      "time": "2026-10-10T09:49:23.984Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t0-da78637cb92a552b14713d894f1e0a51",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 2 条（按相关度排序）：FG-005 19 件双法兰密封连接组件；FG-006 18 件双导柱精密夹持组件"
+    },
+    {
+      "time": "2026-10-10T09:49:57.904Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t1-dd142aff10298cbf1d692c1d95f4d249",
+      "toolName": "industrial_search_catalog",
+      "input": "装配"
+    },
+    {
+      "time": "2026-10-10T09:49:57.919Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t1-dd142aff10298cbf1d692c1d95f4d249",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 2 条：FG-005 19 件双法兰密封连接组件；FG-006 18 件双导柱精密夹持组件"
+    },
+    {
+      "time": "2026-10-10T09:50:05.228Z",
+      "type": "assistant",
+      "message": "已在本地零件目录中检索（共 45 个资产，关键词命中 2 个）。以下是带装配层级、支持拆解（爆炸）视图的机械总成：\n\n| 编号 | 名称 | 用途 | 格式 | 部件规模 | 命中词 |\n|------|------|------|------|----------|--------|\n| FG-005 | 19 件双法兰密封连接组件 | 装配结构研究与分步拆解 | STEP | 19 个部件实例，含装配关系与拆解检查记录 | 装配 |\n| FG-006 | 18 件双导柱精密夹持组件 | 装配结构研究与分步拆解 | STEP | 18 个部件实例，含装配关系与拆解检查记录 | 装配 |\n\n结果数量：2 个（matchMode 为 ranked_partial / all_terms，覆盖全部命中项）。\n\n注意事项：\n- 以上仅说明部件数量与装配层级存在，不能证明与某一具体图纸等同、材料、修订号或可制造性。\n- 两条记录的材料字段均为空（未标注材质）。\n- 如需查看具体拆解结构，可提供 manifest.json 路径进一步读取；目录本身不修改库存、也不代表生产或交付承诺。"
+    },
+    {
+      "time": "2026-10-10T09:50:05.233Z",
+      "type": "turn/end",
+      "message": "AGH 任务轮次结束"
+    },
+    {
+      "time": "2026-10-10T09:50:05.733Z",
+      "type": "success",
+      "message": "AGH 已完成任务与结果检查"
+    }
+  ],
+  "instruction": "检索带装配层级、可以查看拆解（爆炸）视图的机械总成，列出编号和部件规模。",
+  "sessionId": "agnes:local:local-dev:cli:session:3d2aa506-1085-4c7c-b20a-0913e6e30ea7",
+  "result": {
+    "type": "result",
+    "success": true,
+    "outcome": "completed",
+    "mode": "catalog_search",
+    "execution": "real-agh-external-account",
+    "sessionId": "agnes:local:local-dev:cli:session:3d2aa506-1085-4c7c-b20a-0913e6e30ea7",
+    "model": "agnes-3.0-flash",
+    "result": {
+      "stopReason": "end_turn",
+      "reason": "completed",
+      "lastSeq": 59,
+      "credits": {
+        "used": 0,
+        "source": "estimated"
+      }
+    },
+    "geometryRuns": [],
+    "catalogResults": {
+      "success": true,
+      "source": "local_catalog",
+      "filters": {
+        "query": "装配",
+        "category": "",
+        "format": ""
+      },
+      "matchMode": "all_terms",
+      "totalAssets": 45,
+      "totalMatches": 2,
+      "returnedCount": 2,
+      "items": [
+        {
+          "id": "flange-coupling-19",
+          "displayCode": "FG-005",
+          "name": "19 件双法兰密封连接组件",
+          "category": "装配与工装",
+          "format": "STEP",
+          "summary": "19 个部件实例，包含装配关系与拆解检查记录。",
+          "useCase": "装配结构研究与分步拆解",
+          "material": null,
+          "sourceType": "原创参数化",
+          "sourceUrl": null,
+          "license": "CC0-1.0",
+          "modelUrl": "/assets/generated/flange-coupling-19/model.glb",
+          "stepUrl": "/assets/generated/flange-coupling-19/model.step",
+          "manifestUrl": "/assets/generated/flange-coupling-19/manifest.json",
+          "matchScore": null,
+          "matchedTerms": null
+        },
+        {
+          "id": "precision-vise-18",
+          "displayCode": "FG-006",
+          "name": "18 件双导柱精密夹持组件",
+          "category": "装配与工装",
+          "format": "STEP",
+          "summary": "18 个部件实例，包含装配关系与拆解检查记录。",
+          "useCase": "装配结构研究与分步拆解",
+          "material": null,
+          "sourceType": "原创参数化",
+          "sourceUrl": null,
+          "license": "CC0-1.0",
+          "modelUrl": "/assets/generated/precision-vise-18/model.glb",
+          "stepUrl": "/assets/generated/precision-vise-18/model.step",
+          "manifestUrl": "/assets/generated/precision-vise-18/manifest.json",
+          "matchScore": null,
+          "matchedTerms": null
+        }
+      ]
+    },
+    "toolEvidence": [
+      {
+        "toolUseId": "t0-da78637cb92a552b14713d894f1e0a51",
+        "name": "industrial_search_catalog",
+        "input": {
+          "query": "总成 装配 爆炸",
+          "limit": 20
+        },
+        "result": {
+          "success": true,
+          "source": "local_catalog",
+          "filters": {
+            "query": "总成 装配 爆炸",
+            "category": "",
+            "format": ""
+          },
+          "matchMode": "ranked_partial",
+          "totalAssets": 45,
+          "totalMatches": 2,
+          "returnedCount": 2,
+          "items": [
+            {
+              "id": "flange-coupling-19",
+              "displayCode": "FG-005",
+              "name": "19 件双法兰密封连接组件",
+              "category": "装配与工装",
+              "format": "STEP",
+              "summary": "19 个部件实例，包含装配关系与拆解检查记录。",
+              "useCase": "装配结构研究与分步拆解",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/flange-coupling-19/model.glb",
+              "stepUrl": "/assets/generated/flange-coupling-19/model.step",
+              "manifestUrl": "/assets/generated/flange-coupling-19/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "装配"
+              ]
+            },
+            {
+              "id": "precision-vise-18",
+              "displayCode": "FG-006",
+              "name": "18 件双导柱精密夹持组件",
+              "category": "装配与工装",
+              "format": "STEP",
+              "summary": "18 个部件实例，包含装配关系与拆解检查记录。",
+              "useCase": "装配结构研究与分步拆解",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/precision-vise-18/model.glb",
+              "stepUrl": "/assets/generated/precision-vise-18/model.step",
+              "manifestUrl": "/assets/generated/precision-vise-18/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "装配"
+              ]
+            }
+          ]
+        },
+        "isError": false
+      },
+      {
+        "toolUseId": "t1-dd142aff10298cbf1d692c1d95f4d249",
+        "name": "industrial_search_catalog",
+        "input": {
+          "query": "装配",
+          "limit": 30
+        },
+        "result": {
+          "success": true,
+          "source": "local_catalog",
+          "filters": {
+            "query": "装配",
+            "category": "",
+            "format": ""
+          },
+          "matchMode": "all_terms",
+          "totalAssets": 45,
+          "totalMatches": 2,
+          "returnedCount": 2,
+          "items": [
+            {
+              "id": "flange-coupling-19",
+              "displayCode": "FG-005",
+              "name": "19 件双法兰密封连接组件",
+              "category": "装配与工装",
+              "format": "STEP",
+              "summary": "19 个部件实例，包含装配关系与拆解检查记录。",
+              "useCase": "装配结构研究与分步拆解",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/flange-coupling-19/model.glb",
+              "stepUrl": "/assets/generated/flange-coupling-19/model.step",
+              "manifestUrl": "/assets/generated/flange-coupling-19/manifest.json",
+              "matchScore": null,
+              "matchedTerms": null
+            },
+            {
+              "id": "precision-vise-18",
+              "displayCode": "FG-006",
+              "name": "18 件双导柱精密夹持组件",
+              "category": "装配与工装",
+              "format": "STEP",
+              "summary": "18 个部件实例，包含装配关系与拆解检查记录。",
+              "useCase": "装配结构研究与分步拆解",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/precision-vise-18/model.glb",
+              "stepUrl": "/assets/generated/precision-vise-18/model.step",
+              "manifestUrl": "/assets/generated/precision-vise-18/manifest.json",
+              "matchScore": null,
+              "matchedTerms": null
+            }
+          ]
+        },
+        "isError": false
+      }
+    ],
+    "runIds": [],
+    "providerId": "agnes-ai",
+    "usage": {
+      "billingMode": "external",
+      "providerId": "agnes-ai",
+      "model": "agnes-3.0-flash",
+      "costUsd": null,
+      "status": "unavailable",
+      "tokenScope": "agh_main_turn",
+      "requestCount": 4,
+      "promptTokens": 5334,
+      "completionTokens": 358,
+      "cachedTokens": 6656,
+      "reasoningTokens": 0
+    },
+    "answer": "已在本地零件目录中检索（共 45 个资产，关键词命中 2 个）。以下是带装配层级、支持拆解（爆炸）视图的机械总成：\n\n| 编号 | 名称 | 用途 | 格式 | 部件规模 | 命中词 |\n|------|------|------|------|----------|--------|\n| FG-005 | 19 件双法兰密封连接组件 | 装配结构研究与分步拆解 | STEP | 19 个部件实例，含装配关系与拆解检查记录 | 装配 |\n| FG-006 | 18 件双导柱精密夹持组件 | 装配结构研究与分步拆解 | STEP | 18 个部件实例，含装配关系与拆解检查记录 | 装配 |\n\n结果数量：2 个（matchMode 为 ranked_partial / all_terms，覆盖全部命中项）。\n\n注意事项：\n- 以上仅说明部件数量与装配层级存在，不能证明与某一具体图纸等同、材料、修订号或可制造性。\n- 两条记录的材料字段均为空（未标注材质）。\n- 如需查看具体拆解结构，可提供 manifest.json 路径进一步读取；目录本身不修改库存、也不代表生产或交付承诺。"
+  },
+  "usage": {
+    "billingMode": "external",
+    "providerId": "agnes-ai",
+    "model": "agnes-3.0-flash",
+    "costUsd": null,
+    "status": "unavailable",
+    "tokenScope": "agh_main_turn",
+    "requestCount": 4,
+    "promptTokens": 5334,
+    "completionTokens": 358,
+    "cachedTokens": 6656,
+    "reasoningTokens": 0
+  }
+}

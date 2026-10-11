@@ -1,0 +1,149 @@
+{
+  "source_type": "original-parametric-demo",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "assemblies": [
+    {
+      "id": "flange-coupling-19",
+      "name": "19 件双法兰密封连接组件",
+      "manifest": "assets/generated/flange-coupling-19/manifest.json",
+      "instance_count": 19,
+      "path_check_passed": true,
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "thumbnailUrl": "assets/generated/thumbnails/flange-coupling-19.png"
+    },
+    {
+      "id": "precision-vise-18",
+      "name": "18 件双导柱精密夹持组件",
+      "manifest": "assets/generated/precision-vise-18/manifest.json",
+      "instance_count": 18,
+      "path_check_passed": true,
+      "provenance": {
+        "kind": "original-parametric-demo",
+        "author": "Project-generated demonstration assets",
+        "license": "CC0-1.0",
+        "created": "2026-10-09",
+        "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+      },
+      "thumbnailUrl": "assets/generated/thumbnails/precision-vise-18.png"
+    }
+  ],
+  "parts": [
+    {
+      "id": "flange-hub",
+      "name": "带颈连接法兰",
+      "manifest": "assets/generated/flange-coupling-19/parts/flange-hub/manifest.json",
+      "assembly_id": "flange-coupling-19",
+      "thumbnailUrl": "assets/generated/thumbnails/flange-hub.png"
+    },
+    {
+      "id": "gasket",
+      "name": "密封垫片",
+      "manifest": "assets/generated/flange-coupling-19/parts/gasket/manifest.json",
+      "assembly_id": "flange-coupling-19",
+      "thumbnailUrl": "assets/generated/thumbnails/gasket.png"
+    },
+    {
+      "id": "washer-m10",
+      "name": "M10 平垫圈",
+      "manifest": "assets/generated/flange-coupling-19/parts/washer-m10/manifest.json",
+      "assembly_id": "flange-coupling-19",
+      "thumbnailUrl": "assets/generated/thumbnails/washer-m10.png"
+    },
+    {
+      "id": "bolt-m10",
+      "name": "M10 六角螺栓（无螺纹简化）",
+      "manifest": "assets/generated/flange-coupling-19/parts/bolt-m10/manifest.json",
+      "assembly_id": "flange-coupling-19",
+      "thumbnailUrl": "assets/generated/thumbnails/bolt-m10.png"
+    },
+    {
+      "id": "nut-m10",
+      "name": "M10 六角螺母（无螺纹简化）",
+      "manifest": "assets/generated/flange-coupling-19/parts/nut-m10/manifest.json",
+      "assembly_id": "flange-coupling-19",
+      "thumbnailUrl": "assets/generated/thumbnails/nut-m10.png"
+    },
+    {
+      "id": "vise-base",
+      "name": "双导柱精密夹具底座",
+      "manifest": "assets/generated/precision-vise-18/parts/vise-base/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/vise-base.png"
+    },
+    {
+      "id": "fixed-tower",
+      "name": "固定支架（双导孔与丝杠孔）",
+      "manifest": "assets/generated/precision-vise-18/parts/fixed-tower/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/fixed-tower.png"
+    },
+    {
+      "id": "moving-jaw",
+      "name": "活动滑台",
+      "manifest": "assets/generated/precision-vise-18/parts/moving-jaw/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/moving-jaw.png"
+    },
+    {
+      "id": "guide-rod",
+      "name": "淬硬导向轴",
+      "manifest": "assets/generated/precision-vise-18/parts/guide-rod/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/guide-rod.png"
+    },
+    {
+      "id": "lead-screw",
+      "name": "传动丝杠（螺纹包络简化）",
+      "manifest": "assets/generated/precision-vise-18/parts/lead-screw/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/lead-screw.png"
+    },
+    {
+      "id": "guide-support",
+      "name": "导柱端部支承座",
+      "manifest": "assets/generated/precision-vise-18/parts/guide-support/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/guide-support.png"
+    },
+    {
+      "id": "jaw-insert",
+      "name": "可更换夹持钳口",
+      "manifest": "assets/generated/precision-vise-18/parts/jaw-insert/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/jaw-insert.png"
+    },
+    {
+      "id": "handwheel",
+      "name": "四辐调节手轮",
+      "manifest": "assets/generated/precision-vise-18/parts/handwheel/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/handwheel.png"
+    },
+    {
+      "id": "wheel-handle",
+      "name": "手轮旋转握柄",
+      "manifest": "assets/generated/precision-vise-18/parts/wheel-handle/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/wheel-handle.png"
+    },
+    {
+      "id": "bolt-m8",
+      "name": "M8 六角螺栓（无螺纹简化）",
+      "manifest": "assets/generated/precision-vise-18/parts/bolt-m8/manifest.json",
+      "assembly_id": "precision-vise-18",
+      "thumbnailUrl": "assets/generated/thumbnails/bolt-m8.png"
+    }
+  ]
+}

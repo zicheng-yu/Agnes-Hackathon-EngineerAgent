@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "mounting-plate-complete",
+  "name": "四孔圆角安装板（独立读图输入）",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/reference-models/mounting-plate-complete/model.step",
+    "glb": "assets/generated/reference-models/mounting-plate-complete/model.glb",
+    "mesh": "assets/generated/reference-models/mounting-plate-complete/mesh.json",
+    "feature_plan": "assets/generated/reference-models/mounting-plate-complete/feature-plan.json",
+    "views": {
+      "front": "assets/generated/reference-models/mounting-plate-complete/views/front.svg",
+      "top": "assets/generated/reference-models/mounting-plate-complete/views/top.svg",
+      "side": "assets/generated/reference-models/mounting-plate-complete/views/side.svg"
+    },
+    "view_metadata": "assets/generated/reference-models/mounting-plate-complete/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "bbox",
+        "feature_id": null,
+        "actual": 80.0,
+        "expected": 80.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "bbox",
+        "feature_id": null,
+        "actual": 60.0,
+        "expected": 60.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-3",
+        "kind": "bbox",
+        "feature_id": null,
+        "actual": 12.0,
+        "expected": 12.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-4",
+        "kind": "circular_edge_diameter",
+        "feature_id": null,
+        "actual": 9.0,
+        "expected": 9.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 54453.663947,
+      "area_mm2": 13730.973355,
+      "bbox": {
+        "min": [
+          -40.0,
+          -30.0,
+          0.0
+        ],
+        "max": [
+          40.0,
+          30.0,
+          12.0
+        ],
+        "size": [
+          80.0,
+          60.0,
+          12.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        2.6723482266410114e-16,
+        -6.680870566602528e-16,
+        5.999999999999999
+      ],
+      "faces": 14,
+      "edges": 36
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 54453.663947,
+    "area_mm2": 13730.973355,
+    "bbox": {
+      "min": [
+        -40.0,
+        -30.0,
+        0.0
+      ],
+      "max": [
+        40.0,
+        30.0,
+        12.0
+      ],
+      "size": [
+        80.0,
+        60.0,
+        12.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      2.6723482266410114e-16,
+      -6.680870566602528e-16,
+      5.999999999999999
+    ],
+    "faces": 14,
+    "edges": 36
+  },
+  "feature_log": [
+    {
+      "id": "blank",
+      "op": "box",
+      "status": "completed",
+      "duration_ms": 1.53
+    },
+    {
+      "id": "mount-holes",
+      "op": "hole",
+      "status": "completed",
+      "duration_ms": 20.02
+    },
+    {
+      "id": "corners",
+      "op": "fillet",
+      "status": "completed",
+      "duration_ms": 28.58
+    }
+  ],
+  "errors": []
+}

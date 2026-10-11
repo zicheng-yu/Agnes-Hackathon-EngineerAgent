@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-09",
+  "runtimeCommit": "cde816b88c737b9fd04e7ef55b899e7b4cd55eb7",
+  "node": "v26.7.0",
+  "pnpm": "10.34.5",
+  "officialBuild": "passed",
+  "cliHelp": "passed",
+  "pluginBoundaryAndHttpTests": "passed",
+  "compareViewsIntegration": {
+    "pluginVersion": "0.1.1",
+    "status": "offline-schema-and-contract-tests-passed",
+    "operation": "compare_views",
+    "comparisonAloneCannotSatisfyReconstruction": true,
+    "failedComparisonMustBeRecheckedAfterGeometryRepair": true,
+    "projectHomeInstall": "0.1.1 running/trusted verified; no model called",
+    "pluginIntegrity": "sha256-33b97069f404b660e787778d892bc87a9c5713d7b615700789d3f437617e2b7a",
+    "realModelCalled": false
+  },
+  "offlineRuntimeSmoke": {
+    "status": "passed",
+    "execution": "offline-deterministic-provider-fixture",
+    "realModel": false,
+    "paidApiCalls": 0,
+    "report": ".local/offline-UgQTca/report.json",
+    "trace": ".local/offline-UgQTca/trace.agnes.jsonl",
+    "html": ".local/offline-UgQTca/trace.html",
+    "events": 112,
+    "checks": [
+      "official daemon and worker",
+      "plugin inspect/install/trust/enable and actual running state",
+      "explicit registration of an isolated task workspace",
+      "actual input-file read tool call",
+      "out-of-scope input refusal",
+      "geometry tool HTTP contract against explicitly tagged loopback fixture",
+      "official native JSONL and HTML trace export"
+    ]
+  },
+  "modelRunDefaultGuard": "passed: MODEL_RUN_DISABLED and exit 2",
+  "projectPluginInstall": "passed: 0.1.1 manage.mjs install; no model account configured; daemon stopped after check",
+  "upstreamUpdateDiagnostic": "A 0.1.0-to-0.1.1 hot update stalled with E_RUNTIME_TARGET_PLUGIN unavailable previous snapshot. Preserved the stopped, unconfigured test home at .local/home-upgrade-diagnostics-20261009 and successfully installed 0.1.1 into a fresh project-local home. No user accounts or credentials were moved.",
+  "futureAccountBridge": {
+    "status": "schema-and-in-memory-mock-passed",
+    "networkForbiddenDuringTest": true,
+    "realCredentialWritten": false,
+    "officialSchemas": [
+      "_agnes/v1/config.save",
+      "session/prompt image block"
+    ],
+    "catalogueChecks": [
+      "agnes-3.0-flash image support and limit",
+      "unknown model refusal",
+      "text-only model image refusal"
+    ],
+    "outputGate": "paired geometry tool result plus actual STEP/GLB/non-empty feature or assembly graph and no unresolved geometry failure"
+  },
+  "liveCadThroughAgh": {
+    "status": "passed",
+    "command": "node integrations/agh/offline-smoke.mjs --live-geometry",
+    "execution": "offline-deterministic-provider-fixture",
+    "realModel": false,
+    "realGeometry": true,
+    "paidApiCalls": 0,
+    "report": ".local/offline-bMixSs/report.json",
+    "trace": ".local/offline-bMixSs/trace.agnes.jsonl",
+    "html": ".local/offline-bMixSs/trace.html",
+    "events": 112,
+    "cadRunId": "dc9548cc-b874-4ccc-8b8c-1e9dca8ab35e",
+    "input": "predetermined box DSL, 20 x 30 x 10 mm",
+    "measuredVolumeMm3": 6000,
+    "heightErrorMm": 2.0000000233721948e-7,
+    "dimensionCheckPassed": true
+  },
+  "notValidated": [
+    "real model or competition model",
+    "model vision accuracy",
+    "automatic CAD reconstruction accuracy",
+    "arbitrary part and assembly reconstruction by an actual model"
+  ],
+  "latestIntegrationValidation": {
+    "date": "2026-10-09",
+    "plugin": {
+      "id": "@panpan/industrial-tools",
+      "version": "0.2.0",
+      "actual": "running",
+      "trusted": true,
+      "integrity": "sha256-2d8ede4c5264b987c8e03d02ac923d3b03f921bb5ff110b393451242b71462d4",
+      "capabilityHash": "e3de4e5f2da4b8aa2650af5c4f822d397c2dadd7a6695e5071c0444d26a22b01"
+    },
+    "defaultHome": ".local/home-v0.2.0",
+    "unitTests": 10,
+    "realModel": false,
+    "paidApiCalls": 0,
+    "contractReport": ".local/offline-97ugRM/report.json",
+    "contractEvents": 182,
+    "liveReport": ".local/offline-NYjPBe/report.json",
+    "liveEvents": 182,
+    "liveCadRunId": "cf1f38d5-480e-4d9e-bc0d-e26959d8850c",
+    "measuredVolumeMm3": 6000,
+    "dimensionChecksPassed": true,
+    "catalogueSize": 45,
+    "catalogueMatches": 3,
+    "purchaseLineCount": 2,
+    "requestedQuantity": 50,
+    "toProduce": 30,
+    "calculatedHours": 10.68,
+    "modes": [
+      "reconstruct",
+      "order_review",
+      "catalog_search"
+    ],
+    "checks": [
+      "official-built-daemon-started",
+      "industrial-plugin-installed-trusted-running",
+      "actual-tool-read-result-reached-loopback-provider",
+      "out-of-scope-file-refused-through-real-runtime",
+      "real-CAD-build-and-dimension-verification-through-real-AGH-tool",
+      "real-STEP-and-GLB-artifact-URLs-serve-valid-file-headers",
+      "real-45-asset-catalogue-and-10.68-hour-order-review-through-AGH",
+      "business-success-gate-accepts-actual-paired-tool-events",
+      "native-AGH-ledger-export-includes-tool-call-and-result"
+    ],
+    "limitation": "Predetermined loopback provider tools, real local geometry and synthetic-ledger business tools. No real model reasoning evaluated by these tests.",
+    "sessionModelSelection": {
+      "slot": "primary",
+      "status": "official-schema-and-call-contract-passed",
+      "rejectedRegression": "main is outside the official SlotName enum"
+    },
+    "macosDaemonReuse": {
+      "status": "verified-against-existing-evaluation-daemon-without-model-call",
+      "cause": "kern.boottime microseconds drift while exact libproc process-start timestamp remains unchanged",
+      "guards": [
+        "private owner and discovery records",
+        "matching home/profile/dataDir scope hash",
+        "same Node executable and scoped daemon argv",
+        "PID plus exact process-start microseconds",
+        "less than one second boot-clock drift",
+        "private Unix socket and parent directory ownership",
+        "official SDK initialize/apis profile",
+        "owner generation and process identity rechecked"
+      ],
+      "export": "official CLI exportSession and privacy filters through fresh SDK client",
+      "offlineExportReport": ".local/offline-kMhOmb/report.json",
+      "offlineEvents": 182
+    }
+  },
+  "externalControllerTransport": {
+    "status": "actual-AGH-tool-and-official-ledger-smoke-passed",
+    "execution": "controller-transport-smoke",
+    "route": "external-codex-controller",
+    "model": "codex-current-conversation",
+    "autonomousAgnes": false,
+    "localInference": false,
+    "externalModelApiCalls": 0,
+    "report": ".local/controller-3cW5Bc/result.json",
+    "eventCount": 43,
+    "catalogueSize": 45,
+    "catalogueMatches": 3,
+    "unitTests": 2,
+    "credentialHandling": "new loopback-only transport token in process environment; no model API key or existing credential read",
+    "limitation": "Interface smoke is predetermined; root Codex must supply actual drawing decisions in a separately labelled external-codex-assisted run."
+  }
+}

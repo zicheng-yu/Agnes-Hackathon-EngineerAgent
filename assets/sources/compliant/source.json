@@ -1,0 +1,13 @@
+{
+  "id": "compliant",
+  "repo": "PCrnjak/Compliant-robotic-gripper",
+  "url": "https://github.com/PCrnjak/Compliant-robotic-gripper",
+  "commit": "df56e1deee1bd89c8db86a24df8e3240e2448c24",
+  "author": "Petar Crnjak",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/PCrnjak/Compliant-robotic-gripper/blob/df56e1deee1bd89c8db86a24df8e3240e2448c24/LICENSE",
+  "licensePath": "assets/sources/compliant/LICENSE",
+  "licenseSha256": "4e91c5d3ddacaf76e7f64df321611c59171ec01c24fb2743fb43da7067586d80",
+  "retrievedAt": "2026-10-09T04:04:01.793909+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

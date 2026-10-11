@@ -1,0 +1,124 @@
+{
+  "id": "pincopen-top-plate",
+  "name": "PincOpen 夹爪多孔顶板",
+  "category": "夹持与末端执行",
+  "material": null,
+  "summary": "PincOpen 夹爪多孔顶板，来自 pollen-robotics/PincOpen 的公开机械设计。",
+  "useCase": "低成本自动抓取装置",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+  "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+  "sourceProject": "pincopen",
+  "author": "Pollen Robotics",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+  "licensePath": "assets/sources/pincopen/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/pincopen-top-plate/source.step",
+  "sizeBytes": 404499,
+  "sha256": "36721fabaa80ee756b67f49f16e3d8c21fafe116e6d2aa0870a370a8310e6565",
+  "downloadedAt": "2026-10-09T04:04:01.798031+00:00",
+  "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 404499,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "previewPath": "assets/catalog/pincopen-top-plate/preview.stl",
+  "previewSha256": "953a8381c7db1216d30b81d6f83ea830949b20f24ac4ea04322b456a0bfee7c4",
+  "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Top_Plate.stl",
+  "previewDownloadedAt": "2026-10-09T04:06:34.680942+00:00",
+  "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+  "previewValidation": {
+    "binaryLengthValid": true,
+    "triangles": 54158,
+    "sha256Matches": true,
+    "units": "unspecified-in-STL"
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/pincopen-top-plate/preview-cad/mesh.json",
+    "sourceMeshSha256": "81e185508bf947c478265c868c930cd7dfb625946c644669e15f76aaca0aeedc",
+    "trianglesRendered": 38916,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/pincopen-top-plate/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/pincopen-top-plate/thumbnail.png",
+  "thumbnailSha256": "c62a2596f87d45b99beb7ac9751c51e9e81ce9e7d56309f70850da4bb222d0ed",
+  "browserModelPath": "assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 41721.870598,
+      "area_mm2": 14907.825959,
+      "bbox": {
+        "min": [
+          -53.51727559198596,
+          -48.17395686711254,
+          -0.048325833106344106
+        ],
+        "max": [
+          4.693095450699419,
+          48.196661892475284,
+          20.436809243913054
+        ],
+        "size": [
+          58.210371042685374,
+          96.37061875958781,
+          20.485135077019397
+        ]
+      },
+      "center_of_mass": [
+        -25.098453583868807,
+        0.012234569149240556,
+        12.142761475530317
+      ],
+      "faces": 194,
+      "edges": 537,
+      "sum_of_solid_volumes_mm3": 41721.870597939596
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:13.408137+00:00"
+  },
+  "browserModelSha256": "e4fcbeae0a171325025020ecec613de67e2c1fc13f88d05a2a8291d711dd2fe9",
+  "browserModelSizeBytes": 834872,
+  "browserMeshPath": "assets/catalog/pincopen-top-plate/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

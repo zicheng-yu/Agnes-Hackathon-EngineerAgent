@@ -1,0 +1,2994 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "assembly",
+  "id": "precision-vise-18",
+  "name": "18 件双导柱精密夹持组件",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "files": {
+    "step": "assets/generated/precision-vise-18/model.step",
+    "glb": "assets/generated/precision-vise-18/model.glb",
+    "feature_plan": "assets/generated/precision-vise-18/assembly-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/views/front.svg",
+      "top": "assets/generated/precision-vise-18/views/top.svg",
+      "side": "assets/generated/precision-vise-18/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/views/metadata.json"
+  },
+  "parts": [
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "vise-base",
+      "name": "双导柱精密夹具底座",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/vise-base/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/vise-base/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/vise-base/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/vise-base/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/vise-base/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/vise-base/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/vise-base/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/vise-base/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 501425.688726,
+          "area_mm2": 85592.67844,
+          "bbox": {
+            "min": [
+              -130.0,
+              -70.0,
+              -3.7161237067820156e-35
+            ],
+            "max": [
+              130.0,
+              70.0,
+              14.0
+            ],
+            "size": [
+              260.0,
+              140.0,
+              14.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -0.326374642521462,
+            -0.04753028774583954,
+            7.000000000000001
+          ],
+          "faces": 16,
+          "edges": 42
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 501425.688726,
+        "area_mm2": 85592.67844,
+        "bbox": {
+          "min": [
+            -130.0,
+            -70.0,
+            -3.7161237067820156e-35
+          ],
+          "max": [
+            130.0,
+            70.0,
+            14.0
+          ],
+          "size": [
+            260.0,
+            140.0,
+            14.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -0.326374642521462,
+          -0.04753028774583954,
+          7.000000000000001
+        ],
+        "faces": 16,
+        "edges": 42
+      },
+      "feature_log": [
+        {
+          "id": "blank",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.88
+        },
+        {
+          "id": "mount-slots",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 11.42
+        },
+        {
+          "id": "support-fastener-holes",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 13.87
+        },
+        {
+          "id": "edge-break",
+          "op": "chamfer",
+          "status": "completed",
+          "duration_ms": 33.35
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "fixed-tower",
+      "name": "固定支架（双导孔与丝杠孔）",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/fixed-tower/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/fixed-tower/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/fixed-tower/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/fixed-tower/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/fixed-tower/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/fixed-tower/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/fixed-tower/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/fixed-tower/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 148597.477863,
+          "area_mm2": 30224.465618,
+          "bbox": {
+            "min": [
+              -16.0,
+              -52.0,
+              0.0
+            ],
+            "max": [
+              16.0,
+              52.0,
+              54.0
+            ],
+            "size": [
+              32.0,
+              104.0,
+              54.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -5.630883765072424e-16,
+            -4.896420665280369e-16,
+            27.380711678351943
+          ],
+          "faces": 13,
+          "edges": 33
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 148597.477863,
+        "area_mm2": 30224.465618,
+        "bbox": {
+          "min": [
+            -16.0,
+            -52.0,
+            0.0
+          ],
+          "max": [
+            16.0,
+            52.0,
+            54.0
+          ],
+          "size": [
+            32.0,
+            104.0,
+            54.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -5.630883765072424e-16,
+          -4.896420665280369e-16,
+          27.380711678351943
+        ],
+        "faces": 13,
+        "edges": 33
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.88
+        },
+        {
+          "id": "rod-a",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.61
+        },
+        {
+          "id": "rod-b",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.38
+        },
+        {
+          "id": "guide-bore-a",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 3.04
+        },
+        {
+          "id": "guide-bore-b",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 5.46
+        },
+        {
+          "id": "spindle-tool",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.52
+        },
+        {
+          "id": "spindle-bore",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 5.75
+        },
+        {
+          "id": "mount-holes",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 17.35
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "moving-jaw",
+      "name": "活动滑台",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/moving-jaw/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/moving-jaw/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/moving-jaw/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/moving-jaw/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/moving-jaw/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/moving-jaw/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/moving-jaw/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/moving-jaw/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 148597.477863,
+          "area_mm2": 30224.465618,
+          "bbox": {
+            "min": [
+              -16.0,
+              -52.0,
+              0.0
+            ],
+            "max": [
+              16.0,
+              52.0,
+              54.0
+            ],
+            "size": [
+              32.0,
+              104.0,
+              54.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -5.630883765072424e-16,
+            -4.896420665280369e-16,
+            27.380711678351943
+          ],
+          "faces": 13,
+          "edges": 33
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 148597.477863,
+        "area_mm2": 30224.465618,
+        "bbox": {
+          "min": [
+            -16.0,
+            -52.0,
+            0.0
+          ],
+          "max": [
+            16.0,
+            52.0,
+            54.0
+          ],
+          "size": [
+            32.0,
+            104.0,
+            54.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -5.630883765072424e-16,
+          -4.896420665280369e-16,
+          27.380711678351943
+        ],
+        "faces": 13,
+        "edges": 33
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.86
+        },
+        {
+          "id": "rod-a",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.38
+        },
+        {
+          "id": "rod-b",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.45
+        },
+        {
+          "id": "guide-bore-a",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 2.72
+        },
+        {
+          "id": "guide-bore-b",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 5.29
+        },
+        {
+          "id": "spindle-tool",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.49
+        },
+        {
+          "id": "spindle-bore",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 5.56
+        },
+        {
+          "id": "mount-holes",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 17.35
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "guide-rod",
+      "name": "淬硬导向轴",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/guide-rod/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/guide-rod/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/guide-rod/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/guide-rod/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/guide-rod/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/guide-rod/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/guide-rod/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/guide-rod/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 33237.078476,
+          "area_mm2": 9786.608052,
+          "bbox": {
+            "min": [
+              -7.0,
+              -7.0,
+              0.0
+            ],
+            "max": [
+              7.0,
+              7.0,
+              216.0
+            ],
+            "size": [
+              14.0,
+              14.0,
+              216.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -8.482796036244359e-16,
+            2.0675899361623203e-16,
+            107.95611899427932
+          ],
+          "faces": 4,
+          "edges": 5
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 33237.078476,
+        "area_mm2": 9786.608052,
+        "bbox": {
+          "min": [
+            -7.0,
+            -7.0,
+            0.0
+          ],
+          "max": [
+            7.0,
+            7.0,
+            216.0
+          ],
+          "size": [
+            14.0,
+            14.0,
+            216.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -8.482796036244359e-16,
+          2.0675899361623203e-16,
+          107.95611899427932
+        ],
+        "faces": 4,
+        "edges": 5
+      },
+      "feature_log": [
+        {
+          "id": "turned",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.5
+        },
+        {
+          "id": "end-break",
+          "op": "chamfer",
+          "status": "completed",
+          "duration_ms": 6.52
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "lead-screw",
+      "name": "传动丝杠（螺纹包络简化）",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/lead-screw/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/lead-screw/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/lead-screw/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/lead-screw/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/lead-screw/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/lead-screw/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/lead-screw/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/lead-screw/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 52669.404023,
+          "area_mm2": 13553.544896,
+          "bbox": {
+            "min": [
+              -8.0,
+              -8.0,
+              0.0
+            ],
+            "max": [
+              8.0,
+              8.0,
+              262.0
+            ],
+            "size": [
+              16.0,
+              16.0,
+              262.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -1.3469031604574479e-15,
+            2.8877566325637085e-16,
+            130.9780925383974
+          ],
+          "faces": 4,
+          "edges": 5
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 52669.404023,
+        "area_mm2": 13553.544896,
+        "bbox": {
+          "min": [
+            -8.0,
+            -8.0,
+            0.0
+          ],
+          "max": [
+            8.0,
+            8.0,
+            262.0
+          ],
+          "size": [
+            16.0,
+            16.0,
+            262.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -1.3469031604574479e-15,
+          2.8877566325637085e-16,
+          130.9780925383974
+        ],
+        "faces": 4,
+        "edges": 5
+      },
+      "feature_log": [
+        {
+          "id": "turned",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.35
+        },
+        {
+          "id": "end-break",
+          "op": "chamfer",
+          "status": "completed",
+          "duration_ms": 6.22
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "guide-support",
+      "name": "导柱端部支承座",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/guide-support/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/guide-support/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/guide-support/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/guide-support/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/guide-support/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/guide-support/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/guide-support/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/guide-support/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 30305.718002,
+          "area_mm2": 8451.227513,
+          "bbox": {
+            "min": [
+              -12.0,
+              -20.0,
+              0.0
+            ],
+            "max": [
+              12.0,
+              20.0,
+              38.0
+            ],
+            "size": [
+              24.0,
+              40.0,
+              38.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            3.9388995700151444e-16,
+            -1.0672791141860818,
+            18.337093524735298
+          ],
+          "faces": 8,
+          "edges": 18
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 30305.718002,
+        "area_mm2": 8451.227513,
+        "bbox": {
+          "min": [
+            -12.0,
+            -20.0,
+            0.0
+          ],
+          "max": [
+            12.0,
+            20.0,
+            38.0
+          ],
+          "size": [
+            24.0,
+            40.0,
+            38.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          3.9388995700151444e-16,
+          -1.0672791141860818,
+          18.337093524735298
+        ],
+        "faces": 8,
+        "edges": 18
+      },
+      "feature_log": [
+        {
+          "id": "body",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.87
+        },
+        {
+          "id": "rod-tool",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.5
+        },
+        {
+          "id": "guide-hole",
+          "op": "cut",
+          "status": "completed",
+          "duration_ms": 2.84
+        },
+        {
+          "id": "mount-hole",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 11.31
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "jaw-insert",
+      "name": "可更换夹持钳口",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/jaw-insert/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/jaw-insert/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/jaw-insert/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/jaw-insert/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/jaw-insert/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/jaw-insert/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/jaw-insert/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/jaw-insert/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 10054.4,
+          "area_mm2": 4567.949668,
+          "bbox": {
+            "min": [
+              -3.000000000000001,
+              -42.0,
+              0.0
+            ],
+            "max": [
+              3.0,
+              42.0,
+              20.0
+            ],
+            "size": [
+              6.000000000000001,
+              84.0,
+              20.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            4.5228691009554437e-17,
+            -9.808501230499103e-16,
+            9.999999999999998
+          ],
+          "faces": 10,
+          "edges": 24
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10054.4,
+        "area_mm2": 4567.949668,
+        "bbox": {
+          "min": [
+            -3.000000000000001,
+            -42.0,
+            0.0
+          ],
+          "max": [
+            3.0,
+            42.0,
+            20.0
+          ],
+          "size": [
+            6.000000000000001,
+            84.0,
+            20.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          4.5228691009554437e-17,
+          -9.808501230499103e-16,
+          9.999999999999998
+        ],
+        "faces": 10,
+        "edges": 24
+      },
+      "feature_log": [
+        {
+          "id": "blank",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.79
+        },
+        {
+          "id": "edge-break",
+          "op": "chamfer",
+          "status": "completed",
+          "duration_ms": 14.81
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "handwheel",
+      "name": "四辐调节手轮",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/handwheel/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/handwheel/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/handwheel/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/handwheel/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/handwheel/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/handwheel/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/handwheel/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/handwheel/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 27023.177439,
+          "area_mm2": 12290.060851,
+          "bbox": {
+            "min": [
+              -40.0,
+              -40.0,
+              0.0
+            ],
+            "max": [
+              40.0,
+              40.0,
+              14.0
+            ],
+            "size": [
+              80.0,
+              80.0,
+              14.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -7.002151139859921e-14,
+            -0.34382560282282537,
+            4.636659223934706
+          ],
+          "faces": 19,
+          "edges": 60
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 27023.177439,
+        "area_mm2": 12290.060851,
+        "bbox": {
+          "min": [
+            -40.0,
+            -40.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            40.0,
+            14.0
+          ],
+          "size": [
+            80.0,
+            80.0,
+            14.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -7.002151139859921e-14,
+          -0.34382560282282537,
+          4.636659223934706
+        ],
+        "faces": 19,
+        "edges": 60
+      },
+      "feature_log": [
+        {
+          "id": "rim",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.67
+        },
+        {
+          "id": "rim-bore",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 7.01
+        },
+        {
+          "id": "spoke-a",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.84
+        },
+        {
+          "id": "spoke-b",
+          "op": "box",
+          "status": "completed",
+          "duration_ms": 0.79
+        },
+        {
+          "id": "spokes",
+          "op": "union",
+          "status": "completed",
+          "duration_ms": 5.83
+        },
+        {
+          "id": "wheel",
+          "op": "union",
+          "status": "completed",
+          "duration_ms": 20.96
+        },
+        {
+          "id": "hub",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.5
+        },
+        {
+          "id": "combined",
+          "op": "union",
+          "status": "completed",
+          "duration_ms": 15.74
+        },
+        {
+          "id": "center-bore",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 14.82
+        },
+        {
+          "id": "handle-hole",
+          "op": "hole",
+          "status": "completed",
+          "duration_ms": 14.39
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "wheel-handle",
+      "name": "手轮旋转握柄",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/wheel-handle/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/wheel-handle/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/wheel-handle/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/wheel-handle/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/wheel-handle/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/wheel-handle/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/wheel-handle/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/wheel-handle/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 5180.486286,
+          "area_mm2": 1884.955592,
+          "bbox": {
+            "min": [
+              -7.0,
+              -7.0,
+              0.0
+            ],
+            "max": [
+              7.0,
+              7.0,
+              41.0
+            ],
+            "size": [
+              14.0,
+              14.0,
+              41.0
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            2.1945205807011934e-16,
+            2.3128460291043885e-16,
+            23.99302607640995
+          ],
+          "faces": 5,
+          "edges": 6
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5180.486286,
+        "area_mm2": 1884.955592,
+        "bbox": {
+          "min": [
+            -7.0,
+            -7.0,
+            0.0
+          ],
+          "max": [
+            7.0,
+            7.0,
+            41.0
+          ],
+          "size": [
+            14.0,
+            14.0,
+            41.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          2.1945205807011934e-16,
+          2.3128460291043885e-16,
+          23.99302607640995
+        ],
+        "faces": 5,
+        "edges": 6
+      },
+      "feature_log": [
+        {
+          "id": "stem",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.29
+        },
+        {
+          "id": "grip",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.37
+        },
+        {
+          "id": "combined",
+          "op": "union",
+          "status": "completed",
+          "duration_ms": 1.85
+        }
+      ],
+      "errors": []
+    },
+    {
+      "schema_version": "1.0",
+      "status": "completed",
+      "operation": "build",
+      "id": "bolt-m8",
+      "name": "M8 六角螺栓（无螺纹简化）",
+      "units": "mm",
+      "up_axis": "Z",
+      "source_type": "original-parametric-demo",
+      "files": {
+        "step": "assets/generated/precision-vise-18/parts/bolt-m8/model.step",
+        "glb": "assets/generated/precision-vise-18/parts/bolt-m8/model.glb",
+        "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+        "feature_plan": "assets/generated/precision-vise-18/parts/bolt-m8/feature-plan.json",
+        "views": {
+          "front": "assets/generated/precision-vise-18/parts/bolt-m8/views/front.svg",
+          "top": "assets/generated/precision-vise-18/parts/bolt-m8/views/top.svg",
+          "side": "assets/generated/precision-vise-18/parts/bolt-m8/views/side.svg"
+        },
+        "view_metadata": "assets/generated/precision-vise-18/parts/bolt-m8/views/metadata.json"
+      },
+      "verification": {
+        "passed": true,
+        "checks": [
+          {
+            "id": "check-1",
+            "kind": "valid",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          },
+          {
+            "id": "check-2",
+            "kind": "solids",
+            "feature_id": null,
+            "actual": 1,
+            "expected": 1.0,
+            "tolerance": 0.05,
+            "error": 0.0,
+            "passed": true
+          }
+        ],
+        "measurements": {
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 3349.339763,
+          "area_mm2": 1802.824909,
+          "bbox": {
+            "min": [
+              -7.6,
+              -6.581793068761736,
+              0.0
+            ],
+            "max": [
+              7.6,
+              6.581793068761734,
+              55.6
+            ],
+            "size": [
+              15.2,
+              13.16358613752347,
+              55.6
+            ],
+            "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+          },
+          "center_of_mass": [
+            -2.0365835494992012e-16,
+            1.7187711334326933e-16,
+            23.593045166011812
+          ],
+          "faces": 11,
+          "edges": 23
+        },
+        "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            -7.6,
+            -6.581793068761736,
+            0.0
+          ],
+          "max": [
+            7.6,
+            6.581793068761734,
+            55.6
+          ],
+          "size": [
+            15.2,
+            13.16358613752347,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.0365835494992012e-16,
+          1.7187711334326933e-16,
+          23.593045166011812
+        ],
+        "faces": 11,
+        "edges": 23
+      },
+      "feature_log": [
+        {
+          "id": "head",
+          "op": "extrude",
+          "status": "completed",
+          "duration_ms": 4.17
+        },
+        {
+          "id": "shaft",
+          "op": "cylinder",
+          "status": "completed",
+          "duration_ms": 3.56
+        },
+        {
+          "id": "fused",
+          "op": "union",
+          "status": "completed",
+          "duration_ms": 5.14
+        },
+        {
+          "id": "edge-break",
+          "op": "chamfer",
+          "status": "completed",
+          "duration_ms": 9.47
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "instances": [
+    {
+      "id": "base",
+      "part_id": "vise-base",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sequence": 100,
+      "color": [
+        63,
+        83,
+        98,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/vise-base/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 501425.688726,
+        "area_mm2": 85592.67844,
+        "bbox": {
+          "min": [
+            -130.0,
+            -70.0,
+            -3.7161237067820156e-35
+          ],
+          "max": [
+            130.0,
+            70.0,
+            14.0
+          ],
+          "size": [
+            260.0,
+            140.0,
+            14.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -0.326374642521462,
+          -0.04753028774583954,
+          7.000000000000001
+        ],
+        "faces": 16,
+        "edges": 42
+      }
+    },
+    {
+      "id": "fixed-tower",
+      "part_id": "fixed-tower",
+      "translation": [
+        -94.0,
+        0.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        135.0
+      ],
+      "sequence": 70,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -94.0,
+          0.0,
+          14.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/fixed-tower/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 148597.477863,
+        "area_mm2": 30224.465618,
+        "bbox": {
+          "min": [
+            -110.0,
+            -52.0,
+            14.0
+          ],
+          "max": [
+            -78.0,
+            52.0,
+            68.0
+          ],
+          "size": [
+            32.0,
+            104.0,
+            54.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -94.00000000000006,
+          -5.875704798336442e-16,
+          41.380711678351965
+        ],
+        "faces": 13,
+        "edges": 33
+      }
+    },
+    {
+      "id": "moving-carriage",
+      "part_id": "moving-jaw",
+      "translation": [
+        32.0,
+        0.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        85.0
+      ],
+      "sequence": 71,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          32.0,
+          0.0,
+          14.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/moving-jaw/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 148597.477863,
+        "area_mm2": 30224.465618,
+        "bbox": {
+          "min": [
+            15.999999999999998,
+            -52.0,
+            14.0
+          ],
+          "max": [
+            48.0,
+            52.0,
+            68.0
+          ],
+          "size": [
+            32.0,
+            104.0,
+            54.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          32.000000000000014,
+          -9.792841330560737e-17,
+          41.380711678351965
+        ],
+        "faces": 13,
+        "edges": 33
+      }
+    },
+    {
+      "id": "rod-left",
+      "part_id": "guide-rod",
+      "translation": [
+        -110.0,
+        -28.0,
+        38.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "explode": [
+        280.0,
+        0.0,
+        0.0
+      ],
+      "sequence": 60,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -110.0,
+          -28.0,
+          38.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/guide-rod/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 33237.078476,
+        "area_mm2": 9786.608052,
+        "bbox": {
+          "min": [
+            -110.0,
+            -35.0,
+            31.0
+          ],
+          "max": [
+            106.0,
+            -21.0,
+            45.00000000000002
+          ],
+          "size": [
+            216.0,
+            14.0,
+            14.000000000000021
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.0438810057206647,
+          -27.999999999999996,
+          38.00000000000001
+        ],
+        "faces": 4,
+        "edges": 5
+      }
+    },
+    {
+      "id": "rod-right",
+      "part_id": "guide-rod",
+      "translation": [
+        -110.0,
+        28.0,
+        38.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "explode": [
+        280.0,
+        0.0,
+        0.0
+      ],
+      "sequence": 61,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -110.0,
+          28.0,
+          38.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/guide-rod/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 33237.078476,
+        "area_mm2": 9786.608052,
+        "bbox": {
+          "min": [
+            -110.0,
+            21.0,
+            31.0
+          ],
+          "max": [
+            106.0,
+            35.0,
+            45.00000000000002
+          ],
+          "size": [
+            216.0,
+            14.0,
+            14.000000000000021
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -2.043881005720654,
+          27.999999999999996,
+          38.00000000000001
+        ],
+        "faces": 4,
+        "edges": 5
+      }
+    },
+    {
+      "id": "spindle",
+      "part_id": "lead-screw",
+      "translation": [
+        -110.0,
+        0.0,
+        38.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "explode": [
+        310.0,
+        0.0,
+        0.0
+      ],
+      "sequence": 50,
+      "color": [
+        185,
+        190,
+        190,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -110.0,
+          0.0,
+          38.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/lead-screw/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 52669.404023,
+        "area_mm2": 13553.544896,
+        "bbox": {
+          "min": [
+            -110.0,
+            -8.0,
+            30.0
+          ],
+          "max": [
+            152.0,
+            8.0,
+            46.00000000000003
+          ],
+          "size": [
+            262.0,
+            16.0,
+            16.00000000000003
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          20.978092538397387,
+          3.557566893685643e-16,
+          38.000000000000014
+        ],
+        "faces": 4,
+        "edges": 5
+      }
+    },
+    {
+      "id": "wheel",
+      "part_id": "handwheel",
+      "translation": [
+        138.0,
+        0.0,
+        38.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "explode": [
+        450.0,
+        0.0,
+        0.0
+      ],
+      "sequence": 10,
+      "color": [
+        214,
+        145,
+        43,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          138.0,
+          0.0,
+          38.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/handwheel/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 27023.177439,
+        "area_mm2": 12290.060851,
+        "bbox": {
+          "min": [
+            138.0,
+            -40.0,
+            -2.0
+          ],
+          "max": [
+            152.0,
+            40.0,
+            78.0
+          ],
+          "size": [
+            14.0,
+            80.0,
+            80.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          142.6366592239347,
+          -0.3438256028228258,
+          38.00000000000007
+        ],
+        "faces": 19,
+        "edges": 60
+      }
+    },
+    {
+      "id": "grip",
+      "part_id": "wheel-handle",
+      "translation": [
+        138.0,
+        35.0,
+        38.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "explode": [
+        510.0,
+        0.0,
+        0.0
+      ],
+      "sequence": 1,
+      "color": [
+        52,
+        58,
+        65,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          138.0,
+          35.0,
+          38.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          90.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/wheel-handle/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5180.486286,
+        "area_mm2": 1884.955592,
+        "bbox": {
+          "min": [
+            138.0,
+            28.0,
+            31.0
+          ],
+          "max": [
+            179.0,
+            42.0,
+            45.00000000000001
+          ],
+          "size": [
+            41.0,
+            14.0,
+            14.000000000000007
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          161.99302607640996,
+          35.00000000000001,
+          38.0
+        ],
+        "faces": 5,
+        "edges": 6
+      }
+    },
+    {
+      "id": "support-left",
+      "part_id": "guide-support",
+      "translation": [
+        103.0,
+        -28.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        -95.0,
+        65.0
+      ],
+      "sequence": 65,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          103.0,
+          -28.0,
+          14.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/guide-support/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 30305.718002,
+        "area_mm2": 8451.227513,
+        "bbox": {
+          "min": [
+            91.0,
+            -48.0,
+            14.0
+          ],
+          "max": [
+            115.0,
+            -8.0,
+            52.0
+          ],
+          "size": [
+            24.0,
+            40.0,
+            38.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          103.0,
+          -29.067279114186068,
+          32.337093524735295
+        ],
+        "faces": 8,
+        "edges": 18
+      }
+    },
+    {
+      "id": "support-right",
+      "part_id": "guide-support",
+      "translation": [
+        103.0,
+        28.0,
+        14.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        95.0,
+        65.0
+      ],
+      "sequence": 66,
+      "color": [
+        143,
+        166,
+        181,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          103.0,
+          28.0,
+          14.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/guide-support/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 30305.718002,
+        "area_mm2": 8451.227513,
+        "bbox": {
+          "min": [
+            91.0,
+            8.0,
+            14.0
+          ],
+          "max": [
+            115.0,
+            48.0,
+            52.0
+          ],
+          "size": [
+            24.0,
+            40.0,
+            38.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          103.0,
+          26.932720885813914,
+          32.337093524735295
+        ],
+        "faces": 8,
+        "edges": 18
+      }
+    },
+    {
+      "id": "insert-fixed",
+      "part_id": "jaw-insert",
+      "translation": [
+        -75.0,
+        0.0,
+        48.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        200.0
+      ],
+      "sequence": 40,
+      "color": [
+        190,
+        196,
+        194,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -75.0,
+          0.0,
+          48.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/jaw-insert/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10054.4,
+        "area_mm2": 4567.949668,
+        "bbox": {
+          "min": [
+            -78.0,
+            -42.0,
+            48.0
+          ],
+          "max": [
+            -72.0,
+            42.0,
+            68.0
+          ],
+          "size": [
+            6.0,
+            84.0,
+            20.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -75.0,
+          -1.0713075050690193e-15,
+          57.99999999999999
+        ],
+        "faces": 10,
+        "edges": 24
+      }
+    },
+    {
+      "id": "insert-moving",
+      "part_id": "jaw-insert",
+      "translation": [
+        13.0,
+        0.0,
+        48.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        165.0
+      ],
+      "sequence": 41,
+      "color": [
+        190,
+        196,
+        194,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          13.0,
+          0.0,
+          48.0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/jaw-insert/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10054.4,
+        "area_mm2": 4567.949668,
+        "bbox": {
+          "min": [
+            9.999999999999998,
+            -42.0,
+            48.0
+          ],
+          "max": [
+            16.0,
+            42.0,
+            68.0
+          ],
+          "size": [
+            6.000000000000002,
+            84.0,
+            20.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          13.000000000000002,
+          -8.643862437003075e-16,
+          58.00000000000001
+        ],
+        "faces": 10,
+        "edges": 24
+      }
+    },
+    {
+      "id": "mount-bolt-1",
+      "part_id": "bolt-m8",
+      "translation": [
+        -102.0,
+        -44.0,
+        73.6
+      ],
+      "rotation": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        252.0
+      ],
+      "sequence": 21,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -102.0,
+          -44.0,
+          73.6
+        ],
+        "rotation_euler_xyz_degrees": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            -109.6,
+            -50.58179306876173,
+            17.999999999999993
+          ],
+          "max": [
+            -94.39999999999999,
+            -37.41820693123826,
+            73.6
+          ],
+          "size": [
+            15.200000000000003,
+            13.163586137523474,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -101.99999999999999,
+          -44.0,
+          50.00695483398817
+        ],
+        "faces": 11,
+        "edges": 23
+      }
+    },
+    {
+      "id": "mount-bolt-2",
+      "part_id": "bolt-m8",
+      "translation": [
+        -102.0,
+        44.0,
+        73.6
+      ],
+      "rotation": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        264.0
+      ],
+      "sequence": 22,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -102.0,
+          44.0,
+          73.6
+        ],
+        "rotation_euler_xyz_degrees": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            -109.6,
+            37.41820693123827,
+            17.999999999999993
+          ],
+          "max": [
+            -94.39999999999999,
+            50.58179306876174,
+            73.6
+          ],
+          "size": [
+            15.200000000000003,
+            13.163586137523474,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -101.99999999999999,
+          44.0,
+          50.00695483398817
+        ],
+        "faces": 11,
+        "edges": 23
+      }
+    },
+    {
+      "id": "mount-bolt-3",
+      "part_id": "bolt-m8",
+      "translation": [
+        -86.0,
+        -44.0,
+        73.6
+      ],
+      "rotation": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        276.0
+      ],
+      "sequence": 23,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -86.0,
+          -44.0,
+          73.6
+        ],
+        "rotation_euler_xyz_degrees": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            -93.6,
+            -50.58179306876173,
+            17.999999999999993
+          ],
+          "max": [
+            -78.39999999999999,
+            -37.41820693123826,
+            73.6
+          ],
+          "size": [
+            15.200000000000003,
+            13.163586137523474,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -85.99999999999999,
+          -44.0,
+          50.006954833988175
+        ],
+        "faces": 11,
+        "edges": 23
+      }
+    },
+    {
+      "id": "mount-bolt-4",
+      "part_id": "bolt-m8",
+      "translation": [
+        -86.0,
+        44.0,
+        73.6
+      ],
+      "rotation": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        288.0
+      ],
+      "sequence": 24,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          -86.0,
+          44.0,
+          73.6
+        ],
+        "rotation_euler_xyz_degrees": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            -93.6,
+            37.41820693123827,
+            17.999999999999993
+          ],
+          "max": [
+            -78.39999999999999,
+            50.58179306876174,
+            73.6
+          ],
+          "size": [
+            15.200000000000003,
+            13.163586137523474,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -85.99999999999999,
+          44.0,
+          50.006954833988175
+        ],
+        "faces": 11,
+        "edges": 23
+      }
+    },
+    {
+      "id": "mount-bolt-5",
+      "part_id": "bolt-m8",
+      "translation": [
+        103.0,
+        -13.0,
+        57.6
+      ],
+      "rotation": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        300.0
+      ],
+      "sequence": 25,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          103.0,
+          -13.0,
+          57.6
+        ],
+        "rotation_euler_xyz_degrees": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            95.4,
+            -19.581793068761733,
+            1.9999999999999996
+          ],
+          "max": [
+            110.60000000000001,
+            -6.418206931238264,
+            57.6
+          ],
+          "size": [
+            15.200000000000003,
+            13.16358613752347,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          103.0,
+          -13.000000000000002,
+          34.00695483398818
+        ],
+        "faces": 11,
+        "edges": 23
+      }
+    },
+    {
+      "id": "mount-bolt-6",
+      "part_id": "bolt-m8",
+      "translation": [
+        103.0,
+        43.0,
+        57.6
+      ],
+      "rotation": [
+        180.0,
+        0.0,
+        0.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        312.0
+      ],
+      "sequence": 26,
+      "color": [
+        55,
+        67,
+        79,
+        255
+      ],
+      "original_transform": {
+        "translation": [
+          103.0,
+          43.0,
+          57.6
+        ],
+        "rotation_euler_xyz_degrees": [
+          180.0,
+          0.0,
+          0.0
+        ]
+      },
+      "mesh": "assets/generated/precision-vise-18/parts/bolt-m8/mesh.json",
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 3349.339763,
+        "area_mm2": 1802.824909,
+        "bbox": {
+          "min": [
+            95.4,
+            36.41820693123827,
+            1.9999999999999996
+          ],
+          "max": [
+            110.60000000000001,
+            49.58179306876174,
+            57.6
+          ],
+          "size": [
+            15.200000000000003,
+            13.163586137523474,
+            55.6
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          103.00000000000001,
+          43.00000000000001,
+          34.00695483398818
+        ],
+        "faces": 11,
+        "edges": 23
+      }
+    }
+  ],
+  "bom": [
+    {
+      "part_id": "vise-base",
+      "name": "双导柱精密夹具底座",
+      "quantity": 1,
+      "instance_ids": [
+        "base"
+      ],
+      "material": "6061-T6 aluminium"
+    },
+    {
+      "part_id": "fixed-tower",
+      "name": "固定支架（双导孔与丝杠孔）",
+      "quantity": 1,
+      "instance_ids": [
+        "fixed-tower"
+      ],
+      "material": "45 steel"
+    },
+    {
+      "part_id": "moving-jaw",
+      "name": "活动滑台",
+      "quantity": 1,
+      "instance_ids": [
+        "moving-carriage"
+      ],
+      "material": "45 steel"
+    },
+    {
+      "part_id": "guide-rod",
+      "name": "淬硬导向轴",
+      "quantity": 2,
+      "instance_ids": [
+        "rod-left",
+        "rod-right"
+      ],
+      "material": "GCr15 (demo)"
+    },
+    {
+      "part_id": "lead-screw",
+      "name": "传动丝杠（螺纹包络简化）",
+      "quantity": 1,
+      "instance_ids": [
+        "spindle"
+      ],
+      "material": "45 steel"
+    },
+    {
+      "part_id": "guide-support",
+      "name": "导柱端部支承座",
+      "quantity": 2,
+      "instance_ids": [
+        "support-left",
+        "support-right"
+      ],
+      "material": "45 steel"
+    },
+    {
+      "part_id": "jaw-insert",
+      "name": "可更换夹持钳口",
+      "quantity": 2,
+      "instance_ids": [
+        "insert-fixed",
+        "insert-moving"
+      ],
+      "material": "Tool steel"
+    },
+    {
+      "part_id": "handwheel",
+      "name": "四辐调节手轮",
+      "quantity": 1,
+      "instance_ids": [
+        "wheel"
+      ],
+      "material": "Black oxide steel"
+    },
+    {
+      "part_id": "wheel-handle",
+      "name": "手轮旋转握柄",
+      "quantity": 1,
+      "instance_ids": [
+        "grip"
+      ],
+      "material": "Polymer grip / steel stem"
+    },
+    {
+      "part_id": "bolt-m8",
+      "name": "M8 六角螺栓（无螺纹简化）",
+      "quantity": 6,
+      "instance_ids": [
+        "mount-bolt-1",
+        "mount-bolt-2",
+        "mount-bolt-3",
+        "mount-bolt-4",
+        "mount-bolt-5",
+        "mount-bolt-6"
+      ],
+      "material": "Grade 8.8 steel (demo)"
+    }
+  ],
+  "instance_count": 18,
+  "measurements": {
+    "valid": true,
+    "solids": 18,
+    "volume_mm3": 1050784.143734,
+    "area_mm2": 230198.690938,
+    "bbox": {
+      "min": [
+        -130.0,
+        -70.0,
+        -2.0
+      ],
+      "max": [
+        179.0,
+        70.0,
+        78.0
+      ],
+      "size": [
+        309.0,
+        140.0,
+        80.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      1.2716768381495949,
+      0.17509183662859196,
+      24.34694526296473
+    ],
+    "faces": 180,
+    "edges": 411
+  },
+  "verification": {
+    "passed": true,
+    "geometry_valid": true,
+    "part_checks_passed": true,
+    "path_check_passed": true,
+    "scope": "All part B-rep checks plus initial interference and sampled sequential explosion paths. Not a continuous-clearance proof."
+  },
+  "path_check": {
+    "method": "sequential translation; axis-aligned bounds broad phase and exact B-rep intersection at discrete samples",
+    "samples_per_path": 6,
+    "volume_tolerance_mm3": 0.01,
+    "initial_interferences": [],
+    "steps": [
+      {
+        "instance_id": "grip",
+        "sequence": 1,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "wheel",
+        "sequence": 10,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "mount-bolt-1",
+        "sequence": 21,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "mount-bolt-2",
+        "sequence": 22,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "mount-bolt-3",
+        "sequence": 23,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "mount-bolt-4",
+        "sequence": 24,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "mount-bolt-5",
+        "sequence": 25,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "mount-bolt-6",
+        "sequence": 26,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "insert-fixed",
+        "sequence": 40,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "insert-moving",
+        "sequence": 41,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "spindle",
+        "sequence": 50,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "rod-left",
+        "sequence": 60,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "rod-right",
+        "sequence": 61,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "support-left",
+        "sequence": 65,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "support-right",
+        "sequence": 66,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "fixed-tower",
+        "sequence": 70,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      },
+      {
+        "instance_id": "moving-carriage",
+        "sequence": 71,
+        "samples": 6,
+        "checked": true,
+        "passed": true,
+        "collisions": []
+      }
+    ],
+    "passed": true,
+    "limitations": [
+      "Discrete sampling does not prove continuous-path clearance.",
+      "No thread, friction, deformation, tool access or dynamic effects are simulated.",
+      "Viewer simultaneous explosion is illustrative; only the reported sequential trajectories were checked."
+    ]
+  },
+  "errors": []
+}

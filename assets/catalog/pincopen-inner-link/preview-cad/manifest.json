@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "pincopen-inner-link",
+  "name": "PincOpen 精密内连杆",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/pincopen-inner-link/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/pincopen-inner-link/preview-cad/model.glb",
+    "mesh": "assets/catalog/pincopen-inner-link/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/pincopen-inner-link/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/pincopen-inner-link/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/pincopen-inner-link/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 5560.107606,
+        "area_mm2": 4679.019195,
+        "bbox": {
+          "min": [
+            -23.53503625809341,
+            -47.917291500834885,
+            -12.005061457398481
+          ],
+          "max": [
+            39.39501985699504,
+            -7.747472679878577,
+            12.00506145739847
+          ],
+          "size": [
+            62.93005611508845,
+            40.16981882095631,
+            24.010122914796952
+          ]
+        },
+        "center_of_mass": [
+          10.18633855723774,
+          -25.909763836455273,
+          -1.1139598317872893e-07
+        ],
+        "faces": 100,
+        "edges": 257
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/pincopen-inner-link/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5560.107606,
+    "area_mm2": 4679.019195,
+    "bbox": {
+      "min": [
+        -23.53503625809341,
+        -47.917291500834885,
+        -12.005061457398481
+      ],
+      "max": [
+        39.39501985699504,
+        -7.747472679878577,
+        12.00506145739847
+      ],
+      "size": [
+        62.93005611508845,
+        40.16981882095631,
+        24.010122914796952
+      ]
+    },
+    "center_of_mass": [
+      10.18633855723774,
+      -25.909763836455273,
+      -1.1139598317872893e-07
+    ],
+    "faces": 100,
+    "edges": 257,
+    "sum_of_solid_volumes_mm3": 5560.1076062916045
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

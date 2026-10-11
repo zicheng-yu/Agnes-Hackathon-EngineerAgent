@@ -1,0 +1,115 @@
+{
+  "id": "ssg48-finray-finger",
+  "name": "Fin Ray 柔顺夹指",
+  "category": "夹持与末端执行",
+  "material": null,
+  "summary": "Fin Ray 柔顺夹指，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+  "useCase": "曲面或易损物体自适应抓取",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/gripper%20jaws/fin_ray_1.STEP",
+  "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/gripper%20jaws/fin_ray_1.STEP",
+  "sourceProject": "ssg48",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/ssg48-finray-finger/source.step",
+  "sizeBytes": 140202,
+  "sha256": "b804b246d8f978f41f5599e2a1212f95386c28146cd86445b9b1693948553abc",
+  "downloadedAt": "2026-10-09T04:04:01.796276+00:00",
+  "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 140202,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 18776.452193,
+      "area_mm2": 14610.18706,
+      "bbox": {
+        "min": [
+          -79.77614299896752,
+          74.50065947032843,
+          -0.01175282019656742
+        ],
+        "max": [
+          -53.735335650624656,
+          130.01607236720673,
+          31.411752820196565
+        ],
+        "size": [
+          26.04080734834286,
+          55.5154128968783,
+          31.42350564039313
+        ]
+      },
+      "center_of_mass": [
+        -66.45594431908425,
+        93.27668287342108,
+        15.69999999999999
+      ],
+      "faces": 56,
+      "edges": 162,
+      "sum_of_solid_volumes_mm3": 18776.45219294232
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/ssg48-finray-finger/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:11.805099+00:00"
+  },
+  "browserModelPath": "assets/catalog/ssg48-finray-finger/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/ssg48-finray-finger/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "7a672ad078ccf1f6600dc65c3c66d6399625fdef27a04e1f6dafe81ffee1b272",
+  "browserModelSizeBytes": 84964,
+  "browserMeshPath": "assets/catalog/ssg48-finray-finger/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/ssg48-finray-finger/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/ssg48-finray-finger/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/ssg48-finray-finger/thumbnail.png",
+  "thumbnailSha256": "c2bd4f6bd48bb0b8ac34013df914630bfcf8c668665b14b882dc89807df8e793",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/ssg48-finray-finger/preview-cad/mesh.json",
+    "sourceMeshSha256": "16cc777f0324f4c41cba5cb090e23053590db9d9089c3398c8471cd968b53157",
+    "trianglesRendered": 3468,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

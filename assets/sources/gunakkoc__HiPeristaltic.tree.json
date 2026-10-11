@@ -1,0 +1,3583 @@
+{
+  "repo": {
+    "id": 946078404,
+    "node_id": "R_kgDOOGQCxA",
+    "name": "HiPeristaltic",
+    "full_name": "gunakkoc/HiPeristaltic",
+    "private": false,
+    "owner": {
+      "login": "gunakkoc",
+      "id": 17869910,
+      "node_id": "MDQ6VXNlcjE3ODY5OTEw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17869910?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gunakkoc",
+      "html_url": "https://github.com/gunakkoc",
+      "followers_url": "https://api.github.com/users/gunakkoc/followers",
+      "following_url": "https://api.github.com/users/gunakkoc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gunakkoc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gunakkoc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gunakkoc/subscriptions",
+      "organizations_url": "https://api.github.com/users/gunakkoc/orgs",
+      "repos_url": "https://api.github.com/users/gunakkoc/repos",
+      "events_url": "https://api.github.com/users/gunakkoc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gunakkoc/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/gunakkoc/HiPeristaltic",
+    "description": "A fully open source peristaltic pump with multiple independent channels.",
+    "fork": false,
+    "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic",
+    "forks_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/forks",
+    "keys_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/teams",
+    "hooks_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/hooks",
+    "issue_events_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/events",
+    "assignees_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/tags",
+    "blobs_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/languages",
+    "stargazers_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/stargazers",
+    "contributors_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/contributors",
+    "subscribers_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/subscribers",
+    "subscription_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/subscription",
+    "commits_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/merges",
+    "archive_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/downloads",
+    "issues_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/labels{/name}",
+    "releases_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/deployments",
+    "created_at": "2025-03-10T15:18:55Z",
+    "updated_at": "2026-09-19T03:08:30Z",
+    "pushed_at": "2026-05-23T23:58:50Z",
+    "git_url": "git://github.com/gunakkoc/HiPeristaltic.git",
+    "ssh_url": "git@github.com:gunakkoc/HiPeristaltic.git",
+    "clone_url": "https://github.com/gunakkoc/HiPeristaltic.git",
+    "svn_url": "https://github.com/gunakkoc/HiPeristaltic",
+    "homepage": "",
+    "size": 2402,
+    "stargazers_count": 18,
+    "watchers_count": 18,
+    "language": "C",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 2,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 2,
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [],
+    "visibility": "public",
+    "forks": 2,
+    "open_issues": 2,
+    "watchers": 18,
+    "default_branch": "main",
+    "temp_clone_token": null,
+    "network_count": 2,
+    "subscribers_count": 1
+  },
+  "tree": {
+    "sha": "db9a43589ec3b8e9f0624caa9871cc5c3a12e66a",
+    "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/db9a43589ec3b8e9f0624caa9871cc5c3a12e66a",
+    "tree": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33c74d541ea96e350aa9ef3c88d1ec725d3b305d",
+        "size": 18292,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/33c74d541ea96e350aa9ef3c88d1ec725d3b305d"
+      },
+      {
+        "path": "firmware",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c7fc8a485eb5ad95a15fd386bfaad5aa5e26c6db",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/c7fc8a485eb5ad95a15fd386bfaad5aa5e26c6db"
+      },
+      {
+        "path": "firmware/ATMega_Arduino",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "47c892b0a795db58860e56fb40af07bded678d21",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/47c892b0a795db58860e56fb40af07bded678d21"
+      },
+      {
+        "path": "firmware/ATMega_Arduino/HiPeristaltic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b6fc2b6d09d894fd4682fc163d6c81037902aba2",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/b6fc2b6d09d894fd4682fc163d6c81037902aba2"
+      },
+      {
+        "path": "firmware/ATMega_Arduino/HiPeristaltic/HiPeristaltic.ino",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b6186d17fcb22918cd792b23ea72fae6ba63ac10",
+        "size": 20898,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b6186d17fcb22918cd792b23ea72fae6ba63ac10"
+      },
+      {
+        "path": "firmware/RP2350_Pico2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3cc1d6cdbbf3cadc584c8be2774b5ac571d4e94f",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/3cc1d6cdbbf3cadc584c8be2774b5ac571d4e94f"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f1e53188cd52b552311c115de724a6cd5dff16e8",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/f1e53188cd52b552311c115de724a6cd5dff16e8"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "378eac25d311703f3f2cd456d8036da525cd0366",
+        "size": 6,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/378eac25d311703f3f2cd456d8036da525cd0366"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b536825eb116ea444cd5f1aaeafa673ceea03663",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/b536825eb116ea444cd5f1aaeafa673ceea03663"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode/c_cpp_properties.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4650771ee299084a6f5d3f862e97ceb3883d1e7e",
+        "size": 801,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4650771ee299084a6f5d3f862e97ceb3883d1e7e"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode/cmake-kits.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0f3815f1ea201ceb8b74ee10324640e33bfd880",
+        "size": 442,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b0f3815f1ea201ceb8b74ee10324640e33bfd880"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode/extensions.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a940d7cd92bb13fb5536b2b8a0e2288f1bdad73f",
+        "size": 225,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a940d7cd92bb13fb5536b2b8a0e2288f1bdad73f"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode/launch.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75cf34bbdd68426e44ca178683cd102a59ebe164",
+        "size": 3403,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/75cf34bbdd68426e44ca178683cd102a59ebe164"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode/settings.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "941c93d81be3ef078d3f9fa2e5e713f9529c4683",
+        "size": 2048,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/941c93d81be3ef078d3f9fa2e5e713f9529c4683"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/.vscode/tasks.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ece80cb5171b70c531f73b7e5f4153b9624143a3",
+        "size": 1949,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ece80cb5171b70c531f73b7e5f4153b9624143a3"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/CMakeLists.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "550e84e6aea0f59162c515f120e582d1955830a8",
+        "size": 1605,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/550e84e6aea0f59162c515f120e582d1955830a8"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/HiPeristaltic.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8543e380bea841313e2e37970926edb7cdd46e16",
+        "size": 25814,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8543e380bea841313e2e37970926edb7cdd46e16"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/_faster_experimental",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a2540eaa12fcf03a814488e720c860198be3b388",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/a2540eaa12fcf03a814488e720c860198be3b388"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/_faster_experimental/dif.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa3dbd7fbb43ab4fb02b9851c0df92fe721bc779",
+        "size": 2265,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/aa3dbd7fbb43ab4fb02b9851c0df92fe721bc779"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/_faster_experimental/notes2self.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27382ae2ac461968a9dd6115e733f8c7af911d36",
+        "size": 7142,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/27382ae2ac461968a9dd6115e733f8c7af911d36"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/_faster_experimental/readme.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a76e75684c6904aa84e78cc7a1f6d2458cce8a98",
+        "size": 116,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a76e75684c6904aa84e78cc7a1f6d2458cce8a98"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/_faster_experimental/stdio_usb.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52d905671998c0b470370e9f2b787ea0a8e4cbdb",
+        "size": 2457,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/52d905671998c0b470370e9f2b787ea0a8e4cbdb"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/_faster_experimental/stdio_usb.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23a261f8c3ec0c59102a1637f056a8f24fb1c47a",
+        "size": 9196,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/23a261f8c3ec0c59102a1637f056a8f24fb1c47a"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/pico_sdk_import.cmake",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d493cc23a5858ad155d9d6c37aee75f70698dded",
+        "size": 6022,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d493cc23a5858ad155d9d6c37aee75f70698dded"
+      },
+      {
+        "path": "firmware/RP2350_Pico2/HiPeristaltic/raspberrypi-swd.cfg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8705e1e244a64abee73aa90589fc25383e966bb",
+        "size": 87,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e8705e1e244a64abee73aa90589fc25383e966bb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "229deba8015852641a9b151032fbc7d89828e873",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/229deba8015852641a9b151032fbc7d89828e873"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "455b28d3351b6802c46b11a770ec90206f490bc8",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/455b28d3351b6802c46b11a770ec90206f490bc8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d800ea07e491b920c320d25aff48ccae48a47683",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/d800ea07e491b920c320d25aff48ccae48a47683"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.cproject",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efdf6371c684f597df024ff500c872e908843e50",
+        "size": 26860,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/efdf6371c684f597df024ff500c872e908843e50"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.mxproject",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "462a437a7e038acf7bc52b807dea8e599b06a914",
+        "size": 12290,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/462a437a7e038acf7bc52b807dea8e599b06a914"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.project",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c692177648526479ec5db919927079498848d911",
+        "size": 1187,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c692177648526479ec5db919927079498848d911"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.settings",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a6123339a7b45e77d348c125383d82c7af3a7761",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/a6123339a7b45e77d348c125383d82c7af3a7761"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98a69fc76aca62770448e9ac0751a140b7f1a5ad",
+        "size": 113,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/98a69fc76aca62770448e9ac0751a140b7f1a5ad"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.settings/language.settings.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8010eae411ad6f11981095ca7d727a30bcaaa778",
+        "size": 2147,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8010eae411ad6f11981095ca7d727a30bcaaa778"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.settings/org.eclipse.core.resources.prefs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99f26c0203a7844de00dbfc56e6a35d8ed3c022c",
+        "size": 55,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/99f26c0203a7844de00dbfc56e6a35d8ed3c022c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/.settings/stm32cubeide.project.prefs",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "99e3a2cdbcb2eb75ae3475477585a8affc14c801",
+        "size": 264,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/99e3a2cdbcb2eb75ae3475477585a8affc14c801"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "91fce46137604272fdeda21778ef1799ab33c547",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/91fce46137604272fdeda21778ef1799ab33c547"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Inc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c95a806b7106800ca9800ddbd6c88961dd621a03",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/c95a806b7106800ca9800ddbd6c88961dd621a03"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Inc/main.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "10bc672908a5198198b48703e9920b607b9c6736",
+        "size": 2592,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/10bc672908a5198198b48703e9920b607b9c6736"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Inc/stm32g0xx_hal_conf.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e75e1e1fd7f165a899b8f01e0724265091303124",
+        "size": 12124,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e75e1e1fd7f165a899b8f01e0724265091303124"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Inc/stm32g0xx_it.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c21ef0437867f78e4a4dda8f7f3ac542df16b1eb",
+        "size": 1896,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c21ef0437867f78e4a4dda8f7f3ac542df16b1eb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Inc/tmc2209_d.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf8da036d8d1987a18281110b90db76c02dec6c4",
+        "size": 7566,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bf8da036d8d1987a18281110b90db76c02dec6c4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "200f4928d2fdb397024aed7a9fbbcf1afcf1ebd5",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/200f4928d2fdb397024aed7a9fbbcf1afcf1ebd5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/main.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba9cd5dae98203bd15777bc69a1adda0224b1d03",
+        "size": 41151,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ba9cd5dae98203bd15777bc69a1adda0224b1d03"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/stm32g0xx_hal_msp.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97c74bbb85d4199f67206e7acd16c20dd2157572",
+        "size": 9935,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/97c74bbb85d4199f67206e7acd16c20dd2157572"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/stm32g0xx_it.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4f08f097a43b598d7e444ef38933fcb9edb87fb",
+        "size": 5646,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a4f08f097a43b598d7e444ef38933fcb9edb87fb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/syscalls.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3462a0c32018cecfe81208296272672e9bed1b1",
+        "size": 2847,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f3462a0c32018cecfe81208296272672e9bed1b1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/sysmem.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6122419d575f219514985c06bb1e81dc4de304a0",
+        "size": 2726,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6122419d575f219514985c06bb1e81dc4de304a0"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/system_stm32g0xx.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d4ca4372967447c670a9d0701f552de11244cd04",
+        "size": 11380,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d4ca4372967447c670a9d0701f552de11244cd04"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Src/tmc2209_d.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d53450022fa97681b9f1681eeeb030a55fe6782a",
+        "size": 7221,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d53450022fa97681b9f1681eeeb030a55fe6782a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Startup",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e4945d37e775d8691ed58c26ea7c4ecf63d14efe",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/e4945d37e775d8691ed58c26ea7c4ecf63d14efe"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Core/Startup/startup_stm32g0b1retx.s",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "88a12088646baa042dbd1fe5c2da91cdbfd94987",
+        "size": 9819,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/88a12088646baa042dbd1fe5c2da91cdbfd94987"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3fb576230775eb1b730b08c0a4335e5568671f66",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/3fb576230775eb1b730b08c0a4335e5568671f66"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "498b9af1acd96add1e2afe0b7685628d06b4caa5",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/498b9af1acd96add1e2afe0b7685628d06b4caa5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "384ec7ffdc2a12cb7f54eb8e423fe36a9a0bc8bc",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/384ec7ffdc2a12cb7f54eb8e423fe36a9a0bc8bc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4e3d5621768a3e1b7946fbd37a623a1b5b91008d",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/4e3d5621768a3e1b7946fbd37a623a1b5b91008d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST/STM32G0xx",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1eabec38bb9a3776a3338df257f909aea1f7c7b1",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/1eabec38bb9a3776a3338df257f909aea1f7c7b1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST/STM32G0xx/Include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d73bc29ea9321e7feede3759920feca1749781b1",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/d73bc29ea9321e7feede3759920feca1749781b1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0b1xx.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b97b0091a892fb96d4e406b473f4016422bff354",
+        "size": 863372,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b97b0091a892fb96d4e406b473f4016422bff354"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b10d5cfe45227ef523b308016e7cb822cf164a56",
+        "size": 7920,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b10d5cfe45227ef523b308016e7cb822cf164a56"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a1b094c71154f46e17c1fb9ad3e1e836e86f4204",
+        "size": 2227,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a1b094c71154f46e17c1fb9ad3e1e836e86f4204"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Device/ST/STM32G0xx/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "872e82b467048e278c4c62de79b9ed601d3bd69c",
+        "size": 371,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/872e82b467048e278c4c62de79b9ed601d3bd69c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0285251d0b27ecdc83f2099d3e6fc190ca74c8de",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/0285251d0b27ecdc83f2099d3e6fc190ca74c8de"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_armcc.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59f173ac71b996c8615e3c1804963c8b4c311cde",
+        "size": 28132,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/59f173ac71b996c8615e3c1804963c8b4c311cde"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_armclang.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e917f357a328c66909aac8cefea5891211481e3e",
+        "size": 45899,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e917f357a328c66909aac8cefea5891211481e3e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "feec32405974c068e9baf77f6b1dcbf070755fec",
+        "size": 55224,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/feec32405974c068e9baf77f6b1dcbf070755fec"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_compiler.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "adbf296f15a47a93e5058abddad6742bb4b9854d",
+        "size": 9481,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/adbf296f15a47a93e5058abddad6742bb4b9854d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_gcc.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3ddcc58b69f6a8d60f614df45fb98932b07ac9c2",
+        "size": 62627,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3ddcc58b69f6a8d60f614df45fb98932b07ac9c2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_iccarm.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12d68fd9a63b37d3a94c1114213cdd161dddbb6d",
+        "size": 28163,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/12d68fd9a63b37d3a94c1114213cdd161dddbb6d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/cmsis_version.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2e2746626afefeebcc3435ef433895b5bcc4cdb",
+        "size": 1676,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f2e2746626afefeebcc3435ef433895b5bcc4cdb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_armv81mml.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8441e57fb1b917bc669588a6cc94b439b565374d",
+        "size": 168772,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8441e57fb1b917bc669588a6cc94b439b565374d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_armv8mbl.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "344dca51483e7388f6681ea89b7508a29a276a25",
+        "size": 96139,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/344dca51483e7388f6681ea89b7508a29a276a25"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_armv8mml.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ddb8aeda7f58da418da42f6da1403f4925fdc8c",
+        "size": 158497,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/5ddb8aeda7f58da418da42f6da1403f4925fdc8c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm0.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cafae5a0a73644129a486644044b54eedee18d11",
+        "size": 41430,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/cafae5a0a73644129a486644044b54eedee18d11"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm0plus.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d104965db5198d5b45737d48abb3981fc1936ba2",
+        "size": 49524,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d104965db5198d5b45737d48abb3981fc1936ba2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm1.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76b4569743a651d8c8188924c487c159ec3132a3",
+        "size": 42626,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/76b4569743a651d8c8188924c487c159ec3132a3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm23.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b79c6af0b1edb390960a492a0fdd56cf0ac5e13f",
+        "size": 102697,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b79c6af0b1edb390960a492a0fdd56cf0ac5e13f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm3.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8157ca782da2c1d0515ec4be7252534f039ce562",
+        "size": 109420,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8157ca782da2c1d0515ec4be7252534f039ce562"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm33.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7fed59a88e31707a7fc126bd96f5b9cb84d8b1fd",
+        "size": 165085,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7fed59a88e31707a7fc126bd96f5b9cb84d8b1fd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm35p.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5579c823068095053751a108d29b2af612d8541e",
+        "size": 165095,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/5579c823068095053751a108d29b2af612d8541e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm4.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12c023b8017d9f712b2bdad1f27a0308310e14ba",
+        "size": 120867,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/12c023b8017d9f712b2bdad1f27a0308310e14ba"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_cm7.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4515d8fa3196e587d820b521c27c30c580010c3",
+        "size": 149036,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c4515d8fa3196e587d820b521c27c30c580010c3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_sc000.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf92577b63e45ccdf3f42cf1d179999aee41c9bd",
+        "size": 46407,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/cf92577b63e45ccdf3f42cf1d179999aee41c9bd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/core_sc300.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40f3af81becf238f2ed2a3cf3e3cfa4b78dffa16",
+        "size": 108414,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/40f3af81becf238f2ed2a3cf3e3cfa4b78dffa16"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/mpu_armv7.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "66ef59b4a0bff6e7f2d077cbaa235b55f5e1bfb2",
+        "size": 11690,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/66ef59b4a0bff6e7f2d077cbaa235b55f5e1bfb2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/mpu_armv8.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0041d4dc6ff536afb59c5863d21f6ced2b42531f",
+        "size": 11255,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0041d4dc6ff536afb59c5863d21f6ced2b42531f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/Include/tz_context.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d09749f3a5066f0e061783a1e67972b72ab61a7",
+        "size": 2687,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0d09749f3a5066f0e061783a1e67972b72ab61a7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/CMSIS/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8dada3edaf50dbc082c9a125058f25def75e625a",
+        "size": 11357,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8dada3edaf50dbc082c9a125058f25def75e625a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a7d752fffbed4cfd76ad83b7f5285353f3e8da5f",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/a7d752fffbed4cfd76ad83b7f5285353f3e8da5f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0a6b397808f90bbf048c451fb476628105c83155",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/0a6b397808f90bbf048c451fb476628105c83155"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6f5f1cb8989830c0f64d0d2e8437e0204259475e",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/6f5f1cb8989830c0f64d0d2e8437e0204259475e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4aba5afbe1927fb16299510a2f98253e22d2c654",
+        "size": 213381,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4aba5afbe1927fb16299510a2f98253e22d2c654"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f855e25e8a1dfc82aa07474829c2049b0c3ecbf",
+        "size": 43449,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1f855e25e8a1dfc82aa07474829c2049b0c3ecbf"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a7e9a3bb2ff17de74564865bc681eef4fa40830",
+        "size": 15987,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9a7e9a3bb2ff17de74564865bc681eef4fa40830"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f5d08ffe968a3883b966e0d0e44981e107a02b4",
+        "size": 7712,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3f5d08ffe968a3883b966e0d0e44981e107a02b4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ab6528e723e5e265570acd2dd3c15eed11b1500",
+        "size": 40782,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0ab6528e723e5e265570acd2dd3c15eed11b1500"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b48dec7721229eb5aa2954b2e14770d9be4a1579",
+        "size": 14690,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b48dec7721229eb5aa2954b2e14770d9be4a1579"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8a20c241a6df1f8b14ced1afba23999f1b74b083",
+        "size": 14544,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8a20c241a6df1f8b14ced1afba23999f1b74b083"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25a316affecd9d86926e0e671d20a5c7164e0e84",
+        "size": 54704,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/25a316affecd9d86926e0e671d20a5c7164e0e84"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6df8410a03caa39f3571dd85b7db18bba412bfe0",
+        "size": 3582,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6df8410a03caa39f3571dd85b7db18bba412bfe0"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37689932142183272229040dfa97f7035f537c83",
+        "size": 15626,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/37689932142183272229040dfa97f7035f537c83"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ddf3360604167300884316240f0635108f1ec69",
+        "size": 43916,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/5ddf3360604167300884316240f0635108f1ec69"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pcd.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78543fd34f6d8bf40436aaefd940b258f8bc09cd",
+        "size": 23252,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/78543fd34f6d8bf40436aaefd940b258f8bc09cd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pcd_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4e3ca49ef0e1f2115e737cbbc0d755ed698e6ebb",
+        "size": 2427,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4e3ca49ef0e1f2115e737cbbc0d755ed698e6ebb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2defd85032df0c665e7b5c56c892a742ecc9579e",
+        "size": 14445,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2defd85032df0c665e7b5c56c892a742ecc9579e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a334980ceeed36f26df1869c53e3494398a7ee0",
+        "size": 26972,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7a334980ceeed36f26df1869c53e3494398a7ee0"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dce1f7bbb4f111557801149c07e240ec42ade028",
+        "size": 178448,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/dce1f7bbb4f111557801149c07e240ec42ade028"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c2cddabed64b61cf5d089673b47374edef82711",
+        "size": 75523,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9c2cddabed64b61cf5d089673b47374edef82711"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44e276db262a1f8bc20112ba6581fc25c44fc3e3",
+        "size": 145988,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/44e276db262a1f8bc20112ba6581fc25c44fc3e3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_tim_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a157ec580d45cb19dfba89b2db95b9b90c782d44",
+        "size": 23764,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a157ec580d45cb19dfba89b2db95b9b90c782d44"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8f3c25ef7a11c9b760f1124363e3522b398a98c",
+        "size": 90352,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e8f3c25ef7a11c9b760f1124363e3522b398a98c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ad91e9d3f00d753349584fd021ae922cf828e39",
+        "size": 41558,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1ad91e9d3f00d753349584fd021ae922cf828e39"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_usart.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f73166a390cbc4d91de1f17722451a26b21365ed",
+        "size": 47042,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f73166a390cbc4d91de1f17722451a26b21365ed"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_usart_ex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92700675b338750b26c7a42135cb67a291e83462",
+        "size": 23706,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/92700675b338750b26c7a42135cb67a291e83462"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4309003a0f6edbe7f128d7b6930db17c20049822",
+        "size": 59276,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4309003a0f6edbe7f128d7b6930db17c20049822"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "518e081982b0dbfa78ab905f56dbbc338ccab39f",
+        "size": 22186,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/518e081982b0dbfa78ab905f56dbbc338ccab39f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_crs.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c967139f4e7fab43ae8d318feb552015fac9ee6",
+        "size": 24182,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9c967139f4e7fab43ae8d318feb552015fac9ee6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57db1bc6c0f872d686697cb1c88f2a3d53b0f19d",
+        "size": 91170,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/57db1bc6c0f872d686697cb1c88f2a3d53b0f19d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8086345cf4f5d653c85ab7d0403faec89180f80",
+        "size": 87820,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c8086345cf4f5d653c85ab7d0403faec89180f80"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d63b0bc3e65a584240ab51d3a8572431b34fecb7",
+        "size": 63787,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d63b0bc3e65a584240ab51d3a8572431b34fecb7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b221dd9a12e41b9b14777d065e72f67d68658df",
+        "size": 36313,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2b221dd9a12e41b9b14777d065e72f67d68658df"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_lpuart.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1450dda58ab5d101b988d40147767cfbbf739839",
+        "size": 95375,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1450dda58ab5d101b988d40147767cfbbf739839"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07089678f5123d0213924384d17d17432c3269d8",
+        "size": 49928,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/07089678f5123d0213924384d17d17432c3269d8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "135b67097b7c99ece05d84dd5e271004972d2d78",
+        "size": 154969,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/135b67097b7c99ece05d84dd5e271004972d2d78"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7dbe6261cd25298bbb2f842afc05caf0426fedb3",
+        "size": 79348,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7dbe6261cd25298bbb2f842afc05caf0426fedb3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad8d1def4e4ce6f8611ecef123b76fd26f311773",
+        "size": 229858,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ad8d1def4e4ce6f8611ecef123b76fd26f311773"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09b8d76aaca403b55b7114e377f5d1e8ee10741b",
+        "size": 175096,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/09b8d76aaca403b55b7114e377f5d1e8ee10741b"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usb.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e77e649dcb37a37f644bef544ccb5aabe02d561",
+        "size": 32115,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/5e77e649dcb37a37f644bef544ccb5aabe02d561"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0dd8bc2ef15ce030293353b1454a76d2750b0b6",
+        "size": 13245,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c0dd8bc2ef15ce030293353b1454a76d2750b0b6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3edc4d14644557136d3d0bb8724362a59cea8c98",
+        "size": 377,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3edc4d14644557136d3d0bb8724362a59cea8c98"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fda25203ddc7d351d051dd8161fd8bbd0e362cc3",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/fda25203ddc7d351d051dd8161fd8bbd0e362cc3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9606aa5dc350ad57cc0c70f89e1c5d98936890e6",
+        "size": 22679,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9606aa5dc350ad57cc0c70f89e1c5d98936890e6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aafab80bca6ee698dc1176c6e55a176ff8d6f35e",
+        "size": 14820,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/aafab80bca6ee698dc1176c6e55a176ff8d6f35e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2b906a7d5022cfd0da7170cd77d7737265eb7c9",
+        "size": 37378,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a2b906a7d5022cfd0da7170cd77d7737265eb7c9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28309c9b1f7b3cf9dff0684b1fb95b066db9d9be",
+        "size": 11024,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/28309c9b1f7b3cf9dff0684b1fb95b066db9d9be"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35bba78b6d1551ca20a71d522895e74ace50fc2b",
+        "size": 18334,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/35bba78b6d1551ca20a71d522895e74ace50fc2b"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0cb7b6326ecf217777e89d17398cda3f8dd9cdcc",
+        "size": 21572,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0cb7b6326ecf217777e89d17398cda3f8dd9cdcc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b31c687f0d30e33d510fe0fd198e341f886aa032",
+        "size": 48442,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b31c687f0d30e33d510fe0fd198e341f886aa032"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b4cc8a16fe8be5c55abe7aa0c2ca0c86325f0fc",
+        "size": 18884,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4b4cc8a16fe8be5c55abe7aa0c2ca0c86325f0fc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "420e0894e08f556773d366ea5193b3833c4dbd2c",
+        "size": 57403,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/420e0894e08f556773d366ea5193b3833c4dbd2c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2819a349b8185e51029b6a792f3e354441c184b6",
+        "size": 9168,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2819a349b8185e51029b6a792f3e354441c184b6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98cff757e772a4bfa1fc1e9efed464b570677028",
+        "size": 20733,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/98cff757e772a4bfa1fc1e9efed464b570677028"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96ac916ee414d0c9d8a58e6d0e65a9c028c2ad54",
+        "size": 30501,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/96ac916ee414d0c9d8a58e6d0e65a9c028c2ad54"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38a6175e52927a879660aedd9fd1c5ffe71bc9be",
+        "size": 54233,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/38a6175e52927a879660aedd9fd1c5ffe71bc9be"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8b6d376fe02fe60f0993778f58c391a19071f70",
+        "size": 59329,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a8b6d376fe02fe60f0993778f58c391a19071f70"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7a3213501a017f15ecb50afb1b0c500895a0bc3",
+        "size": 253546,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b7a3213501a017f15ecb50afb1b0c500895a0bc3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ee268d8bf747b6c4185b8d007c3492005737afe2",
+        "size": 99080,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ee268d8bf747b6c4185b8d007c3492005737afe2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "292c78f35f756b8f3da96f3d611248bbad99a606",
+        "size": 164053,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/292c78f35f756b8f3da96f3d611248bbad99a606"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29e67243694a2c37556bcc8c1d994849dd29a221",
+        "size": 39213,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/29e67243694a2c37556bcc8c1d994849dd29a221"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "243b93d3af608590299bc78fd040b6fc225deb87",
+        "size": 133606,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/243b93d3af608590299bc78fd040b6fc225deb87"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c645b6817c98a6da33b0a6ef6f81992a7665d80e",
+        "size": 15812,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c645b6817c98a6da33b0a6ef6f81992a7665d80e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3575197894eb2c15d427f823b10fa502a489c92f",
+        "size": 41999,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3575197894eb2c15d427f823b10fa502a489c92f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da131b227f8153817082b40edac6b6d91c5b81a4",
+        "size": 39528,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/da131b227f8153817082b40edac6b6d91c5b81a4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/HiPeristaltic Debug.launch",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f4126bb8d45a32c1617cc834cfe8ee65680b748",
+        "size": 9358,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1f4126bb8d45a32c1617cc834cfe8ee65680b748"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/HiPeristaltic Release.launch",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5d701e4c130ad227bb1a871ff856e117fe4a130",
+        "size": 9364,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d5d701e4c130ad227bb1a871ff856e117fe4a130"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/HiPeristaltic.ioc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "680a70aafb30f0d2139d631ff363c866dccf3915",
+        "size": 8723,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/680a70aafb30f0d2139d631ff363c866dccf3915"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8bad5d915e201839cac4a06683b76b5e3ec9edd2",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/8bad5d915e201839cac4a06683b76b5e3ec9edd2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "43e80d1b9f9978bae58848fdf6b9162178f02a8a",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/43e80d1b9f9978bae58848fdf6b9162178f02a8a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2261a9bc66f0e92690212fdf5b8c60414be9443f",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/2261a9bc66f0e92690212fdf5b8c60414be9443f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Class",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bfafe880b2b1e12becb95301c48e137fbfe04ff6",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/bfafe880b2b1e12becb95301c48e137fbfe04ff6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Class/CDC",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "03ddcc9f1dee8ca8ab38349f7e45f5b163c74996",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/03ddcc9f1dee8ca8ab38349f7e45f5b163c74996"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "093ab221ad49110194a42f400386bee9e08768ce",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/093ab221ad49110194a42f400386bee9e08768ce"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aeac6bf588331ccc5ceeac5d0286568c352c264f",
+        "size": 5222,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/aeac6bf588331ccc5ceeac5d0286568c352c264f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "90c30feb21d710b9c5a3d223f3621a13ce45b6c7",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/90c30feb21d710b9c5a3d223f3621a13ce45b6c7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b60a2c3e49d17ecf2a2cd6b686e5d953c2da387",
+        "size": 28182,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4b60a2c3e49d17ecf2a2cd6b686e5d953c2da387"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e6a7cf98e8e186e68a1c35d35e5b02b191100e01",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/e6a7cf98e8e186e68a1c35d35e5b02b191100e01"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "936d111afb82a2b83815db30a9223e3ffb64624d",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/936d111afb82a2b83815db30a9223e3ffb64624d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d601672453e5e9bd872daf10c20de9f50f2119e0",
+        "size": 5440,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d601672453e5e9bd872daf10c20de9f50f2119e0"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c45d6ce3df5011e0f213043d8cc3499a95e7d1e",
+        "size": 2005,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6c45d6ce3df5011e0f213043d8cc3499a95e7d1e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c1902fd94a52e7c8e842815d1a0a241d65fbd2c",
+        "size": 15875,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3c1902fd94a52e7c8e842815d1a0a241d65fbd2c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15197b92cafdf1c2d4e9ae220e380dfe7ccf972c",
+        "size": 2309,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/15197b92cafdf1c2d4e9ae220e380dfe7ccf972c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c192a6368f241c04325553c50d1bff29e6f13da6",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/c192a6368f241c04325553c50d1bff29e6f13da6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdac79cf0e776dba3e7c9b093719fbfd64d5af23",
+        "size": 29415,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bdac79cf0e776dba3e7c9b093719fbfd64d5af23"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "899bc706e0731378cc57bc47148f1da7f738d2f7",
+        "size": 24635,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/899bc706e0731378cc57bc47148f1da7f738d2f7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7c8004ad8000ed767b0bd5df07ad7420424d35eb",
+        "size": 4793,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7c8004ad8000ed767b0bd5df07ad7420424d35eb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e66295c5f477d02673469a6d72dedebb65a3a9f4",
+        "size": 4662,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e66295c5f477d02673469a6d72dedebb65a3a9f4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "98c9cb8de3ac46475f79c67ae0d1194481ca2dfb",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/98c9cb8de3ac46475f79c67ae0d1194481ca2dfb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fb4c161126a87275e517eca71483c505acf9def7",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/fb4c161126a87275e517eca71483c505acf9def7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "01a216d76d15beca8beb6cf37229a3a043202999",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/01a216d76d15beca8beb6cf37229a3a043202999"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/main.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94d5b833acd46eb2b43488f8f5e501621f731c95",
+        "size": 4111,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/94d5b833acd46eb2b43488f8f5e501621f731c95"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/main.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d6906f6979b4c05379eeb2a2521d235b2c4ef36",
+        "size": 5340,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9d6906f6979b4c05379eeb2a2521d235b2c4ef36"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/main.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d486ecacf44d744446757a2d3dad7cfd92577ff3",
+        "size": 44180,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d486ecacf44d744446757a2d3dad7cfd92577ff3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/main.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba954c08d1d68c461cc573d0cacae0885c0d7c41",
+        "size": 4846,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ba954c08d1d68c461cc573d0cacae0885c0d7c41"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_hal_msp.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93b12ef6be126a1b0e2cc9726b38e90d6a12ebbd",
+        "size": 408,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/93b12ef6be126a1b0e2cc9726b38e90d6a12ebbd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_hal_msp.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "07f517e146b1a82d1d1bcac73e4f2d7eb06823b3",
+        "size": 4177,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/07f517e146b1a82d1d1bcac73e4f2d7eb06823b3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_hal_msp.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03de37062871b7321ee20e0e1b3fbe130879d011",
+        "size": 3268,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/03de37062871b7321ee20e0e1b3fbe130879d011"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_hal_msp.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6325e591374cf839a9f5d1c5a7c9ef187cdbad4d",
+        "size": 461,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6325e591374cf839a9f5d1c5a7c9ef187cdbad4d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_it.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46f03b3dc299d1fac3dd8795029f7486ae30ed78",
+        "size": 493,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/46f03b3dc299d1fac3dd8795029f7486ae30ed78"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_it.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be600c3ef052177b75f55ea3d134dc3179491049",
+        "size": 4225,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/be600c3ef052177b75f55ea3d134dc3179491049"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_it.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "321c5d0bb6fdd64bb518d5bea948b55826bc4edf",
+        "size": 2716,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/321c5d0bb6fdd64bb518d5bea948b55826bc4edf"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/stm32g0xx_it.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "adbd94bcae2f8ec30ff0778a90958db51048afb2",
+        "size": 556,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/adbd94bcae2f8ec30ff0778a90958db51048afb2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d1685bbf273923e8a2ad86258cfe229a8c06c2f8",
+        "size": 2462,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d1685bbf273923e8a2ad86258cfe229a8c06c2f8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/syscalls.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f7c08627aeabf4f20af267305fcd8667828848e",
+        "size": 694,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8f7c08627aeabf4f20af267305fcd8667828848e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/syscalls.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8667c7088e17e4d2ff09a5767472c8950dd307dd",
+        "size": 44,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8667c7088e17e4d2ff09a5767472c8950dd307dd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/syscalls.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3022e0ebf346956b469c9f2290035be4434cf00a",
+        "size": 3752,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3022e0ebf346956b469c9f2290035be4434cf00a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/syscalls.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "268646b29aa74a75492b53f5584b0ca1a23a13a7",
+        "size": 822,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/268646b29aa74a75492b53f5584b0ca1a23a13a7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/sysmem.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0090c10fdcd287f3e9deffcd2996882d064fd5d3",
+        "size": 34,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0090c10fdcd287f3e9deffcd2996882d064fd5d3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/sysmem.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74fecf9bbd2ee3a0f3eb51d9c593580cb8075fa2",
+        "size": 40,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/74fecf9bbd2ee3a0f3eb51d9c593580cb8075fa2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/sysmem.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "441a2a64c92874747401faa2f67cc8c5947773d5",
+        "size": 1220,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/441a2a64c92874747401faa2f67cc8c5947773d5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/sysmem.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43d062a736bfb15a57f39dd89175506a23d157fa",
+        "size": 41,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/43d062a736bfb15a57f39dd89175506a23d157fa"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/system_stm32g0xx.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40280caa66704acafbf28c6f555f776eed24a112",
+        "size": 111,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/40280caa66704acafbf28c6f555f776eed24a112"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/system_stm32g0xx.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aadf7d7e2324e4b6f1bf744cf80c4b01c2220aab",
+        "size": 4136,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/aadf7d7e2324e4b6f1bf744cf80c4b01c2220aab"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/system_stm32g0xx.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f20c56bd362270541820391bcf6c54e1db0e56b3",
+        "size": 1776,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f20c56bd362270541820391bcf6c54e1db0e56b3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/system_stm32g0xx.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67d3d52f846329078cf97f2204012a73ddefe95f",
+        "size": 125,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/67d3d52f846329078cf97f2204012a73ddefe95f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/tmc2209_d.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebe45ece937ba5c5e1bea2e7ab52e405bcea33fb",
+        "size": 102,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ebe45ece937ba5c5e1bea2e7ab52e405bcea33fb"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/tmc2209_d.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e23443e5596896bb82cfa84f71073c17cc149ca9",
+        "size": 4174,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e23443e5596896bb82cfa84f71073c17cc149ca9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/tmc2209_d.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "598e64afa2e0565e3b889ac5a46e8db15340f97f",
+        "size": 4360,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/598e64afa2e0565e3b889ac5a46e8db15340f97f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Src/tmc2209_d.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d5f9b4b6fdb962ebb5bd3ab993dc6dc430cda8d",
+        "size": 116,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9d5f9b4b6fdb962ebb5bd3ab993dc6dc430cda8d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Startup",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2b4cf5866e11b72226bd58579f25f708eb8d63a2",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/2b4cf5866e11b72226bd58579f25f708eb8d63a2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Startup/startup_stm32g0b1retx.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86c3099dac54c9c91a3f4f803c3d6f0e02811c87",
+        "size": 81,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/86c3099dac54c9c91a3f4f803c3d6f0e02811c87"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Startup/startup_stm32g0b1retx.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27a68664ceedb0c075be51f1242543dc464eb466",
+        "size": 3456,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/27a68664ceedb0c075be51f1242543dc464eb466"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Core/Startup/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4cf9e9c194afe12f6f85f72360285707ff3dab00",
+        "size": 952,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4cf9e9c194afe12f6f85f72360285707ff3dab00"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6c31966dd76b8022ecec3b51fc29f6f3ee2ce46e",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/6c31966dd76b8022ecec3b51fc29f6f3ee2ce46e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c4a15925c0651832aa6bfadacce004abf4f6fc7a",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/c4a15925c0651832aa6bfadacce004abf4f6fc7a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8f82874b16a700a2222cedc51e83605297b64f2c",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/8f82874b16a700a2222cedc51e83605297b64f2c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7fc3152a0dda4a067d00bf6834b65c3c705f25f",
+        "size": 2885,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f7fc3152a0dda4a067d00bf6834b65c3c705f25f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b042f6364ae8b927029bf5b7c848ccb0a31550cc",
+        "size": 4181,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b042f6364ae8b927029bf5b7c848ccb0a31550cc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "040896754c27484d247522f1ad733d935867aac1",
+        "size": 7924,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/040896754c27484d247522f1ad733d935867aac1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "72985d2fa457478b4086725cf4ea73dd4f6b3be8",
+        "size": 3134,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/72985d2fa457478b4086725cf4ea73dd4f6b3be8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8b4b8dc026bf92a956a3ac88e7f05e190bd8759",
+        "size": 1502,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c8b4b8dc026bf92a956a3ac88e7f05e190bd8759"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65f111c470cbb54169250dee99419388fb8ec08d",
+        "size": 4195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/65f111c470cbb54169250dee99419388fb8ec08d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30b28a1cce6ca40188dcc7a2d1fb5fe7dd10d2e1",
+        "size": 3916,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/30b28a1cce6ca40188dcc7a2d1fb5fe7dd10d2e1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90f1d33c44ed9450e005636494890db392d2aa74",
+        "size": 1721,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/90f1d33c44ed9450e005636494890db392d2aa74"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f0724b26bc384b354ac8f60b6f8405089f5270f",
+        "size": 1002,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7f0724b26bc384b354ac8f60b6f8405089f5270f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bb182dff0a77398e3a31de1f5134e7dbc5e68b9",
+        "size": 4189,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9bb182dff0a77398e3a31de1f5134e7dbc5e68b9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e97ff7b4e5f9421bbaecf2f67e72a32e86bc4965",
+        "size": 4640,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e97ff7b4e5f9421bbaecf2f67e72a32e86bc4965"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1463a8f7c5cb7a4a82b8fdfeef44bf80e0fa65fe",
+        "size": 1092,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1463a8f7c5cb7a4a82b8fdfeef44bf80e0fa65fe"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a2d7be68cc200ef5d1a946c3bb0fb0cfcc4444b6",
+        "size": 496,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a2d7be68cc200ef5d1a946c3bb0fb0cfcc4444b6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "491e54d8b00a974b02ce9c0d974614e91a802a0d",
+        "size": 4195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/491e54d8b00a974b02ce9c0d974614e91a802a0d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8429ac8a25ee402ae53cfda8beb59fa384cd235",
+        "size": 1880,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e8429ac8a25ee402ae53cfda8beb59fa384cd235"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f10f9887318452e4e260b96cd2fabd926eab2c0a",
+        "size": 534,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f10f9887318452e4e260b96cd2fabd926eab2c0a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "422a4763df045af6d841ec44690874dafea25525",
+        "size": 790,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/422a4763df045af6d841ec44690874dafea25525"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16bcab129b3621de6f8782dd2a8b89ed94ee437c",
+        "size": 4191,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/16bcab129b3621de6f8782dd2a8b89ed94ee437c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c92d52d737db5313d26dab4d15a01a481aee1e9f",
+        "size": 2928,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c92d52d737db5313d26dab4d15a01a481aee1e9f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7fe3cfd05715c174da60983d3495af0d6e4468f",
+        "size": 857,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b7fe3cfd05715c174da60983d3495af0d6e4468f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a294e95a758e28bfc93b834163d01c6c1fc5412",
+        "size": 1069,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9a294e95a758e28bfc93b834163d01c6c1fc5412"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e8f6c72dd5b4836e3b26e2ef9f23435e585feff",
+        "size": 4193,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/5e8f6c72dd5b4836e3b26e2ef9f23435e585feff"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9b2b77df5c59c56c3973310ebf38cf74de4efea",
+        "size": 4696,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f9b2b77df5c59c56c3973310ebf38cf74de4efea"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d4fb91098cb31f4012c6c4efa6f3613671ad943",
+        "size": 1195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1d4fb91098cb31f4012c6c4efa6f3613671ad943"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7ae30e8fc3b98ccd96c145906019ab961b715510",
+        "size": 1030,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7ae30e8fc3b98ccd96c145906019ab961b715510"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c06efb1875df321b6fa1abcfdf3801bbe5c7717",
+        "size": 4199,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2c06efb1875df321b6fa1abcfdf3801bbe5c7717"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "248922ae67dc6cd5c18dc97e5d02f76f0deaeaae",
+        "size": 4752,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/248922ae67dc6cd5c18dc97e5d02f76f0deaeaae"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d835ed60020eaf2f101f23d1282e4264dd75520",
+        "size": 1109,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0d835ed60020eaf2f101f23d1282e4264dd75520"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e6db82a576168523e5a571fc2ac9ed7dc9f2aad",
+        "size": 778,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6e6db82a576168523e5a571fc2ac9ed7dc9f2aad"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e8ca9167b2b99794717ccb8f9e0e845bc9e9268",
+        "size": 4191,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0e8ca9167b2b99794717ccb8f9e0e845bc9e9268"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0685b4b18909dd4b7bf2975165b7b22384f22165",
+        "size": 3576,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0685b4b18909dd4b7bf2975165b7b22384f22165"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e9f72c32c960b6fdbc416cf5abcbcca371b39e9",
+        "size": 841,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/5e9f72c32c960b6fdbc416cf5abcbcca371b39e9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "987ab40ecf0e76bbe1fd1e30c6fefa1034fadf8b",
+        "size": 2876,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/987ab40ecf0e76bbe1fd1e30c6fefa1034fadf8b"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b988eb9bfb3e5642cb8ef971ae82463658020276",
+        "size": 4189,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b988eb9bfb3e5642cb8ef971ae82463658020276"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "664057f6e3388512970d09e656fcebda3e373ca8",
+        "size": 11688,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/664057f6e3388512970d09e656fcebda3e373ca8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55a41f0081858d40fb0a0841ca052aadbefa64bc",
+        "size": 3119,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/55a41f0081858d40fb0a0841ca052aadbefa64bc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09a5046ed6c17352058a890056bd5cf2c34dbb18",
+        "size": 725,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/09a5046ed6c17352058a890056bd5cf2c34dbb18"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8343ce45d02a3856ab7633db999439588f456445",
+        "size": 4195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8343ce45d02a3856ab7633db999439588f456445"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7b62629d5a32b19f6d8886127264a2dd2dbe9435",
+        "size": 2440,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7b62629d5a32b19f6d8886127264a2dd2dbe9435"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pcd_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "103ae1c714f30fbd4d83bb3f5fea03371bb4e3ba",
+        "size": 782,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/103ae1c714f30fbd4d83bb3f5fea03371bb4e3ba"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c44ef1390d59d9937c36f901f621f879b2b632b9",
+        "size": 1054,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c44ef1390d59d9937c36f901f621f879b2b632b9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57859e18c74d8b23954fc14d07f31e3be6031780",
+        "size": 4189,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/57859e18c74d8b23954fc14d07f31e3be6031780"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab592bc685a8e5b7367a0fb9318bbccf6dc62205",
+        "size": 3172,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ab592bc685a8e5b7367a0fb9318bbccf6dc62205"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a113ebb2545c473892b88717e7239110f925b0ab",
+        "size": 1198,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a113ebb2545c473892b88717e7239110f925b0ab"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c5dbc17f47992560f1abcd671cccaf8a13f5e35",
+        "size": 3280,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3c5dbc17f47992560f1abcd671cccaf8a13f5e35"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "386cfd0f7c150c85b7c6a5d09ba3800f8c45bd64",
+        "size": 4195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/386cfd0f7c150c85b7c6a5d09ba3800f8c45bd64"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe7021dc32a02254c8ec636e3cc6a88b8acbe4cd",
+        "size": 9244,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/fe7021dc32a02254c8ec636e3cc6a88b8acbe4cd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8ec9391d4d0295c7aac6b93034cecb77b46d572",
+        "size": 3539,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e8ec9391d4d0295c7aac6b93034cecb77b46d572"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f8a1e3373b9c5c6aff95ae2fdbcb4acefb33838",
+        "size": 1378,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1f8a1e3373b9c5c6aff95ae2fdbcb4acefb33838"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd267a64d8665934a22e2eb33239429582930147",
+        "size": 4189,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bd267a64d8665934a22e2eb33239429582930147"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d318b17ca7395c1602c982398708b2cb0fedab5",
+        "size": 6840,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9d318b17ca7395c1602c982398708b2cb0fedab5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e9088d13e9a1c0d6ee979b65544936f6b5f13582",
+        "size": 1493,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e9088d13e9a1c0d6ee979b65544936f6b5f13582"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "410784530527528f35edbbc9fc31c73796380473",
+        "size": 1368,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/410784530527528f35edbbc9fc31c73796380473"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d86cbf14bdf8c1118384b522724b97476452663",
+        "size": 4195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2d86cbf14bdf8c1118384b522724b97476452663"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5b208a736282970509576732bdece0607a80bff",
+        "size": 7436,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e5b208a736282970509576732bdece0607a80bff"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9731ceaa5cd47506915840f7821b88c9a417090",
+        "size": 1467,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a9731ceaa5cd47506915840f7821b88c9a417090"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a35fb5bcfabdc751684faf760ab20a41378e91b4",
+        "size": 9789,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a35fb5bcfabdc751684faf760ab20a41378e91b4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b62b90da542875f55289a85fee709370eab7c20c",
+        "size": 4189,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b62b90da542875f55289a85fee709370eab7c20c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81ec9067523420b5a2813a511951fa9869e06b16",
+        "size": 44276,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/81ec9067523420b5a2813a511951fa9869e06b16"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ab804c2c2eb0453c780f3840008d39301915859",
+        "size": 10562,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1ab804c2c2eb0453c780f3840008d39301915859"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d07e758381fc8434bd2f919e8320f28abbdebd47",
+        "size": 4468,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d07e758381fc8434bd2f919e8320f28abbdebd47"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f44386bc0f24cac7fc3dc30929d71ce11e99e93e",
+        "size": 4195,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f44386bc0f24cac7fc3dc30929d71ce11e99e93e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db522424d99ed0beb542b82468797157a04250a4",
+        "size": 16180,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/db522424d99ed0beb542b82468797157a04250a4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2e66870230e7638b3ab8d5648aa3bfdef9756d72",
+        "size": 4807,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2e66870230e7638b3ab8d5648aa3bfdef9756d72"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36266d559d44541401ae2f782be6ab869657668e",
+        "size": 6101,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/36266d559d44541401ae2f782be6ab869657668e"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "11060c69435b7319a8645255e82ce36eb3e68884",
+        "size": 4191,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/11060c69435b7319a8645255e82ce36eb3e68884"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e01f7689051dea6a472ef55e08f5da3193a9f4ad",
+        "size": 26036,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e01f7689051dea6a472ef55e08f5da3193a9f4ad"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33a83843a163ad14b75901d6a7e1abd1a190e675",
+        "size": 7257,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/33a83843a163ad14b75901d6a7e1abd1a190e675"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efee5fcbced7a8ad5ac97d24a1fc3131897c1ec6",
+        "size": 1561,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/efee5fcbced7a8ad5ac97d24a1fc3131897c1ec6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fcfd2e166b4d784ff896cb9246d2dc84fb8ea426",
+        "size": 4197,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/fcfd2e166b4d784ff896cb9246d2dc84fb8ea426"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c59c32cc1d283be1573c51a671aa2ad3d26bc65",
+        "size": 6176,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3c59c32cc1d283be1573c51a671aa2ad3d26bc65"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af110548389e139c245d1b624a95002b15377bd1",
+        "size": 1760,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/af110548389e139c245d1b624a95002b15377bd1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2352efcb7c7b95ed373646a4c32df47c8c879d77",
+        "size": 3955,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2352efcb7c7b95ed373646a4c32df47c8c879d77"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b012688d1b2b6e3f050f3abf36a08f902f4ae6f2",
+        "size": 4193,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b012688d1b2b6e3f050f3abf36a08f902f4ae6f2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c85e8a0d01a129a4b54a5e24cc72c501a1784a5",
+        "size": 17052,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3c85e8a0d01a129a4b54a5e24cc72c501a1784a5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a393bca147c53117836ff6fc7393f449de1c9c4",
+        "size": 4267,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9a393bca147c53117836ff6fc7393f449de1c9c4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2bf6fba9ec5f3cf7d8dd089566f62976493884f",
+        "size": 889,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c2bf6fba9ec5f3cf7d8dd089566f62976493884f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a847d867bbbcf0a1c628a63f09676f087c535639",
+        "size": 4199,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a847d867bbbcf0a1c628a63f09676f087c535639"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63a66459d97eb3fa08a48292418deab6554645f7",
+        "size": 3428,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/63a66459d97eb3fa08a48292418deab6554645f7"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_usart_ex.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20cf993905a5a59b026cc524facd7557cae0b709",
+        "size": 959,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/20cf993905a5a59b026cc524facd7557cae0b709"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a30fddb0a7432c1e840a7232acb23151ced3dd8",
+        "size": 111,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4a30fddb0a7432c1e840a7232acb23151ced3dd8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d33304b2ecccea7578d0cb7a8c3f26659b031846",
+        "size": 728,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d33304b2ecccea7578d0cb7a8c3f26659b031846"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e95f90fa2a550925ba16dfde6da51b692efd4a32",
+        "size": 2601,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e95f90fa2a550925ba16dfde6da51b692efd4a32"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39924bc70ad5a0120b049b9775eb6b245989caa2",
+        "size": 4187,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/39924bc70ad5a0120b049b9775eb6b245989caa2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0aa6d0a6fa12ac5c5cf9fab3e392e407ccea9ff9",
+        "size": 11160,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/0aa6d0a6fa12ac5c5cf9fab3e392e407ccea9ff9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usb.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69eee9cdac4caddeb6e3686099e8a889b2bb7971",
+        "size": 2828,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/69eee9cdac4caddeb6e3686099e8a889b2bb7971"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Drivers/STM32G0xx_HAL_Driver/Src/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "321c1bfffa7fbedb936be3a789d7e2e6208ba1c6",
+        "size": 10354,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/321c1bfffa7fbedb936be3a789d7e2e6208ba1c6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/HiPeristaltic.elf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a068418050fc2e075496f4a0c26d08949162b1a6",
+        "size": 72388,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a068418050fc2e075496f4a0c26d08949162b1a6"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/HiPeristaltic.list",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9db6dfc81880e150105e45f809b8c676fa9acea3",
+        "size": 758173,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9db6dfc81880e150105e45f809b8c676fa9acea3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/HiPeristaltic.map",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "242eb99672c6084460964d4b316ff0e3f95083ed",
+        "size": 245048,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/242eb99672c6084460964d4b316ff0e3f95083ed"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9ca987e0b3a02b47fd0fae33a64334140bbaba71",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/9ca987e0b3a02b47fd0fae33a64334140bbaba71"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d082c3b08080d233ab1ff3e85e413eaee197de8f",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/d082c3b08080d233ab1ff3e85e413eaee197de8f"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "71616c2a53f6b34c4ae2bee936cb61ae6d0752dd",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/71616c2a53f6b34c4ae2bee936cb61ae6d0752dd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "59ed0f35d964998610b68e24da2860370ce64630",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/59ed0f35d964998610b68e24da2860370ce64630"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6c012f5a5cf232ad7e778b44feae7e111d4c1905",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/6c012f5a5cf232ad7e778b44feae7e111d4c1905"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b8c6d958ef2f417e7943096fff5c60041f82b0ff",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/b8c6d958ef2f417e7943096fff5c60041f82b0ff"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "528fa7afebac733aff8be04da026be804da3f621",
+        "size": 2065,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/528fa7afebac733aff8be04da026be804da3f621"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf6d59175f0f701efb0a486cf17c011470c2b260",
+        "size": 1478,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bf6d59175f0f701efb0a486cf17c011470c2b260"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "862a4964666e153cda1a7243fe4e51698b25aeff",
+        "size": 5225,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/862a4964666e153cda1a7243fe4e51698b25aeff"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e3cb61ed71adae17d15ecfb93d0ace524761af5b",
+        "size": 6096,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e3cb61ed71adae17d15ecfb93d0ace524761af5b"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47c63259c2927b8c04cae80f0dc52eefdab113fc",
+        "size": 1591,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/47c63259c2927b8c04cae80f0dc52eefdab113fc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "494151be94f59c52fca8e86ace780faabe0ddef1",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/494151be94f59c52fca8e86ace780faabe0ddef1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aec63419eeb0b2ac31c39e80afa1069b762e468b",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/aec63419eeb0b2ac31c39e80afa1069b762e468b"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "187f43fe7fd5b888a6643acf3ee20191213c713d",
+        "size": 2915,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/187f43fe7fd5b888a6643acf3ee20191213c713d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5419675728237041a3b97d02e4b6a3d3dc4c221",
+        "size": 2165,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a5419675728237041a3b97d02e4b6a3d3dc4c221"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cc2631dc8cdce897c907a22a6a904d26ababea4d",
+        "size": 4939,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/cc2631dc8cdce897c907a22a6a904d26ababea4d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91d36a6c23793fde45ecff6a409f44870dfaeec2",
+        "size": 5960,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/91d36a6c23793fde45ecff6a409f44870dfaeec2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f45e621d730a6c8f6241d96a6caf021697b769c9",
+        "size": 2337,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f45e621d730a6c8f6241d96a6caf021697b769c9"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aa2c3447a16391e6161bc810a029a00bfae70b0",
+        "size": 545,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6aa2c3447a16391e6161bc810a029a00bfae70b0"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d1096f2e95f778a2ff16055fba6c58cdaf74630",
+        "size": 5081,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1d1096f2e95f778a2ff16055fba6c58cdaf74630"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "973be67b36360f707184606c127de0e53f5a4754",
+        "size": 4668,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/973be67b36360f707184606c127de0e53f5a4754"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cce47c4d1130a23fcf3315bcdeaf8f6765535b28",
+        "size": 589,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/cce47c4d1130a23fcf3315bcdeaf8f6765535b28"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50558110047ff267d4fb9a699cb87afc8dd76038",
+        "size": 653,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/50558110047ff267d4fb9a699cb87afc8dd76038"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "823e5219ad9e0920b815e232df762ba897530f85",
+        "size": 4943,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/823e5219ad9e0920b815e232df762ba897530f85"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5a950d16ccf3623df0fb438758382904e38e7e0",
+        "size": 2280,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a5a950d16ccf3623df0fb438758382904e38e7e0"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2fcae1f2dbc3bf23de470a971e11254c6973dd59",
+        "size": 702,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2fcae1f2dbc3bf23de470a971e11254c6973dd59"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c3134830107b0c35891c8fdc5dfe37a4a35c4ae1",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/c3134830107b0c35891c8fdc5dfe37a4a35c4ae1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7fa428d05de7f8ea2724e42834002ae88fdea7ee",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/7fa428d05de7f8ea2724e42834002ae88fdea7ee"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "617c23affa718ff5973001ae43c362bf50f3e038",
+        "size": 1902,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/617c23affa718ff5973001ae43c362bf50f3e038"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usb_device.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdc1758ceb7c3c6ea755299d3060a124f1f79d90",
+        "size": 57,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bdc1758ceb7c3c6ea755299d3060a124f1f79d90"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usb_device.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bab11989ea7c18e0ae4d068e2db86d688dd592c",
+        "size": 5472,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3bab11989ea7c18e0ae4d068e2db86d688dd592c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usb_device.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fe1481940bd2b79b18ebea3e8a80046b3a28c74",
+        "size": 1532,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9fe1481940bd2b79b18ebea3e8a80046b3a28c74"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usb_device.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d24e496f0da8fa8e49f1a9880edd95336f9d95c",
+        "size": 64,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4d24e496f0da8fa8e49f1a9880edd95336f9d95c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_cdc_if.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "567cc7fb147fec89f5fa37ebed765881f01d26b8",
+        "size": 337,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/567cc7fb147fec89f5fa37ebed765881f01d26b8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_cdc_if.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a7ce229f1e8ab2c35191ee430bfa1b8f3a08a95",
+        "size": 5082,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1a7ce229f1e8ab2c35191ee430bfa1b8f3a08a95"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_cdc_if.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abb5f099a305ad5f58d65090299e60476fbcb1a2",
+        "size": 2668,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/abb5f099a305ad5f58d65090299e60476fbcb1a2"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_cdc_if.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d767d313c5e2a21aa6c68585f74bd74d1fd3a541",
+        "size": 380,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d767d313c5e2a21aa6c68585f74bd74d1fd3a541"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_desc.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6d2fe83436a72bce4c6daeac8cd342db83e6397",
+        "size": 484,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c6d2fe83436a72bce4c6daeac8cd342db83e6397"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_desc.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12ce31ad14af12405f5d7c8a2a01ddd9ba7df811",
+        "size": 5062,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/12ce31ad14af12405f5d7c8a2a01ddd9ba7df811"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_desc.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b741a34da3b771134521b1b9d176287de3068623",
+        "size": 4212,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b741a34da3b771134521b1b9d176287de3068623"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/App/usbd_desc.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bc76afcabc027f7c7862788d47397f922345e18d",
+        "size": 533,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bc76afcabc027f7c7862788d47397f922345e18d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/Target",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1795afbacc930c4a0915c433fe9267dee5c9f1f8",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/1795afbacc930c4a0915c433fe9267dee5c9f1f8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/Target/subdir.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d85900f7b9971d17be5d272cc960bbe9bb585e6a",
+        "size": 1496,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d85900f7b9971d17be5d272cc960bbe9bb585e6a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/Target/usbd_conf.cyclo",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3213f3c557f77f5121d1e15bc9369c90cc3daccc",
+        "size": 1920,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3213f3c557f77f5121d1e15bc9369c90cc3daccc"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/Target/usbd_conf.d",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c86161f036404f65545fb0ccce528141e0e73a5",
+        "size": 5278,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6c86161f036404f65545fb0ccce528141e0e73a5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/Target/usbd_conf.o",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "67698d3ea874dd61d705c06395acc3cb439231f1",
+        "size": 9216,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/67698d3ea874dd61d705c06395acc3cb439231f1"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/USB_Device/Target/usbd_conf.su",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85fb40d58a5ca2a1624fd362d41abc86df74b8fd",
+        "size": 2140,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/85fb40d58a5ca2a1624fd362d41abc86df74b8fd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7a66401b74ffe75967b0654f6591f86e4fa0cda",
+        "size": 3242,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b7a66401b74ffe75967b0654f6591f86e4fa0cda"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/objects.list",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da1a3550f20d07d7d2dcb7177a8c09bf52205f9a",
+        "size": 1909,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/da1a3550f20d07d7d2dcb7177a8c09bf52205f9a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/objects.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b471e98e0186661003af7f75d7b31c53c48e948a",
+        "size": 276,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b471e98e0186661003af7f75d7b31c53c48e948a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/Release/sources.mk",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4eaa8108ec75153c4dca010e9e859112e8b5045d",
+        "size": 751,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4eaa8108ec75153c4dca010e9e859112e8b5045d"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/STM32G0B1RETX_FLASH.ld",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "770336cc8469eae0ddb7df0d887245d780606d83",
+        "size": 5310,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/770336cc8469eae0ddb7df0d887245d780606d83"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/STM32G0B1RETX_RAM.ld",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44177cd48c81f3893f2ec56ddf2a2af695f187d5",
+        "size": 5303,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/44177cd48c81f3893f2ec56ddf2a2af695f187d5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5698ef47422cde03bcab5a6a94bb729a5adcda44",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/5698ef47422cde03bcab5a6a94bb729a5adcda44"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "df829516b24781f1f81b202d017166669b3e6f16",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/df829516b24781f1f81b202d017166669b3e6f16"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App/usb_device.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c0bc026cdd542496fe0772af4e6a9e76126dd3c",
+        "size": 2440,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9c0bc026cdd542496fe0772af4e6a9e76126dd3c"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App/usb_device.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f2189a5d0f80ff32b2b64dbb289c35f4cce1c54",
+        "size": 2235,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/4f2189a5d0f80ff32b2b64dbb289c35f4cce1c54"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App/usbd_cdc_if.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "29be586d5cf450c4a3565bf8ff670dd217e49021",
+        "size": 9236,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/29be586d5cf450c4a3565bf8ff670dd217e49021"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App/usbd_cdc_if.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e90e31b026144919ee46ae119955b288318a2d5",
+        "size": 2643,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9e90e31b026144919ee46ae119955b288318a2d5"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App/usbd_desc.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ccdd521bff5ee1e4c3ffa1a282bb03ace2304350",
+        "size": 10245,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ccdd521bff5ee1e4c3ffa1a282bb03ace2304350"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/App/usbd_desc.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3dee792a66892b5dfe7f63aac6a78a0520781bf",
+        "size": 2809,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b3dee792a66892b5dfe7f63aac6a78a0520781bf"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/Target",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1aae81688d4fa25e1d67dcb114e70818af8ed070",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/1aae81688d4fa25e1d67dcb114e70818af8ed070"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/Target/usbd_conf.c",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e020ea5f816df3cb64b92ca2acf40e479d93a532",
+        "size": 23860,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e020ea5f816df3cb64b92ca2acf40e479d93a532"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/STM32CubeProject/HiPeristaltic/USB_Device/Target/usbd_conf.h",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "814b51965764fa54b4deac7c1dffd2fb18ce7f34",
+        "size": 3926,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/814b51965764fa54b4deac7c1dffd2fb18ce7f34"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9d3dd3a7a1bf920d30cced2d7899b9789de987fd",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/9d3dd3a7a1bf920d30cced2d7899b9789de987fd"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/HiPeristaltic.ino",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3232d1a11b2e32d62cd614172fd45c23d3a1bc4",
+        "size": 20809,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c3232d1a11b2e32d62cd614172fd45c23d3a1bc4"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/README.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8d3d3cc12a59f20a9287001c56482289a8604f3",
+        "size": 570,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e8d3d3cc12a59f20a9287001c56482289a8604f3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1675747316b6740440a44e80220c70120c4aeb90",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/1675747316b6740440a44e80220c70120c4aeb90"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/FIRMWARE.bin",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d13159d49bca5cc10bc02552a1bd6b2b966add8",
+        "size": 53228,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9d13159d49bca5cc10bc02552a1bd6b2b966add8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "11d110b102f56505e85699c6b9c9b06b7ef7ce75",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/11d110b102f56505e85699c6b9c9b06b7ef7ce75"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/HiPeristaltic.ino",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39d039ac77a1f8cd4b049a7b22e9136d3db18285",
+        "size": 35915,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/39d039ac77a1f8cd4b049a7b22e9136d3db18285"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/build",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fd31c12c70b577a556c931fb778020515035a11a",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/fd31c12c70b577a556c931fb778020515035a11a"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/build/STMicroelectronics.stm32.GenG0",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e3c225bf80b7e497697df8995381c7e111ddf884",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/e3c225bf80b7e497697df8995381c7e111ddf884"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/build/STMicroelectronics.stm32.GenG0/HiPeristaltic.ino.bin",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d13159d49bca5cc10bc02552a1bd6b2b966add8",
+        "size": 53228,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9d13159d49bca5cc10bc02552a1bd6b2b966add8"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/build/STMicroelectronics.stm32.GenG0/HiPeristaltic.ino.elf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e3ff5275469def39b6fc533e779dc021b363738",
+        "size": 87628,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3e3ff5275469def39b6fc533e779dc021b363738"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/build/STMicroelectronics.stm32.GenG0/HiPeristaltic.ino.hex",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "91547f234023118a747aff1d38db221f905978b3",
+        "size": 146452,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/91547f234023118a747aff1d38db221f905978b3"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/HiPeristaltic/build/STMicroelectronics.stm32.GenG0/HiPeristaltic.ino.map",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19aa4997a2a5a07442a3ed130bbf0a02d05bdb10",
+        "size": 822406,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/19aa4997a2a5a07442a3ed130bbf0a02d05bdb10"
+      },
+      {
+        "path": "firmware/STM32G0B1RET6_BIGTREETECH/stm32duino/experimental/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdffaa72712cb145ed17e7de405c127df7d46362",
+        "size": 1751,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bdffaa72712cb145ed17e7de405c127df7d46362"
+      },
+      {
+        "path": "interface",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eaa273b55914f4657f03f520dd749026f9ba0c64",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/eaa273b55914f4657f03f520dd749026f9ba0c64"
+      },
+      {
+        "path": "interface/HiPeristaltic.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e50fef404598d4f0a6aca6b599c76053ec7d3ae6",
+        "size": 1040,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e50fef404598d4f0a6aca6b599c76053ec7d3ae6"
+      },
+      {
+        "path": "interface/HiPeristalticInterface.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28fb165302f5a84401fd3c4af27ae5651a719d79",
+        "size": 49090,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/28fb165302f5a84401fd3c4af27ae5651a719d79"
+      },
+      {
+        "path": "other",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "495e9e72601180ba443efc3bd76df50dfd73fec9",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/495e9e72601180ba443efc3bd76df50dfd73fec9"
+      },
+      {
+        "path": "other/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "75bd061dfe826a2746f06e8a72a4957e57c1a994",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/75bd061dfe826a2746f06e8a72a4957e57c1a994"
+      },
+      {
+        "path": "other/utils/cmds_arduino.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe8460e86f12c559c25cc8f8d0190128b538e0ef",
+        "size": 1482,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/fe8460e86f12c559c25cc8f8d0190128b538e0ef"
+      },
+      {
+        "path": "other/utils/cmds_python.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "579ed6e12a00d48a08a50924c06d5f4926e731d8",
+        "size": 5468,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/579ed6e12a00d48a08a50924c06d5f4926e731d8"
+      },
+      {
+        "path": "other/utils/ino2py.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef29ed85a3b5e68361a602856fd7f8e9d80bdcd5",
+        "size": 1185,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ef29ed85a3b5e68361a602856fd7f8e9d80bdcd5"
+      },
+      {
+        "path": "setup_hiperistaltic.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "067fd00407db7bf13ff411babcfee5c077a6c314",
+        "size": 2836,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/067fd00407db7bf13ff411babcfee5c077a6c314"
+      },
+      {
+        "path": "silav2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3f3a08b518f766cf89f3745753353192a4c89941",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/3f3a08b518f766cf89f3745753353192a4c89941"
+      },
+      {
+        "path": "silav2/HiPeristaltic.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb064a86ee887548037b6dbe26eb8cffb1a20ca5",
+        "size": 79121,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/bb064a86ee887548037b6dbe26eb8cffb1a20ca5"
+      },
+      {
+        "path": "silav2/HiPeristaltic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "052beb0075d4a5be33f654c4d31081c781462220",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/052beb0075d4a5be33f654c4d31081c781462220"
+      },
+      {
+        "path": "silav2/HiPeristaltic/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cc1da833b1e5b5b957bdf4bd8cd05e96b607a65",
+        "size": 163,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9cc1da833b1e5b5b957bdf4bd8cd05e96b607a65"
+      },
+      {
+        "path": "silav2/HiPeristaltic/__main__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d72874be83d604276afdeccf21f013c526c06098",
+        "size": 5211,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d72874be83d604276afdeccf21f013c526c06098"
+      },
+      {
+        "path": "silav2/HiPeristaltic/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ca9133a3e7a4d02b18f85aa18a3c5b4a3a207c8f",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/ca9133a3e7a4d02b18f85aa18a3c5b4a3a207c8f"
+      },
+      {
+        "path": "silav2/HiPeristaltic/__pycache__/__init__.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e253f4318fe79c6109239dc6e612edd858d154d",
+        "size": 234,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/7e253f4318fe79c6109239dc6e612edd858d154d"
+      },
+      {
+        "path": "silav2/HiPeristaltic/__pycache__/__main__.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b496f8da5a07e43f7efa9313bbb8f0f39d20698",
+        "size": 4207,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3b496f8da5a07e43f7efa9313bbb8f0f39d20698"
+      },
+      {
+        "path": "silav2/HiPeristaltic/__pycache__/server.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c691d13781c5fbcf933ba6ed97e069508e2a106",
+        "size": 1176,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/3c691d13781c5fbcf933ba6ed97e069508e2a106"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1721627336a3aa7cd44bf23286d84073400c2711",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/1721627336a3aa7cd44bf23286d84073400c2711"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/HiPeristaltic.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "186720e39bf73208d41557ed1747f81579fb9e40",
+        "size": 1053,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/186720e39bf73208d41557ed1747f81579fb9e40"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/HiPeristalticInterface.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28fb165302f5a84401fd3c4af27ae5651a719d79",
+        "size": 49090,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/28fb165302f5a84401fd3c4af27ae5651a719d79"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cecd2afd77255f48d1e4d6ae52b8bef139999f1b",
+        "size": 63,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/cecd2afd77255f48d1e4d6ae52b8bef139999f1b"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2c4300a9e7c96d241d40adb4a6403e02147be96c",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/2c4300a9e7c96d241d40adb4a6403e02147be96c"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__pycache__/HiPeristaltic.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea07da4560cc8beff0804b7ee37e267dcbd0e563",
+        "size": 29229,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/ea07da4560cc8beff0804b7ee37e267dcbd0e563"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__pycache__/HiPeristalticDriver.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "953194c9d5c9b90c94fc2a98cc5ac96117ca1086",
+        "size": 32809,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/953194c9d5c9b90c94fc2a98cc5ac96117ca1086"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__pycache__/HiPeristalticInterface.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09e6034ec38143010e54d9604fcc646206af7b15",
+        "size": 32996,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/09e6034ec38143010e54d9604fcc646206af7b15"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__pycache__/__init__.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a47bbce0a9c87fd8034702f52f58a35100ff8417",
+        "size": 148,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a47bbce0a9c87fd8034702f52f58a35100ff8417"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/__pycache__/hiperistaltic_impl.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5b13eebceda0e18c10aef462081f05054be108e",
+        "size": 6306,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d5b13eebceda0e18c10aef462081f05054be108e"
+      },
+      {
+        "path": "silav2/HiPeristaltic/feature_implementations/hiperistaltic_impl.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8070d94107907c76664e17f9b490bd00451900a6",
+        "size": 11258,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/8070d94107907c76664e17f9b490bd00451900a6"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "78ca2bae6c28e8bd51dcbc85b2ca293381504079",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/78ca2bae6c28e8bd51dcbc85b2ca293381504079"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c575d65fe6b7921e700afdda5bcd8b74966db2e",
+        "size": 112,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6c575d65fe6b7921e700afdda5bcd8b74966db2e"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3e25e83cc00e0bc78333ada21d05d2b120dae2a0",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/3e25e83cc00e0bc78333ada21d05d2b120dae2a0"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/__pycache__/__init__.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e8487e63c7d656b6570158dac5fc906b5b75f72",
+        "size": 193,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/6e8487e63c7d656b6570158dac5fc906b5b75f72"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/__pycache__/client.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd7a281388e5ed024734339f51de0ad3a3c57c42",
+        "size": 1524,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/dd7a281388e5ed024734339f51de0ad3a3c57c42"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "455436e8e793c0fe825e36f1bca13256da08f61a",
+        "size": 2334,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/455436e8e793c0fe825e36f1bca13256da08f61a"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0eb8a49ddff468b57265ceada9ff0d2092922b2f",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/0eb8a49ddff468b57265ceada9ff0d2092922b2f"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/HiPeristaltic.proto",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8bf636947f2b0d80c1c7a5244cc213bb9f6ee72",
+        "size": 9310,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/b8bf636947f2b0d80c1c7a5244cc213bb9f6ee72"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/HiPeristaltic.sila.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eceaacc7192ffb01f8f75a85a738dedee143f4f6",
+        "size": 17130,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/eceaacc7192ffb01f8f75a85a738dedee143f4f6"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2041b248ddd70d5c5869a5941ed821e4567754cc",
+        "size": 1545,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/2041b248ddd70d5c5869a5941ed821e4567754cc"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "088de0e1ea45f8e9be6eadc08fd77c5d9eed5405",
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/trees/088de0e1ea45f8e9be6eadc08fd77c5d9eed5405"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__/__init__.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8d71939b487442f1d7cb43f684bf4e46c3b045f",
+        "size": 1179,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/d8d71939b487442f1d7cb43f684bf4e46c3b045f"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__/hiperistaltic_base.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e25666b919227319a7750d5de74ae1da79f34c17",
+        "size": 9789,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e25666b919227319a7750d5de74ae1da79f34c17"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__/hiperistaltic_client.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3d1de0fada22ecf1d9f2b55db2874cf85363565",
+        "size": 3711,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f3d1de0fada22ecf1d9f2b55db2874cf85363565"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__/hiperistaltic_errors.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8dfb62f38070e0881ca17fed0e3a84db0d3b0f4",
+        "size": 3867,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f8dfb62f38070e0881ca17fed0e3a84db0d3b0f4"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__/hiperistaltic_feature.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3104cbf6bba8f7c5cc12ec4494a4d89b143f157",
+        "size": 338,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f3104cbf6bba8f7c5cc12ec4494a4d89b143f157"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/__pycache__/hiperistaltic_types.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b1fb333094ca4e8bf915f29634716a53fc2b3ac",
+        "size": 2020,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/9b1fb333094ca4e8bf915f29634716a53fc2b3ac"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/hiperistaltic_base.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "173c5edeed998c848cde3737d07ef0db3b69c255",
+        "size": 9465,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/173c5edeed998c848cde3737d07ef0db3b69c255"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/hiperistaltic_client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "896921e422f851ef00a0af46079aa236e6667a4a",
+        "size": 3665,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/896921e422f851ef00a0af46079aa236e6667a4a"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/hiperistaltic_errors.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6d570fddac771e151eae8fea2b06437e5d6fbc3",
+        "size": 3140,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/c6d570fddac771e151eae8fea2b06437e5d6fbc3"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/hiperistaltic_feature.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1c2497d79059c02fe705bca69c2c2674ff7f7241",
+        "size": 217,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/1c2497d79059c02fe705bca69c2c2674ff7f7241"
+      },
+      {
+        "path": "silav2/HiPeristaltic/generated/hiperistaltic/hiperistaltic_types.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7a9faf851e1739222e5386c5a7fbb42e8b273e8",
+        "size": 1631,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/f7a9faf851e1739222e5386c5a7fbb42e8b273e8"
+      },
+      {
+        "path": "silav2/HiPeristaltic/py.typed",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "silav2/HiPeristaltic/server.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd1a0253ebe94055f2d46ac4550fe9d24bcd0fe2",
+        "size": 1129,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/dd1a0253ebe94055f2d46ac4550fe9d24bcd0fe2"
+      },
+      {
+        "path": "silav2/HiPeristaltic_v09.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cea15954053411690a61a5907ead9b990f77f9fb",
+        "size": 17519,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/cea15954053411690a61a5907ead9b990f77f9fb"
+      },
+      {
+        "path": "silav2/RunHiPeristalticTest.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9afaef9ec581b7863ec909b74acf20166e19d2a",
+        "size": 156,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/a9afaef9ec581b7863ec909b74acf20166e19d2a"
+      },
+      {
+        "path": "silav2/pyproject.toml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "04e9f8b0cb58c034be2bba5035ef278b2d64bc61",
+        "size": 375,
+        "url": "https://api.github.com/repos/gunakkoc/HiPeristaltic/git/blobs/04e9f8b0cb58c034be2bba5035ef278b2d64bc61"
+      }
+    ],
+    "truncated": false
+  }
+}

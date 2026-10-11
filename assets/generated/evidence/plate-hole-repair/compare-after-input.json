@@ -1,0 +1,33 @@
+{
+  "source": {
+    "path": "assets/generated/evidence/plate-hole-repair/reference/views/top.svg",
+    "px_per_mm": 6.0,
+    "svg_visible_only": true,
+    "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry."
+  },
+  "projection": {
+    "path": "assets/generated/evidence/plate-hole-repair/after/views/top.svg",
+    "px_per_mm": 6.0,
+    "svg_visible_only": true,
+    "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry."
+  },
+  "registration": {
+    "rotation_degrees": 0,
+    "translation_px": [
+      0,
+      0
+    ],
+    "source_origin_px": [
+      280.0,
+      220.0
+    ],
+    "projection_origin_px": [
+      280.0,
+      220.0
+    ]
+  },
+  "pre_cropped_views": true,
+  "tolerance_mm": 0.15,
+  "normalization_length_mm": 80,
+  "minimum_match_fraction": 0.995
+}

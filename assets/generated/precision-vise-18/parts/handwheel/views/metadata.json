@@ -1,0 +1,118 @@
+{
+  "units": "mm",
+  "source": "Measured analytic B-rep; not declared feature dimensions",
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27023.177439,
+    "area_mm2": 12290.060851,
+    "bbox": {
+      "min": [
+        -40.0,
+        -40.0,
+        0.0
+      ],
+      "max": [
+        40.0,
+        40.0,
+        14.0
+      ],
+      "size": [
+        80.0,
+        80.0,
+        14.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -7.002151139859921e-14,
+      -0.34382560282282537,
+      4.636659223934706
+    ],
+    "faces": 19,
+    "edges": 60
+  },
+  "views": {
+    "front": {
+      "path": "assets/generated/precision-vise-18/parts/handwheel/views/front.svg",
+      "projection_direction": [
+        0,
+        -1,
+        0
+      ],
+      "x_axis_world": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "y_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "measured_width_mm": 14.0,
+      "measured_height_mm": 80.0,
+      "px_per_mm": 4.499999988749998,
+      "origin_px": [
+        103.00000029249998,
+        220.00000000000017
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "top": {
+      "path": "assets/generated/precision-vise-18/parts/handwheel/views/top.svg",
+      "projection_direction": [
+        0,
+        0,
+        1
+      ],
+      "x_axis_world": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "y_axis_world": [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "measured_width_mm": 80.0,
+      "measured_height_mm": 80.0,
+      "px_per_mm": 4.5,
+      "origin_px": [
+        220.0,
+        220.0
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "side": {
+      "path": "assets/generated/precision-vise-18/parts/handwheel/views/side.svg",
+      "projection_direction": [
+        1,
+        0,
+        0
+      ],
+      "x_axis_world": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "y_axis_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "measured_width_mm": 14.0,
+      "measured_height_mm": 80.0,
+      "px_per_mm": 4.499999988749999,
+      "origin_px": [
+        40.000000449999995,
+        219.99999999999997
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    }
+  }
+}

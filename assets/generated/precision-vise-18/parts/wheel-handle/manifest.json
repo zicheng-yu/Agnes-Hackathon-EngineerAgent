@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "build",
+  "id": "wheel-handle",
+  "name": "手轮旋转握柄",
+  "units": "mm",
+  "up_axis": "Z",
+  "source_type": "original-parametric-demo",
+  "files": {
+    "step": "assets/generated/precision-vise-18/parts/wheel-handle/model.step",
+    "glb": "assets/generated/precision-vise-18/parts/wheel-handle/model.glb",
+    "mesh": "assets/generated/precision-vise-18/parts/wheel-handle/mesh.json",
+    "feature_plan": "assets/generated/precision-vise-18/parts/wheel-handle/feature-plan.json",
+    "views": {
+      "front": "assets/generated/precision-vise-18/parts/wheel-handle/views/front.svg",
+      "top": "assets/generated/precision-vise-18/parts/wheel-handle/views/top.svg",
+      "side": "assets/generated/precision-vise-18/parts/wheel-handle/views/side.svg"
+    },
+    "view_metadata": "assets/generated/precision-vise-18/parts/wheel-handle/views/metadata.json"
+  },
+  "verification": {
+    "passed": true,
+    "checks": [
+      {
+        "id": "check-1",
+        "kind": "valid",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      },
+      {
+        "id": "check-2",
+        "kind": "solids",
+        "feature_id": null,
+        "actual": 1,
+        "expected": 1.0,
+        "tolerance": 0.05,
+        "error": 0.0,
+        "passed": true
+      }
+    ],
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5180.486286,
+      "area_mm2": 1884.955592,
+      "bbox": {
+        "min": [
+          -7.0,
+          -7.0,
+          0.0
+        ],
+        "max": [
+          7.0,
+          7.0,
+          41.0
+        ],
+        "size": [
+          14.0,
+          14.0,
+          41.0
+        ],
+        "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+      },
+      "center_of_mass": [
+        2.1945205807011934e-16,
+        2.3128460291043885e-16,
+        23.99302607640995
+      ],
+      "faces": 5,
+      "edges": 6
+    },
+    "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+  },
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 5180.486286,
+    "area_mm2": 1884.955592,
+    "bbox": {
+      "min": [
+        -7.0,
+        -7.0,
+        0.0
+      ],
+      "max": [
+        7.0,
+        7.0,
+        41.0
+      ],
+      "size": [
+        14.0,
+        14.0,
+        41.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      2.1945205807011934e-16,
+      2.3128460291043885e-16,
+      23.99302607640995
+    ],
+    "faces": 5,
+    "edges": 6
+  },
+  "feature_log": [
+    {
+      "id": "stem",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.29
+    },
+    {
+      "id": "grip",
+      "op": "cylinder",
+      "status": "completed",
+      "duration_ms": 3.37
+    },
+    {
+      "id": "combined",
+      "op": "union",
+      "status": "completed",
+      "duration_ms": 1.85
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "moveo-wrist",
+  "name": "BCN3D Moveo 腕关节结构体",
+  "category": "机器人结构件",
+  "material": null,
+  "summary": "BCN3D Moveo 腕关节结构体，来自 BCN3D/BCN3D-Moveo 的公开机械设计。",
+  "useCase": "机器人腕部传动支撑",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%204/4M1.STL",
+  "downloadUrl": "https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%204/4M1.STL",
+  "sourceProject": "moveo",
+  "author": "BCN3D Technologies",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+  "licensePath": "assets/sources/moveo/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/moveo-wrist/source.stl",
+  "sizeBytes": 6703284,
+  "sha256": "b6484d9562264d61bbcfb587e392932ec219b0019c7304c73116969f364802f2",
+  "downloadedAt": "2026-10-09T04:04:01.802391+00:00",
+  "upstreamCommit": "0866a92501277636f76000a195d8a16d44b5b476",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 6703284,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 134064,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        13.978934288024902,
+        0.25,
+        1.239953637123108
+      ],
+      [
+        85.9197769165039,
+        130.24998474121094,
+        90.3883056640625
+      ]
+    ],
+    "extents": [
+      71.940842628479,
+      129.99998474121094,
+      89.14835202693939
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/moveo-wrist/preview-cad/mesh.json",
+    "sourceMeshSha256": "a6c5d17d3072a02e9776b5c926b13aae93b71351f35738fac7e0dbd048ee46f6",
+    "trianglesRendered": 134072,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/moveo-wrist/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/moveo-wrist/thumbnail.png",
+  "thumbnailSha256": "616e9faa6d48e3738f086ff4b1e7384b81054edea59268e87380a707fb8d86fe",
+  "browserModelPath": "assets/catalog/moveo-wrist/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/moveo-wrist/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": false,
+      "solids": null,
+      "mesh_components": 1,
+      "volume_mm3": null,
+      "bbox": {
+        "min": [
+          13.978934288024902,
+          0.25,
+          1.239953637123108
+        ],
+        "max": [
+          85.9197769165039,
+          130.24998474121094,
+          90.3883056640625
+        ],
+        "size": [
+          71.940842628479,
+          129.99998474121094,
+          89.14835202693939
+        ]
+      },
+      "faces": 134064,
+      "surface_area_mm2": 56636.37286758922
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/moveo-wrist/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:14.379623+00:00"
+  },
+  "browserModelSha256": "9189c1890c1973a0a61ebfbd32e2dc5c5fdb60df249abf5e80a5cd8b85bc6c13",
+  "browserModelSizeBytes": 2413972,
+  "browserMeshPath": "assets/catalog/moveo-wrist/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/moveo-wrist/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

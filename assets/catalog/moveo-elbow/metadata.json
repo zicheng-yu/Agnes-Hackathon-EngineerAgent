@@ -1,0 +1,122 @@
+{
+  "id": "moveo-elbow",
+  "name": "BCN3D Moveo 肘关节结构体",
+  "category": "机器人结构件",
+  "material": null,
+  "summary": "BCN3D Moveo 肘关节结构体，来自 BCN3D/BCN3D-Moveo 的公开机械设计。",
+  "useCase": "多轴机器人肘关节集成",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%203/3M1.STL",
+  "downloadUrl": "https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%203/3M1.STL",
+  "sourceProject": "moveo",
+  "author": "BCN3D Technologies",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+  "licensePath": "assets/sources/moveo/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/moveo-elbow/source.stl",
+  "sizeBytes": 3565184,
+  "sha256": "efb291f7e8ec12f0f62b42892730889d0f596e68ca1ca676dcdebe521ed6a842",
+  "downloadedAt": "2026-10-09T04:04:01.801105+00:00",
+  "upstreamCommit": "0866a92501277636f76000a195d8a16d44b5b476",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 3565184,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 71302,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        2.560534954071045,
+        -1.3925467549913417e-11,
+        8.819169998168945
+      ],
+      [
+        137.15896606445312,
+        190.10000610351562,
+        103.817138671875
+      ]
+    ],
+    "extents": [
+      134.59843111038208,
+      190.10000610352955,
+      94.99796867370605
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/moveo-elbow/preview-cad/mesh.json",
+    "sourceMeshSha256": "5380ceabd1dad364d67d75df2ff8c34484e10879654a12ff7b210d5fa1667d44",
+    "trianglesRendered": 71308,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/moveo-elbow/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/moveo-elbow/thumbnail.png",
+  "thumbnailSha256": "5bfa8cbd2b826e71880e36e1ec3baa362699e070b6fdfe36273068b6b0eb5d18",
+  "browserModelPath": "assets/catalog/moveo-elbow/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/moveo-elbow/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": false,
+      "solids": null,
+      "mesh_components": 1,
+      "volume_mm3": null,
+      "bbox": {
+        "min": [
+          2.560534954071045,
+          -4.337467884862889e-12,
+          8.819169998168945
+        ],
+        "max": [
+          137.15896606445312,
+          190.10000610351562,
+          103.817138671875
+        ],
+        "size": [
+          134.59843111038208,
+          190.10000610351997,
+          94.99796867370605
+        ]
+      },
+      "faces": 71302,
+      "surface_area_mm2": 105010.27921060516
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/moveo-elbow/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:14.161021+00:00"
+  },
+  "browserModelSha256": "9cae55cb5a98f9c4bafb874a9ec87e21bb00345ea7aa7e2456fc15dd5a57bcfe",
+  "browserModelSizeBytes": 1284044,
+  "browserMeshPath": "assets/catalog/moveo-elbow/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/moveo-elbow/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

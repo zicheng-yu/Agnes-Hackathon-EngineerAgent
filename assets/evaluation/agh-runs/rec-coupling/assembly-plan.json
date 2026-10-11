@@ -1,0 +1,351 @@
+{
+  "id": "ea-d04-flange-coupling",
+  "name": "EA-D04 Flange Coupling Assembly",
+  "units": "mm",
+  "parts": [
+    {
+      "id": "flange",
+      "name": "Flange",
+      "features": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "diameter": 100,
+          "height": 12
+        },
+        {
+          "id": "bore",
+          "op": "hole",
+          "diameter": 40,
+          "points": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "bolts",
+          "op": "hole",
+          "diameter": 11,
+          "polar": {
+            "count": 4,
+            "pcd": 76,
+            "start_angle": 0
+          }
+        }
+      ],
+      "checks": [
+        {
+          "kind": "circular_edge_diameter",
+          "expected": 100
+        },
+        {
+          "kind": "bbox",
+          "axis": "z",
+          "expected": 12
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 40,
+          "expected": 1
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 11,
+          "expected": 4
+        },
+        {
+          "kind": "hole_pcd",
+          "diameter": 11,
+          "expected": 76
+        },
+        {
+          "kind": "solids",
+          "expected": 1,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "id": "gasket",
+      "name": "Gasket",
+      "features": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "diameter": 100,
+          "height": 2
+        },
+        {
+          "id": "bore",
+          "op": "hole",
+          "diameter": 40,
+          "points": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "id": "bolts",
+          "op": "hole",
+          "diameter": 11,
+          "polar": {
+            "count": 4,
+            "pcd": 76,
+            "start_angle": 0
+          }
+        }
+      ],
+      "checks": [
+        {
+          "kind": "circular_edge_diameter",
+          "expected": 100
+        },
+        {
+          "kind": "bbox",
+          "axis": "z",
+          "expected": 2
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 40,
+          "expected": 1
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 11,
+          "expected": 4
+        },
+        {
+          "kind": "hole_pcd",
+          "diameter": 11,
+          "expected": 76
+        },
+        {
+          "kind": "solids",
+          "expected": 1,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "id": "stud",
+      "name": "Stud M10",
+      "features": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "diameter": 10,
+          "height": 46
+        }
+      ],
+      "checks": [
+        {
+          "kind": "circular_edge_diameter",
+          "expected": 10
+        },
+        {
+          "kind": "bbox",
+          "axis": "z",
+          "expected": 46
+        },
+        {
+          "kind": "solids",
+          "expected": 1,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "id": "nut",
+      "name": "Nut M10",
+      "features": [
+        {
+          "id": "body",
+          "op": "cylinder",
+          "diameter": 17,
+          "height": 8
+        },
+        {
+          "id": "bore",
+          "op": "hole",
+          "diameter": 10,
+          "points": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "kind": "circular_edge_diameter",
+          "expected": 17
+        },
+        {
+          "kind": "bbox",
+          "axis": "z",
+          "expected": 8
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 10,
+          "expected": 1
+        },
+        {
+          "kind": "solids",
+          "expected": 1,
+          "tolerance": 0
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "flangeA",
+      "part_id": "flange",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0
+    },
+    {
+      "id": "gasket",
+      "part_id": "gasket",
+      "translation": [
+        0,
+        0,
+        12
+      ],
+      "explode": [
+        0,
+        0,
+        40
+      ],
+      "sequence": 3
+    },
+    {
+      "id": "flangeB",
+      "part_id": "flange",
+      "translation": [
+        0,
+        0,
+        14
+      ],
+      "explode": [
+        0,
+        0,
+        80
+      ],
+      "sequence": 2
+    },
+    {
+      "id": "nutLower",
+      "part_id": "nut",
+      "polar": {
+        "count": 4,
+        "pcd": 76,
+        "start_angle": 0
+      },
+      "translation": [
+        0,
+        0,
+        -8
+      ],
+      "explode": [
+        0,
+        0,
+        -40
+      ],
+      "sequence": 4
+    },
+    {
+      "id": "nutUpper",
+      "part_id": "nut",
+      "polar": {
+        "count": 4,
+        "pcd": 76,
+        "start_angle": 0
+      },
+      "translation": [
+        0,
+        0,
+        26
+      ],
+      "explode": [
+        0,
+        0,
+        120
+      ],
+      "sequence": 1
+    },
+    {
+      "id": "stud",
+      "part_id": "stud",
+      "polar": {
+        "count": 4,
+        "pcd": 76,
+        "start_angle": 0
+      },
+      "translation": [
+        0,
+        0,
+        -10
+      ],
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0
+    }
+  ],
+  "checks": [
+    {
+      "kind": "instance_z",
+      "instance": "flangeA",
+      "expected": 0
+    },
+    {
+      "kind": "instance_z",
+      "instance": "gasket",
+      "expected": 12
+    },
+    {
+      "kind": "instance_z",
+      "instance": "flangeB",
+      "expected": 14
+    },
+    {
+      "kind": "instance_z",
+      "instance": "nutLower",
+      "expected": -8
+    },
+    {
+      "kind": "instance_z",
+      "instance": "nutUpper",
+      "expected": 26
+    },
+    {
+      "kind": "instance_z",
+      "instance": "stud",
+      "expected": -10
+    },
+    {
+      "kind": "bbox",
+      "axis": "z",
+      "expected": 46
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "generatedAt": "2026-10-11T07:23:44.064Z",
+  "aghCommit": "cde816b88c737b9fd04e7ef55b899e7b4cd55eb7",
+  "aghRepository": "https://github.com/AgnesAI-Labs/agnes-harness.git",
+  "note": "评委测试案例的真实 AGH 运行记录。trace.agnes.jsonl 为 AGH 官方导出器输出（已去除密钥与本机路径）；产物为该次运行实际生成的文件。",
+  "runs": [
+    {
+      "case": "rec-coupling",
+      "title": "双法兰连接组件重建",
+      "kind": "normal",
+      "mode": "reconstruct",
+      "expect": "一次 assembly 生成 4 种零件 / 15 个实例；各零件检查通过（Ø100×12 法兰、Ø11×4 孔于 PCD 76、垫片厚 2 等），初始无干涉，拆卸路径采样检查通过，可在结果中拖动爆炸视图",
+      "taskId": "1066dbd7-01dc-4f5a-acff-867c2f03e283",
+      "sessionId": "agnes:local:local-dev:cli:session:b0132b41-8754-461c-a853-33a5ad5e984c",
+      "createdAt": "2026-10-11T07:18:59.529Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 3,
+      "tokens": {
+        "prompt": 15977,
+        "completion": 2604,
+        "cached": 12032
+      },
+      "toolCalls": [
+        "industrial_geometry"
+      ],
+      "assembly": {
+        "instances": 15,
+        "bom": [
+          {
+            "part": "flange",
+            "quantity": 2
+          },
+          {
+            "part": "gasket",
+            "quantity": 1
+          },
+          {
+            "part": "stud",
+            "quantity": 4
+          },
+          {
+            "part": "nut",
+            "quantity": 8
+          }
+        ],
+        "partChecksPassed": true,
+        "pathCheckPassed": true,
+        "placementChecks": [
+          {
+            "kind": "instance_z",
+            "instance": "flangeA",
+            "expected": 0,
+            "actual": {
+              "flangeA": -0.015541
+            },
+            "passed": true
+          },
+          {
+            "kind": "instance_z",
+            "instance": "gasket",
+            "expected": 12,
+            "actual": {
+              "gasket": 11.984459
+            },
+            "passed": true
+          },
+          {
+            "kind": "instance_z",
+            "instance": "flangeB",
+            "expected": 14,
+            "actual": {
+              "flangeB": 13.984459
+            },
+            "passed": true
+          },
+          {
+            "kind": "instance_z",
+            "instance": "nutLower",
+            "expected": -8,
+            "actual": {
+              "nutLower-1": -8.002642,
+              "nutLower-2": -8.002642,
+              "nutLower-3": -8.002642,
+              "nutLower-4": -8.002642
+            },
+            "passed": true
+          },
+          {
+            "kind": "instance_z",
+            "instance": "nutUpper",
+            "expected": 26,
+            "actual": {
+              "nutUpper-1": 25.997358,
+              "nutUpper-2": 25.997358,
+              "nutUpper-3": 25.997358,
+              "nutUpper-4": 25.997358
+            },
+            "passed": true
+          },
+          {
+            "kind": "instance_z",
+            "instance": "stud",
+            "expected": -10,
+            "actual": {
+              "stud-1": -10.001554,
+              "stud-2": -10.001554,
+              "stud-3": -10.001554,
+              "stud-4": -10.001554
+            },
+            "passed": true
+          },
+          {
+            "kind": "bbox",
+            "axis": "z",
+            "expected": 46,
+            "actual": 46.003108,
+            "passed": true
+          }
+        ]
+      },
+      "traceEvents": 46,
+      "traceSha256": "bb88a567dd709438bfdb177b92a04239e5a0409b71521cfdcdb76f55e66fa6e8",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/rec-coupling/trace.agnes.jsonl",
+        "step": "/assets/evaluation/agh-runs/rec-coupling/model.step",
+        "glb": "/assets/evaluation/agh-runs/rec-coupling/model.glb",
+        "plan": "/assets/evaluation/agh-runs/rec-coupling/assembly-plan.json",
+        "front": "/assets/evaluation/agh-runs/rec-coupling/front.svg",
+        "top": "/assets/evaluation/agh-runs/rec-coupling/top.svg",
+        "side": "/assets/evaluation/agh-runs/rec-coupling/side.svg",
+        "manifest": "/assets/evaluation/agh-runs/rec-coupling/manifest.json",
+        "task": "/assets/evaluation/agh-runs/rec-coupling/task.json"
+      }
+    },
+    {
+      "case": "rec-missing",
+      "title": "缺厚度图纸",
+      "kind": "boundary",
+      "mode": "reconstruct",
+      "expect": "不建模、不使用占位值；通过“请求补充资料”工具列出缺失的板厚，任务暂停等待补充",
+      "taskId": "4d6f1701-314b-49dd-8fd8-ae496830da59",
+      "sessionId": "agnes:local:local-dev:cli:session:4c81d0cf-edcb-4b85-9dda-27771b1ed708",
+      "createdAt": "2026-10-11T04:00:57.316Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "needs_input",
+      "modelRequests": 3,
+      "tokens": {
+        "prompt": 3461,
+        "completion": 303,
+        "cached": 10752
+      },
+      "toolCalls": [
+        "industrial_request_clarification"
+      ],
+      "clarification": {
+        "success": true,
+        "status": "needs_input",
+        "question": "图纸 EA-D03 第 1 页中，板厚是唯一的缺失关键尺寸。TOP VIEW 已给出 120×80、孔距 96×56、4×Ø10 THRU 与中心 Ø30 THRU，但 FRONT VIEW 标注 \"THICKNESS: ?\"，且 NOTES 第 4 条写明 \"Plate thickness to be confirmed by customer\"。请提供板材厚度（mm），否则无法完成建模、校验与投影。",
+        "missing": [
+          {
+            "item": "板厚（TOP/FRONT 视图中未标注，THICKNESS: ?）",
+            "evidence": "FRONT VIEW 标注 THICKNESS: ?；NOTES 第 4 条：Plate thickness to be confirmed by customer；已核对图纸与 PDF 文本，均无厚度数值。"
+          }
+        ],
+        "note": "Task paused for user input. No geometry was generated from guessed values."
+      },
+      "traceEvents": 42,
+      "traceSha256": "d408a55f530db38cd72ac48d1021ec26a46ed653b87e06b754ce7a43f4ea724f",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/rec-missing/trace.agnes.jsonl",
+        "task": "/assets/evaluation/agh-runs/rec-missing/task.json"
+      }
+    },
+    {
+      "case": "order-standard",
+      "title": "法兰与导向轴采购",
+      "kind": "normal",
+      "mode": "order_review",
+      "expect": "2 行均为条件满足；可用库存 20 件，待产 30 件，估算 10.68 h（合成台账）",
+      "taskId": "184cb9e2-136f-4c77-b170-9d2e162e7882",
+      "sessionId": "agnes:local:local-dev:cli:session:ed3dd00d-95e6-4888-a72e-32ef554390b1",
+      "createdAt": "2026-10-10T09:47:24.933Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 3,
+      "tokens": {
+        "prompt": 6221,
+        "completion": 755,
+        "cached": 3584
+      },
+      "toolCalls": [
+        "industrial_review_order"
+      ],
+      "order": {
+        "lines": 2,
+        "ready": 2,
+        "blocked": 0,
+        "unmatched": 0,
+        "toProduce": 30,
+        "totalHours": 10.68
+      },
+      "traceEvents": 44,
+      "traceSha256": "7badc0e8c044e895a70a48b11082279585f2ebae2e7d1a8bff51871be6c64777",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/order-standard/trace.agnes.jsonl",
+        "task": "/assets/evaluation/agh-runs/order-standard/task.json"
+      }
+    },
+    {
+      "case": "order-conflicts",
+      "title": "材质/版本冲突与未知编号",
+      "kind": "failure",
+      "mode": "order_review",
+      "expect": "不给出虚假工时；3 行标为条件冲突、1 行未匹配，并逐行检索候选零件供人工确认",
+      "taskId": "e9761319-5f86-4c7e-9752-002e07d63da1",
+      "sessionId": "agnes:local:local-dev:cli:session:17a3fcb8-d352-400a-baf0-708352604c2c",
+      "createdAt": "2026-10-10T09:47:56.969Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 4,
+      "tokens": {
+        "prompt": 9419,
+        "completion": 1634,
+        "cached": 7680
+      },
+      "toolCalls": [
+        "industrial_review_order",
+        "industrial_search_catalog",
+        "industrial_search_catalog",
+        "industrial_search_catalog",
+        "industrial_search_catalog"
+      ],
+      "order": {
+        "lines": 4,
+        "ready": 0,
+        "blocked": 3,
+        "unmatched": 1,
+        "toProduce": 0,
+        "totalHours": 0
+      },
+      "traceEvents": 79,
+      "traceSha256": "709391724469dad25833e51f292f4cfc4f5a0eeb0aa14e52b23ab1a742459988",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/order-conflicts/trace.agnes.jsonl",
+        "task": "/assets/evaluation/agh-runs/order-conflicts/task.json"
+      }
+    },
+    {
+      "case": "catalog-bracket",
+      "title": "带孔支架检索",
+      "kind": "normal",
+      "mode": "catalog_search",
+      "expect": "返回带编号与模型链接的候选（如 FG-037 固定支架），并说明匹配依据",
+      "taskId": "2c85aa64-e108-402f-a6c0-3a115777d9e5",
+      "sessionId": "agnes:local:local-dev:cli:session:803a247b-be0d-4b47-9da7-f82e870f7b38",
+      "createdAt": "2026-10-10T09:48:41.020Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 5,
+      "tokens": {
+        "prompt": 22137,
+        "completion": 699,
+        "cached": 0
+      },
+      "toolCalls": [
+        "industrial_search_catalog",
+        "industrial_search_catalog",
+        "industrial_search_catalog"
+      ],
+      "catalog": {
+        "totalMatches": 6,
+        "matchMode": "ranked_partial",
+        "items": [
+          "FG-008",
+          "FG-013",
+          "FG-015",
+          "FG-017",
+          "FG-025",
+          "FG-037"
+        ]
+      },
+      "traceEvents": 79,
+      "traceSha256": "393965e94bb76197866122c6be83ad7d5dc45d8de0a42acc8592618bf730e183",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/catalog-bracket/trace.agnes.jsonl",
+        "task": "/assets/evaluation/agh-runs/catalog-bracket/task.json"
+      }
+    },
+    {
+      "case": "catalog-assembly",
+      "title": "可拆解装配体检索",
+      "kind": "normal",
+      "mode": "catalog_search",
+      "expect": "返回 FG-005 双法兰密封连接组件、FG-006 双导柱精密夹持组件等装配体",
+      "taskId": "425c2d20-688d-4475-8428-d142e6e63a90",
+      "sessionId": "agnes:local:local-dev:cli:session:3d2aa506-1085-4c7c-b20a-0913e6e30ea7",
+      "createdAt": "2026-10-10T09:49:13.062Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 4,
+      "tokens": {
+        "prompt": 5334,
+        "completion": 358,
+        "cached": 6656
+      },
+      "toolCalls": [
+        "industrial_search_catalog",
+        "industrial_search_catalog"
+      ],
+      "catalog": {
+        "totalMatches": 2,
+        "matchMode": "all_terms",
+        "items": [
+          "FG-005",
+          "FG-006"
+        ]
+      },
+      "traceEvents": 60,
+      "traceSha256": "42f076a5184e104968343f38b290e40f8aedc8085ee1d98fdf5e4d82e2f1f9c8",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/catalog-assembly/trace.agnes.jsonl",
+        "task": "/assets/evaluation/agh-runs/catalog-assembly/task.json"
+      }
+    },
+    {
+      "case": "catalog-none",
+      "title": "库中不存在的零件",
+      "kind": "failure",
+      "mode": "catalog_search",
+      "expect": "如实说明库中没有匹配的涡轮叶片，不虚构资产",
+      "taskId": "9931ba2c-5b0a-4c09-869e-aa08c58e1151",
+      "sessionId": "agnes:local:local-dev:cli:session:2bed5044-aa97-457f-8d4a-6f50518ed95f",
+      "createdAt": "2026-10-10T09:50:09.126Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 4,
+      "tokens": {
+        "prompt": 11182,
+        "completion": 302,
+        "cached": 0
+      },
+      "toolCalls": [
+        "industrial_search_catalog",
+        "industrial_search_catalog",
+        "industrial_search_catalog"
+      ],
+      "catalog": {
+        "totalMatches": 0,
+        "matchMode": "ranked_partial",
+        "items": []
+      },
+      "traceEvents": 65,
+      "traceSha256": "488f8c713d5114743037bcc1e190957f4d5ef8d4e64eb87d26dbc3b3b6849384",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/catalog-none/trace.agnes.jsonl",
+        "task": "/assets/evaluation/agh-runs/catalog-none/task.json"
+      }
+    },
+    {
+      "case": "rec-plate",
+      "title": "安装底板重建",
+      "kind": "normal",
+      "mode": "reconstruct",
+      "expect": "生成 STEP/GLB；外形 120×80×12、Ø10 孔数 4、孔距 96/56、Ø30 中心孔全部通过检查",
+      "taskId": "3665222b-62e2-431f-b5c5-3c05045c4a3b",
+      "sessionId": "agnes:local:local-dev:cli:session:e47e83a9-b07d-45ce-a2e1-323a0acb3009",
+      "createdAt": "2026-10-10T09:44:48.524Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 5,
+      "tokens": {
+        "prompt": 11876,
+        "completion": 2102,
+        "cached": 24064
+      },
+      "toolCalls": [
+        "industrial_geometry",
+        "industrial_geometry",
+        "industrial_geometry"
+      ],
+      "checks": [
+        {
+          "kind": "bbox",
+          "axis": "x",
+          "expected": 120,
+          "actual": 120,
+          "passed": true
+        },
+        {
+          "kind": "bbox",
+          "axis": "y",
+          "expected": 80,
+          "actual": 80,
+          "passed": true
+        },
+        {
+          "kind": "bbox",
+          "axis": "z",
+          "expected": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 10,
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "kind": "hole_pitch",
+          "axis": "x",
+          "diameter": 10,
+          "expected": 96,
+          "actual": 96,
+          "passed": true
+        },
+        {
+          "kind": "hole_pitch",
+          "axis": "y",
+          "diameter": 10,
+          "expected": 56,
+          "actual": 56,
+          "passed": true
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 30,
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "solids",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        }
+      ],
+      "traceEvents": 79,
+      "traceSha256": "5e23506156811c780cf442397eeb86f709b0474a91a3bb58bdbd16ab22646687",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/rec-plate/trace.agnes.jsonl",
+        "step": "/assets/evaluation/agh-runs/rec-plate/model.step",
+        "glb": "/assets/evaluation/agh-runs/rec-plate/model.glb",
+        "plan": "/assets/evaluation/agh-runs/rec-plate/feature-plan.json",
+        "front": "/assets/evaluation/agh-runs/rec-plate/front.svg",
+        "top": "/assets/evaluation/agh-runs/rec-plate/top.svg",
+        "side": "/assets/evaluation/agh-runs/rec-plate/side.svg",
+        "manifest": "/assets/evaluation/agh-runs/rec-plate/manifest.json",
+        "task": "/assets/evaluation/agh-runs/rec-plate/task.json"
+      },
+      "retired": true
+    },
+    {
+      "case": "rec-flange",
+      "title": "法兰盘重建",
+      "kind": "normal",
+      "mode": "reconstruct",
+      "expect": "生成 STEP/GLB；外径 140、厚 16、Ø60 中心孔、Ø14 孔数 6、分度圆 110 全部通过检查",
+      "taskId": "aaff4858-f1b9-490a-ad5c-d291e84dcbf9",
+      "sessionId": "agnes:local:local-dev:cli:session:78480f64-b378-4e8f-b02c-47ad2619a348",
+      "createdAt": "2026-10-10T09:46:00.720Z",
+      "model": "agnes-3.0-flash",
+      "providerId": "agnes-ai",
+      "status": "completed",
+      "outcome": "completed",
+      "modelRequests": 5,
+      "tokens": {
+        "prompt": 8509,
+        "completion": 1940,
+        "cached": 29440
+      },
+      "toolCalls": [
+        "industrial_geometry",
+        "industrial_geometry",
+        "industrial_geometry"
+      ],
+      "checks": [
+        {
+          "kind": "bbox",
+          "axis": "x",
+          "expected": 140,
+          "actual": 140,
+          "passed": true
+        },
+        {
+          "kind": "bbox",
+          "axis": "z",
+          "expected": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "kind": "circular_edge_diameter",
+          "expected": 140,
+          "actual": 140,
+          "passed": true
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 60,
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "kind": "hole_count",
+          "diameter": 14,
+          "expected": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "kind": "hole_pcd",
+          "diameter": 14,
+          "expected": 110,
+          "actual": 110,
+          "passed": true
+        },
+        {
+          "kind": "solids",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        }
+      ],
+      "traceEvents": 81,
+      "traceSha256": "d610dc140a7d437a47b59f7e0b3eb79c4774fc8de7f76b0c59420163dbf69ca9",
+      "files": {
+        "trace": "/assets/evaluation/agh-runs/rec-flange/trace.agnes.jsonl",
+        "step": "/assets/evaluation/agh-runs/rec-flange/model.step",
+        "glb": "/assets/evaluation/agh-runs/rec-flange/model.glb",
+        "plan": "/assets/evaluation/agh-runs/rec-flange/feature-plan.json",
+        "front": "/assets/evaluation/agh-runs/rec-flange/front.svg",
+        "top": "/assets/evaluation/agh-runs/rec-flange/top.svg",
+        "side": "/assets/evaluation/agh-runs/rec-flange/side.svg",
+        "manifest": "/assets/evaluation/agh-runs/rec-flange/manifest.json",
+        "task": "/assets/evaluation/agh-runs/rec-flange/task.json"
+      },
+      "retired": true
+    }
+  ]
+}

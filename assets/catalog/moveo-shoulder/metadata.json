@@ -1,0 +1,122 @@
+{
+  "id": "moveo-shoulder",
+  "name": "BCN3D Moveo 肩关节结构体",
+  "category": "机器人结构件",
+  "material": null,
+  "summary": "BCN3D Moveo 肩关节结构体，来自 BCN3D/BCN3D-Moveo 的公开机械设计。",
+  "useCase": "多轴机器人肩关节支撑",
+  "hero": true,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%202/2M1.STL",
+  "downloadUrl": "https://raw.githubusercontent.com/BCN3D/BCN3D-Moveo/0866a92501277636f76000a195d8a16d44b5b476/STL%20files/Articulation%202/2M1.STL",
+  "sourceProject": "moveo",
+  "author": "BCN3D Technologies",
+  "license": "MIT",
+  "licenseUrl": "https://github.com/BCN3D/BCN3D-Moveo/blob/0866a92501277636f76000a195d8a16d44b5b476/LICENSE",
+  "licensePath": "assets/sources/moveo/LICENSE",
+  "format": "STL",
+  "localPath": "assets/catalog/moveo-shoulder/source.stl",
+  "sizeBytes": 12145584,
+  "sha256": "f30505b1d4e21fd92530f2f00def872e3872272d1c7767b466c216dcd0acf42d",
+  "downloadedAt": "2026-10-09T04:04:01.803543+00:00",
+  "upstreamCommit": "0866a92501277636f76000a195d8a16d44b5b476",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "Mesh imported and connectivity checked; no CAD solid reconstruction or original units claimed",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 12145584,
+    "formatValid": true,
+    "meshEncoding": "binary STL",
+    "triangles": 242910,
+    "finiteCoordinates": true,
+    "bounds": [
+      [
+        8.326672684688674e-14,
+        2.60770320892334e-05,
+        0.0
+      ],
+      [
+        160.0,
+        200.00003051757812,
+        160.0
+      ]
+    ],
+    "extents": [
+      159.99999999999991,
+      200.00000444054604,
+      160.0
+    ],
+    "units": "unspecified-in-STL",
+    "closedSolidValidated": false
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/moveo-shoulder/preview-cad/mesh.json",
+    "sourceMeshSha256": "8396153156ee292498d4da5b9cde5a6b104d00e73fb54c00f42dadb290289b9e",
+    "trianglesRendered": 242978,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/moveo-shoulder/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/moveo-shoulder/thumbnail.png",
+  "thumbnailSha256": "20b710232abb48e4514ed18fe6da0dc027b393e596257fb1199a9274507e5c2b",
+  "browserModelPath": "assets/catalog/moveo-shoulder/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/moveo-shoulder/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "mesh-only",
+    "topologyValidated": false,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": null,
+      "watertight": false,
+      "solids": null,
+      "mesh_components": 1,
+      "volume_mm3": null,
+      "bbox": {
+        "min": [
+          8.326672684688674e-14,
+          2.60770320892334e-05,
+          0.0
+        ],
+        "max": [
+          160.0,
+          200.00003051757812,
+          160.0
+        ],
+        "size": [
+          159.99999999999991,
+          200.00000444054604,
+          160.0
+        ]
+      },
+      "faces": 242910,
+      "surface_area_mm2": 157353.76524823392
+    },
+    "sourceFormat": "STL",
+    "manifestPath": "assets/catalog/moveo-shoulder/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:10.749178+00:00"
+  },
+  "browserModelSha256": "fea67e812e72ce74c1119354735b6dd10094d5c6ec81812038f6e74367ab57f7",
+  "browserModelSizeBytes": 4373904,
+  "browserMeshPath": "assets/catalog/moveo-shoulder/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/moveo-shoulder/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "pincopen-camera-base",
+  "name": "夹爪视觉相机安装座",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/pincopen-camera-base/source.step",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/pincopen-camera-base/preview-cad/model.glb",
+    "mesh": "assets/catalog/pincopen-camera-base/preview-cad/mesh.json",
+    "views": {},
+    "step": "assets/catalog/pincopen-camera-base/preview-cad/model.step"
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/pincopen-camera-base/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/pincopen-camera-base/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 10341.777835,
+        "area_mm2": 8142.925448,
+        "bbox": {
+          "min": [
+            -78.35757543050117,
+            -21.41060246260764,
+            19.499397537392362
+          ],
+          "max": [
+            -23.341799301924205,
+            21.41060246260764,
+            70.70073213850291
+          ],
+          "size": [
+            55.01577612857697,
+            42.82120492521528,
+            51.20133460111055
+          ]
+        },
+        "center_of_mass": [
+          -49.03474922019687,
+          -3.391285348318399e-08,
+          46.10497846729572
+        ],
+        "faces": 74,
+        "edges": 224
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/pincopen-camera-base/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 10341.777835,
+    "area_mm2": 8142.925448,
+    "bbox": {
+      "min": [
+        -78.35757543050117,
+        -21.41060246260764,
+        19.499397537392362
+      ],
+      "max": [
+        -23.341799301924205,
+        21.41060246260764,
+        70.70073213850291
+      ],
+      "size": [
+        55.01577612857697,
+        42.82120492521528,
+        51.20133460111055
+      ]
+    },
+    "center_of_mass": [
+      -49.03474922019687,
+      -3.391285348318399e-08,
+      46.10497846729572
+    ],
+    "faces": 74,
+    "edges": 224,
+    "sum_of_solid_volumes_mm3": 10341.777835471665
+  },
+  "hierarchy_note": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

@@ -1,0 +1,118 @@
+{
+  "units": "mm",
+  "source": "Measured analytic B-rep; not declared feature dimensions",
+  "measurements": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 753.982237,
+    "area_mm2": 804.247719,
+    "bbox": {
+      "min": [
+        -10.5,
+        -10.5,
+        0.0
+      ],
+      "max": [
+        10.5,
+        10.5,
+        3.0
+      ],
+      "size": [
+        21.0,
+        21.0,
+        3.0
+      ],
+      "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+    },
+    "center_of_mass": [
+      -2.6386824023993614e-16,
+      -1.4687057476433437e-16,
+      1.5
+    ],
+    "faces": 4,
+    "edges": 6
+  },
+  "views": {
+    "front": {
+      "path": "assets/generated/flange-coupling-19/parts/washer-m10/views/front.svg",
+      "projection_direction": [
+        0,
+        -1,
+        0
+      ],
+      "x_axis_world": [
+        0.0,
+        -0.0,
+        -1.0
+      ],
+      "y_axis_world": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "measured_width_mm": 3.0,
+      "measured_height_mm": 21.0,
+      "px_per_mm": 17.14285697959183,
+      "origin_px": [
+        91.42857265306118,
+        220.0000000000001
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "top": {
+      "path": "assets/generated/flange-coupling-19/parts/washer-m10/views/top.svg",
+      "projection_direction": [
+        0,
+        0,
+        1
+      ],
+      "x_axis_world": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "y_axis_world": [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "measured_width_mm": 21.0,
+      "measured_height_mm": 21.0,
+      "px_per_mm": 17.142857142857142,
+      "origin_px": [
+        220.0,
+        220.0
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    },
+    "side": {
+      "path": "assets/generated/flange-coupling-19/parts/washer-m10/views/side.svg",
+      "projection_direction": [
+        1,
+        0,
+        0
+      ],
+      "x_axis_world": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "y_axis_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "measured_width_mm": 3.0,
+      "measured_height_mm": 21.0,
+      "px_per_mm": 17.142856979591834,
+      "origin_px": [
+        40.000001714285695,
+        219.99999999999997
+      ],
+      "scale_evidence": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "hidden_lines_included": true
+    }
+  }
+}

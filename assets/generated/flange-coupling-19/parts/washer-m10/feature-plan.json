@@ -1,0 +1,37 @@
+{
+  "id": "washer-m10",
+  "name": "M10 平垫圈",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "material": "Stainless steel",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "features": [
+    {
+      "id": "blank",
+      "op": "cylinder",
+      "radius": 10.5,
+      "height": 3
+    },
+    {
+      "id": "bore",
+      "op": "hole",
+      "diameter": 11.0
+    }
+  ],
+  "checks": [
+    {
+      "kind": "valid",
+      "expected": 1
+    },
+    {
+      "kind": "solids",
+      "expected": 1
+    }
+  ]
+}

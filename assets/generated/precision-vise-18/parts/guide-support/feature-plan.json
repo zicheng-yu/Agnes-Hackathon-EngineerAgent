@@ -1,0 +1,68 @@
+{
+  "id": "guide-support",
+  "name": "导柱端部支承座",
+  "units": "mm",
+  "source_type": "original-parametric-demo",
+  "material": "45 steel",
+  "provenance": {
+    "kind": "original-parametric-demo",
+    "author": "Project-generated demonstration assets",
+    "license": "CC0-1.0",
+    "created": "2026-10-09",
+    "disclaimer": "Self-authored demonstration geometry. Not a manufacturer specification, real enterprise order/history, or evidence of automatic drawing reconstruction."
+  },
+  "features": [
+    {
+      "id": "body",
+      "op": "box",
+      "size": [
+        24,
+        40,
+        38
+      ]
+    },
+    {
+      "id": "rod-tool",
+      "op": "cylinder",
+      "radius": 7.3,
+      "height": 34,
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        -17,
+        0,
+        24
+      ]
+    },
+    {
+      "id": "guide-hole",
+      "op": "cut",
+      "base": "body",
+      "tool": "rod-tool"
+    },
+    {
+      "id": "mount-hole",
+      "op": "hole",
+      "diameter": 8.5,
+      "points": [
+        [
+          0,
+          15
+        ]
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "kind": "valid",
+      "expected": 1
+    },
+    {
+      "kind": "solids",
+      "expected": 1
+    }
+  ]
+}

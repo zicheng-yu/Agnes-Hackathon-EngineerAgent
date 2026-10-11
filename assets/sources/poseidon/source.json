@@ -1,0 +1,13 @@
+{
+  "id": "poseidon",
+  "repo": "pachterlab/poseidon",
+  "url": "https://github.com/pachterlab/poseidon",
+  "commit": "5a139fed350bbf5d775ffa9650f465e557b6ccb0",
+  "author": "Pachter Lab / Poseidon contributors",
+  "license": "BSD-2-Clause",
+  "licenseUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/LICENSE",
+  "licensePath": "assets/sources/poseidon/LICENSE",
+  "licenseSha256": "5188559ecc761ecb869ed20b8eccce9cb43cb93b4afec9b62530b3f49b3af9b6",
+  "retrievedAt": "2026-10-09T04:04:01.794314+00:00",
+  "evidence": "Pinned upstream LICENSE inspected; repository describes supplied CAD assets."
+}

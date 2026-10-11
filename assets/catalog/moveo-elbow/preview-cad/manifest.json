@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "import",
+  "id": "moveo-elbow",
+  "name": "BCN3D Moveo 肘关节结构体",
+  "source_type": "imported-existing-cad",
+  "source": "assets/catalog/moveo-elbow/source.stl",
+  "units": "mm",
+  "up_axis": "Z",
+  "units_note": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+  "files": {
+    "glb": "assets/catalog/moveo-elbow/preview-cad/model.glb",
+    "mesh": "assets/catalog/moveo-elbow/preview-cad/mesh.json",
+    "views": {}
+  },
+  "parts": [
+    {
+      "id": "imported-001",
+      "name": "imported-001",
+      "files": {
+        "mesh": "assets/catalog/moveo-elbow/preview-cad/parts/imported-001/mesh.json",
+        "glb": "assets/catalog/moveo-elbow/preview-cad/parts/imported-001/model.glb"
+      },
+      "measurements": {
+        "bbox": {
+          "min": [
+            2.560534954071045,
+            -4.337467884862889e-12,
+            8.819169998168945
+          ],
+          "max": [
+            137.15896606445312,
+            190.10000610351562,
+            103.817138671875
+          ],
+          "size": [
+            134.59843111038208,
+            190.10000610351997,
+            94.99796867370605
+          ]
+        },
+        "watertight": true
+      }
+    }
+  ],
+  "instances": [
+    {
+      "id": "imported-001",
+      "part_id": "imported-001",
+      "mesh": "assets/catalog/moveo-elbow/preview-cad/parts/imported-001/mesh.json",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "original_transform": {
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz_degrees": [
+          0,
+          0,
+          0
+        ]
+      },
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 0,
+      "explode_provenance": "Illustrative centroid separation; not a solved disassembly path."
+    }
+  ],
+  "instance_count": 1,
+  "measurements": {
+    "valid": null,
+    "watertight": false,
+    "solids": null,
+    "mesh_components": 1,
+    "volume_mm3": null,
+    "bbox": {
+      "min": [
+        2.560534954071045,
+        -4.337467884862889e-12,
+        8.819169998168945
+      ],
+      "max": [
+        137.15896606445312,
+        190.10000610351562,
+        103.817138671875
+      ],
+      "size": [
+        134.59843111038208,
+        190.10000610351997,
+        94.99796867370605
+      ]
+    },
+    "faces": 71302,
+    "surface_area_mm2": 105010.27921060516
+  },
+  "hierarchy_note": "STL connected mesh components retained separately. Components are not verified mechanical parts and no assembly semantics are inferred.",
+  "path_check": {
+    "checked": false,
+    "passed": null,
+    "reason": "No assembly constraints or disassembly path supplied for imported components."
+  },
+  "errors": []
+}

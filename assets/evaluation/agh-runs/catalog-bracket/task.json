@@ -1,0 +1,722 @@
+{
+  "id": "2c85aa64-e108-402f-a6c0-3a115777d9e5",
+  "status": "completed",
+  "createdAt": "2026-10-10T09:48:41.020Z",
+  "title": "历史件检索",
+  "mode": "catalog_search",
+  "events": [
+    {
+      "time": "2026-10-10T09:48:50.807Z",
+      "type": "session",
+      "message": "AGH 会话已创建"
+    },
+    {
+      "time": "2026-10-10T09:48:52.283Z",
+      "type": "assistant",
+      "message": "I'll search the parts catalogue for slotted/holed bracket-type parts suitable for locating or clamping.\n\n"
+    },
+    {
+      "time": "2026-10-10T09:48:52.285Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t0-b02dacb3057572ddf79914331a308823",
+      "toolName": "industrial_search_catalog",
+      "input": "支架 孔"
+    },
+    {
+      "time": "2026-10-10T09:48:52.305Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t0-b02dacb3057572ddf79914331a308823",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 1 条：FG-037 固定支架（双导孔与丝杠孔）"
+    },
+    {
+      "time": "2026-10-10T09:48:55.059Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t1-cf797d196d360d9fbe3094d01de06f23",
+      "toolName": "industrial_search_catalog",
+      "input": "夹持 定位"
+    },
+    {
+      "time": "2026-10-10T09:48:55.091Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t1-cf797d196d360d9fbe3094d01de06f23",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 12 条（按相关度排序）：FG-007 柔顺机器人夹爪主壳体；FG-001 SSG48 电动夹爪主体模型；FG-008 SSG48 多腔驱动壳体；FG-010 SSG48 导向滑动夹爪；FG-011 Fin Ray 柔顺夹指；FG-015 关节执行器上支承壳"
+    },
+    {
+      "time": "2026-10-10T09:48:57.582Z",
+      "type": "tool/call",
+      "message": "检索历史零件",
+      "phase": "running",
+      "toolUseId": "t2-aed03f3ad37ed07570fb0e142356c23a",
+      "toolName": "industrial_search_catalog",
+      "input": "定位 孔"
+    },
+    {
+      "time": "2026-10-10T09:48:57.605Z",
+      "type": "tool/result",
+      "message": "检索历史零件",
+      "phase": "completed",
+      "toolUseId": "t2-aed03f3ad37ed07570fb0e142356c23a",
+      "toolName": "industrial_search_catalog",
+      "output": "找到 6 条（按相关度排序）：FG-008 SSG48 多腔驱动壳体；FG-013 多孔摆线齿盘；FG-015 关节执行器上支承壳；FG-017 PincOpen 夹爪多孔顶板；FG-025 Poseidon 显微成像上平台；FG-037 固定支架（双导孔与丝杠孔）"
+    },
+    {
+      "time": "2026-10-10T09:49:10.152Z",
+      "type": "assistant",
+      "message": "以下是用于定位或夹持、带孔的支架/板类零件中，最合适的候选（基于本地零件目录，共 45 个资产，命中 13 个，去重后列 6 个）：\n\n| 编号 | 名称 | 用途 | 格式 | 命中理由 |\n|------|------|------|------|----------|\n| FG-037 | 固定支架（双导孔与丝杠孔） | 参数建模与几何验证 | STEP | 名称含\"支架\"+\"孔\"，最贴合\"带孔支架\"，双导孔+丝杠孔支持夹持/固定 |\n| FG-017 | PincOpen 夹爪多孔顶板 | 低成本自动抓取装置 | STEP | 带孔板件，用于定位与安装，最贴近\"带孔支架\"（\"顶板\"类零件） |\n| FG-015 | 关节执行器上支承壳 | 电机、轴承与减速机构定位 | STEP | 名称含\"定位\"，壳体类零件，可用于定位 |\n| FG-008 | SSG48 多腔驱动壳体 | 夹爪驱动系统定位与安装 | STEP | 名称含\"定位\"，精密壳体 |\n| FG-020 | PincOpen 可换指尖支架 | 接触面适配与夹具快速更换 | STEP | 名称含\"支架\"，用于夹具 |\n| FG-025 | Poseidon 显微成像上平台 | 光学模块与样品观测定位 | STEP | 名称含\"定位\"，精密平台 |\n\n**说明与注意事项：**\n- **格式**：以上均支持 `STEP`，并可作为可预览的 `GLB` 模型查看（`modelUrl` 提供 `.glb` 预览，`stepUrl` 提供可编辑的 `.step` 源文件）。\n- **命名匹配不代表图纸等价**：名称中\"定位/夹持/孔\"仅表示用途或特征，并未验证具体尺寸、材料、修订版本或可加工性。目录条目大多标注 `material: null`（部分如 FG-015 为 PLA+，FG-013 为 PETG），实际加工前仍需结合图纸或规格确认。\n- **最贴合\"带孔支架\"** 的是 **FG-037** 和 **FG-017**（均带孔的板/支架类零件）；若重点在\"定位机构\"，可看 FG-015/FG-008/FG-025。\n\n如需进一步核对某个零件的具体孔位、孔径或尺寸，可把该零件的图纸/规格发给我。"
+    },
+    {
+      "time": "2026-10-10T09:49:10.156Z",
+      "type": "turn/end",
+      "message": "AGH 任务轮次结束"
+    },
+    {
+      "time": "2026-10-10T09:49:10.677Z",
+      "type": "success",
+      "message": "AGH 已完成任务与结果检查"
+    }
+  ],
+  "instruction": "查找可用于定位或夹持的带孔支架类零件，列出编号、用途和可查看的模型格式。",
+  "sessionId": "agnes:local:local-dev:cli:session:803a247b-be0d-4b47-9da7-f82e870f7b38",
+  "result": {
+    "type": "result",
+    "success": true,
+    "outcome": "completed",
+    "mode": "catalog_search",
+    "execution": "real-agh-external-account",
+    "sessionId": "agnes:local:local-dev:cli:session:803a247b-be0d-4b47-9da7-f82e870f7b38",
+    "model": "agnes-3.0-flash",
+    "result": {
+      "stopReason": "end_turn",
+      "reason": "completed",
+      "lastSeq": 78,
+      "credits": {
+        "used": 0,
+        "source": "estimated"
+      }
+    },
+    "geometryRuns": [],
+    "catalogResults": {
+      "success": true,
+      "source": "local_catalog",
+      "filters": {
+        "query": "定位 孔",
+        "category": "",
+        "format": ""
+      },
+      "matchMode": "ranked_partial",
+      "totalAssets": 45,
+      "totalMatches": 6,
+      "returnedCount": 6,
+      "items": [
+        {
+          "id": "ssg48-main-housing",
+          "displayCode": "FG-008",
+          "name": "SSG48 多腔驱动壳体",
+          "category": "精密壳体",
+          "format": "STEP",
+          "summary": "SSG48 多腔驱动壳体，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+          "useCase": "夹爪驱动系统定位与安装",
+          "material": null,
+          "sourceType": "public-open-hardware",
+          "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+          "license": "Apache-2.0",
+          "modelUrl": "/assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+          "stepUrl": "/assets/catalog/ssg48-main-housing/source.step",
+          "manifestUrl": "/assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+          "matchScore": 3,
+          "matchedTerms": [
+            "定位"
+          ]
+        },
+        {
+          "id": "cycloid-disc",
+          "displayCode": "FG-013",
+          "name": "多孔摆线齿盘",
+          "category": "减速与传动",
+          "format": "STEP",
+          "summary": "多孔摆线齿盘，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+          "useCase": "偏心摆线运动及输出传递",
+          "material": "PETG",
+          "sourceType": "public-open-hardware",
+          "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Bottom%20Cycloid%20Disc.step",
+          "license": "MIT",
+          "modelUrl": "/assets/catalog/cycloid-disc/preview-cad/model.glb",
+          "stepUrl": "/assets/catalog/cycloid-disc/source.step",
+          "manifestUrl": "/assets/catalog/cycloid-disc/preview-cad/manifest.json",
+          "matchScore": 3,
+          "matchedTerms": [
+            "孔"
+          ]
+        },
+        {
+          "id": "cycloid-upper-mount",
+          "displayCode": "FG-015",
+          "name": "关节执行器上支承壳",
+          "category": "精密壳体",
+          "format": "STEP",
+          "summary": "关节执行器上支承壳，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+          "useCase": "电机、轴承与减速机构定位",
+          "material": "PLA+",
+          "sourceType": "public-open-hardware",
+          "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Upper%20Mount.step",
+          "license": "MIT",
+          "modelUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/model.glb",
+          "stepUrl": "/assets/catalog/cycloid-upper-mount/source.step",
+          "manifestUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/manifest.json",
+          "matchScore": 3,
+          "matchedTerms": [
+            "定位"
+          ]
+        },
+        {
+          "id": "pincopen-top-plate",
+          "displayCode": "FG-017",
+          "name": "PincOpen 夹爪多孔顶板",
+          "category": "夹持与末端执行",
+          "format": "STEP",
+          "summary": "PincOpen 夹爪多孔顶板，来自 pollen-robotics/PincOpen 的公开机械设计。",
+          "useCase": "低成本自动抓取装置",
+          "material": null,
+          "sourceType": "public-open-hardware",
+          "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+          "license": "CC-BY-SA-4.0",
+          "modelUrl": "/assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+          "stepUrl": "/assets/catalog/pincopen-top-plate/source.step",
+          "manifestUrl": "/assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+          "matchScore": 3,
+          "matchedTerms": [
+            "孔"
+          ]
+        },
+        {
+          "id": "poseidon-optical-stage",
+          "displayCode": "FG-025",
+          "name": "Poseidon 显微成像上平台",
+          "category": "光学与精密平台",
+          "format": "STEP",
+          "summary": "Poseidon 显微成像上平台，来自 pachterlab/poseidon 的公开机械设计。",
+          "useCase": "光学模块与样品观测定位",
+          "material": null,
+          "sourceType": "public-open-hardware",
+          "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Top%20Stage.step",
+          "license": "BSD-2-Clause",
+          "modelUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/model.glb",
+          "stepUrl": "/assets/catalog/poseidon-optical-stage/source.step",
+          "manifestUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/manifest.json",
+          "matchScore": 3,
+          "matchedTerms": [
+            "定位"
+          ]
+        },
+        {
+          "id": "fixed-tower",
+          "displayCode": "FG-037",
+          "name": "固定支架（双导孔与丝杠孔）",
+          "category": "参数化零件",
+          "format": "STEP",
+          "summary": "由特征参数与 CAD 工具构建的原创几何。",
+          "useCase": "参数建模与几何验证",
+          "material": null,
+          "sourceType": "原创参数化",
+          "sourceUrl": null,
+          "license": "CC0-1.0",
+          "modelUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/model.glb",
+          "stepUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/model.step",
+          "manifestUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/manifest.json",
+          "matchScore": 3,
+          "matchedTerms": [
+            "孔"
+          ]
+        }
+      ]
+    },
+    "toolEvidence": [
+      {
+        "toolUseId": "t0-b02dacb3057572ddf79914331a308823",
+        "name": "industrial_search_catalog",
+        "input": {
+          "query": "支架 孔"
+        },
+        "result": {
+          "success": true,
+          "source": "local_catalog",
+          "filters": {
+            "query": "支架 孔",
+            "category": "",
+            "format": ""
+          },
+          "matchMode": "all_terms",
+          "totalAssets": 45,
+          "totalMatches": 1,
+          "returnedCount": 1,
+          "items": [
+            {
+              "id": "fixed-tower",
+              "displayCode": "FG-037",
+              "name": "固定支架（双导孔与丝杠孔）",
+              "category": "参数化零件",
+              "format": "STEP",
+              "summary": "由特征参数与 CAD 工具构建的原创几何。",
+              "useCase": "参数建模与几何验证",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/model.glb",
+              "stepUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/model.step",
+              "manifestUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/manifest.json",
+              "matchScore": null,
+              "matchedTerms": null
+            }
+          ]
+        },
+        "isError": false
+      },
+      {
+        "toolUseId": "t1-cf797d196d360d9fbe3094d01de06f23",
+        "name": "industrial_search_catalog",
+        "input": {
+          "query": "夹持 定位"
+        },
+        "result": {
+          "success": true,
+          "source": "local_catalog",
+          "filters": {
+            "query": "夹持 定位",
+            "category": "",
+            "format": ""
+          },
+          "matchMode": "ranked_partial",
+          "totalAssets": 45,
+          "totalMatches": 12,
+          "returnedCount": 12,
+          "items": [
+            {
+              "id": "compliant-gripper",
+              "displayCode": "FG-007",
+              "name": "柔顺机器人夹爪主壳体",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "柔顺机器人夹爪主壳体，来自 PCrnjak/Compliant-robotic-gripper 的公开机械设计。",
+              "useCase": "柔顺夹爪驱动与传动安装",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/PCrnjak/Compliant-robotic-gripper/blob/df56e1deee1bd89c8db86a24df8e3240e2448c24/Gripper_STEP.zip",
+              "license": "MIT",
+              "modelUrl": "/assets/catalog/compliant-gripper/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/compliant-gripper/source.step",
+              "manifestUrl": "/assets/catalog/compliant-gripper/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "ssg48-drive-assembly",
+              "displayCode": "FG-001",
+              "name": "SSG48 电动夹爪主体模型",
+              "category": "夹持与末端执行",
+              "format": "STL",
+              "summary": "来自官方 ROS 资源的低面数电动夹爪主体网格，原表面 STEP 同时保留。",
+              "useCase": "自动上下料、末端执行器集成",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/SSG48_gripper_description/assets/gripper_SSG48.STL",
+              "license": "Apache-2.0",
+              "modelUrl": "/assets/catalog/ssg48-drive-assembly/preview-cad/model.glb",
+              "stepUrl": null,
+              "manifestUrl": "/assets/catalog/ssg48-drive-assembly/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "ssg48-main-housing",
+              "displayCode": "FG-008",
+              "name": "SSG48 多腔驱动壳体",
+              "category": "精密壳体",
+              "format": "STEP",
+              "summary": "SSG48 多腔驱动壳体，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+              "useCase": "夹爪驱动系统定位与安装",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+              "license": "Apache-2.0",
+              "modelUrl": "/assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/ssg48-main-housing/source.step",
+              "manifestUrl": "/assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "定位"
+              ]
+            },
+            {
+              "id": "ssg48-moving-jaw",
+              "displayCode": "FG-010",
+              "name": "SSG48 导向滑动夹爪",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "SSG48 导向滑动夹爪，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+              "useCase": "平行抓取与末端改造",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/jaw.STEP",
+              "license": "Apache-2.0",
+              "modelUrl": "/assets/catalog/ssg48-moving-jaw/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/ssg48-moving-jaw/source.step",
+              "manifestUrl": "/assets/catalog/ssg48-moving-jaw/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "ssg48-finray-finger",
+              "displayCode": "FG-011",
+              "name": "Fin Ray 柔顺夹指",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "Fin Ray 柔顺夹指，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+              "useCase": "曲面或易损物体自适应抓取",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/gripper%20jaws/fin_ray_1.STEP",
+              "license": "Apache-2.0",
+              "modelUrl": "/assets/catalog/ssg48-finray-finger/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/ssg48-finray-finger/source.step",
+              "manifestUrl": "/assets/catalog/ssg48-finray-finger/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "cycloid-upper-mount",
+              "displayCode": "FG-015",
+              "name": "关节执行器上支承壳",
+              "category": "精密壳体",
+              "format": "STEP",
+              "summary": "关节执行器上支承壳，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+              "useCase": "电机、轴承与减速机构定位",
+              "material": "PLA+",
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Upper%20Mount.step",
+              "license": "MIT",
+              "modelUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/cycloid-upper-mount/source.step",
+              "manifestUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "定位"
+              ]
+            },
+            {
+              "id": "pincopen-top-plate",
+              "displayCode": "FG-017",
+              "name": "PincOpen 夹爪多孔顶板",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "PincOpen 夹爪多孔顶板，来自 pollen-robotics/PincOpen 的公开机械设计。",
+              "useCase": "低成本自动抓取装置",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+              "license": "CC-BY-SA-4.0",
+              "modelUrl": "/assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/pincopen-top-plate/source.step",
+              "manifestUrl": "/assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "pincopen-inner-link",
+              "displayCode": "FG-018",
+              "name": "PincOpen 精密内连杆",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "PincOpen 精密内连杆，来自 pollen-robotics/PincOpen 的公开机械设计。",
+              "useCase": "夹爪运动链与机构设计",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Internal_Rod.step",
+              "license": "CC-BY-SA-4.0",
+              "modelUrl": "/assets/catalog/pincopen-inner-link/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/pincopen-inner-link/source.step",
+              "manifestUrl": "/assets/catalog/pincopen-inner-link/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "pincopen-tip-support",
+              "displayCode": "FG-020",
+              "name": "PincOpen 可换指尖支架",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "PincOpen 可换指尖支架，来自 pollen-robotics/PincOpen 的公开机械设计。",
+              "useCase": "接触面适配与夹具快速更换",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Tip_Support.step",
+              "license": "CC-BY-SA-4.0",
+              "modelUrl": "/assets/catalog/pincopen-tip-support/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/pincopen-tip-support/source.step",
+              "manifestUrl": "/assets/catalog/pincopen-tip-support/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "poseidon-optical-stage",
+              "displayCode": "FG-025",
+              "name": "Poseidon 显微成像上平台",
+              "category": "光学与精密平台",
+              "format": "STEP",
+              "summary": "Poseidon 显微成像上平台，来自 pachterlab/poseidon 的公开机械设计。",
+              "useCase": "光学模块与样品观测定位",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Top%20Stage.step",
+              "license": "BSD-2-Clause",
+              "modelUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/poseidon-optical-stage/source.step",
+              "manifestUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "定位"
+              ]
+            },
+            {
+              "id": "precision-vise-18",
+              "displayCode": "FG-006",
+              "name": "18 件双导柱精密夹持组件",
+              "category": "装配与工装",
+              "format": "STEP",
+              "summary": "18 个部件实例，包含装配关系与拆解检查记录。",
+              "useCase": "装配结构研究与分步拆解",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/precision-vise-18/model.glb",
+              "stepUrl": "/assets/generated/precision-vise-18/model.step",
+              "manifestUrl": "/assets/generated/precision-vise-18/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            },
+            {
+              "id": "jaw-insert",
+              "displayCode": "FG-042",
+              "name": "可更换夹持钳口",
+              "category": "参数化零件",
+              "format": "STEP",
+              "summary": "由特征参数与 CAD 工具构建的原创几何。",
+              "useCase": "参数建模与几何验证",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/precision-vise-18/parts/jaw-insert/model.glb",
+              "stepUrl": "/assets/generated/precision-vise-18/parts/jaw-insert/model.step",
+              "manifestUrl": "/assets/generated/precision-vise-18/parts/jaw-insert/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "夹持"
+              ]
+            }
+          ]
+        },
+        "isError": false
+      },
+      {
+        "toolUseId": "t2-aed03f3ad37ed07570fb0e142356c23a",
+        "name": "industrial_search_catalog",
+        "input": {
+          "query": "定位 孔"
+        },
+        "result": {
+          "success": true,
+          "source": "local_catalog",
+          "filters": {
+            "query": "定位 孔",
+            "category": "",
+            "format": ""
+          },
+          "matchMode": "ranked_partial",
+          "totalAssets": 45,
+          "totalMatches": 6,
+          "returnedCount": 6,
+          "items": [
+            {
+              "id": "ssg48-main-housing",
+              "displayCode": "FG-008",
+              "name": "SSG48 多腔驱动壳体",
+              "category": "精密壳体",
+              "format": "STEP",
+              "summary": "SSG48 多腔驱动壳体，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+              "useCase": "夹爪驱动系统定位与安装",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/main_body.STEP",
+              "license": "Apache-2.0",
+              "modelUrl": "/assets/catalog/ssg48-main-housing/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/ssg48-main-housing/source.step",
+              "manifestUrl": "/assets/catalog/ssg48-main-housing/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "定位"
+              ]
+            },
+            {
+              "id": "cycloid-disc",
+              "displayCode": "FG-013",
+              "name": "多孔摆线齿盘",
+              "category": "减速与传动",
+              "format": "STEP",
+              "summary": "多孔摆线齿盘，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+              "useCase": "偏心摆线运动及输出传递",
+              "material": "PETG",
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Cycloidal%20Drive%20parts%20%28PETG%29/Bottom%20Cycloid%20Disc.step",
+              "license": "MIT",
+              "modelUrl": "/assets/catalog/cycloid-disc/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/cycloid-disc/source.step",
+              "manifestUrl": "/assets/catalog/cycloid-disc/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "孔"
+              ]
+            },
+            {
+              "id": "cycloid-upper-mount",
+              "displayCode": "FG-015",
+              "name": "关节执行器上支承壳",
+              "category": "精密壳体",
+              "format": "STEP",
+              "summary": "关节执行器上支承壳，来自 alireza-02/open-cycloidal-actuator 的公开机械设计。",
+              "useCase": "电机、轴承与减速机构定位",
+              "material": "PLA+",
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/alireza-02/open-cycloidal-actuator/blob/ef5e5e4dedef7c80a84d478d734db8392664ccbf/1.%20Mechanical/STEP%20Files/Housing%20parts%20%28PLA%2B%29/Upper%20Mount.step",
+              "license": "MIT",
+              "modelUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/cycloid-upper-mount/source.step",
+              "manifestUrl": "/assets/catalog/cycloid-upper-mount/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "定位"
+              ]
+            },
+            {
+              "id": "pincopen-top-plate",
+              "displayCode": "FG-017",
+              "name": "PincOpen 夹爪多孔顶板",
+              "category": "夹持与末端执行",
+              "format": "STEP",
+              "summary": "PincOpen 夹爪多孔顶板，来自 pollen-robotics/PincOpen 的公开机械设计。",
+              "useCase": "低成本自动抓取装置",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Top_Plate.step",
+              "license": "CC-BY-SA-4.0",
+              "modelUrl": "/assets/catalog/pincopen-top-plate/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/pincopen-top-plate/source.step",
+              "manifestUrl": "/assets/catalog/pincopen-top-plate/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "孔"
+              ]
+            },
+            {
+              "id": "poseidon-optical-stage",
+              "displayCode": "FG-025",
+              "name": "Poseidon 显微成像上平台",
+              "category": "光学与精密平台",
+              "format": "STEP",
+              "summary": "Poseidon 显微成像上平台，来自 pachterlab/poseidon 的公开机械设计。",
+              "useCase": "光学模块与样品观测定位",
+              "material": null,
+              "sourceType": "public-open-hardware",
+              "sourceUrl": "https://github.com/pachterlab/poseidon/blob/5a139fed350bbf5d775ffa9650f465e557b6ccb0/HARDWARE/microscope/step/Scope%20Top%20Stage.step",
+              "license": "BSD-2-Clause",
+              "modelUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/model.glb",
+              "stepUrl": "/assets/catalog/poseidon-optical-stage/source.step",
+              "manifestUrl": "/assets/catalog/poseidon-optical-stage/preview-cad/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "定位"
+              ]
+            },
+            {
+              "id": "fixed-tower",
+              "displayCode": "FG-037",
+              "name": "固定支架（双导孔与丝杠孔）",
+              "category": "参数化零件",
+              "format": "STEP",
+              "summary": "由特征参数与 CAD 工具构建的原创几何。",
+              "useCase": "参数建模与几何验证",
+              "material": null,
+              "sourceType": "原创参数化",
+              "sourceUrl": null,
+              "license": "CC0-1.0",
+              "modelUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/model.glb",
+              "stepUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/model.step",
+              "manifestUrl": "/assets/generated/precision-vise-18/parts/fixed-tower/manifest.json",
+              "matchScore": 3,
+              "matchedTerms": [
+                "孔"
+              ]
+            }
+          ]
+        },
+        "isError": false
+      }
+    ],
+    "runIds": [],
+    "providerId": "agnes-ai",
+    "usage": {
+      "billingMode": "external",
+      "providerId": "agnes-ai",
+      "model": "agnes-3.0-flash",
+      "costUsd": null,
+      "status": "unavailable",
+      "tokenScope": "agh_main_turn",
+      "requestCount": 5,
+      "promptTokens": 22137,
+      "completionTokens": 699,
+      "cachedTokens": 0,
+      "reasoningTokens": 0
+    },
+    "answer": "以下是用于定位或夹持、带孔的支架/板类零件中，最合适的候选（基于本地零件目录，共 45 个资产，命中 13 个，去重后列 6 个）：\n\n| 编号 | 名称 | 用途 | 格式 | 命中理由 |\n|------|------|------|------|----------|\n| FG-037 | 固定支架（双导孔与丝杠孔） | 参数建模与几何验证 | STEP | 名称含\"支架\"+\"孔\"，最贴合\"带孔支架\"，双导孔+丝杠孔支持夹持/固定 |\n| FG-017 | PincOpen 夹爪多孔顶板 | 低成本自动抓取装置 | STEP | 带孔板件，用于定位与安装，最贴近\"带孔支架\"（\"顶板\"类零件） |\n| FG-015 | 关节执行器上支承壳 | 电机、轴承与减速机构定位 | STEP | 名称含\"定位\"，壳体类零件，可用于定位 |\n| FG-008 | SSG48 多腔驱动壳体 | 夹爪驱动系统定位与安装 | STEP | 名称含\"定位\"，精密壳体 |\n| FG-020 | PincOpen 可换指尖支架 | 接触面适配与夹具快速更换 | STEP | 名称含\"支架\"，用于夹具 |\n| FG-025 | Poseidon 显微成像上平台 | 光学模块与样品观测定位 | STEP | 名称含\"定位\"，精密平台 |\n\n**说明与注意事项：**\n- **格式**：以上均支持 `STEP`，并可作为可预览的 `GLB` 模型查看（`modelUrl` 提供 `.glb` 预览，`stepUrl` 提供可编辑的 `.step` 源文件）。\n- **命名匹配不代表图纸等价**：名称中\"定位/夹持/孔\"仅表示用途或特征，并未验证具体尺寸、材料、修订版本或可加工性。目录条目大多标注 `material: null`（部分如 FG-015 为 PLA+，FG-013 为 PETG），实际加工前仍需结合图纸或规格确认。\n- **最贴合\"带孔支架\"** 的是 **FG-037** 和 **FG-017**（均带孔的板/支架类零件）；若重点在\"定位机构\"，可看 FG-015/FG-008/FG-025。\n\n如需进一步核对某个零件的具体孔位、孔径或尺寸，可把该零件的图纸/规格发给我。"
+  },
+  "usage": {
+    "billingMode": "external",
+    "providerId": "agnes-ai",
+    "model": "agnes-3.0-flash",
+    "costUsd": null,
+    "status": "unavailable",
+    "tokenScope": "agh_main_turn",
+    "requestCount": 5,
+    "promptTokens": 22137,
+    "completionTokens": 699,
+    "cachedTokens": 0,
+    "reasoningTokens": 0
+  }
+}

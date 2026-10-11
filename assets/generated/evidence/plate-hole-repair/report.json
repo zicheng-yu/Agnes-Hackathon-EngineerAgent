@@ -1,0 +1,591 @@
+{
+  "kind": "deterministic-geometry-tool-evidence",
+  "claim": "Local CAD build, geometric measurement, calibrated view comparison and explicit feature patch are exercised with real files.",
+  "not_claimed": [
+    "Automatic drawing understanding",
+    "Autonomous model-selected correction",
+    "Hidden reference parameters available to a reconstruction agent"
+  ],
+  "reference_origin": "Self-authored parameter fixture. Source contour is a known reference CAD projection, not a model-read drawing.",
+  "changed_feature": "mount-holes",
+  "patch": {
+    "diameter_mm_before": 10,
+    "diameter_mm_after": 9
+  },
+  "before": {
+    "cad_verification": {
+      "passed": false,
+      "checks": [
+        {
+          "id": "check-1",
+          "kind": "bbox",
+          "feature_id": null,
+          "actual": 80.0,
+          "expected": 80.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        },
+        {
+          "id": "check-2",
+          "kind": "bbox",
+          "feature_id": null,
+          "actual": 60.0,
+          "expected": 60.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        },
+        {
+          "id": "check-3",
+          "kind": "bbox",
+          "feature_id": null,
+          "actual": 12.0,
+          "expected": 12.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        },
+        {
+          "id": "check-4",
+          "kind": "circular_edge_diameter",
+          "feature_id": null,
+          "actual": 10.0,
+          "expected": 9.0,
+          "tolerance": 0.05,
+          "error": 1.0,
+          "passed": false
+        }
+      ],
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 53737.380822,
+        "area_mm2": 13762.389282,
+        "bbox": {
+          "min": [
+            -40.0,
+            -30.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            30.0,
+            12.0
+          ],
+          "size": [
+            80.0,
+            60.0,
+            12.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          -1.6247812981238765e-15,
+          -2.3694727264306533e-16,
+          5.999999999999999
+        ],
+        "faces": 14,
+        "edges": 36
+      },
+      "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+    },
+    "view_verification": {
+      "passed": false,
+      "minimum_match_fraction": 0.995,
+      "scope": "Corresponding calibrated 2-D contour agreement only; not proof of a unique or manufacturing-correct 3-D reconstruction."
+    },
+    "view_metrics": {
+      "source_edge_pixels": 4492,
+      "projection_edge_pixels": 4636,
+      "missing_pixels": 608,
+      "extra_pixels": 752,
+      "missing_fraction": 0.13535173642030277,
+      "extra_fraction": 0.1622088006902502,
+      "precision": 0.8377911993097498,
+      "recall": 0.8646482635796973,
+      "f1": 0.8510078878177038,
+      "symmetric_mean_distance_mm": 0.06967447324711773,
+      "p95_distance_mm": 0.5,
+      "max_distance_mm": 0.6009252125773316,
+      "normalized_mean_distance": 0.0008709309155889716,
+      "normalization_length_mm": 80.0,
+      "tolerance_mm": 0.15,
+      "missing_regions": [
+        {
+          "pixels": 144,
+          "bbox_px": [
+            104,
+            104,
+            52,
+            52
+          ]
+        },
+        {
+          "pixels": 144,
+          "bbox_px": [
+            404,
+            104,
+            52,
+            52
+          ]
+        },
+        {
+          "pixels": 144,
+          "bbox_px": [
+            104,
+            284,
+            52,
+            52
+          ]
+        },
+        {
+          "pixels": 144,
+          "bbox_px": [
+            404,
+            284,
+            52,
+            52
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            435,
+            337,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            102,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            124,
+            157,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            457,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            402,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            157,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            402,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            457,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            424,
+            157,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            157,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            102,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            435,
+            102,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            424,
+            102,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            135,
+            102,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            135,
+            157,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            435,
+            157,
+            1,
+            1
+          ]
+        }
+      ],
+      "extra_regions": [
+        {
+          "pixels": 180,
+          "bbox_px": [
+            98,
+            98,
+            64,
+            64
+          ]
+        },
+        {
+          "pixels": 180,
+          "bbox_px": [
+            398,
+            98,
+            64,
+            64
+          ]
+        },
+        {
+          "pixels": 180,
+          "bbox_px": [
+            98,
+            278,
+            64,
+            64
+          ]
+        },
+        {
+          "pixels": 180,
+          "bbox_px": [
+            398,
+            278,
+            64,
+            64
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            458,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            124,
+            158,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            458,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            401,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            158,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            101,
+            135,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            401,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            424,
+            158,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            158,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            101,
+            124,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            435,
+            101,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            424,
+            101,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            135,
+            101,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            124,
+            101,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            135,
+            158,
+            1,
+            1
+          ]
+        },
+        {
+          "pixels": 1,
+          "bbox_px": [
+            435,
+            338,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "after": {
+    "cad_verification": {
+      "passed": true,
+      "checks": [
+        {
+          "id": "check-1",
+          "kind": "bbox",
+          "feature_id": null,
+          "actual": 80.0,
+          "expected": 80.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        },
+        {
+          "id": "check-2",
+          "kind": "bbox",
+          "feature_id": null,
+          "actual": 60.0,
+          "expected": 60.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        },
+        {
+          "id": "check-3",
+          "kind": "bbox",
+          "feature_id": null,
+          "actual": 12.0,
+          "expected": 12.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        },
+        {
+          "id": "check-4",
+          "kind": "circular_edge_diameter",
+          "feature_id": null,
+          "actual": 9.0,
+          "expected": 9.0,
+          "tolerance": 0.05,
+          "error": 0.0,
+          "passed": true
+        }
+      ],
+      "measurements": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 54453.663947,
+        "area_mm2": 13730.973355,
+        "bbox": {
+          "min": [
+            -40.0,
+            -30.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            30.0,
+            12.0
+          ],
+          "size": [
+            80.0,
+            60.0,
+            12.0
+          ],
+          "method": "OpenCascade BRepBndLib.AddOptimal, useTriangulation=False, useShapeTolerance=False"
+        },
+        "center_of_mass": [
+          2.6723482266410114e-16,
+          -6.680870566602528e-16,
+          5.999999999999999
+        ],
+        "faces": 14,
+        "edges": 36
+      },
+      "scope": "B-rep validity and explicitly listed geometric checks; not a manufacturing certification."
+    },
+    "view_verification": {
+      "passed": true,
+      "minimum_match_fraction": 0.995,
+      "scope": "Corresponding calibrated 2-D contour agreement only; not proof of a unique or manufacturing-correct 3-D reconstruction."
+    },
+    "view_metrics": {
+      "source_edge_pixels": 4492,
+      "projection_edge_pixels": 4492,
+      "missing_pixels": 0,
+      "extra_pixels": 0,
+      "missing_fraction": 0.0,
+      "extra_fraction": 0.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "symmetric_mean_distance_mm": 0.0,
+      "p95_distance_mm": 0.0,
+      "max_distance_mm": 0.0,
+      "normalized_mean_distance": 0.0,
+      "normalization_length_mm": 80.0,
+      "tolerance_mm": 0.15,
+      "missing_regions": [],
+      "extra_regions": []
+    }
+  },
+  "artifacts": {
+    "before_manifest": "assets/generated/evidence/plate-hole-repair/before/manifest.json",
+    "after_manifest": "assets/generated/evidence/plate-hole-repair/after/manifest.json",
+    "before_overlay": "assets/generated/evidence/plate-hole-repair/compare-before/overlay.png",
+    "after_overlay": "assets/generated/evidence/plate-hole-repair/compare-after/overlay.png",
+    "three_view_measurements": "assets/generated/evidence/plate-hole-repair/after/views/metadata.json",
+    "patch_input": "assets/generated/evidence/plate-hole-repair/patch-input.json"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "operation": "compare_views",
+  "metrics": {
+    "source_edge_pixels": 4492,
+    "projection_edge_pixels": 4492,
+    "missing_pixels": 0,
+    "extra_pixels": 0,
+    "missing_fraction": 0.0,
+    "extra_fraction": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "symmetric_mean_distance_mm": 0.0,
+    "p95_distance_mm": 0.0,
+    "max_distance_mm": 0.0,
+    "normalized_mean_distance": 0.0,
+    "normalization_length_mm": 80.0,
+    "tolerance_mm": 0.15,
+    "missing_regions": [],
+    "extra_regions": []
+  },
+  "verification": {
+    "passed": true,
+    "minimum_match_fraction": 0.995,
+    "scope": "Corresponding calibrated 2-D contour agreement only; not proof of a unique or manufacturing-correct 3-D reconstruction."
+  },
+  "registration": {
+    "source_px_per_mm": 6.0,
+    "projection_px_per_mm": 6.0,
+    "derived_uniform_scale": 1.0,
+    "rotation_degrees": 0.0,
+    "translation_px": [
+      0.0,
+      0.0
+    ],
+    "source_origin_px": [
+      280.0,
+      220.0
+    ],
+    "projection_origin_px": [
+      280.0,
+      220.0
+    ],
+    "forward_matrix_2x2": [
+      [
+        1.0,
+        -0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "offset_px": [
+      0.0,
+      0.0
+    ],
+    "scale_evidence": {
+      "source": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry.",
+      "projection": "Read from the CAD SVG exporter uniform transform, with millimetre B-rep geometry."
+    }
+  },
+  "files": {
+    "overlay": "assets/generated/evidence/plate-hole-repair/compare-after/overlay.png",
+    "missing": "assets/generated/evidence/plate-hole-repair/compare-after/missing.png",
+    "extra": "assets/generated/evidence/plate-hole-repair/compare-after/extra.png",
+    "metrics": "assets/generated/evidence/plate-hole-repair/compare-after/metrics.json",
+    "source_raster": "assets/generated/evidence/plate-hole-repair/compare-after/source-raster.png",
+    "registered_projection": "assets/generated/evidence/plate-hole-repair/compare-after/projection-registered.png"
+  },
+  "legend": {
+    "green": "matched contour",
+    "red": "source contour missing from projection",
+    "blue": "extra projected contour",
+    "gray": "caller-excluded annotation region"
+  },
+  "limitations": [
+    "Caller must isolate the same view and supply calibrated scale and rigid registration.",
+    "Scale metadata is not inferred or independently verified from drawing dimensions.",
+    "Annotation removal is explicit; no page segmentation, OCR or automatic hole semantics.",
+    "Occluded and hidden lines must use consistent inclusion rules on both images."
+  ],
+  "errors": []
+}

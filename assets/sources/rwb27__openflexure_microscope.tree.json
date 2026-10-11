@@ -1,0 +1,4510 @@
+{
+  "repo": {
+    "id": 43082924,
+    "node_id": "MDEwOlJlcG9zaXRvcnk0MzA4MjkyNA==",
+    "name": "openflexure_microscope",
+    "full_name": "rwb27/openflexure_microscope",
+    "private": false,
+    "owner": {
+      "login": "rwb27",
+      "id": 5029703,
+      "node_id": "MDQ6VXNlcjUwMjk3MDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5029703?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rwb27",
+      "html_url": "https://github.com/rwb27",
+      "followers_url": "https://api.github.com/users/rwb27/followers",
+      "following_url": "https://api.github.com/users/rwb27/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwb27/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwb27/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwb27/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwb27/orgs",
+      "repos_url": "https://api.github.com/users/rwb27/repos",
+      "events_url": "https://api.github.com/users/rwb27/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwb27/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/rwb27/openflexure_microscope",
+    "description": "This repository has now moved to GitLab.com/openflexure/openflexure-microscope",
+    "fork": false,
+    "url": "https://api.github.com/repos/rwb27/openflexure_microscope",
+    "forks_url": "https://api.github.com/repos/rwb27/openflexure_microscope/forks",
+    "keys_url": "https://api.github.com/repos/rwb27/openflexure_microscope/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/rwb27/openflexure_microscope/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/rwb27/openflexure_microscope/teams",
+    "hooks_url": "https://api.github.com/repos/rwb27/openflexure_microscope/hooks",
+    "issue_events_url": "https://api.github.com/repos/rwb27/openflexure_microscope/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/rwb27/openflexure_microscope/events",
+    "assignees_url": "https://api.github.com/repos/rwb27/openflexure_microscope/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/rwb27/openflexure_microscope/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/rwb27/openflexure_microscope/tags",
+    "blobs_url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/rwb27/openflexure_microscope/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/rwb27/openflexure_microscope/languages",
+    "stargazers_url": "https://api.github.com/repos/rwb27/openflexure_microscope/stargazers",
+    "contributors_url": "https://api.github.com/repos/rwb27/openflexure_microscope/contributors",
+    "subscribers_url": "https://api.github.com/repos/rwb27/openflexure_microscope/subscribers",
+    "subscription_url": "https://api.github.com/repos/rwb27/openflexure_microscope/subscription",
+    "commits_url": "https://api.github.com/repos/rwb27/openflexure_microscope/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/rwb27/openflexure_microscope/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/rwb27/openflexure_microscope/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/rwb27/openflexure_microscope/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/rwb27/openflexure_microscope/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/rwb27/openflexure_microscope/merges",
+    "archive_url": "https://api.github.com/repos/rwb27/openflexure_microscope/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/rwb27/openflexure_microscope/downloads",
+    "issues_url": "https://api.github.com/repos/rwb27/openflexure_microscope/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/rwb27/openflexure_microscope/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/rwb27/openflexure_microscope/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/rwb27/openflexure_microscope/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/rwb27/openflexure_microscope/labels{/name}",
+    "releases_url": "https://api.github.com/repos/rwb27/openflexure_microscope/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/rwb27/openflexure_microscope/deployments",
+    "created_at": "2015-09-24T17:45:16Z",
+    "updated_at": "2026-10-04T18:48:02Z",
+    "pushed_at": "2019-04-30T15:12:38Z",
+    "git_url": "git://github.com/rwb27/openflexure_microscope.git",
+    "ssh_url": "git@github.com:rwb27/openflexure_microscope.git",
+    "clone_url": "https://github.com/rwb27/openflexure_microscope.git",
+    "svn_url": "https://github.com/rwb27/openflexure_microscope",
+    "homepage": "https://gitlab.com/openflexure/openflexure-microscope/",
+    "size": 574786,
+    "stargazers_count": 274,
+    "watchers_count": 274,
+    "language": "OpenSCAD",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": false,
+    "has_wiki": true,
+    "has_pages": true,
+    "has_discussions": false,
+    "forks_count": 61,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 18,
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "has_pull_requests": true,
+    "pull_request_creation_policy": "all",
+    "topics": [
+      "3d-printing",
+      "assembly-instructions",
+      "microscope",
+      "openscad",
+      "science"
+    ],
+    "visibility": "public",
+    "forks": 61,
+    "open_issues": 18,
+    "watchers": 274,
+    "default_branch": "master",
+    "temp_clone_token": null,
+    "network_count": 61,
+    "subscribers_count": 47
+  },
+  "tree": {
+    "sha": "0cedf45238bb1cf8185f4ad92d366eb36f44efc3",
+    "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/0cedf45238bb1cf8185f4ad92d366eb36f44efc3",
+    "tree": [
+      {
+        "path": ".gitattributes",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdb0cabc87cf50106df6e15097dff816c8c3eb34",
+        "size": 378,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bdb0cabc87cf50106df6e15097dff816c8c3eb34"
+      },
+      {
+        "path": ".github",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7beae0e57342cca96fdbf7f4c7843aa4c10c1e5f",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/7beae0e57342cca96fdbf7f4c7843aa4c10c1e5f"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bc44a11683097334e8724c83d036ab607e4d30b6",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/bc44a11683097334e8724c83d036ab607e4d30b6"
+      },
+      {
+        "path": ".github/ISSUE_TEMPLATE/this-repository-has-moved-.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e2df76cb793ba8e2200e30bc902c821d3850897",
+        "size": 179,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3e2df76cb793ba8e2200e30bc902c821d3850897"
+      },
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "656d15bfd7b79ff12b4e4ed0cc61f79d936f8235",
+        "size": 249,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/656d15bfd7b79ff12b4e4ed0cc61f79d936f8235"
+      },
+      {
+        "path": "COMPILE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86f46329311a94e97887e4597aa0ebb9a9f8b1bd",
+        "size": 2589,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/86f46329311a94e97887e4597aa0ebb9a9f8b1bd"
+      },
+      {
+        "path": "License",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e2467a1febf9b22b2820abc1cf3803cb92e88f0",
+        "size": 9153,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6e2467a1febf9b22b2820abc1cf3803cb92e88f0"
+      },
+      {
+        "path": "Makefile",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f5c0c6c08fbbd3c74b9ab77d31ba52c2bcba0489",
+        "size": 8296,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f5c0c6c08fbbd3c74b9ab77d31ba52c2bcba0489"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d61d619e2d9bb91488ef2d92c00ae1358e339a4c",
+        "size": 5765,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d61d619e2d9bb91488ef2d92c00ae1358e339a4c"
+      },
+      {
+        "path": "builds",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "755cbcbcd193d2a9ff8b554738dff4b8f728a0e3",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/755cbcbcd193d2a9ff8b554738dff4b8f728a0e3"
+      },
+      {
+        "path": "builds/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0fed26e7c853078c50c1a178a464af236b82136d",
+        "size": 467,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0fed26e7c853078c50c1a178a464af236b82136d"
+      },
+      {
+        "path": "builds/actuator_assembly_tools.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7061a57d3da608f6852643363ca99165667e6cd",
+        "size": 450098,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e7061a57d3da608f6852643363ca99165667e6cd"
+      },
+      {
+        "path": "builds/actuator_drilling_jig.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c2060465b887b66775fc34391e5d7c5ded1ff65",
+        "size": 267455,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3c2060465b887b66775fc34391e5d7c5ded1ff65"
+      },
+      {
+        "path": "builds/back_foot.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f2ce5a7c163724e64db07d616698afb361536d64",
+        "size": 82268,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f2ce5a7c163724e64db07d616698afb361536d64"
+      },
+      {
+        "path": "builds/camera_platform_6led_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a133bcda82fd2bb35770ebaadb2c1f5b516f8f6",
+        "size": 173608,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5a133bcda82fd2bb35770ebaadb2c1f5b516f8f6"
+      },
+      {
+        "path": "builds/camera_platform_picamera_2_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6a2adf599a790ae04fe3f07f38cbce11140a61f",
+        "size": 99844,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a6a2adf599a790ae04fe3f07f38cbce11140a61f"
+      },
+      {
+        "path": "builds/condenser.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f61f3c7535ec13108e2c4218a1592f54c430349e",
+        "size": 1491308,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f61f3c7535ec13108e2c4218a1592f54c430349e"
+      },
+      {
+        "path": "builds/feet.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52b24b4573c347c1a1d73ee8a9e5ee6aaa08e71d",
+        "size": 934274,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/52b24b4573c347c1a1d73ee8a9e5ee6aaa08e71d"
+      },
+      {
+        "path": "builds/feet_tall.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b316b7854ff679faf16eebadd1d32ae00069cb56",
+        "size": 930770,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b316b7854ff679faf16eebadd1d32ae00069cb56"
+      },
+      {
+        "path": "builds/gears.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b501e7d0fe55f96579a8c859bfe12bb75960cc11",
+        "size": 1159774,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b501e7d0fe55f96579a8c859bfe12bb75960cc11"
+      },
+      {
+        "path": "builds/illumination_dovetail.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "146bef6effe800345938d8e3cafa31d756b29969",
+        "size": 177877,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/146bef6effe800345938d8e3cafa31d756b29969"
+      },
+      {
+        "path": "builds/lens_spacer_picamera_2_pilens_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6747ae193d8e6aad430688260e948bb4a2d5ff68",
+        "size": 571894,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6747ae193d8e6aad430688260e948bb4a2d5ff68"
+      },
+      {
+        "path": "builds/lens_spacer_picamera_2_pilens_LS75.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bd2e7a3ab44a26e6afc8a16cc1dbac82f43027a",
+        "size": 752235,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5bd2e7a3ab44a26e6afc8a16cc1dbac82f43027a"
+      },
+      {
+        "path": "builds/lens_tool.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb9b88394d0afce878f88e45d55f12baafc9db14",
+        "size": 74379,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bb9b88394d0afce878f88e45d55f12baafc9db14"
+      },
+      {
+        "path": "builds/main_body_LS65-M.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebf889d479236de97f0498834a405832082ca012",
+        "size": 5707803,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ebf889d479236de97f0498834a405832082ca012"
+      },
+      {
+        "path": "builds/main_body_LS65-M_fixed.obj",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ace59e7deca4abc34c51f9bdb202ab7e97019770",
+        "size": 1038553,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ace59e7deca4abc34c51f9bdb202ab7e97019770"
+      },
+      {
+        "path": "builds/main_body_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1d449b500b9ef0c9906973d83e8588098e14467",
+        "size": 5193513,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f1d449b500b9ef0c9906973d83e8588098e14467"
+      },
+      {
+        "path": "builds/main_body_LS75-M.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6d9719e861e1cf2ae1bd3ba43b9bb635de58203",
+        "size": 5709187,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d6d9719e861e1cf2ae1bd3ba43b9bb635de58203"
+      },
+      {
+        "path": "builds/main_body_LS75.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dca596db763266ad85a0d573405d6e2e1ab733b9",
+        "size": 5210552,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/dca596db763266ad85a0d573405d6e2e1ab733b9"
+      },
+      {
+        "path": "builds/microscope_stand.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0daf7d0bfbcc75d6304e8190a04f061af6eca5c",
+        "size": 786017,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a0daf7d0bfbcc75d6304e8190a04f061af6eca5c"
+      },
+      {
+        "path": "builds/microscope_stand_no_pi.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b04d9a8aa5c9d7fdc7bb1b60b04f664f9cb7dc0",
+        "size": 658477,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9b04d9a8aa5c9d7fdc7bb1b60b04f664f9cb7dc0"
+      },
+      {
+        "path": "builds/motor_driver_case.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d10b7388ff1e7382b36d44f067e808b5cefab2ae",
+        "size": 452068,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d10b7388ff1e7382b36d44f067e808b5cefab2ae"
+      },
+      {
+        "path": "builds/optics_logitech_c270_c270_lens_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "762966b2dd53ffd116f1027e40b91120eb165d50",
+        "size": 1459365,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/762966b2dd53ffd116f1027e40b91120eb165d50"
+      },
+      {
+        "path": "builds/optics_logitech_c270_rms_f40d16_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97848dda1487fb7dfb6d4afdf78958e9380b80dc",
+        "size": 3453328,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/97848dda1487fb7dfb6d4afdf78958e9380b80dc"
+      },
+      {
+        "path": "builds/optics_logitech_c270_rms_f50d13_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1734fb6fe34492589f7b46643b89ce83d63b869e",
+        "size": 3542850,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1734fb6fe34492589f7b46643b89ce83d63b869e"
+      },
+      {
+        "path": "builds/optics_m12_m12_lens_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "153b8c244316a556fa9021b994475ba089e91907",
+        "size": 1564257,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/153b8c244316a556fa9021b994475ba089e91907"
+      },
+      {
+        "path": "builds/optics_m12_rms_f40d16_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26801c197e4f73e96352e7f384181b77d9e5d871",
+        "size": 3800655,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/26801c197e4f73e96352e7f384181b77d9e5d871"
+      },
+      {
+        "path": "builds/optics_m12_rms_f50d13_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52756bb824279e46294c31b23a30038c2685cfc0",
+        "size": 3886467,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/52756bb824279e46294c31b23a30038c2685cfc0"
+      },
+      {
+        "path": "builds/optics_picamera_2_pilens_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8c8b59f574da1ccf81441c74dc799fc70184aec6",
+        "size": 1392507,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8c8b59f574da1ccf81441c74dc799fc70184aec6"
+      },
+      {
+        "path": "builds/optics_picamera_2_rms_f40d16_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f236acb90afaae7689990cc51e86d667dea79e6d",
+        "size": 3413208,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f236acb90afaae7689990cc51e86d667dea79e6d"
+      },
+      {
+        "path": "builds/optics_picamera_2_rms_f50d13_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b639166a5cd244d20553a0d114e5f49555f2d46b",
+        "size": 3496742,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b639166a5cd244d20553a0d114e5f49555f2d46b"
+      },
+      {
+        "path": "builds/picamera_2_cover.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9a88e6d7f887612d1ed0b720a89dc28d3a90f6e",
+        "size": 62193,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a9a88e6d7f887612d1ed0b720a89dc28d3a90f6e"
+      },
+      {
+        "path": "builds/picamera_2_gripper.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa7de4b67fd2fd5c08e119dae4b320cef4166315",
+        "size": 10160,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/aa7de4b67fd2fd5c08e119dae4b320cef4166315"
+      },
+      {
+        "path": "builds/picamera_2_lens_gripper.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4068010348d2a1d5377d3f99752fb6e6ec5c4029",
+        "size": 30084,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4068010348d2a1d5377d3f99752fb6e6ec5c4029"
+      },
+      {
+        "path": "builds/plater_SS-M.conf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d80c02a2a77210f4fc596323ede5740d59eea4d",
+        "size": 199,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4d80c02a2a77210f4fc596323ede5740d59eea4d"
+      },
+      {
+        "path": "builds/sample_clips.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afd88737ceb5107b70ed210dab2b5a5bd25bc69f",
+        "size": 224049,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/afd88737ceb5107b70ed210dab2b5a5bd25bc69f"
+      },
+      {
+        "path": "builds/sample_riser_LS10.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62ae7a09f765d4b4b459e7e124a621730ef8d9a6",
+        "size": 451245,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/62ae7a09f765d4b4b459e7e124a621730ef8d9a6"
+      },
+      {
+        "path": "builds/slide_riser_LS10.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bfd4d04498ec1bc20390621c024a2f608a5e1c86",
+        "size": 314687,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bfd4d04498ec1bc20390621c024a2f608a5e1c86"
+      },
+      {
+        "path": "builds/small_gears.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76f5f1d70ba16eb5d08003c169f725112bbb25b1",
+        "size": 760037,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/76f5f1d70ba16eb5d08003c169f725112bbb25b1"
+      },
+      {
+        "path": "design_files",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "58ae90873ff8bb85c3dd4dfd43ea62afba182690",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/58ae90873ff8bb85c3dd4dfd43ea62afba182690"
+      },
+      {
+        "path": "design_files/Butchering a C270 webcam & adding an LED.pdf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2634990c7fc4aeb3113d4a378862b60087d75d61",
+        "size": 623442,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2634990c7fc4aeb3113d4a378862b60087d75d61"
+      },
+      {
+        "path": "design_files/Open-source-hardware-logo.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4d41add8e2572c36b494a73df81848bcde97f0a",
+        "size": 8982,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b4d41add8e2572c36b494a73df81848bcde97f0a"
+      },
+      {
+        "path": "design_files/comparison_of_sensor_sizes.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9f5da97bdb0bccb73cb62eba26e7e6ba448e2ea0",
+        "size": 29719,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9f5da97bdb0bccb73cb62eba26e7e6ba448e2ea0"
+      },
+      {
+        "path": "design_files/comparison_of_sensor_sizes.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d6cdc996d07257d58c204e3b05cbb24d933901aa",
+        "size": 7095,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d6cdc996d07257d58c204e3b05cbb24d933901aa"
+      },
+      {
+        "path": "design_files/optics_for_objective.SPD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "972d5bf18122ff8eec9cd4593f956ab9e0a94e5c",
+        "size": 2464,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/972d5bf18122ff8eec9cd4593f956ab9e0a94e5c"
+      },
+      {
+        "path": "design_files/optics_for_objective_2.SPD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03b1d901b1c102286ce447a0b8077a76abbfaff7",
+        "size": 2581,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/03b1d901b1c102286ce447a0b8077a76abbfaff7"
+      },
+      {
+        "path": "design_files/optics_for_objective_30mm_tubelens.SPD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8afb8995c15de1c02480b5a46281e6d5d2bb078",
+        "size": 2592,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b8afb8995c15de1c02480b5a46281e6d5d2bb078"
+      },
+      {
+        "path": "design_files/optics_for_objective_30mm_tubelens_concave.SPD",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ade583a3836505ead69857b496c74e52aa73b081",
+        "size": 3051,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ade583a3836505ead69857b496c74e52aa73b081"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cc0fdb369c1bea789855a26b40dc46c7b02b630c",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/cc0fdb369c1bea789855a26b40dc46c7b02b630c"
+      },
+      {
+        "path": "docs/0_bill_of_materials.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8356dd8ee18aa1e71dce38ad951bc8e135b3e824",
+        "size": 3346,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8356dd8ee18aa1e71dce38ad951bc8e135b3e824"
+      },
+      {
+        "path": "docs/0_printing.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5a381bfe5b7b95c82d0388be2d533044a1607d7a",
+        "size": 12253,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5a381bfe5b7b95c82d0388be2d533044a1607d7a"
+      },
+      {
+        "path": "docs/1_actuator_assembly.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9ca81a0ab40ac90d1e677de4670441ece92556c3",
+        "size": 5789,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9ca81a0ab40ac90d1e677de4670441ece92556c3"
+      },
+      {
+        "path": "docs/2a_basic_optics_module.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0f3fc60d425a709177a3bcbb7f783a021f61e3d",
+        "size": 6735,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c0f3fc60d425a709177a3bcbb7f783a021f61e3d"
+      },
+      {
+        "path": "docs/2b_high_resolution_optics_module.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbb60eeed11979102ce1cc3316971db8fac8ab4d",
+        "size": 6664,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cbb60eeed11979102ce1cc3316971db8fac8ab4d"
+      },
+      {
+        "path": "docs/3_illumination.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f92312ec1656bbe855a374ec41a301b77db04a6a",
+        "size": 2975,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f92312ec1656bbe855a374ec41a301b77db04a6a"
+      },
+      {
+        "path": "docs/4_clips_and_wiring.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13c60350e8aed7ac305d30ad3d2dbd033a03d48d",
+        "size": 2640,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/13c60350e8aed7ac305d30ad3d2dbd033a03d48d"
+      },
+      {
+        "path": "docs/5_motors.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f60cecfd1ec6941c7f90a3a3c5e28e3e0ee98a21",
+        "size": 2601,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f60cecfd1ec6941c7f90a3a3c5e28e3e0ee98a21"
+      },
+      {
+        "path": "docs/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0401704d23e33caf44a947878d044956acdf1d70",
+        "size": 4478,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0401704d23e33caf44a947878d044956acdf1d70"
+      },
+      {
+        "path": "docs/images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1bb322707f4b3a889fc06856036c29505f2b0cc6",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/1bb322707f4b3a889fc06856036c29505f2b0cc6"
+      },
+      {
+        "path": "docs/images/LED_wiring.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59066366bd29e9f96a1acccb826947ac81cedd9f",
+        "size": 153115,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/59066366bd29e9f96a1acccb826947ac81cedd9f"
+      },
+      {
+        "path": "docs/images/actuator_assembly_band_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b9dc371f0a0fecf8d23a73a844a8896f0634736b",
+        "size": 103279,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b9dc371f0a0fecf8d23a73a844a8896f0634736b"
+      },
+      {
+        "path": "docs/images/actuator_assembly_nut_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e7c82a3dad7b24da91034603660e00b770bf4fe",
+        "size": 69667,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1e7c82a3dad7b24da91034603660e00b770bf4fe"
+      },
+      {
+        "path": "docs/images/actuator_assembly_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de5d4b98c61eddd2e2b77bfaf8188d70528bb995",
+        "size": 118178,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/de5d4b98c61eddd2e2b77bfaf8188d70528bb995"
+      },
+      {
+        "path": "docs/images/actuator_assembly_screw_in_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5660b0888bb94c0c598ec59fa0fbafe30e136728",
+        "size": 73736,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5660b0888bb94c0c598ec59fa0fbafe30e136728"
+      },
+      {
+        "path": "docs/images/actuator_assembly_snap_supports_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "640c6ea0216d2e192e3ca36d92b060bf7221122c",
+        "size": 49071,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/640c6ea0216d2e192e3ca36d92b060bf7221122c"
+      },
+      {
+        "path": "docs/images/actuator_support_removal_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "56011573a557513c9b3632129d4a6db48c8a8477",
+        "size": 62806,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/56011573a557513c9b3632129d4a6db48c8a8477"
+      },
+      {
+        "path": "docs/images/all_parts.JPG",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b5dcdc3c34b7feaae8ffe5031df756a842bc73f0",
+        "size": 102043,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b5dcdc3c34b7feaae8ffe5031df756a842bc73f0"
+      },
+      {
+        "path": "docs/images/all_printed_parts.JPG",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "520e2ac5f94385a61ec61a4e6afec6a900e91830",
+        "size": 74199,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/520e2ac5f94385a61ec61a4e6afec6a900e91830"
+      },
+      {
+        "path": "docs/images/band_insertion_body_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b47668d28ab39e1001ac29b914ef2c096f00ce0a",
+        "size": 72652,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b47668d28ab39e1001ac29b914ef2c096f00ce0a"
+      },
+      {
+        "path": "docs/images/band_insertion_body_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d639b595beabc42b9a6327dee72068be15cf357b",
+        "size": 82584,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d639b595beabc42b9a6327dee72068be15cf357b"
+      },
+      {
+        "path": "docs/images/band_insertion_finished_bottom.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "867a433817cd942aa971d66ef703c2798fd07016",
+        "size": 86491,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/867a433817cd942aa971d66ef703c2798fd07016"
+      },
+      {
+        "path": "docs/images/band_insertion_through_foot_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83b5ee100d9452a55100271d9d49fee7a8d3e0f8",
+        "size": 59429,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/83b5ee100d9452a55100271d9d49fee7a8d3e0f8"
+      },
+      {
+        "path": "docs/images/band_insertion_through_foot_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44f1ee5009a8bfeea2324eb5d7e29c34d957f4c5",
+        "size": 34393,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/44f1ee5009a8bfeea2324eb5d7e29c34d957f4c5"
+      },
+      {
+        "path": "docs/images/basic_optics_module_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b3d2856b4341a2f6405dc8e722a5e22bf4a63d51",
+        "size": 95696,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b3d2856b4341a2f6405dc8e722a5e22bf4a63d51"
+      },
+      {
+        "path": "docs/images/body_with_gears.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8176dddfcfeb5bea207630a671159eac906321a0",
+        "size": 109789,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8176dddfcfeb5bea207630a671159eac906321a0"
+      },
+      {
+        "path": "docs/images/camera_platform_mounting_screw.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a474d5afe9e8a267d99f0c346e1a84685584fa10",
+        "size": 95681,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a474d5afe9e8a267d99f0c346e1a84685584fa10"
+      },
+      {
+        "path": "docs/images/camera_screws_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cfd55b6781545906256e91d0fc76e9e7ceb33245",
+        "size": 69729,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cfd55b6781545906256e91d0fc76e9e7ceb33245"
+      },
+      {
+        "path": "docs/images/camera_wiring.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "313f6283bf6086e25fb5fe80585c9be3883f5761",
+        "size": 110623,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/313f6283bf6086e25fb5fe80585c9be3883f5761"
+      },
+      {
+        "path": "docs/images/clips_and_wiring_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ccf9b58141b3ad36bb68b70267741775910970d",
+        "size": 117050,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0ccf9b58141b3ad36bb68b70267741775910970d"
+      },
+      {
+        "path": "docs/images/condenser_lens_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2bb6e76b518cc2c0381bce0f5a4ed3f2bacf136a",
+        "size": 49522,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2bb6e76b518cc2c0381bce0f5a4ed3f2bacf136a"
+      },
+      {
+        "path": "docs/images/condenser_lens_1a.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27970de0675dca200f3934690d31d442d0226c90",
+        "size": 60226,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/27970de0675dca200f3934690d31d442d0226c90"
+      },
+      {
+        "path": "docs/images/condenser_lens_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "747a1373952a1cc93293b97b20b826c5ae6a81f4",
+        "size": 20098,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/747a1373952a1cc93293b97b20b826c5ae6a81f4"
+      },
+      {
+        "path": "docs/images/condenser_wires_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a42fd3086bb5a4f2707a7b454c87484eed13d2d3",
+        "size": 54487,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a42fd3086bb5a4f2707a7b454c87484eed13d2d3"
+      },
+      {
+        "path": "docs/images/condenser_wires_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74f156db9a5bce4e9c2085f2f2cd73119aadc153",
+        "size": 53799,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/74f156db9a5bce4e9c2085f2f2cd73119aadc153"
+      },
+      {
+        "path": "docs/images/foot_band_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "9a54718b4004ff1c428cae9911eb096e914d0373",
+        "size": 80391,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9a54718b4004ff1c428cae9911eb096e914d0373"
+      },
+      {
+        "path": "docs/images/hires_optics_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "da3f604277eaf5c88b20ec293f0effde196c9dbf",
+        "size": 83713,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/da3f604277eaf5c88b20ec293f0effde196c9dbf"
+      },
+      {
+        "path": "docs/images/hires_optics_camera.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea8558eeb7e893826ba7b297613b41beef312656",
+        "size": 206858,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ea8558eeb7e893826ba7b297613b41beef312656"
+      },
+      {
+        "path": "docs/images/hires_optics_cleanup.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bb3a73b54387d0e900117c057d53b1fa353f0c6",
+        "size": 147000,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9bb3a73b54387d0e900117c057d53b1fa353f0c6"
+      },
+      {
+        "path": "docs/images/hires_optics_nut_insertion.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fff72085b8c54d5fd1dea0cbf5fb76ede22ba5c0",
+        "size": 151492,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/fff72085b8c54d5fd1dea0cbf5fb76ede22ba5c0"
+      },
+      {
+        "path": "docs/images/hires_optics_objective_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3b5af2f85bdce7185236baecef86aff0a2203c69",
+        "size": 46087,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3b5af2f85bdce7185236baecef86aff0a2203c69"
+      },
+      {
+        "path": "docs/images/hires_optics_objective_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e3c58b3dd976b24c5c99c4f40ed7de3e0063858",
+        "size": 46107,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9e3c58b3dd976b24c5c99c4f40ed7de3e0063858"
+      },
+      {
+        "path": "docs/images/hires_optics_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bf1e754fcada69d8ea1852b7c185343a45fc95e",
+        "size": 78983,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1bf1e754fcada69d8ea1852b7c185343a45fc95e"
+      },
+      {
+        "path": "docs/images/hires_optics_screw.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "313dfbe3152634cc5363eeaab60db04f8da45b65",
+        "size": 240314,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/313dfbe3152634cc5363eeaab60db04f8da45b65"
+      },
+      {
+        "path": "docs/images/hires_optics_tube_lens_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb43e761545d2fd0684a26ed6e91b02d5e59dc47",
+        "size": 57655,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bb43e761545d2fd0684a26ed6e91b02d5e59dc47"
+      },
+      {
+        "path": "docs/images/hires_optics_tube_lens_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "460827967d0565f72b567ce3243d3a34c5b650f6",
+        "size": 200445,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/460827967d0565f72b567ce3243d3a34c5b650f6"
+      },
+      {
+        "path": "docs/images/hires_optics_tube_lens_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4793d31614fba4ebed0893a5b9ff4931f3cc14b3",
+        "size": 154841,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4793d31614fba4ebed0893a5b9ff4931f3cc14b3"
+      },
+      {
+        "path": "docs/images/hires_optics_tubelens_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3afdc3e20f603f0914f0237f5a72e2185ac40cf5",
+        "size": 63121,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3afdc3e20f603f0914f0237f5a72e2185ac40cf5"
+      },
+      {
+        "path": "docs/images/illumination_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f5db8b07ee82bf34e56756e4c6c1fd78820c61c",
+        "size": 118634,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2f5db8b07ee82bf34e56756e4c6c1fd78820c61c"
+      },
+      {
+        "path": "docs/images/insert_bands.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1ae6c3fa24f08ef9c16f12bbf584f7a0bae3286d",
+        "size": 119998,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1ae6c3fa24f08ef9c16f12bbf584f7a0bae3286d"
+      },
+      {
+        "path": "docs/images/insert_camera_lens.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64e2ccf64a5ad4445d81281948102dd288cb6941",
+        "size": 82725,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/64e2ccf64a5ad4445d81281948102dd288cb6941"
+      },
+      {
+        "path": "docs/images/insert_condenser.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b45327826929d062982a69e18be3e5b74ebb49f",
+        "size": 85312,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8b45327826929d062982a69e18be3e5b74ebb49f"
+      },
+      {
+        "path": "docs/images/insert_feet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7df30611d4cdff2c4dc806dc7a5cfcaa0f016a6",
+        "size": 93351,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c7df30611d4cdff2c4dc806dc7a5cfcaa0f016a6"
+      },
+      {
+        "path": "docs/images/insert_led.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "78a733d925c5ea55ee95cea56eff4180f97c75d9",
+        "size": 79567,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/78a733d925c5ea55ee95cea56eff4180f97c75d9"
+      },
+      {
+        "path": "docs/images/insert_nut_here.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24c7b1a1873f02d515b25a8e996c06a233571e9c",
+        "size": 78279,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/24c7b1a1873f02d515b25a8e996c06a233571e9c"
+      },
+      {
+        "path": "docs/images/insert_optics_module.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5bbca8ffb46cd59b6d3fa376256d810e2b3154a9",
+        "size": 118427,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5bbca8ffb46cd59b6d3fa376256d810e2b3154a9"
+      },
+      {
+        "path": "docs/images/lens_insertion_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "9968dc67602367e9895c4be32fbb0ab791d3b4ad",
+        "size": 57676,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9968dc67602367e9895c4be32fbb0ab791d3b4ad"
+      },
+      {
+        "path": "docs/images/lens_insertion_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "75f68009f233297e42007d8a7453d05ca77214de",
+        "size": 51449,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/75f68009f233297e42007d8a7453d05ca77214de"
+      },
+      {
+        "path": "docs/images/lens_insertion_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "1bd9887d7f13e491241bd73c4a654c4fbea5b9f9",
+        "size": 54205,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1bd9887d7f13e491241bd73c4a654c4fbea5b9f9"
+      },
+      {
+        "path": "docs/images/lens_insertion_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b44d02e6317f5488800bc7d33eb10919584d848e",
+        "size": 83324,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b44d02e6317f5488800bc7d33eb10919584d848e"
+      },
+      {
+        "path": "docs/images/lens_insertion_4.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "211589e99941b5fd19ecc353965f901050b840f6",
+        "size": 44209,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/211589e99941b5fd19ecc353965f901050b840f6"
+      },
+      {
+        "path": "docs/images/lores_parts_no_optics.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce5f823c99cc721bea80e6791fb04fc2f99af7fb",
+        "size": 96604,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ce5f823c99cc721bea80e6791fb04fc2f99af7fb"
+      },
+      {
+        "path": "docs/images/main_body.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b9d675cecf2f2a53dccc6747ce093b72c3b89679",
+        "size": 75068,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b9d675cecf2f2a53dccc6747ce093b72c3b89679"
+      },
+      {
+        "path": "docs/images/main_body_bottom.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "60247935790d249b02bf5dbe0c2ec6ae6c21bfa4",
+        "size": 97074,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/60247935790d249b02bf5dbe0c2ec6ae6c21bfa4"
+      },
+      {
+        "path": "docs/images/main_body_drill.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d11ce6a732ecacfcc89cc248ee4e8a74a879cad0",
+        "size": 31272,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d11ce6a732ecacfcc89cc248ee4e8a74a879cad0"
+      },
+      {
+        "path": "docs/images/microscope_body.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71b1363e3ae1bb5b2885ec0e308012d664d1379c",
+        "size": 104457,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/71b1363e3ae1bb5b2885ec0e308012d664d1379c"
+      },
+      {
+        "path": "docs/images/microscope_complete.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b707175ff1cd6e9881b8d254ff0e724499c07ae9",
+        "size": 86500,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b707175ff1cd6e9881b8d254ff0e724499c07ae9"
+      },
+      {
+        "path": "docs/images/microscope_complete_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e73f6172f5f7a73ef5031f118b5ca9328cc78b35",
+        "size": 76069,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e73f6172f5f7a73ef5031f118b5ca9328cc78b35"
+      },
+      {
+        "path": "docs/images/microscope_complete_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "acd16cf19ee04c63af0ac2e845ba3c7845eb377d",
+        "size": 98893,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/acd16cf19ee04c63af0ac2e845ba3c7845eb377d"
+      },
+      {
+        "path": "docs/images/microscope_complete_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "cd53ce2dba2f1eadbbce1a4e17080a8ecec55dd2",
+        "size": 77734,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cd53ce2dba2f1eadbbce1a4e17080a8ecec55dd2"
+      },
+      {
+        "path": "docs/images/microscope_complete_4.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "45a210da124b39504a2453d2129fe6fed3004351",
+        "size": 73818,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/45a210da124b39504a2453d2129fe6fed3004351"
+      },
+      {
+        "path": "docs/images/microscope_gosh.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a87040edb0c627b9dd77612f59f4d5e953c876b9",
+        "size": 121487,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a87040edb0c627b9dd77612f59f4d5e953c876b9"
+      },
+      {
+        "path": "docs/images/motors_assembled.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a9415fd3bcfeff02f1e49820d005328fd52a6d1",
+        "size": 106827,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9a9415fd3bcfeff02f1e49820d005328fd52a6d1"
+      },
+      {
+        "path": "docs/images/motors_board_in_base.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d2832a3752c9726e1e56ab845c9f6bf65412c56e",
+        "size": 114877,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d2832a3752c9726e1e56ab845c9f6bf65412c56e"
+      },
+      {
+        "path": "docs/images/motors_gear.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65b1246bf8805c807d5832d2d8dae0cd563b366a",
+        "size": 62690,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/65b1246bf8805c807d5832d2d8dae0cd563b366a"
+      },
+      {
+        "path": "docs/images/motors_mount.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8062f121d2bd5fc262e78bdf0ef48f69e9c8865f",
+        "size": 93911,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8062f121d2bd5fc262e78bdf0ef48f69e9c8865f"
+      },
+      {
+        "path": "docs/images/motors_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f283f4f31607f42b79e1018d91b7ad356f74b0bb",
+        "size": 105917,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f283f4f31607f42b79e1018d91b7ad356f74b0bb"
+      },
+      {
+        "path": "docs/images/motors_tape.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "319118df5042bb46e0b2d45b741a7f1169784ef5",
+        "size": 70232,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/319118df5042bb46e0b2d45b741a7f1169784ef5"
+      },
+      {
+        "path": "docs/images/motors_wiring.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50a80f5f1a963f4a46f5d943c82bf9cb97bfaba6",
+        "size": 131072,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/50a80f5f1a963f4a46f5d943c82bf9cb97bfaba6"
+      },
+      {
+        "path": "docs/images/mount_illumination_dovetail.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0eca892ce2a81fb566dcb14318d9d2eb4204b71",
+        "size": 67269,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b0eca892ce2a81fb566dcb14318d9d2eb4204b71"
+      },
+      {
+        "path": "docs/images/mount_to_camera_platform.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13384479c31e6e36e71cb5df9bd27e6ff2b734c8",
+        "size": 93929,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/13384479c31e6e36e71cb5df9bd27e6ff2b734c8"
+      },
+      {
+        "path": "docs/images/nut_inserted_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b925fbd130470d041190c01c2d46919a37e2add4",
+        "size": 71814,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b925fbd130470d041190c01c2d46919a37e2add4"
+      },
+      {
+        "path": "docs/images/nut_inserted_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a699eee33c1e98d5de6ce1332df8596f4be7a92f",
+        "size": 43991,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a699eee33c1e98d5de6ce1332df8596f4be7a92f"
+      },
+      {
+        "path": "docs/images/nut_insertion_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "3a7a240053455b9c6a5820541b026f7c05a07b66",
+        "size": 96658,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3a7a240053455b9c6a5820541b026f7c05a07b66"
+      },
+      {
+        "path": "docs/images/nut_insertion_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "962f03fffc3ac87d5f96f31b58f4b9e8e3cbb0ff",
+        "size": 98768,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/962f03fffc3ac87d5f96f31b58f4b9e8e3cbb0ff"
+      },
+      {
+        "path": "docs/images/nut_insertion_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "8d30aa1a08af6669cbc6324cfe513d434327f403",
+        "size": 87950,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8d30aa1a08af6669cbc6324cfe513d434327f403"
+      },
+      {
+        "path": "docs/images/nut_insertion_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "92a107260943af2175a798ce5cc5c4e3a8830f17",
+        "size": 81770,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/92a107260943af2175a798ce5cc5c4e3a8830f17"
+      },
+      {
+        "path": "docs/images/nut_insertion_4.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "7d4e1c0b6cb9b1926ccee9340fcfd1be5089ac46",
+        "size": 53665,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7d4e1c0b6cb9b1926ccee9340fcfd1be5089ac46"
+      },
+      {
+        "path": "docs/images/nut_insertion_5.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "d326756978383e82f9aefd398abf1b765718bd7a",
+        "size": 69406,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d326756978383e82f9aefd398abf1b765718bd7a"
+      },
+      {
+        "path": "docs/images/optics_assembly_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6b2d0dfd65671e780bf1b52290934c7f20e48ccb",
+        "size": 91869,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6b2d0dfd65671e780bf1b52290934c7f20e48ccb"
+      },
+      {
+        "path": "docs/images/optics_assembly_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "eb376950d947b1d84dc36b8a9043bf206aed44f4",
+        "size": 66856,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/eb376950d947b1d84dc36b8a9043bf206aed44f4"
+      },
+      {
+        "path": "docs/images/optics_assembly_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "650a48e85ab3c669977f99eba3e420da94909fed",
+        "size": 58034,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/650a48e85ab3c669977f99eba3e420da94909fed"
+      },
+      {
+        "path": "docs/images/optics_insertion_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "d7adf140891b498388372a36102f251da511eba2",
+        "size": 82352,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d7adf140891b498388372a36102f251da511eba2"
+      },
+      {
+        "path": "docs/images/optics_insertion_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "5e0aaab0f50fa5ebace44354be497ad22af26d83",
+        "size": 87601,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5e0aaab0f50fa5ebace44354be497ad22af26d83"
+      },
+      {
+        "path": "docs/images/optics_insertion_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "399f315217550488255224854de96e619696a9a5",
+        "size": 116132,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/399f315217550488255224854de96e619696a9a5"
+      },
+      {
+        "path": "docs/images/optics_insertion_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a7389dfb6ff341722aa26bcaaad9f444f4090129",
+        "size": 83088,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a7389dfb6ff341722aa26bcaaad9f444f4090129"
+      },
+      {
+        "path": "docs/images/optics_insertion_4.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "f6f1b284f22ce3015578bd52edb1567fc5b8f688",
+        "size": 61976,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f6f1b284f22ce3015578bd52edb1567fc5b8f688"
+      },
+      {
+        "path": "docs/images/optics_module_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "858a636b3f72007407a136f353eebf5d26c5613e",
+        "size": 36759,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/858a636b3f72007407a136f353eebf5d26c5613e"
+      },
+      {
+        "path": "docs/images/pi_gpio.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "734586a387c271416b497b2703651a9f0cf79f7f",
+        "size": 91975,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/734586a387c271416b497b2703651a9f0cf79f7f"
+      },
+      {
+        "path": "docs/images/picam2_board_gripper_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "152803fca4ac377075b2c9e68552d8ad50c6d4f3",
+        "size": 68216,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/152803fca4ac377075b2c9e68552d8ad50c6d4f3"
+      },
+      {
+        "path": "docs/images/picam2_board_gripper_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b28c60eed2ba00979f12e79ba25aaa5af19fd014",
+        "size": 80131,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b28c60eed2ba00979f12e79ba25aaa5af19fd014"
+      },
+      {
+        "path": "docs/images/picam2_film_removal.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "cd554821df811df2e2eb2db7f863ee9a2f64af06",
+        "size": 76907,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cd554821df811df2e2eb2db7f863ee9a2f64af06"
+      },
+      {
+        "path": "docs/images/picam2_lens_removal.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49ca7d246e6d85c4755431740f64e598d9d32c47",
+        "size": 87568,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/49ca7d246e6d85c4755431740f64e598d9d32c47"
+      },
+      {
+        "path": "docs/images/picam2_lens_removal_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "3d58f48e4522ba76f04d88b1b3f7d02eaa996792",
+        "size": 39201,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3d58f48e4522ba76f04d88b1b3f7d02eaa996792"
+      },
+      {
+        "path": "docs/images/picam2_lens_removal_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "6a1c20e96b339396196891f4070c104c4c74fd6a",
+        "size": 72824,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6a1c20e96b339396196891f4070c104c4c74fd6a"
+      },
+      {
+        "path": "docs/images/picam2_lens_removal_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "4fe3ceea1714d4e98f39f085c6cfc406346eac0d",
+        "size": 61870,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4fe3ceea1714d4e98f39f085c6cfc406346eac0d"
+      },
+      {
+        "path": "docs/images/picam2_lens_removal_2a.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c88d4af549787e9caa984556fd3f4392ab5cf1f",
+        "size": 81847,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4c88d4af549787e9caa984556fd3f4392ab5cf1f"
+      },
+      {
+        "path": "docs/images/picam2_lens_removal_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "02ba815011dde3e7ee4a49325653863e730580f4",
+        "size": 67679,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/02ba815011dde3e7ee4a49325653863e730580f4"
+      },
+      {
+        "path": "docs/images/sample_clip_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "251da48c7d8f2a81a8a7a45ac7aaff893c6a0d92",
+        "size": 80462,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/251da48c7d8f2a81a8a7a45ac7aaff893c6a0d92"
+      },
+      {
+        "path": "docs/images/sample_clip_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a0d8a232b04c00b5784894d80be158ddbcfafc98",
+        "size": 70811,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a0d8a232b04c00b5784894d80be158ddbcfafc98"
+      },
+      {
+        "path": "docs/images/sample_clip_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "d76a1edd35ea1f9d06f85c2740836d75bdd1a20d",
+        "size": 51523,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d76a1edd35ea1f9d06f85c2740836d75bdd1a20d"
+      },
+      {
+        "path": "docs/images/sample_clip_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "192cc6b6e6cbf50b7e95eb4b2bb756d648128389",
+        "size": 79191,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/192cc6b6e6cbf50b7e95eb4b2bb756d648128389"
+      },
+      {
+        "path": "docs/images/sample_clip_4.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "af8c66aa94c4416524f63408ee2ce29e5894f985",
+        "size": 90170,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/af8c66aa94c4416524f63408ee2ce29e5894f985"
+      },
+      {
+        "path": "docs/images/sample_clip_5.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "582ff12ebc45dcf276b35334750cdb211d65830e",
+        "size": 85114,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/582ff12ebc45dcf276b35334750cdb211d65830e"
+      },
+      {
+        "path": "docs/images/sample_clip_6.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "8df26600f41d83e2023ee48f8d5dd9ff3b872af8",
+        "size": 64222,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8df26600f41d83e2023ee48f8d5dd9ff3b872af8"
+      },
+      {
+        "path": "docs/images/sample_clips.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27b028e643024f7320773fc7afc5961258c93311",
+        "size": 78147,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/27b028e643024f7320773fc7afc5961258c93311"
+      },
+      {
+        "path": "docs/images/screw_gear_and_washers.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "675b146e2517108bb7e416a32ea7463d868be41e",
+        "size": 69937,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/675b146e2517108bb7e416a32ea7463d868be41e"
+      },
+      {
+        "path": "docs/images/screw_insertion_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "3efdbb400e7c9fa165db9fcda1dbf93ced424f92",
+        "size": 95930,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3efdbb400e7c9fa165db9fcda1dbf93ced424f92"
+      },
+      {
+        "path": "docs/images/screw_insertion_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b169eb2c1dbb7026a6c4518404c6de7cbc991768",
+        "size": 91358,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b169eb2c1dbb7026a6c4518404c6de7cbc991768"
+      },
+      {
+        "path": "docs/images/screw_insertion_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "934bbff555c50f4a3aa3bbeccab0f03c3948b291",
+        "size": 87117,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/934bbff555c50f4a3aa3bbeccab0f03c3948b291"
+      },
+      {
+        "path": "docs/images/screw_insertion_3.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e7d25d5e306664d6adfe1396e9024218af11c45c",
+        "size": 89718,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e7d25d5e306664d6adfe1396e9024218af11c45c"
+      },
+      {
+        "path": "docs/images/screw_insertion_4.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "1689c51c3bb3199fe24dd753e7438220816b8561",
+        "size": 85441,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1689c51c3bb3199fe24dd753e7438220816b8561"
+      },
+      {
+        "path": "docs/images/screw_insertion_5.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "0d5113fb8708ad6e8386a34389150ae3e9b6deaf",
+        "size": 79059,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0d5113fb8708ad6e8386a34389150ae3e9b6deaf"
+      },
+      {
+        "path": "docs/images/screw_insertion_badnut_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "67c79bcfd7cf9ad41e8ca94c8e63738d618228f9",
+        "size": 80422,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/67c79bcfd7cf9ad41e8ca94c8e63738d618228f9"
+      },
+      {
+        "path": "docs/images/screw_insertion_badnut_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "1bf618858877fcb2a431bfb8204dcbc7a6bb50ff",
+        "size": 76893,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1bf618858877fcb2a431bfb8204dcbc7a6bb50ff"
+      },
+      {
+        "path": "docs/images/screw_on_optics_module.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bb0b5efca3c51217d11eae54ed073ee01f6a704e",
+        "size": 68590,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bb0b5efca3c51217d11eae54ed073ee01f6a704e"
+      },
+      {
+        "path": "docs/images/slide_in_nut_camera_platform.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b8f12e9446c1a03a33e8e657d6f229fc684de4c",
+        "size": 64192,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2b8f12e9446c1a03a33e8e657d6f229fc684de4c"
+      },
+      {
+        "path": "docs/images/slide_on_condenser.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9cb4b178274a2d188a2d68156881c0a32d1c0ec3",
+        "size": 69484,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9cb4b178274a2d188a2d68156881c0a32d1c0ec3"
+      },
+      {
+        "path": "docs/images/thumbscrew_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "bbc5a7aa7673db057388d4953433441df6621a7c",
+        "size": 63977,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bbc5a7aa7673db057388d4953433441df6621a7c"
+      },
+      {
+        "path": "docs/images/thumbscrew_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "da40772e1ce0e5e5645b27997d232a38a00997f4",
+        "size": 67453,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/da40772e1ce0e5e5645b27997d232a38a00997f4"
+      },
+      {
+        "path": "docs/images/thumbscrew_2.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "4c7fa2114b34982bceb4512375beb4c8f08827f5",
+        "size": 82127,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4c7fa2114b34982bceb4512375beb4c8f08827f5"
+      },
+      {
+        "path": "docs/images/thumbscrew_washer_0.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "37e476f31b795279a2a813c7c74993d953bc783c",
+        "size": 78588,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/37e476f31b795279a2a813c7c74993d953bc783c"
+      },
+      {
+        "path": "docs/images/thumbscrew_washer_1.jpg",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "8445b10fea0bd3ce07119b8fd446eb3a7b32ef1c",
+        "size": 64280,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8445b10fea0bd3ce07119b8fd446eb3a7b32ef1c"
+      },
+      {
+        "path": "docs/images/z_axis_support_removal_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79f002460735e4901b3d478c9489c1f30db9806b",
+        "size": 107347,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/79f002460735e4901b3d478c9489c1f30db9806b"
+      },
+      {
+        "path": "docs/original_images",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b03c92cee163d7b67ec04c22316ee722e3af4f0d",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/b03c92cee163d7b67ec04c22316ee722e3af4f0d"
+      },
+      {
+        "path": "docs/original_images/LED_wiring.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e932ba1159f6d6b316f845bdd15edae8b00de4c",
+        "size": 5738124,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8e932ba1159f6d6b316f845bdd15edae8b00de4c"
+      },
+      {
+        "path": "docs/original_images/actuator_assembly_band_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c3b1148cc66bb45a98e2b7c50eb4eaaa694db3a",
+        "size": 865970,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0c3b1148cc66bb45a98e2b7c50eb4eaaa694db3a"
+      },
+      {
+        "path": "docs/original_images/actuator_assembly_nut_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d43ea479a37b6edaa3277415097deebf320a2d38",
+        "size": 667921,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d43ea479a37b6edaa3277415097deebf320a2d38"
+      },
+      {
+        "path": "docs/original_images/actuator_assembly_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d76f2a3768e02dab7deac25552287d4453b3861",
+        "size": 5666626,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5d76f2a3768e02dab7deac25552287d4453b3861"
+      },
+      {
+        "path": "docs/original_images/actuator_assembly_screw_in_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31ddb4c949f76134dc493b74d0447f8011a45999",
+        "size": 538004,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/31ddb4c949f76134dc493b74d0447f8011a45999"
+      },
+      {
+        "path": "docs/original_images/actuator_assembly_snap_supports_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6bcc14eac15ee9cd58e0b5598935921b02de6a34",
+        "size": 652489,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6bcc14eac15ee9cd58e0b5598935921b02de6a34"
+      },
+      {
+        "path": "docs/original_images/actuator_support_removal_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "471510985c09439eeb3ac89fe4607623c9525c27",
+        "size": 1238246,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/471510985c09439eeb3ac89fe4607623c9525c27"
+      },
+      {
+        "path": "docs/original_images/all_parts.JPG",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4450cd604c6fa39dd5da186b169b4da5284e845",
+        "size": 318504,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b4450cd604c6fa39dd5da186b169b4da5284e845"
+      },
+      {
+        "path": "docs/original_images/all_printed_parts.JPG",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b7f0294c3461ef9407f68bdd8a94507e6196d78",
+        "size": 120169,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5b7f0294c3461ef9407f68bdd8a94507e6196d78"
+      },
+      {
+        "path": "docs/original_images/band_insertion_body_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1c827f937b82a1f75988fde7a10dec92c176628",
+        "size": 906294,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e1c827f937b82a1f75988fde7a10dec92c176628"
+      },
+      {
+        "path": "docs/original_images/band_insertion_body_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25ff97572907db8567466414d7e859b182b2bb35",
+        "size": 1068014,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/25ff97572907db8567466414d7e859b182b2bb35"
+      },
+      {
+        "path": "docs/original_images/band_insertion_cutaway_1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82d95708e1a460f8514b956d5a2c5f1b99a1c3ba",
+        "size": 8914,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/82d95708e1a460f8514b956d5a2c5f1b99a1c3ba"
+      },
+      {
+        "path": "docs/original_images/band_insertion_finished_bottom.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d1b215f854dd5f842d0a9ff4d06bce723eecb51",
+        "size": 232904,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8d1b215f854dd5f842d0a9ff4d06bce723eecb51"
+      },
+      {
+        "path": "docs/original_images/band_insertion_through_foot_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "47bcc74068b3744f6050af9cde6ea280dc6e27f5",
+        "size": 1456443,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/47bcc74068b3744f6050af9cde6ea280dc6e27f5"
+      },
+      {
+        "path": "docs/original_images/band_insertion_through_foot_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f44827c628b81a11938afb180009aff9fc08366c",
+        "size": 1040219,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f44827c628b81a11938afb180009aff9fc08366c"
+      },
+      {
+        "path": "docs/original_images/basic_optics_module_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d4baa8663aa85e5e15fd4d138441eae797cccec",
+        "size": 4840391,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0d4baa8663aa85e5e15fd4d138441eae797cccec"
+      },
+      {
+        "path": "docs/original_images/body_with_gears.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "38f5f6793676bf3bbdf6dac688550c002b497b26",
+        "size": 5000878,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/38f5f6793676bf3bbdf6dac688550c002b497b26"
+      },
+      {
+        "path": "docs/original_images/camera_platform_mounting_screw.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a0e02abba3fc544a3623670ba2c486ab05526461",
+        "size": 4944636,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a0e02abba3fc544a3623670ba2c486ab05526461"
+      },
+      {
+        "path": "docs/original_images/camera_screws_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3c28684e9dab7c76bde7b54ea527d61c80f60ba",
+        "size": 148236,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d3c28684e9dab7c76bde7b54ea527d61c80f60ba"
+      },
+      {
+        "path": "docs/original_images/camera_wiring.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f7e696059fe6e8cb216216a3e81287c96477da4",
+        "size": 5171509,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3f7e696059fe6e8cb216216a3e81287c96477da4"
+      },
+      {
+        "path": "docs/original_images/clips_and_wiring_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c1dc21779663a85487604da46349e6e9de900e5",
+        "size": 5269244,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0c1dc21779663a85487604da46349e6e9de900e5"
+      },
+      {
+        "path": "docs/original_images/condenser_lens_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3e2e65cc0619f2535163e460d059f8da6c5e2021",
+        "size": 865594,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3e2e65cc0619f2535163e460d059f8da6c5e2021"
+      },
+      {
+        "path": "docs/original_images/condenser_lens_1a.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c1609671dc0ddd5a46cd60c8897723fe90842902",
+        "size": 121267,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c1609671dc0ddd5a46cd60c8897723fe90842902"
+      },
+      {
+        "path": "docs/original_images/condenser_lens_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61124c5ad3d9a21a385babcd5cfb12b5b6ada146",
+        "size": 244493,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/61124c5ad3d9a21a385babcd5cfb12b5b6ada146"
+      },
+      {
+        "path": "docs/original_images/condenser_wires_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3aa0d5e7e7d4b19162f175898b22348bcf0eeb7e",
+        "size": 765840,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3aa0d5e7e7d4b19162f175898b22348bcf0eeb7e"
+      },
+      {
+        "path": "docs/original_images/condenser_wires_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48fbf7da512bf0e44ccc525797ea0a6c5742c1f0",
+        "size": 912932,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/48fbf7da512bf0e44ccc525797ea0a6c5742c1f0"
+      },
+      {
+        "path": "docs/original_images/foot_band_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d06efce719682a51975b5fb15991180c85a3027",
+        "size": 263662,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6d06efce719682a51975b5fb15991180c85a3027"
+      },
+      {
+        "path": "docs/original_images/generate_images.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42fd135cda883b4f6e19ae05b1d9a54773157eb3",
+        "size": 727,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/42fd135cda883b4f6e19ae05b1d9a54773157eb3"
+      },
+      {
+        "path": "docs/original_images/hires_optics_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d69b96bc7b0faaabbdd4c3b568951e339a3c2db",
+        "size": 4261158,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8d69b96bc7b0faaabbdd4c3b568951e339a3c2db"
+      },
+      {
+        "path": "docs/original_images/hires_optics_camera.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7951b734d1614c3d09d71b44556fd8330114d975",
+        "size": 1032301,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7951b734d1614c3d09d71b44556fd8330114d975"
+      },
+      {
+        "path": "docs/original_images/hires_optics_cleanup.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c51eec3b30d09556c784a49a09b6b67e8bed0e73",
+        "size": 694007,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c51eec3b30d09556c784a49a09b6b67e8bed0e73"
+      },
+      {
+        "path": "docs/original_images/hires_optics_nut_insertion.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6066a491b0f200c374bb728aeaa434cb77052dda",
+        "size": 643067,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6066a491b0f200c374bb728aeaa434cb77052dda"
+      },
+      {
+        "path": "docs/original_images/hires_optics_objective_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2094c3d4ef6665e4ce0829dcfd71757d8c0178c9",
+        "size": 1300696,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2094c3d4ef6665e4ce0829dcfd71757d8c0178c9"
+      },
+      {
+        "path": "docs/original_images/hires_optics_objective_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d92d7931f422d4069d5280cec2bda33243689030",
+        "size": 451949,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d92d7931f422d4069d5280cec2bda33243689030"
+      },
+      {
+        "path": "docs/original_images/hires_optics_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d1098e3279ef6d967059155f7a0e25931f49df4",
+        "size": 666571,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3d1098e3279ef6d967059155f7a0e25931f49df4"
+      },
+      {
+        "path": "docs/original_images/hires_optics_screw.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a8d05d50d8cfd347319643bc25c03cd1e2b47f4f",
+        "size": 368392,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a8d05d50d8cfd347319643bc25c03cd1e2b47f4f"
+      },
+      {
+        "path": "docs/original_images/hires_optics_tube_lens_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d2abc38630b121dc0b44b1c52b9131b68dc81a3",
+        "size": 1475057,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7d2abc38630b121dc0b44b1c52b9131b68dc81a3"
+      },
+      {
+        "path": "docs/original_images/hires_optics_tube_lens_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8754cf91c2fc9f1182185d4d7f57fbd1414ff891",
+        "size": 1109913,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8754cf91c2fc9f1182185d4d7f57fbd1414ff891"
+      },
+      {
+        "path": "docs/original_images/hires_optics_tube_lens_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06e0ff6bd6907f4ce34ac823262160719f0717e0",
+        "size": 707818,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/06e0ff6bd6907f4ce34ac823262160719f0717e0"
+      },
+      {
+        "path": "docs/original_images/hires_optics_tubelens_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b48bcf3493e820627657a8b399fc2195089db160",
+        "size": 634200,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b48bcf3493e820627657a8b399fc2195089db160"
+      },
+      {
+        "path": "docs/original_images/illumination_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "860b0c79cefe488898613b3da3d1210a285bb960",
+        "size": 5045222,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/860b0c79cefe488898613b3da3d1210a285bb960"
+      },
+      {
+        "path": "docs/original_images/insert_bands.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff95fb480bf76b3de8325c20f494d842786655ec",
+        "size": 5549639,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ff95fb480bf76b3de8325c20f494d842786655ec"
+      },
+      {
+        "path": "docs/original_images/insert_camera_lens.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c14d8ab9a7e30dc5224e5f2d769472602ac82bc",
+        "size": 4628798,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2c14d8ab9a7e30dc5224e5f2d769472602ac82bc"
+      },
+      {
+        "path": "docs/original_images/insert_condenser.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6a7bf47ce8f5e8493967400bee49834f22f7c5b",
+        "size": 4817886,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f6a7bf47ce8f5e8493967400bee49834f22f7c5b"
+      },
+      {
+        "path": "docs/original_images/insert_feet.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "97b914e188a83439e7f5f049d9623de19b9d5f0b",
+        "size": 4993928,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/97b914e188a83439e7f5f049d9623de19b9d5f0b"
+      },
+      {
+        "path": "docs/original_images/insert_led.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "013476780730b26bc294cf00e0dfe3329365e897",
+        "size": 4700099,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/013476780730b26bc294cf00e0dfe3329365e897"
+      },
+      {
+        "path": "docs/original_images/insert_nut_here.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86ab58d6c21b0fa05d0f3d6a6d7fd6ad09da64b3",
+        "size": 3607772,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/86ab58d6c21b0fa05d0f3d6a6d7fd6ad09da64b3"
+      },
+      {
+        "path": "docs/original_images/insert_optics_module.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0a615eb1501e5064161e38cf35c1ddddfc8ef30",
+        "size": 5204446,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b0a615eb1501e5064161e38cf35c1ddddfc8ef30"
+      },
+      {
+        "path": "docs/original_images/lens_insertion_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9995bb518635e404e0018edf1100651aede329e2",
+        "size": 165885,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9995bb518635e404e0018edf1100651aede329e2"
+      },
+      {
+        "path": "docs/original_images/lens_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6dfbfa3fddc584c7496ed8cd02acbc31e70ce10b",
+        "size": 148822,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6dfbfa3fddc584c7496ed8cd02acbc31e70ce10b"
+      },
+      {
+        "path": "docs/original_images/lens_insertion_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ca7c7b2c452572e515dbf2c61058a0e50baae89",
+        "size": 148261,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5ca7c7b2c452572e515dbf2c61058a0e50baae89"
+      },
+      {
+        "path": "docs/original_images/lens_insertion_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e7e57646a1118a8617e2126ca0283ab3ae52ae8",
+        "size": 137012,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9e7e57646a1118a8617e2126ca0283ab3ae52ae8"
+      },
+      {
+        "path": "docs/original_images/lens_insertion_4.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49ecbe71f7964f0b5c692f5e014a6339b101223a",
+        "size": 101223,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/49ecbe71f7964f0b5c692f5e014a6339b101223a"
+      },
+      {
+        "path": "docs/original_images/lores_parts_no_optics.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94a94e565da340a3f860282687b86e0c2e590b6c",
+        "size": 2935306,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/94a94e565da340a3f860282687b86e0c2e590b6c"
+      },
+      {
+        "path": "docs/original_images/main_body.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8e30ca4fb0f54c8cc65a26d595432721e7a6d98",
+        "size": 187723,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c8e30ca4fb0f54c8cc65a26d595432721e7a6d98"
+      },
+      {
+        "path": "docs/original_images/main_body_LS65-M.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "28bc8e323c3b66ab6ea5953c33d443a83b62454c",
+        "size": 29660,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/28bc8e323c3b66ab6ea5953c33d443a83b62454c"
+      },
+      {
+        "path": "docs/original_images/main_body_LS65-M_bottom_3D.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecbb6878bd37b1da4773a0e55c020e635b475161",
+        "size": 28326,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ecbb6878bd37b1da4773a0e55c020e635b475161"
+      },
+      {
+        "path": "docs/original_images/main_body_LS65-M_side.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c880e3f1421551eafbd42b129c0f77ae3f9286e3",
+        "size": 18405,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c880e3f1421551eafbd42b129c0f77ae3f9286e3"
+      },
+      {
+        "path": "docs/original_images/main_body_LS65-M_side_3D.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d54ec51bef4206280ed86b33ab6f78f08089eba",
+        "size": 29585,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5d54ec51bef4206280ed86b33ab6f78f08089eba"
+      },
+      {
+        "path": "docs/original_images/main_body_LS65-M_side_45.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "89540e861d55ee7d4e5fa0cc6693082a1c9c9a66",
+        "size": 13653,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/89540e861d55ee7d4e5fa0cc6693082a1c9c9a66"
+      },
+      {
+        "path": "docs/original_images/main_body_LS65-M_top.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80e8895e929c64a592f757a6e56a733dc76162df",
+        "size": 26765,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/80e8895e929c64a592f757a6e56a733dc76162df"
+      },
+      {
+        "path": "docs/original_images/main_body_bottom.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8604cf7a7a049a616ad7eb5ff4e27b698dac342",
+        "size": 157117,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f8604cf7a7a049a616ad7eb5ff4e27b698dac342"
+      },
+      {
+        "path": "docs/original_images/main_body_drill.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cdfa857d9133b22f857866d4db0df0386d8d4e9a",
+        "size": 43928,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cdfa857d9133b22f857866d4db0df0386d8d4e9a"
+      },
+      {
+        "path": "docs/original_images/microscope_body.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4529987c3d9b8036690f885e87a2ee5167fd80a8",
+        "size": 5028388,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4529987c3d9b8036690f885e87a2ee5167fd80a8"
+      },
+      {
+        "path": "docs/original_images/microscope_body_part_names.pdf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f509498d7fb69cc02372ea2ec795b0a64854bb8",
+        "size": 79346,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8f509498d7fb69cc02372ea2ec795b0a64854bb8"
+      },
+      {
+        "path": "docs/original_images/microscope_body_quality_checks.pdf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16e46a3af181b54c5e87fec61ff0ddf48a9c6871",
+        "size": 173377,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/16e46a3af181b54c5e87fec61ff0ddf48a9c6871"
+      },
+      {
+        "path": "docs/original_images/microscope_body_quality_checks.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f5f9b4eed63ab15ab12712df5c0b86fde26c669",
+        "size": 45913,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8f5f9b4eed63ab15ab12712df5c0b86fde26c669"
+      },
+      {
+        "path": "docs/original_images/microscope_complete.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52caf0bca9b6eea4c68847e7f7fb87c4f4a88bfd",
+        "size": 222647,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/52caf0bca9b6eea4c68847e7f7fb87c4f4a88bfd"
+      },
+      {
+        "path": "docs/original_images/microscope_complete_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30d29a637ec19a8b51e56bfa7081c12bdf9c5105",
+        "size": 375073,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/30d29a637ec19a8b51e56bfa7081c12bdf9c5105"
+      },
+      {
+        "path": "docs/original_images/microscope_complete_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a21434485996c0352680af69d02cd69cb11b21df",
+        "size": 397743,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a21434485996c0352680af69d02cd69cb11b21df"
+      },
+      {
+        "path": "docs/original_images/microscope_complete_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b385c3295f95cbf7749e82db2688523736bbe1b9",
+        "size": 215110,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b385c3295f95cbf7749e82db2688523736bbe1b9"
+      },
+      {
+        "path": "docs/original_images/microscope_complete_4.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94c0d2491c7fc9ab9caac57818b0a6fcba49d44d",
+        "size": 216362,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/94c0d2491c7fc9ab9caac57818b0a6fcba49d44d"
+      },
+      {
+        "path": "docs/original_images/microscope_gosh.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "806a6eaf54270c37e8022cf70ac1f25e1b789485",
+        "size": 805803,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/806a6eaf54270c37e8022cf70ac1f25e1b789485"
+      },
+      {
+        "path": "docs/original_images/microscope_part_names.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8ddfc0462dd0ea40537bafd50cff39cb7101ee09",
+        "size": 19514,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8ddfc0462dd0ea40537bafd50cff39cb7101ee09"
+      },
+      {
+        "path": "docs/original_images/motors_assembled.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "14f45863624732d14954d8392540c858012cf44f",
+        "size": 1083931,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/14f45863624732d14954d8392540c858012cf44f"
+      },
+      {
+        "path": "docs/original_images/motors_board_in_base.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4fa3b70832d5d4f8017f444d0a2a19a282ded671",
+        "size": 1648551,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4fa3b70832d5d4f8017f444d0a2a19a282ded671"
+      },
+      {
+        "path": "docs/original_images/motors_gear.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d87096e1d975221d557b35658ff3d3ed662d9aa",
+        "size": 530948,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7d87096e1d975221d557b35658ff3d3ed662d9aa"
+      },
+      {
+        "path": "docs/original_images/motors_mount.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cdafc92ad199e387028fb3ef2145560e02232458",
+        "size": 451488,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cdafc92ad199e387028fb3ef2145560e02232458"
+      },
+      {
+        "path": "docs/original_images/motors_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f43e63c43e477e3b8c43c99cea54fa12db49d64",
+        "size": 1535250,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8f43e63c43e477e3b8c43c99cea54fa12db49d64"
+      },
+      {
+        "path": "docs/original_images/motors_tape.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f6c94ae4f335c2738863d2805586ae073f3e1f7",
+        "size": 565131,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8f6c94ae4f335c2738863d2805586ae073f3e1f7"
+      },
+      {
+        "path": "docs/original_images/motors_wiring.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d45574bb5eda57ab60f4e4bc3962b8cb8b71bf9",
+        "size": 1042541,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2d45574bb5eda57ab60f4e4bc3962b8cb8b71bf9"
+      },
+      {
+        "path": "docs/original_images/mount_illumination_dovetail.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "107423afb0642fe1589f863819862419b60b5ecd",
+        "size": 4095981,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/107423afb0642fe1589f863819862419b60b5ecd"
+      },
+      {
+        "path": "docs/original_images/mount_to_camera_platform.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7101322168dd8aaa8ec7e1842cbc49134e9d0436",
+        "size": 4888365,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7101322168dd8aaa8ec7e1842cbc49134e9d0436"
+      },
+      {
+        "path": "docs/original_images/nut_inserted_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "409ca971c0813e63673681479f1c0615da2827d1",
+        "size": 397721,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/409ca971c0813e63673681479f1c0615da2827d1"
+      },
+      {
+        "path": "docs/original_images/nut_inserted_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f7fc107725d3c00b67bee2094c0ede2018ea29b",
+        "size": 405819,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1f7fc107725d3c00b67bee2094c0ede2018ea29b"
+      },
+      {
+        "path": "docs/original_images/nut_insertion_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "211b39b4b503bc55473cc0fe47be5357f02f4694",
+        "size": 398155,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/211b39b4b503bc55473cc0fe47be5357f02f4694"
+      },
+      {
+        "path": "docs/original_images/nut_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c33b821bdd0438ef2c0d21f4670ab6ac3ebf676c",
+        "size": 3890286,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c33b821bdd0438ef2c0d21f4670ab6ac3ebf676c"
+      },
+      {
+        "path": "docs/original_images/nut_insertion_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0172d38b48e7f56d36f7a6939a54d1d7dd2f0ef3",
+        "size": 327351,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0172d38b48e7f56d36f7a6939a54d1d7dd2f0ef3"
+      },
+      {
+        "path": "docs/original_images/nut_insertion_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49e1f61e86c68eee38f6a67026961924ee2afe5a",
+        "size": 370257,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/49e1f61e86c68eee38f6a67026961924ee2afe5a"
+      },
+      {
+        "path": "docs/original_images/nut_insertion_4.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58db0f2cca822764726518528dd6ab2dbd1a7bcc",
+        "size": 468329,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/58db0f2cca822764726518528dd6ab2dbd1a7bcc"
+      },
+      {
+        "path": "docs/original_images/nut_insertion_5.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f18ba984ae439644de8354c64f96c458a8020fd",
+        "size": 109018,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8f18ba984ae439644de8354c64f96c458a8020fd"
+      },
+      {
+        "path": "docs/original_images/optics_assembly_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dac659108d6bdf6735a24dc43b2709b9163bce27",
+        "size": 160171,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/dac659108d6bdf6735a24dc43b2709b9163bce27"
+      },
+      {
+        "path": "docs/original_images/optics_assembly_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2567944c92bf976bf5b7c962bad2ba4a2d31f67f",
+        "size": 107939,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2567944c92bf976bf5b7c962bad2ba4a2d31f67f"
+      },
+      {
+        "path": "docs/original_images/optics_assembly_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db3e8a713c7c39ee0e3c751165f70f405d30fe7f",
+        "size": 156568,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/db3e8a713c7c39ee0e3c751165f70f405d30fe7f"
+      },
+      {
+        "path": "docs/original_images/optics_insertion_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6d3e1dd8aede9bd83dae70f1219dff560ac4bb6",
+        "size": 176178,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f6d3e1dd8aede9bd83dae70f1219dff560ac4bb6"
+      },
+      {
+        "path": "docs/original_images/optics_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "653ca9c86f12e1dc0f6a0ae4cf75208c70b8546f",
+        "size": 192052,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/653ca9c86f12e1dc0f6a0ae4cf75208c70b8546f"
+      },
+      {
+        "path": "docs/original_images/optics_insertion_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9a531220418801b5d792f98ee6f3ccb3648bbb41",
+        "size": 735574,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9a531220418801b5d792f98ee6f3ccb3648bbb41"
+      },
+      {
+        "path": "docs/original_images/optics_insertion_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48b5996a64b348c93a16aebfb0d9427e111bdc09",
+        "size": 132469,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/48b5996a64b348c93a16aebfb0d9427e111bdc09"
+      },
+      {
+        "path": "docs/original_images/optics_insertion_4.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c685f2834f83333866c926ff391d58ae989d5a53",
+        "size": 97497,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c685f2834f83333866c926ff391d58ae989d5a53"
+      },
+      {
+        "path": "docs/original_images/optics_module_parts.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2630e6fb66d946f81a3fba038f1e7496b4bfb03d",
+        "size": 132897,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2630e6fb66d946f81a3fba038f1e7496b4bfb03d"
+      },
+      {
+        "path": "docs/original_images/pi_gpio.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ac45da819fe9fd4fc9d5a6fb7e1b58a20a5caee3",
+        "size": 146785,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ac45da819fe9fd4fc9d5a6fb7e1b58a20a5caee3"
+      },
+      {
+        "path": "docs/original_images/picam2_board_gripper_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8b5905d9413d39c147e5301da21b81db2a3a56f",
+        "size": 284906,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f8b5905d9413d39c147e5301da21b81db2a3a56f"
+      },
+      {
+        "path": "docs/original_images/picam2_board_gripper_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7a9c2656251763af7cdc44bde8a6a501e4850e12",
+        "size": 283896,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7a9c2656251763af7cdc44bde8a6a501e4850e12"
+      },
+      {
+        "path": "docs/original_images/picam2_film_removal.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "408d52c8690a2c19a8f7b7454b90389083448937",
+        "size": 777842,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/408d52c8690a2c19a8f7b7454b90389083448937"
+      },
+      {
+        "path": "docs/original_images/picam2_lens_removal.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51c8dc94e14c15b0da8b75919c8e0f540f8f1326",
+        "size": 432760,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/51c8dc94e14c15b0da8b75919c8e0f540f8f1326"
+      },
+      {
+        "path": "docs/original_images/picam2_lens_removal_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e212693bd1c934a55d58dc9682dba0f5be5df3a6",
+        "size": 112548,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e212693bd1c934a55d58dc9682dba0f5be5df3a6"
+      },
+      {
+        "path": "docs/original_images/picam2_lens_removal_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96dd3d591cb101e31e2182b22b8ec4a8681ef460",
+        "size": 277142,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/96dd3d591cb101e31e2182b22b8ec4a8681ef460"
+      },
+      {
+        "path": "docs/original_images/picam2_lens_removal_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afb59cb3ec30c1c16159444fd56a8a4203138c0b",
+        "size": 295259,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/afb59cb3ec30c1c16159444fd56a8a4203138c0b"
+      },
+      {
+        "path": "docs/original_images/picam2_lens_removal_2a.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ce2e1122508f77a85321dce7586cfededff757d5",
+        "size": 741376,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ce2e1122508f77a85321dce7586cfededff757d5"
+      },
+      {
+        "path": "docs/original_images/picam2_lens_removal_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c71c17a134b818d21faab953fc21937373ce466a",
+        "size": 342372,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c71c17a134b818d21faab953fc21937373ce466a"
+      },
+      {
+        "path": "docs/original_images/render_microscope_body.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "86a8ba71166bac1c05c2a7d791affb71bfcf3ec6",
+        "size": 560,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/86a8ba71166bac1c05c2a7d791affb71bfcf3ec6"
+      },
+      {
+        "path": "docs/original_images/sample_clip_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3dad48c2c8647789797726bbebca00403b6364c8",
+        "size": 384443,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/3dad48c2c8647789797726bbebca00403b6364c8"
+      },
+      {
+        "path": "docs/original_images/sample_clip_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "911f3a6bbe225d4bba6f69ec2499be67c2374562",
+        "size": 290772,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/911f3a6bbe225d4bba6f69ec2499be67c2374562"
+      },
+      {
+        "path": "docs/original_images/sample_clip_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b05727b613483ad9cd0c71b753c21cf0b273c991",
+        "size": 288898,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b05727b613483ad9cd0c71b753c21cf0b273c991"
+      },
+      {
+        "path": "docs/original_images/sample_clip_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "218759d69d5e01b62f32da9b7ccb3ef1faa46b95",
+        "size": 416751,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/218759d69d5e01b62f32da9b7ccb3ef1faa46b95"
+      },
+      {
+        "path": "docs/original_images/sample_clip_4.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4e5e477ba02e46376ad5fb27b34c4f0703834f0",
+        "size": 294626,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c4e5e477ba02e46376ad5fb27b34c4f0703834f0"
+      },
+      {
+        "path": "docs/original_images/sample_clip_5.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "79f3f616112496e30675fef7c3d3e884a584fd3d",
+        "size": 232592,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/79f3f616112496e30675fef7c3d3e884a584fd3d"
+      },
+      {
+        "path": "docs/original_images/sample_clip_6.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a083d040beb40de4f2feb3a6a567baa6e7578152",
+        "size": 181723,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a083d040beb40de4f2feb3a6a567baa6e7578152"
+      },
+      {
+        "path": "docs/original_images/sample_clips.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "274afffae96830d1eb2ad6d367c85ae6f99edd28",
+        "size": 4839178,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/274afffae96830d1eb2ad6d367c85ae6f99edd28"
+      },
+      {
+        "path": "docs/original_images/screw_gear_and_washers.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a169806436fb1a7b82e2ee1926a89515d97a100a",
+        "size": 4640443,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a169806436fb1a7b82e2ee1926a89515d97a100a"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0bd0e0e12108e4ab324a4075e2935b636fb0130",
+        "size": 318799,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d0bd0e0e12108e4ab324a4075e2935b636fb0130"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1d40366c8b6ed305bd1c7258fe5ee980d420448",
+        "size": 308830,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b1d40366c8b6ed305bd1c7258fe5ee980d420448"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4d13c7b35228169cb2dfab2b336998cf05d3f78",
+        "size": 359733,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e4d13c7b35228169cb2dfab2b336998cf05d3f78"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_3.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "74d35329ded7f8111643ffe8090b6c435263b33c",
+        "size": 348956,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/74d35329ded7f8111643ffe8090b6c435263b33c"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_4.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad21f43eb534c19e985b098f17a5c75de87e55f8",
+        "size": 407127,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ad21f43eb534c19e985b098f17a5c75de87e55f8"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_5.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51e9efc4884182e7896aa362d2df021e8a5dc944",
+        "size": 351224,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/51e9efc4884182e7896aa362d2df021e8a5dc944"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_badnut_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b22b507cca2d12b3872eac1eb4ec080fafa15b5",
+        "size": 259955,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8b22b507cca2d12b3872eac1eb4ec080fafa15b5"
+      },
+      {
+        "path": "docs/original_images/screw_insertion_badnut_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22072c077d67e0cc4eb74715a994f0998485bfd7",
+        "size": 325687,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/22072c077d67e0cc4eb74715a994f0998485bfd7"
+      },
+      {
+        "path": "docs/original_images/screw_on_optics_module.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30310d95f388736aa19a02b7080f9012ce633d79",
+        "size": 3890178,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/30310d95f388736aa19a02b7080f9012ce633d79"
+      },
+      {
+        "path": "docs/original_images/slide_in_nut_camera_platform.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1789d1299dbefcf7776b7bcb73dcb5420373a0c",
+        "size": 4523620,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b1789d1299dbefcf7776b7bcb73dcb5420373a0c"
+      },
+      {
+        "path": "docs/original_images/slide_on_condenser.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "332effeedfef0221c14cf15930dc75627fad470d",
+        "size": 4893112,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/332effeedfef0221c14cf15930dc75627fad470d"
+      },
+      {
+        "path": "docs/original_images/static_warning.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1fe92259809d565c3c0eb8c3b97cf728dc0f9d6",
+        "size": 7962,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f1fe92259809d565c3c0eb8c3b97cf728dc0f9d6"
+      },
+      {
+        "path": "docs/original_images/thumbscrew_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c7483f62cb4d2042386b6e0cfde44c5e268b5ec",
+        "size": 106998,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4c7483f62cb4d2042386b6e0cfde44c5e268b5ec"
+      },
+      {
+        "path": "docs/original_images/thumbscrew_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9899a6ce1150855bd21de0289fe1766ad24d44e9",
+        "size": 143148,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9899a6ce1150855bd21de0289fe1766ad24d44e9"
+      },
+      {
+        "path": "docs/original_images/thumbscrew_2.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b95113c1277025a706c36cf15822c65a25c03e6b",
+        "size": 172656,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b95113c1277025a706c36cf15822c65a25c03e6b"
+      },
+      {
+        "path": "docs/original_images/thumbscrew_washer_0.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a90623240c60813406449a8554bb66dee75ec5cf",
+        "size": 177762,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a90623240c60813406449a8554bb66dee75ec5cf"
+      },
+      {
+        "path": "docs/original_images/thumbscrew_washer_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "69cb8ad53d5632bafdd802820a41cb6b598602fc",
+        "size": 187445,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/69cb8ad53d5632bafdd802820a41cb6b598602fc"
+      },
+      {
+        "path": "docs/original_images/z_axis_support_removal_1.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1fea2e15200064fd3c3695a38c23379a8a45ec2c",
+        "size": 3922133,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1fea2e15200064fd3c3695a38c23379a8a45ec2c"
+      },
+      {
+        "path": "docs/parts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0b680c43719dd52cba1099fb80bc4c07a61f9091",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/0b680c43719dd52cba1099fb80bc4c07a61f9091"
+      },
+      {
+        "path": "docs/parts/electronics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9fb3e9da3e8f218c5af0b80d4179008b55601ef5",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/9fb3e9da3e8f218c5af0b80d4179008b55601ef5"
+      },
+      {
+        "path": "docs/parts/electronics/2_way_jst_header.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ca4509a3ed054395675739278122c73304f5d7d",
+        "size": 712,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5ca4509a3ed054395675739278122c73304f5d7d"
+      },
+      {
+        "path": "docs/parts/electronics/60_ohm_resistor.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c054e7fd7b2747e0390c72ff7731721cfe6ff6cb",
+        "size": 364,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c054e7fd7b2747e0390c72ff7731721cfe6ff6cb"
+      },
+      {
+        "path": "docs/parts/electronics/raspberry_pi.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "63e5a8bba16f6c378dae54e4321fd1081d1cf35d",
+        "size": 530,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/63e5a8bba16f6c378dae54e4321fd1081d1cf35d"
+      },
+      {
+        "path": "docs/parts/electronics/raspberry_pi_camera.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a428b91dad7e0e416c23fd007c0460c2c1b70070",
+        "size": 383,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a428b91dad7e0e416c23fd007c0460c2c1b70070"
+      },
+      {
+        "path": "docs/parts/electronics/white_led.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1d80a3879c9033b736f11b1fc64ffb9123c2b128",
+        "size": 476,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1d80a3879c9033b736f11b1fc64ffb9123c2b128"
+      },
+      {
+        "path": "docs/parts/fixings",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e7034b27c9035d2b2383ed881d70ee7e32f4864c",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/e7034b27c9035d2b2383ed881d70ee7e32f4864c"
+      },
+      {
+        "path": "docs/parts/fixings/m2x6mm_caphead_screw.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbaf2924679f6002f6bf61af3a8df834a6bfa5e3",
+        "size": 325,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cbaf2924679f6002f6bf61af3a8df834a6bfa5e3"
+      },
+      {
+        "path": "docs/parts/fixings/m3_brass_nut.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33f56c0c464e25236af5decb7695ebd5af145e38",
+        "size": 440,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/33f56c0c464e25236af5decb7695ebd5af145e38"
+      },
+      {
+        "path": "docs/parts/fixings/m3_steel_nut.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a83c0d0fb1b2ec670e34b2a4e3b494cc12b5923",
+        "size": 423,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0a83c0d0fb1b2ec670e34b2a4e3b494cc12b5923"
+      },
+      {
+        "path": "docs/parts/fixings/m3_washer.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e7b349d49f46cde18fba3b1d39367056c9660599",
+        "size": 554,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e7b349d49f46cde18fba3b1d39367056c9660599"
+      },
+      {
+        "path": "docs/parts/fixings/m3x25mm_hexagonhead_screw.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "24d5649d5edffb7548002605901ad585d1fbec2a",
+        "size": 870,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/24d5649d5edffb7548002605901ad585d1fbec2a"
+      },
+      {
+        "path": "docs/parts/fixings/m3x8mm_caphead_screw.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bac3bab64bec5a6b76515f7d55622f19253a90f8",
+        "size": 555,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bac3bab64bec5a6b76515f7d55622f19253a90f8"
+      },
+      {
+        "path": "docs/parts/fixings/m4x6mm_buttonhead_screw.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "22e24c70fa543a4e83b2d56f5ebe0d5f3c8efa28",
+        "size": 494,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/22e24c70fa543a4e83b2d56f5ebe0d5f3c8efa28"
+      },
+      {
+        "path": "docs/parts/fixings/viton_o_ring_30mm_inner_diameter_2mm_cross_section.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a63c6a771f3fc6e98c399aa749507f10014317fc",
+        "size": 617,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a63c6a771f3fc6e98c399aa749507f10014317fc"
+      },
+      {
+        "path": "docs/parts/optics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e1b9091353a6ae0f06cda84347b25a370986d0d4",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/e1b9091353a6ae0f06cda84347b25a370986d0d4"
+      },
+      {
+        "path": "docs/parts/optics/condenser_lens.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cb7f82aebd9861c1e2ad276375095046a22053a",
+        "size": 408,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6cb7f82aebd9861c1e2ad276375095046a22053a"
+      },
+      {
+        "path": "docs/parts/optics/objective.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52a11a90988d42a44abe037a9c6f49a8edcf0aaa",
+        "size": 603,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/52a11a90988d42a44abe037a9c6f49a8edcf0aaa"
+      },
+      {
+        "path": "docs/parts/optics/tube_lens.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8be34143e140be4c9350147baf799f9d3cece58",
+        "size": 859,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f8be34143e140be4c9350147baf799f9d3cece58"
+      },
+      {
+        "path": "docs/parts/printed",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "7a82bf75b1b7740da49c9fcf6cd4af4cfda6b185",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/7a82bf75b1b7740da49c9fcf6cd4af4cfda6b185"
+      },
+      {
+        "path": "docs/parts/printed/camera_lens_removal_tools.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b088affc493e57b38d13652fb197e03f06effc88",
+        "size": 844,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b088affc493e57b38d13652fb197e03f06effc88"
+      },
+      {
+        "path": "docs/parts/printed/gearthumbscrew.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f9dfaaffdf714f48f8449a28432cebc2c1f70953",
+        "size": 528,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f9dfaaffdf714f48f8449a28432cebc2c1f70953"
+      },
+      {
+        "path": "docs/parts/printed/illumination_arm_and_rear_foot.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6666301eed01e84ceed977adf78a85b58ab49d45",
+        "size": 1171,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6666301eed01e84ceed977adf78a85b58ab49d45"
+      },
+      {
+        "path": "docs/parts/printed/microscope_body.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a9020592b7f5eb92ccaceb9f273d1804a4f828f",
+        "size": 2209,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2a9020592b7f5eb92ccaceb9f273d1804a4f828f"
+      },
+      {
+        "path": "docs/parts/printed/microscope_feet.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "702312927df910c3dc2906271da9947bbe6c5ee0",
+        "size": 249,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/702312927df910c3dc2906271da9947bbe6c5ee0"
+      },
+      {
+        "path": "docs/parts/printed/microscope_leg_test_object.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea60e1cb8291eda3e6d1e9d201d9632f51c649a5",
+        "size": 383,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ea60e1cb8291eda3e6d1e9d201d9632f51c649a5"
+      },
+      {
+        "path": "docs/parts/printed/optics_module_plastic_parts.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b269973e57473f01741293187771ba72d570ce3d",
+        "size": 1448,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b269973e57473f01741293187771ba72d570ce3d"
+      },
+      {
+        "path": "docs/parts/printed/sample_clips.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6d563907de30596bc5ec64356f8f4f8823b37bfc",
+        "size": 346,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6d563907de30596bc5ec64356f8f4f8823b37bfc"
+      },
+      {
+        "path": "docs/style.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d659b6efd8f87124fe355ae0a6d350373b928e21",
+        "size": 62,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d659b6efd8f87124fe355ae0a6d350373b928e21"
+      },
+      {
+        "path": "generate_makefile.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64ec26039229de87eef3e52b84eb9dbcb03e1173",
+        "size": 9011,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/64ec26039229de87eef3e52b84eb9dbcb03e1173"
+      },
+      {
+        "path": "openscad",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "89d543cf7872a2e6c6f593624ab841f77b667593",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/89d543cf7872a2e6c6f593624ab841f77b667593"
+      },
+      {
+        "path": "openscad/actuator_assembly_tools.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd94d24d7bf80e403503c796a9eebb926fc7fc66",
+        "size": 7330,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cd94d24d7bf80e403503c796a9eebb926fc7fc66"
+      },
+      {
+        "path": "openscad/actuator_drilling_jig.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a78fa5bdbe04743ae6412af086371c9073465c03",
+        "size": 1983,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a78fa5bdbe04743ae6412af086371c9073465c03"
+      },
+      {
+        "path": "openscad/adapters",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "eb6957571b8a111d7914f75603b7b0eda7d22b6f",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/eb6957571b8a111d7914f75603b7b0eda7d22b6f"
+      },
+      {
+        "path": "openscad/adapters/1_inch_disc_holder.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d2676afe9dd59abf60d645b2bed42a275623c6f",
+        "size": 294,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2d2676afe9dd59abf60d645b2bed42a275623c6f"
+      },
+      {
+        "path": "openscad/adapters/1_inch_disc_holder.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "556ae68b692628e039b9f03226d98769ca4acc06",
+        "size": 58224,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/556ae68b692628e039b9f03226d98769ca4acc06"
+      },
+      {
+        "path": "openscad/back_foot.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a07635f4230ba945b5ba9fe7d26c1c167245b244",
+        "size": 5124,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a07635f4230ba945b5ba9fe7d26c1c167245b244"
+      },
+      {
+        "path": "openscad/camera_platform.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7f0beeced55208b22812be9fedf7bb10bf006cd",
+        "size": 3882,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c7f0beeced55208b22812be9fedf7bb10bf006cd"
+      },
+      {
+        "path": "openscad/cameras",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "99ec76ee83e469cef6f89f86d57c18cba9ab2147",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/99ec76ee83e469cef6f89f86d57c18cba9ab2147"
+      },
+      {
+        "path": "openscad/cameras/6led.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76b20413dc649ca27ab18f653ab8488f88ae194b",
+        "size": 2876,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/76b20413dc649ca27ab18f653ab8488f88ae194b"
+      },
+      {
+        "path": "openscad/cameras/camera.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a78c0ac8409ddec555e97ca6e1f0dd34a93f2514",
+        "size": 3211,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a78c0ac8409ddec555e97ca6e1f0dd34a93f2514"
+      },
+      {
+        "path": "openscad/cameras/logitech_c270.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "678113ba7d67b5e3aa1a43e88432bfb91801ead6",
+        "size": 3376,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/678113ba7d67b5e3aa1a43e88432bfb91801ead6"
+      },
+      {
+        "path": "openscad/cameras/m12.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0a1febc08dc4036cf379245941550363ff47d0a",
+        "size": 4071,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c0a1febc08dc4036cf379245941550363ff47d0a"
+      },
+      {
+        "path": "openscad/cameras/picamera_2.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "55e5f7434b6e9124a2f0063b0f93f78170503fd2",
+        "size": 10046,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/55e5f7434b6e9124a2f0063b0f93f78170503fd2"
+      },
+      {
+        "path": "openscad/cameras/picamera_2_cover.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "36e24279a79b8e0d66ebb6070905d3f372e34d46",
+        "size": 101,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/36e24279a79b8e0d66ebb6070905d3f372e34d46"
+      },
+      {
+        "path": "openscad/cameras/picamera_2_gripper.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18b9314502f7f6130269e772152b417ca78424de",
+        "size": 103,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/18b9314502f7f6130269e772152b417ca78424de"
+      },
+      {
+        "path": "openscad/cameras/picamera_2_lens_gripper.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "08435c647bd5d761b99ccc2ca8e84fbb07f74928",
+        "size": 108,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/08435c647bd5d761b99ccc2ca8e84fbb07f74928"
+      },
+      {
+        "path": "openscad/cameras/readme.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ecaa7fa7ee795124e44f8a601acbebe8fc2be013",
+        "size": 2565,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ecaa7fa7ee795124e44f8a601acbebe8fc2be013"
+      },
+      {
+        "path": "openscad/compact_nut_seat.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "659d24bd935ec537a8e4d21d47966e0c5ed18002",
+        "size": 18289,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/659d24bd935ec537a8e4d21d47966e0c5ed18002"
+      },
+      {
+        "path": "openscad/condenser.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62011ad90c3d33e3c5216a6a54dabc97b275f0dd",
+        "size": 173,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/62011ad90c3d33e3c5216a6a54dabc97b275f0dd"
+      },
+      {
+        "path": "openscad/dovetail.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96ddd4acd968bdb4689bd93fa4b4f57d983be632",
+        "size": 10673,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/96ddd4acd968bdb4689bd93fa4b4f57d983be632"
+      },
+      {
+        "path": "openscad/endstop.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ff693e23736ac6de65401cb40e050b5f3e64290",
+        "size": 697,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6ff693e23736ac6de65401cb40e050b5f3e64290"
+      },
+      {
+        "path": "openscad/feet.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7783cb6cfbab4fcb7f3169ef37f507f89eb5a14c",
+        "size": 10071,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/7783cb6cfbab4fcb7f3169ef37f507f89eb5a14c"
+      },
+      {
+        "path": "openscad/footprint.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2954a07f37a468b2165286fe1fe952835fd98c61",
+        "size": 313,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2954a07f37a468b2165286fe1fe952835fd98c61"
+      },
+      {
+        "path": "openscad/gears.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "984630c94aefa0f7198e31ca8e11596ac82a5d08",
+        "size": 5310,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/984630c94aefa0f7198e31ca8e11596ac82a5d08"
+      },
+      {
+        "path": "openscad/illumination.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4170bb85fc754f4a02e9d97a6a3edf812035d705",
+        "size": 4970,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4170bb85fc754f4a02e9d97a6a3edf812035d705"
+      },
+      {
+        "path": "openscad/illumination_dovetail.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "855f72476a810a892ba36547150674751f558b60",
+        "size": 136,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/855f72476a810a892ba36547150674751f558b60"
+      },
+      {
+        "path": "openscad/illustrations",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4a1c71f20a13c3f9d0f6b83c570884ae710b6eca",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/4a1c71f20a13c3f9d0f6b83c570884ae710b6eca"
+      },
+      {
+        "path": "openscad/illustrations/band_insertion_cutaway.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "933fabf6eac6e23550c75a9f47c94eded78bc5df",
+        "size": 655,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/933fabf6eac6e23550c75a9f47c94eded78bc5df"
+      },
+      {
+        "path": "openscad/illustrations/band_insertion_cutaway_1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82d95708e1a460f8514b956d5a2c5f1b99a1c3ba",
+        "size": 8914,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/82d95708e1a460f8514b956d5a2c5f1b99a1c3ba"
+      },
+      {
+        "path": "openscad/illustrations/band_insertion_cutaway_2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8375d4875007a04645c0ef8bf31e30314817a068",
+        "size": 15238,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8375d4875007a04645c0ef8bf31e30314817a068"
+      },
+      {
+        "path": "openscad/illustrations/optics.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "openscad/illustrations/optics_assembly.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4b9f8c6ff9630b5ab512ff2af1e930eda3400c6",
+        "size": 1262,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b4b9f8c6ff9630b5ab512ff2af1e930eda3400c6"
+      },
+      {
+        "path": "openscad/illustrations/optics_assembly_glass.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62ca10e67f80bfde434ecd1d0d2c4b4e98d9a9c4",
+        "size": 5524,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/62ca10e67f80bfde434ecd1d0d2c4b4e98d9a9c4"
+      },
+      {
+        "path": "openscad/illustrations/optics_assembly_mounts.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "190047381ad672417be88b70d5464ee80b48460f",
+        "size": 14557,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/190047381ad672417be88b70d5464ee80b48460f"
+      },
+      {
+        "path": "openscad/illustrations/render_optics.bat",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b011affd836d74170b799008516092905eeb27d4",
+        "size": 569,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b011affd836d74170b799008516092905eeb27d4"
+      },
+      {
+        "path": "openscad/lens_spacer.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3ff5a326950440145957bc6dbc116e38cc197b2",
+        "size": 5364,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d3ff5a326950440145957bc6dbc116e38cc197b2"
+      },
+      {
+        "path": "openscad/lens_tool.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2338a68e1c763b2f4ada5637ec7d801dddf381f2",
+        "size": 457,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2338a68e1c763b2f4ada5637ec7d801dddf381f2"
+      },
+      {
+        "path": "openscad/logo.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdc636378494dc9c69317e2e4a749503a024e2c0",
+        "size": 2992,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/bdc636378494dc9c69317e2e4a749503a024e2c0"
+      },
+      {
+        "path": "openscad/main_body.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfb1f3e918ce9af00bea84db86ee9ec9fa083e2e",
+        "size": 12262,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/dfb1f3e918ce9af00bea84db86ee9ec9fa083e2e"
+      },
+      {
+        "path": "openscad/main_body_transforms.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f67b891c6c46285e042f9c9b02db31180ade024",
+        "size": 2301,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4f67b891c6c46285e042f9c9b02db31180ade024"
+      },
+      {
+        "path": "openscad/microscope_parameters.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a45fd398e1b907fc8b5ffcd2c90950b22ee55536",
+        "size": 7349,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a45fd398e1b907fc8b5ffcd2c90950b22ee55536"
+      },
+      {
+        "path": "openscad/microscope_stand.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b137d00ec6cd0d258e03abb1e47c30d65bac81bb",
+        "size": 9258,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b137d00ec6cd0d258e03abb1e47c30d65bac81bb"
+      },
+      {
+        "path": "openscad/microscope_stand_no_pi.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f526bcf5337aae3ddfab7cdf3a1a3ae4af638cb",
+        "size": 266,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2f526bcf5337aae3ddfab7cdf3a1a3ae4af638cb"
+      },
+      {
+        "path": "openscad/motor_driver_case.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1bfb05674f44ba9472230f05fecd38bd058e7bfc",
+        "size": 50,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1bfb05674f44ba9472230f05fecd38bd058e7bfc"
+      },
+      {
+        "path": "openscad/openflexure_emblem.dxf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f9f42b7e15ff7835558370de17eec575700f7c2",
+        "size": 6175,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0f9f42b7e15ff7835558370de17eec575700f7c2"
+      },
+      {
+        "path": "openscad/openflexure_emblem.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c629362dcd1d4de3ac17058cac95ac3c1bd00b2b",
+        "size": 3097,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c629362dcd1d4de3ac17058cac95ac3c1bd00b2b"
+      },
+      {
+        "path": "openscad/openflexure_logo.dxf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b8580d474b29b6ce06d36e42493fde3126ca1f45",
+        "size": 60640,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b8580d474b29b6ce06d36e42493fde3126ca1f45"
+      },
+      {
+        "path": "openscad/openflexure_logo.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58a3d4917cb67f276ad8d3c059dfb9fa409e0228",
+        "size": 29064,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/58a3d4917cb67f276ad8d3c059dfb9fa409e0228"
+      },
+      {
+        "path": "openscad/openflexure_logo_outset.dxf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a651b7a728029495a277ee573eb90bc1e844bec3",
+        "size": 66203,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a651b7a728029495a277ee573eb90bc1e844bec3"
+      },
+      {
+        "path": "openscad/optics.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6487d7ccb8660e4c9789016a2ea2b848c52fe0f",
+        "size": 28829,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c6487d7ccb8660e4c9789016a2ea2b848c52fe0f"
+      },
+      {
+        "path": "openscad/oshw_gear.dxf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "19c5fa0853a1c2e41bafdbb544cd16fdba6f4e09",
+        "size": 13883,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/19c5fa0853a1c2e41bafdbb544cd16fdba6f4e09"
+      },
+      {
+        "path": "openscad/oshw_gear.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "61719010bd229f239b44f6bcbd4696c548b82a9e",
+        "size": 6675,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/61719010bd229f239b44f6bcbd4696c548b82a9e"
+      },
+      {
+        "path": "openscad/readme.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "133c116f9ccaeb020450b983d6cf20154c541dfa",
+        "size": 4118,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/133c116f9ccaeb020450b983d6cf20154c541dfa"
+      },
+      {
+        "path": "openscad/sample_clips.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44bd23e2c45eb2b2ab4b3a17592772dd24860b3f",
+        "size": 3069,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/44bd23e2c45eb2b2ab4b3a17592772dd24860b3f"
+      },
+      {
+        "path": "openscad/sample_riser.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0c14f89fd45d638f708743a1a5ef7cd254ded3c1",
+        "size": 1669,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0c14f89fd45d638f708743a1a5ef7cd254ded3c1"
+      },
+      {
+        "path": "openscad/slide_riser.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b7e8d08d66157aacc7f1fecf7330a26160029fd1",
+        "size": 4562,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b7e8d08d66157aacc7f1fecf7330a26160029fd1"
+      },
+      {
+        "path": "openscad/small_gears.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c949536b8174e3df6db21cf6c230386b76a4168d",
+        "size": 1056,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c949536b8174e3df6db21cf6c230386b76a4168d"
+      },
+      {
+        "path": "openscad/thorlabs_threads.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "677399ade9b38c3540374690bb57e4043cebb768",
+        "size": 5015,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/677399ade9b38c3540374690bb57e4043cebb768"
+      },
+      {
+        "path": "openscad/trylinder_selftap_holes_test.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "027e90d072e67fea02eabef32645d6058c572090",
+        "size": 566,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/027e90d072e67fea02eabef32645d6058c572090"
+      },
+      {
+        "path": "openscad/utilities.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "689c19b1e735788c9f7e5719706591e241d62c1f",
+        "size": 17722,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/689c19b1e735788c9f7e5719706591e241d62c1f"
+      },
+      {
+        "path": "openscad/wall.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "71dd4a81f8c4609b2e8f7d68d62e24ca569652cf",
+        "size": 3577,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/71dd4a81f8c4609b2e8f7d68d62e24ca569652cf"
+      },
+      {
+        "path": "openscad/z_axis.scad",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e12c56239502b906898ad8ab0aafde005cc68351",
+        "size": 11441,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e12c56239502b906898ad8ab0aafde005cc68351"
+      },
+      {
+        "path": "stl",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "5b1d0dbf57e82a6298e508de833e38bfdbbbd21b",
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/trees/5b1d0dbf57e82a6298e508de833e38bfdbbbd21b"
+      },
+      {
+        "path": "stl/1_inch_disc_holder.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "556ae68b692628e039b9f03226d98769ca4acc06",
+        "size": 58224,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/556ae68b692628e039b9f03226d98769ca4acc06"
+      },
+      {
+        "path": "stl/RMS_tube_picamera.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96764ae20a08b36ef7da43f958d5cbe347d4b8df",
+        "size": 2684617,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/96764ae20a08b36ef7da43f958d5cbe347d4b8df"
+      },
+      {
+        "path": "stl/actuator_assembly_tools.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01940f3d9b37bb773f27f93eef124840bccc33e7",
+        "size": 399439,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/01940f3d9b37bb773f27f93eef124840bccc33e7"
+      },
+      {
+        "path": "stl/actuator_assembly_tools_notched.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "632543e15842bf3a8554906c0bd4d47afa37c06a",
+        "size": 446143,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/632543e15842bf3a8554906c0bd4d47afa37c06a"
+      },
+      {
+        "path": "stl/actuator_column.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f906dc47ac2001f37a784bfbbcc94f68e5c4c2a",
+        "size": 69266,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1f906dc47ac2001f37a784bfbbcc94f68e5c4c2a"
+      },
+      {
+        "path": "stl/band_tool.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "39c21e15a76c69a81eedd7ea5daa07c45d6766ae",
+        "size": 329841,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/39c21e15a76c69a81eedd7ea5daa07c45d6766ae"
+      },
+      {
+        "path": "stl/band_tool_double_ended.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba52ab26a0389ce52d8e161663f1bcc98140cddf",
+        "size": 292654,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ba52ab26a0389ce52d8e161663f1bcc98140cddf"
+      },
+      {
+        "path": "stl/band_tool_rounded.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57a01e1fe7478a7a389c95c912f0be3f2d746f5f",
+        "size": 270255,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/57a01e1fe7478a7a389c95c912f0be3f2d746f5f"
+      },
+      {
+        "path": "stl/band_tool_rounded_squat.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "30d826475bf021349a83edc20bd581d3d066acd9",
+        "size": 268478,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/30d826475bf021349a83edc20bd581d3d066acd9"
+      },
+      {
+        "path": "stl/compact_nut_seat_size_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ad0f1e25884d77be956ac65470c7523ed598213",
+        "size": 972886,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6ad0f1e25884d77be956ac65470c7523ed598213"
+      },
+      {
+        "path": "stl/compact_nut_seat_top.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "794f7ae5675ab1f111adb42060e0d286adbc8b12",
+        "size": 217102,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/794f7ae5675ab1f111adb42060e0d286adbc8b12"
+      },
+      {
+        "path": "stl/condenser.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51665a54b4abecc6a52e228b57b8a0409d365d5c",
+        "size": 285799,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/51665a54b4abecc6a52e228b57b8a0409d365d5c"
+      },
+      {
+        "path": "stl/condenser_3mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7815b92ab42d59e0e786a7c91c5713c2e995083",
+        "size": 350856,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f7815b92ab42d59e0e786a7c91c5713c2e995083"
+      },
+      {
+        "path": "stl/condenser_5mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40d92aa93da93a64f6b994f8fb3e4877e757f257",
+        "size": 352161,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/40d92aa93da93a64f6b994f8fb3e4877e757f257"
+      },
+      {
+        "path": "stl/condenser_lens_tool.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "03735bc8ac8f9a95693f94975d8868797c02a196",
+        "size": 40819,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/03735bc8ac8f9a95693f94975d8868797c02a196"
+      },
+      {
+        "path": "stl/condenser_v1.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a732e917627cb6771de3b088c4ae52eee57657ae",
+        "size": 350803,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a732e917627cb6771de3b088c4ae52eee57657ae"
+      },
+      {
+        "path": "stl/cura_profile_fast.ini",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64ab230b5e0650d902d78b27e578bbb716fef49b",
+        "size": 10929,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/64ab230b5e0650d902d78b27e578bbb716fef49b"
+      },
+      {
+        "path": "stl/feet.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1999c85a87727a35c739a551dbff8a4ec4d02214",
+        "size": 491899,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1999c85a87727a35c739a551dbff8a4ec4d02214"
+      },
+      {
+        "path": "stl/fl_cube.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f23a2e1e7e24da8bb6ce38ecad061172a3815057",
+        "size": 205880,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f23a2e1e7e24da8bb6ce38ecad061172a3815057"
+      },
+      {
+        "path": "stl/fl_cube_outer.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b837d58e6dc647dfd31983d3cab14b2aeb41416f",
+        "size": 56927,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b837d58e6dc647dfd31983d3cab14b2aeb41416f"
+      },
+      {
+        "path": "stl/gear_elevator.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f938ec54a7cb8d0495e974b2731d1ea8966af484",
+        "size": 19149,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f938ec54a7cb8d0495e974b2731d1ea8966af484"
+      },
+      {
+        "path": "stl/gears.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "62dad1348a47efbc9c7ebf1d4ec51a9973f91d3e",
+        "size": 1159774,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/62dad1348a47efbc9c7ebf1d4ec51a9973f91d3e"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot-LS75.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2adf866a885701f1ff353d3a5bf7b51cf3fbc3d3",
+        "size": 187865,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2adf866a885701f1ff353d3a5bf7b51cf3fbc3d3"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_5mmLED_L65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e0d9529d58af666c91f20a76282abcca3ab07eb",
+        "size": 130338,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9e0d9529d58af666c91f20a76282abcca3ab07eb"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34748c0ab76014a204eafc1e1f2c3eeae5c79ec6",
+        "size": 186935,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/34748c0ab76014a204eafc1e1f2c3eeae5c79ec6"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_LS65_5mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ca8efd22f3c47e9c00f463caaf4d0334740b30e",
+        "size": 131580,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0ca8efd22f3c47e9c00f463caaf4d0334740b30e"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_LS65_screw.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a54f19e583523af947b7ae0c532157c50a0fd288",
+        "size": 1003827,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a54f19e583523af947b7ae0c532157c50a0fd288"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_LS75.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "805a918ca242a00bf81ee7ea739e90ea45819e6b",
+        "size": 1061966,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/805a918ca242a00bf81ee7ea739e90ea45819e6b"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_LS75_5mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c296bf3b4b491cca32d8b0699ed2e663d6720934",
+        "size": 134694,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c296bf3b4b491cca32d8b0699ed2e663d6720934"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_SS_3mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fc4271ce16b9470d37ba3b401eee464de3834cfc",
+        "size": 244981,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/fc4271ce16b9470d37ba3b401eee464de3834cfc"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_SS_5mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4422e143bdb942376855fe99dfda559407247b08",
+        "size": 132256,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4422e143bdb942376855fe99dfda559407247b08"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_condenseronly.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f26facc282c820309bc478b0b9ed3cdaeabd360",
+        "size": 822898,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5f26facc282c820309bc478b0b9ed3cdaeabd360"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_ls65_condenser.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2aef3aa25a96d9797f1ab9484ef6f15c9c12cb99",
+        "size": 514416,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2aef3aa25a96d9797f1ab9484ef6f15c9c12cb99"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_ls75_condenser.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e1d3cc2a4dedb0dbb3af4147c8a429c08804c8e7",
+        "size": 90438,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e1d3cc2a4dedb0dbb3af4147c8a429c08804c8e7"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_ls75_condenser_2mm_shift.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e6be3b050e47bc4af0ffe0097968353e13136c6",
+        "size": 90497,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1e6be3b050e47bc4af0ffe0097968353e13136c6"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_ls75_condenser_2mm_shift_screws.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cee118ea987d7163245f6c17b579a3e20fda1c4",
+        "size": 231014,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6cee118ea987d7163245f6c17b579a3e20fda1c4"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_missingcondenser.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2d00a1b01b8430bafe312113c96f0070535dce8a",
+        "size": 142536,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2d00a1b01b8430bafe312113c96f0070535dce8a"
+      },
+      {
+        "path": "stl/illumination_and_rear_foot_standard_stage.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e149d9a26bd60bbfd34960a9e98c7eb0fd8a5be",
+        "size": 187636,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8e149d9a26bd60bbfd34960a9e98c7eb0fd8a5be"
+      },
+      {
+        "path": "stl/illumination_dovetail_45mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "561adfd4599b50cacb01f66ec5a8556f148e048d",
+        "size": 157597,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/561adfd4599b50cacb01f66ec5a8556f148e048d"
+      },
+      {
+        "path": "stl/illumination_dovetail_55mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "95ef04e660b622b9a4d639770eb37f64076a5da0",
+        "size": 157540,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/95ef04e660b622b9a4d639770eb37f64076a5da0"
+      },
+      {
+        "path": "stl/illumination_dovetail_bodge.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b8a40db8f00dc2c55f8400f9ebfe2f2920f0399",
+        "size": 157568,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8b8a40db8f00dc2c55f8400f9ebfe2f2920f0399"
+      },
+      {
+        "path": "stl/illumination_v_arm_ls75.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "778a04f9444259e13b50e50f046b32fb0875adfe",
+        "size": 84146,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/778a04f9444259e13b50e50f046b32fb0875adfe"
+      },
+      {
+        "path": "stl/just_leg_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b39b6be8b5457def79e38469fb13b6c4e084861",
+        "size": 14851,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6b39b6be8b5457def79e38469fb13b6c4e084861"
+      },
+      {
+        "path": "stl/large_gear.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "036cfc988e74679967bc5dd6f1af4d72f077473f",
+        "size": 360331,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/036cfc988e74679967bc5dd6f1af4d72f077473f"
+      },
+      {
+        "path": "stl/led_holder.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be645d1aee33587b82f8395390e7441848c29ea3",
+        "size": 119294,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/be645d1aee33587b82f8395390e7441848c29ea3"
+      },
+      {
+        "path": "stl/led_holder_5mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "684f1828139ec1484683c607c0b70bea8bd06124",
+        "size": 81764,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/684f1828139ec1484683c607c0b70bea8bd06124"
+      },
+      {
+        "path": "stl/led_holder_5mm_shorter.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "096f24f2d042660994a639c16ac0c7c84f015db1",
+        "size": 81760,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/096f24f2d042660994a639c16ac0c7c84f015db1"
+      },
+      {
+        "path": "stl/led_mount.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "58e0923f40ba39eb34c53c56094c767ccb8e8c41",
+        "size": 81764,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/58e0923f40ba39eb34c53c56094c767ccb8e8c41"
+      },
+      {
+        "path": "stl/main_body_LS65-M.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d8ac65776ff243eb2a994af86b75daf4da2977a",
+        "size": 6245338,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5d8ac65776ff243eb2a994af86b75daf4da2977a"
+      },
+      {
+        "path": "stl/main_body_LS65-M_no-endstops.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff953c5ef946d3d8a967112c13cafcc0bb0e6df5",
+        "size": 7685165,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ff953c5ef946d3d8a967112c13cafcc0bb0e6df5"
+      },
+      {
+        "path": "stl/main_body_LS65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5afbb58e8072c7e73a47f232f4ee463f58ba83e",
+        "size": 5894633,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e5afbb58e8072c7e73a47f232f4ee463f58ba83e"
+      },
+      {
+        "path": "stl/main_body_LS65_2mm_brim.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8cff49060e45407d993f1dda66bec0a3acdc31bc",
+        "size": 7945083,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8cff49060e45407d993f1dda66bec0a3acdc31bc"
+      },
+      {
+        "path": "stl/main_body_SS-M.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f040fe798411fe7211e1e296114c81f3cf0cb13b",
+        "size": 5478665,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f040fe798411fe7211e1e296114c81f3cf0cb13b"
+      },
+      {
+        "path": "stl/main_body_SS.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "192fa1f8e6b76589507dcc48e3c0599a1a2b7486",
+        "size": 5790500,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/192fa1f8e6b76589507dcc48e3c0599a1a2b7486"
+      },
+      {
+        "path": "stl/main_body_brim.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "502f0b4847f165ba6c9746b76732055178fc5693",
+        "size": 7754343,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/502f0b4847f165ba6c9746b76732055178fc5693"
+      },
+      {
+        "path": "stl/microscope_stand.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c2d286507ef99bee4210712f531350df2181b869",
+        "size": 776198,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c2d286507ef99bee4210712f531350df2181b869"
+      },
+      {
+        "path": "stl/microscope_stand_160mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "27a04bca82e05ade15d74b8f5a433f4b51c55295",
+        "size": 232894,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/27a04bca82e05ade15d74b8f5a433f4b51c55295"
+      },
+      {
+        "path": "stl/microscope_stand_20mm.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21cb1f1df0f044ef9cc061ce952101db5fa5a48c",
+        "size": 231654,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/21cb1f1df0f044ef9cc061ce952101db5fa5a48c"
+      },
+      {
+        "path": "stl/microscope_stand_plus_pi.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31d1204ee2968a5a40cd34b23f5876ef52f256d4",
+        "size": 588975,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/31d1204ee2968a5a40cd34b23f5876ef52f256d4"
+      },
+      {
+        "path": "stl/microscope_stand_plus_sangaboard.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "26ca79bb48d543c5b5e5687149b452c65653836b",
+        "size": 501105,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/26ca79bb48d543c5b5e5687149b452c65653836b"
+      },
+      {
+        "path": "stl/microscope_stand_tall.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3ef76b91642a6e10dfdd74163123c7b08295f6b",
+        "size": 774590,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a3ef76b91642a6e10dfdd74163123c7b08295f6b"
+      },
+      {
+        "path": "stl/middle_foot.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1492b080bba395580f228370613c388cf791b7e8",
+        "size": 228337,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1492b080bba395580f228370613c388cf791b7e8"
+      },
+      {
+        "path": "stl/new_zaxis_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc608f4e26c4f4d30b3f12b8d86d041fa5211799",
+        "size": 683343,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/dc608f4e26c4f4d30b3f12b8d86d041fa5211799"
+      },
+      {
+        "path": "stl/objective_mounting_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35f12d784f3475168d6f1332dc52b31bd5ca9f89",
+        "size": 102632,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/35f12d784f3475168d6f1332dc52b31bd5ca9f89"
+      },
+      {
+        "path": "stl/objective_thread_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7e013df303342139bdf21566fa5075406fcdf27",
+        "size": 157281,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f7e013df303342139bdf21566fa5075406fcdf27"
+      },
+      {
+        "path": "stl/optics_40mm_rms_fl.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de77e2444ec401a9bc03bdd24fd83b9c3f678c6f",
+        "size": 713318,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/de77e2444ec401a9bc03bdd24fd83b9c3f678c6f"
+      },
+      {
+        "path": "stl/optics_40mm_tube_25mm_parfocal_LS65_C270.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0d1093559eb3f2bd74f8a801078a88997e8e6d7c",
+        "size": 1061329,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0d1093559eb3f2bd74f8a801078a88997e8e6d7c"
+      },
+      {
+        "path": "stl/optics_40mm_usbcam.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90ab8d09ea22da7491bc10b7a396c0ff9ba0f64f",
+        "size": 1288477,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/90ab8d09ea22da7491bc10b7a396c0ff9ba0f64f"
+      },
+      {
+        "path": "stl/optics_C270_SS.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "09582bccbe9097818dac356ed5794fd8819391f8",
+        "size": 1106424,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/09582bccbe9097818dac356ed5794fd8819391f8"
+      },
+      {
+        "path": "stl/optics_M12_usb_screwin.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cf3e82ed7c0035800f55b8831e216367d0b65327",
+        "size": 1311659,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/cf3e82ed7c0035800f55b8831e216367d0b65327"
+      },
+      {
+        "path": "stl/optics_ac127_050.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e5fce7eb8be29529044b57ab144a75f041cde7f",
+        "size": 1105474,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0e5fce7eb8be29529044b57ab144a75f041cde7f"
+      },
+      {
+        "path": "stl/optics_ac127_050_30mmparfocal.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f631ed4890a06f6a9be9249dc4798ade5cdbfc7f",
+        "size": 1114534,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f631ed4890a06f6a9be9249dc4798ade5cdbfc7f"
+      },
+      {
+        "path": "stl/optics_all_in_one_C270.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "075f8f32a5eac3dac725dc65627a48bf5df44595",
+        "size": 880614,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/075f8f32a5eac3dac725dc65627a48bf5df44595"
+      },
+      {
+        "path": "stl/optics_all_in_one_picam_pilens.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c7b3612d11cacdcaef6bd9245ec097086ccbe22c",
+        "size": 961682,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c7b3612d11cacdcaef6bd9245ec097086ccbe22c"
+      },
+      {
+        "path": "stl/optics_beamsplitter_cube.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c755251f703e8f91f1bc683428b6af359f068ca",
+        "size": 200670,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5c755251f703e8f91f1bc683428b6af359f068ca"
+      },
+      {
+        "path": "stl/optics_c270_40mm_rms.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "538b22156d428adbd099a9b5fbe959ecd0d7667a",
+        "size": 1061834,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/538b22156d428adbd099a9b5fbe959ecd0d7667a"
+      },
+      {
+        "path": "stl/optics_c270_pilens.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f0bf78c6c4b4cda3ed6fe214bfaf8a40434fe39",
+        "size": 936820,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4f0bf78c6c4b4cda3ed6fe214bfaf8a40434fe39"
+      },
+      {
+        "path": "stl/optics_led_mount.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0ef7d76b8cac466a53503b309a05d1dc03450403",
+        "size": 81760,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0ef7d76b8cac466a53503b309a05d1dc03450403"
+      },
+      {
+        "path": "stl/optics_mount_canti.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92197f43264936a58e98c4f76e9e6ffb9e064043",
+        "size": 919263,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/92197f43264936a58e98c4f76e9e6ffb9e064043"
+      },
+      {
+        "path": "stl/optics_mount_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "683d45b2b804d07cb93f6508176c2e8e6d8f4a72",
+        "size": 136662,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/683d45b2b804d07cb93f6508176c2e8e6d8f4a72"
+      },
+      {
+        "path": "stl/optics_picam2.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d1498d234484b8b3a6d63a98f33be694ecd42b5",
+        "size": 1053221,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/8d1498d234484b8b3a6d63a98f33be694ecd42b5"
+      },
+      {
+        "path": "stl/optics_picam2_rms.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afbbf321f8c2fa8725c11a4450a2e2c194362b93",
+        "size": 1024055,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/afbbf321f8c2fa8725c11a4450a2e2c194362b93"
+      },
+      {
+        "path": "stl/optics_picam2_rms_infiniteconjugates.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68830e79cebba6570ed2222b002e5fb03bf09455",
+        "size": 1139019,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/68830e79cebba6570ed2222b002e5fb03bf09455"
+      },
+      {
+        "path": "stl/optics_picam2_screwin.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6da4f440021a572c81a2eb195337f6274770d1d3",
+        "size": 1012576,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6da4f440021a572c81a2eb195337f6274770d1d3"
+      },
+      {
+        "path": "stl/optics_picamera_rms_f50d13_fl.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0e3e149a70f70b216f12ff9e8a49690093e80e43",
+        "size": 3142573,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0e3e149a70f70b216f12ff9e8a49690093e80e43"
+      },
+      {
+        "path": "stl/optics_rms_40mmtube_picam2.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d3533e6fe40b823461e0d601655e6964c0cf737b",
+        "size": 1125258,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d3533e6fe40b823461e0d601655e6964c0cf737b"
+      },
+      {
+        "path": "stl/optics_rms_60mm_d16f20_singlet_pd35.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d8809d4fc4a62cbfbbe142c925525b7d166d6781",
+        "size": 724150,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/d8809d4fc4a62cbfbbe142c925525b7d166d6781"
+      },
+      {
+        "path": "stl/optics_rms_70mm_d16f20_singlet.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b48e7e8fd7c0e28254fbcf11cc58ac999168eb4a",
+        "size": 734609,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b48e7e8fd7c0e28254fbcf11cc58ac999168eb4a"
+      },
+      {
+        "path": "stl/optics_rms_f40_s65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed4e28fc4d1b283977fd67eb1ed3f83b0cec6aa9",
+        "size": 1125237,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ed4e28fc4d1b283977fd67eb1ed3f83b0cec6aa9"
+      },
+      {
+        "path": "stl/optics_rms_fl_usb_screwin.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54ad67be2aa30b30edc42768a5465828836c0d80",
+        "size": 811336,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/54ad67be2aa30b30edc42768a5465828836c0d80"
+      },
+      {
+        "path": "stl/optics_rms_usb_screwin.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e49bb891b7f13e036c72298cf1bfeacbb21e45f",
+        "size": 1044526,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1e49bb891b7f13e036c72298cf1bfeacbb21e45f"
+      },
+      {
+        "path": "stl/optics_threaded_f40d16_picamera2.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6e80e25fa4cf843f1d31d1307e687735c9d21d2d",
+        "size": 3336186,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6e80e25fa4cf843f1d31d1307e687735c9d21d2d"
+      },
+      {
+        "path": "stl/optics_usb_M12.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "557e87c5fe7e658e24296df96a7f2cc747b0c61f",
+        "size": 1654500,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/557e87c5fe7e658e24296df96a7f2cc747b0c61f"
+      },
+      {
+        "path": "stl/optics_usb_rms.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e4ce21f1d3ef57b4b9cec842b19c02b69dcc74e1",
+        "size": 1433570,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/e4ce21f1d3ef57b4b9cec842b19c02b69dcc74e1"
+      },
+      {
+        "path": "stl/optics_usbcam_ls65.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ba8c6b137a8fc76b66a02f0af3968b5c6a14dc8",
+        "size": 1376235,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5ba8c6b137a8fc76b66a02f0af3968b5c6a14dc8"
+      },
+      {
+        "path": "stl/optics_usbcam_ls65_lessflare.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9edefbba39a081b0d065b6983450fbb5c36b8fb0",
+        "size": 1288455,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9edefbba39a081b0d065b6983450fbb5c36b8fb0"
+      },
+      {
+        "path": "stl/picam1_board_gripper.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abbd7e910ac5d94d391eeb15bfaa268f31ecbfc9",
+        "size": 9710,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/abbd7e910ac5d94d391eeb15bfaa268f31ecbfc9"
+      },
+      {
+        "path": "stl/picam2_board_gripper.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6363989d0ee030d4df597fcd66f449d4dff3af99",
+        "size": 10160,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6363989d0ee030d4df597fcd66f449d4dff3af99"
+      },
+      {
+        "path": "stl/picam2_holder.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "064a1895fc6f4a6dd254dfe630c5226934f880dd",
+        "size": 9914,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/064a1895fc6f4a6dd254dfe630c5226934f880dd"
+      },
+      {
+        "path": "stl/picam2_lens_gripper.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f43b6a240deb7334f2c43ab47367d7d34a34015a",
+        "size": 27460,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f43b6a240deb7334f2c43ab47367d7d34a34015a"
+      },
+      {
+        "path": "stl/picam2_lens_remover.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2b4cb6a36e715f4c6dfaf2a5e86bc8b365078b88",
+        "size": 30084,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2b4cb6a36e715f4c6dfaf2a5e86bc8b365078b88"
+      },
+      {
+        "path": "stl/picam_2_screw_on_cover.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "34ba78a51408a488452146e30a1502908699f35e",
+        "size": 62193,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/34ba78a51408a488452146e30a1502908699f35e"
+      },
+      {
+        "path": "stl/picam_2_screw_on_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b29c8265d244937d6cb26df5c6ca1af9d981420a",
+        "size": 37661,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/b29c8265d244937d6cb26df5c6ca1af9d981420a"
+      },
+      {
+        "path": "stl/readme.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "167f13ad04fb55041e77a5c0563db0ac1ca8461c",
+        "size": 877,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/167f13ad04fb55041e77a5c0563db0ac1ca8461c"
+      },
+      {
+        "path": "stl/rms_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a2d856561bf31ccec7e38c41429e6dd57ae7680",
+        "size": 2534264,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/0a2d856561bf31ccec7e38c41429e6dd57ae7680"
+      },
+      {
+        "path": "stl/rms_test_minus250um.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2f2ba3e76838b5973f8345152aa7bbe16b157534",
+        "size": 2617010,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/2f2ba3e76838b5973f8345152aa7bbe16b157534"
+      },
+      {
+        "path": "stl/rms_test_minus400um.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "566053d4745d1f25493bb74c506606cb277c36a3",
+        "size": 2621729,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/566053d4745d1f25493bb74c506606cb277c36a3"
+      },
+      {
+        "path": "stl/sample_clip_2_standard_stage.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c6dabf5dce2e56d90a2d6590dcc10eac0d83a8c",
+        "size": 110855,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9c6dabf5dce2e56d90a2d6590dcc10eac0d83a8c"
+      },
+      {
+        "path": "stl/sample_clips.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c07019624f910e94ba250a1b8ba240aa8c77b7e7",
+        "size": 224049,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/c07019624f910e94ba250a1b8ba240aa8c77b7e7"
+      },
+      {
+        "path": "stl/sample_clips_culturedish.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f61153839a6a0700abf2b7fa2eed51ec22683ee2",
+        "size": 210996,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/f61153839a6a0700abf2b7fa2eed51ec22683ee2"
+      },
+      {
+        "path": "stl/sample_riser_2_base.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd2338f5f9c86cfc550a94e420843c38d0e2af50",
+        "size": 233106,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/fd2338f5f9c86cfc550a94e420843c38d0e2af50"
+      },
+      {
+        "path": "stl/sample_riser_2_clip.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4260543eb0f0f16b38eb593651e6521039143318",
+        "size": 80720,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/4260543eb0f0f16b38eb593651e6521039143318"
+      },
+      {
+        "path": "stl/simple_riser_2.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5df238503924dce055a56bfb6288f616937bcb3f",
+        "size": 451247,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5df238503924dce055a56bfb6288f616937bcb3f"
+      },
+      {
+        "path": "stl/small_gear.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a18aa42de3c09e581cf87ea06a215ed6ed7a7a0b",
+        "size": 250845,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/a18aa42de3c09e581cf87ea06a215ed6ed7a7a0b"
+      },
+      {
+        "path": "stl/test_feathered_hole_led.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1cb8254211a981f21ec9599696d1688e9d45726e",
+        "size": 127203,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/1cb8254211a981f21ec9599696d1688e9d45726e"
+      },
+      {
+        "path": "stl/tilted_foot.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff8e920c7b2de851d48bfdf1d7ace3c93613889c",
+        "size": 93973,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/ff8e920c7b2de851d48bfdf1d7ace3c93613889c"
+      },
+      {
+        "path": "stl/trylinder_selftap_holes_test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5cd9e54ff3fb344b3f7920b6abe4b12159751c48",
+        "size": 727142,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/5cd9e54ff3fb344b3f7920b6abe4b12159751c48"
+      },
+      {
+        "path": "stl/tube_lens_tool.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fbb61492eae6c5349bf4a72c0f3a76a3400eba43",
+        "size": 40819,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/fbb61492eae6c5349bf4a72c0f3a76a3400eba43"
+      },
+      {
+        "path": "stl/ultimaker_faster_mac.ini",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c205f107864c10bb6b74bfeebc5e591bfb2911c",
+        "size": 10920,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/6c205f107864c10bb6b74bfeebc5e591bfb2911c"
+      },
+      {
+        "path": "stl/ultimaker_from_mac_faster.ini",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dc95801c46d7b56ad5905e1c9f2785e07214fb82",
+        "size": 10920,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/dc95801c46d7b56ad5905e1c9f2785e07214fb82"
+      },
+      {
+        "path": "stl/untilted_foot.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e7fc9ad1c3bc470041d9e44e273375c2eb91e90",
+        "size": 80581,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9e7fc9ad1c3bc470041d9e44e273375c2eb91e90"
+      },
+      {
+        "path": "stl/z_axis.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9d9a4d1ee752a3f849c7a76686b4cbb8d8391bb1",
+        "size": 848953,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/9d9a4d1ee752a3f849c7a76686b4cbb8d8391bb1"
+      },
+      {
+        "path": "test.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54f8c9bb370b54d9fdcf07250e5dd999025ab5ce",
+        "size": 52565,
+        "url": "https://api.github.com/repos/rwb27/openflexure_microscope/git/blobs/54f8c9bb370b54d9fdcf07250e5dd999025ab5ce"
+      }
+    ],
+    "truncated": false
+  }
+}

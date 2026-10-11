@@ -1,0 +1,115 @@
+{
+  "id": "ssg48-drive-gear",
+  "name": "SSG48 夹爪传动齿轮",
+  "category": "减速与传动",
+  "material": null,
+  "summary": "SSG48 夹爪传动齿轮，来自 Source-Robotics/SSG-48-adaptive-electric-gripper 的公开机械设计。",
+  "useCase": "小型电动夹爪动力传递",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/gripper_gear.STEP",
+  "downloadUrl": "https://raw.githubusercontent.com/Source-Robotics/SSG-48-adaptive-electric-gripper/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/STEPS/Gripper%20STEP%20files/gripper_gear.STEP",
+  "sourceProject": "ssg48",
+  "author": "Source Robotics / Petar Crnjak",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/Source-Robotics/SSG-48-adaptive-electric-gripper/blob/cb99f63e793e1887edfcfa8c07353b5c5bdedc51/LICENSE",
+  "licensePath": "assets/sources/ssg48/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/ssg48-drive-gear/source.step",
+  "sizeBytes": 445336,
+  "sha256": "754febce5eff2ffa30d25a5830b6e485eab768b65d82215acc52a63f22756b10",
+  "downloadedAt": "2026-10-09T04:04:01.796359+00:00",
+  "upstreamCommit": "cb99f63e793e1887edfcfa8c07353b5c5bdedc51",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 445336,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE.",
+      ".MILLI., .METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2634.18826,
+      "area_mm2": 2197.829789,
+      "bbox": {
+        "min": [
+          -2.5007649962499134,
+          -13.500000100000005,
+          -13.504196142988983
+        ],
+        "max": [
+          8.154196142988981,
+          13.500000100000003,
+          13.504196142988983
+        ],
+        "size": [
+          10.654961139238894,
+          27.00000020000001,
+          27.008392285977965
+        ]
+      },
+      "center_of_mass": [
+        4.885605905679024,
+        1.8774014101971982e-07,
+        -1.216234777298332e-05
+      ],
+      "faces": 107,
+      "edges": 297,
+      "sum_of_solid_volumes_mm3": 2634.1882600943836
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/ssg48-drive-gear/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:11.683141+00:00"
+  },
+  "browserModelPath": "assets/catalog/ssg48-drive-gear/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/ssg48-drive-gear/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "browserModelSha256": "d4162c1f36011bd7a9205879d87fb7f64bac3d3eebe6e6ddb29be20b440a2e56",
+  "browserModelSizeBytes": 231320,
+  "browserMeshPath": "assets/catalog/ssg48-drive-gear/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/ssg48-drive-gear/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry.",
+  "thumbnailPath": "assets/catalog/ssg48-drive-gear/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/ssg48-drive-gear/thumbnail.png",
+  "thumbnailSha256": "e46bb5bd7ab60c2ee9607159b1a166ffa6226bce8139a037ec22040c89a5ad16",
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/ssg48-drive-gear/preview-cad/mesh.json",
+    "sourceMeshSha256": "04fe711deed9fd5f9d9cddd3468c718bed6ee68ff4449924bab85558f41ff409",
+    "trianglesRendered": 9516,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  }
+}

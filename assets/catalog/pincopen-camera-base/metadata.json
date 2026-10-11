@@ -1,0 +1,124 @@
+{
+  "id": "pincopen-camera-base",
+  "name": "夹爪视觉相机安装座",
+  "category": "治具与安装",
+  "material": null,
+  "summary": "夹爪视觉相机安装座，来自 pollen-robotics/PincOpen 的公开机械设计。",
+  "useCase": "手眼视觉与末端相机安装",
+  "hero": false,
+  "sourceType": "public-open-hardware",
+  "sourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Camera_basement.step",
+  "downloadUrl": "https://raw.githubusercontent.com/pollen-robotics/PincOpen/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/step/Camera_basement.step",
+  "sourceProject": "pincopen",
+  "author": "Pollen Robotics",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/LICENSE",
+  "licensePath": "assets/sources/pincopen/LICENSE",
+  "format": "STEP",
+  "localPath": "assets/catalog/pincopen-camera-base/source.step",
+  "sizeBytes": 112417,
+  "sha256": "7be9852b0a85edf7240f6e8ee78e0586cd294fd973cba69ff9df2ab7855aaf49",
+  "downloadedAt": "2026-10-09T04:04:01.799177+00:00",
+  "upstreamCommit": "1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7",
+  "geometryOrigin": "downloaded-original",
+  "verificationStatus": "OpenCascade import and B-rep validity passed; source geometry tessellated for display, not reconstructed from a drawing",
+  "manufacturingHistory": null,
+  "inventoryQuantity": null,
+  "notes": "公开机械资产；未声称本企业生产过，未生成企业库存或历史。",
+  "fileValidation": {
+    "sha256Matches": true,
+    "sizeBytes": 112417,
+    "formatValid": true,
+    "manifoldSolidBrepEntities": 1,
+    "facetedBrepEntities": 0,
+    "closedShellEntities": 1,
+    "lengthUnitHints": [
+      "$,.METRE."
+    ],
+    "kernelValidation": "passed",
+    "brepWithVoidsEntities": 0
+  },
+  "previewPath": "assets/catalog/pincopen-camera-base/preview.stl",
+  "previewSha256": "eea097b2721e8c07ea930d2f37913b60b3be9ca647919a881db639ecb7310605",
+  "previewSourceUrl": "https://github.com/pollen-robotics/PincOpen/blob/1b5a3dc83cb4eae042d535bda3765b9e12a9b8a7/cad/stl/Camera_basement.stl",
+  "previewDownloadedAt": "2026-10-09T04:05:59.244980+00:00",
+  "previewNote": "同一上游项目配套STL；STEP与STL几何一致性尚未通过内核交叉验证。",
+  "previewValidation": {
+    "binaryLengthValid": true,
+    "triangles": 11766,
+    "sha256Matches": true,
+    "units": "unspecified-in-STL"
+  },
+  "thumbnailProvenance": {
+    "renderer": "matplotlib Poly3DCollection",
+    "sourceMeshPath": "assets/catalog/pincopen-camera-base/preview-cad/mesh.json",
+    "sourceMeshSha256": "95e31a2472d66da9a26ce0aaaa302a4fa894c5b9b87245c96f20f735a6d236bb",
+    "trianglesRendered": 9618,
+    "geometryDecimated": false,
+    "view": {
+      "projection": "orthographic",
+      "elevation": 29,
+      "azimuth": -53
+    },
+    "framing": "alpha bounds centered on a transparent canvas",
+    "background": "transparent",
+    "appearance": "metallic grey visualization; not actual material"
+  },
+  "thumbnailPath": "assets/catalog/pincopen-camera-base/thumbnail.png",
+  "thumbnailUrl": "/assets/catalog/pincopen-camera-base/thumbnail.png",
+  "thumbnailSha256": "96e585952f66b37c78b14db6a12943af1ba07b22e5bf39f2992bd14f9f798315",
+  "browserModelPath": "assets/catalog/pincopen-camera-base/preview-cad/model.glb",
+  "browserModelUrl": "/assets/catalog/pincopen-camera-base/preview-cad/model.glb",
+  "browserModelFormat": "GLB",
+  "importExitCode": 0,
+  "kernelValidation": {
+    "status": "passed",
+    "topologyValidated": true,
+    "importStatus": "completed",
+    "measurements": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 10341.777835,
+      "area_mm2": 8142.925448,
+      "bbox": {
+        "min": [
+          -78.35757543050117,
+          -21.41060246260764,
+          19.499397537392362
+        ],
+        "max": [
+          -23.341799301924205,
+          21.41060246260764,
+          70.70073213850291
+        ],
+        "size": [
+          55.01577612857697,
+          42.82120492521528,
+          51.20133460111055
+        ]
+      },
+      "center_of_mass": [
+        -49.03474922019687,
+        -3.391285348318399e-08,
+        46.10497846729572
+      ],
+      "faces": 74,
+      "edges": 224,
+      "sum_of_solid_volumes_mm3": 10341.777835471665
+    },
+    "sourceFormat": "STEP",
+    "manifestPath": "assets/catalog/pincopen-camera-base/preview-cad/manifest.json",
+    "unitsNote": "STEP kernel values use millimetres; STL has no unit metadata and is assumed millimetres.",
+    "solidOrComponentCount": 1,
+    "hierarchyNote": "STEP B-rep solids preserved as separate objects. Source product hierarchy, instance labels and constraints were not recovered.",
+    "tool": "tools/cad/runner.py import",
+    "errors": [],
+    "checkedAt": "2026-10-09T04:15:13.800251+00:00"
+  },
+  "browserModelSha256": "81ab808f3cc1e87186f8d0f7e8301bb191607abb1706c9b59ff590787803c0d3",
+  "browserModelSizeBytes": 232856,
+  "browserMeshPath": "assets/catalog/pincopen-camera-base/preview-cad/mesh.json",
+  "browserManifestPath": "assets/catalog/pincopen-camera-base/preview-cad/manifest.json",
+  "previewIsReconstruction": false,
+  "previewDerivation": "Tessellated or converted from attributed upstream CAD; no reconstructed geometry."
+}

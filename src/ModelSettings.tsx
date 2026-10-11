@@ -83,7 +83,7 @@ export default function ModelSettings({ refresh, onClose, locked = false }: { re
   return dialog(<>
     {error ? <p className="inline-error" role="alert">{error}{!configs ? <button type="button" className="text-button" onClick={() => setLoadAttempt((value) => value + 1)}>重新读取</button> : null}</p> : null}
     {!configs || !config ? !error ? <div className="model-dialog-body"><LoaderCircle aria-label="读取模型设置" className="spin" /></div> : null : <>
-      {locked ? <div className="model-setup-notice settings-key-notice" role="status" aria-label="在线体验版说明"><CircleAlert size={20} /><div><strong>在线体验版不能修改模型连接</strong><p>接口与密钥由部署方配置，访客无需填写 API Key。如需连接自己的模型服务，请下载本地运行包。</p></div></div> : null}
+      {locked ? <div className="model-setup-notice settings-key-notice" role="status" aria-label="在线体验版说明"><CircleAlert size={20} /><div><strong>在线体验版使用 {config.model || "部署方配置的模型"}，不能修改模型连接</strong><p>接口与密钥由部署方配置，访客无需填写 API Key。如需连接自己的模型服务，请下载本地运行包。</p></div></div> : null}
       {!locked && !config.hasKey ? <div className="model-setup-notice settings-key-notice" role="status" aria-label="API Key 配置提醒"><CircleAlert size={20} /><div><strong>此接口尚未保存 API Key</strong><p id="api-key-help">填写密钥并保存后即可运行任务。</p></div></div> : null}
       <form className="settings-form" onSubmit={(event) => { event.preventDefault(); if (!locked) void save(); }}><fieldset className="settings-fieldset" disabled={locked}>
         <label>模型接口<select aria-label="模型接口" value={selected} disabled={saving} onChange={(event) => { setSelected(event.target.value as ProviderId); setKey(""); setMessage(""); setError(""); }}>{providers.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>

@@ -37,7 +37,7 @@ export function hostedDemoGuard(config, limiter = createRateLimiter()) {
   const minutes = seconds => Math.max(1, Math.ceil(seconds / 60));
   return (req, res, next) => {
     if (req.method !== 'POST') return next();
-    if (req.path === '/api/settings') return res.status(403).json({ error: '在线体验版已由部署方固定接入官方 Agnes 3.0 Flash，不能修改模型连接。如需使用自己的 Key，请下载本地运行包。' });
+    if (req.path === '/api/settings') return res.status(403).json({ error: '在线体验版已由部署方固定接入 MiniMax-M3，不能修改模型连接。如需使用自己的 Key，请下载本地运行包。' });
     const address = clientAddress(req);
     if (req.path === '/api/tasks' && req.body?.mode !== 'geometry') {
       // Check both windows before recording, so a rejected request never spends either allowance.

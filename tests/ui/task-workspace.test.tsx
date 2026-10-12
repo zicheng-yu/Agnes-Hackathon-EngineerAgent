@@ -53,6 +53,17 @@ describe("TaskWorkspace input and execution evidence", () => {
     await user.click(screen.getByRole("button", { name: "开始任务" }));
     await waitFor(() => expect(screen.getAllByRole("region", { name: "本次任务记录" })).toHaveLength(2));
   });
+  it("explains each case in full on a task page and shows the compact rail only after a conversation starts", async () => {
+    const detailed = [{ ...demoCases[1], purpose: "验证缺尺寸时会询问", checks: ["只调用请求补充资料", "列出缺失的板厚"] }];
+    mockApi.mockImplementation(((url: string) => url === "/assets/demo-cases/cases.json" ? Promise.resolve({ cases: detailed }) : Promise.reject(new Error(url))) as typeof api);
+    render(<TaskWorkspace fixedMode="reconstruct" health={health} assets={assets} onSelectAsset={onAsset} onOpenSettings={onSettings} />);
+    const details = await screen.findByRole("region", { name: "测试案例详解" });
+    expect(details).toHaveTextContent("验证缺尺寸时会询问");
+    expect(details).toHaveTextContent("列出缺失的板厚");
+    expect(details).toHaveTextContent("边界测试");
+    expect(screen.queryByRole("region", { name: "测试案例" })).not.toBeInTheDocument();
+    expect(screen.getAllByRole("button", { name: "运行案例：缺厚度图纸" })).toHaveLength(1);
+  });
   it("keeps a fixed task page on its own task type without a type switch", async () => {
     render(<TaskWorkspace fixedMode="order_review" health={health} assets={assets} onSelectAsset={onAsset} onOpenSettings={onSettings} />);
     expect(screen.getByRole("heading", { name: "订单评审", level: 1 })).toBeVisible();

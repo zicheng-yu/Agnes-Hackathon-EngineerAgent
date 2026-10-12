@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState, type FormEvent, type ReactElement } from "react";
+import { useEffect, useId, useRef, useState, type FormEvent, type ReactElement, type ReactNode } from "react";
 import { ArrowUpRight, Box, Check, ChevronDown, ChevronRight, ClipboardList, Cpu, Gauge, Layers3, ListChecks, MessageSquare, ScanSearch, Upload, CircleAlert, CirclePause, Download, FileText, FlaskConical, LoaderCircle, Paperclip, Play, Search, Send, Settings2, Terminal, Wrench, X } from "lucide-react";
 import { api, jsonPost } from "./api";
 import { readWorkspace, saveWorkspace } from './workspace-state';
@@ -15,7 +15,7 @@ type Data = Record<string, unknown>;
 type Mode = "reconstruct" | "order_review" | "catalog_search";
 type TaskEvent = { time?: string; type?: string; message?: string; toolUseId?: string; toolName?: string; name?: string; phase?: string; input?: unknown; output?: unknown };
 export type WorkspaceTask = { parentTaskId?: string; revision?: number; cancelRequested?: boolean; usage?: TaskUsageData; id: string; status: string; title?: string; mode?: string; instruction?: string; createdAt?: string; events?: TaskEvent[]; result?: Data; error?: string };
-type DemoCase = { id: string; mode: Mode; kind: "normal" | "boundary" | "failure"; title: string; summary: string; instruction: string; expect: string; document?: { url: string; name: string; preview?: string; pages?: number[] } };
+type DemoCase = { id: string; mode: Mode; kind: "normal" | "boundary" | "failure"; title: string; summary: string; instruction: string; expect: string; purpose?: string; checks?: string[]; document?: { url: string; name: string; preview?: string; pages?: number[] } };
 type Snapshot = { instruction: string; mode: Mode; documentId?: string; documentName?: string; pages: number[] };
 type ToolCall = { id: string; name: string; time?: string; input?: unknown; output?: unknown; message?: string; phase: "running" | "completed" | "failed" };
 const record = (value: unknown): Data => value !== null && typeof value === "object" && !Array.isArray(value) ? value as Data : {};
@@ -261,14 +261,40 @@ function CaseRail({ cases, mode, disabled, active, onRun }: { cases: DemoCase[];
   </section>;
 }
 
-function EmptyGuide({ mode, selectable, onMode }: { mode: Mode; selectable: boolean; onMode: (mode: Mode) => void }) {
+/** Task pages explain each demo case in full: why it exists, what goes in and what to verify. */
+function CaseDetails({ cases, mode, disabled, active, onRun }: { cases: DemoCase[]; mode: Mode; disabled: boolean; active: string; onRun: (item: DemoCase) => void }) {
+  const visible = cases.filter((item) => item.mode === mode);
+  if (!visible.length) return null;
+  return <section className="case-details" aria-label="测试案例详解">
+    <h2><FlaskConical size={16} />测试案例<span>每个案例都经 AGH 实际运行；运行后可按“核查要点”逐项对照结果</span></h2>
+    <div className="case-detail-list">{visible.map((item) => <article key={item.id} className={`case-detail${active === item.id ? " is-active" : ""}`}>
+      <header>
+        <em className={`task-case-kind task-case-kind--${item.kind}`}>{kindNames[item.kind]}</em>
+        <h3>{item.title}</h3>
+        <button type="button" className="primary-button" disabled={disabled} aria-label={`运行案例：${item.title}`} onClick={() => onRun(item)}><Play size={14} />运行</button>
+      </header>
+      <div className="case-detail-body">
+        {item.document?.preview ? <a className="case-detail-preview" href={item.document.url} target="_blank" rel="noreferrer" title="打开原图纸"><img src={item.document.preview} alt={`${item.title}图纸`} loading="lazy" /></a> : null}
+        <dl>
+          {item.purpose ? <div><dt>测试目的</dt><dd>{item.purpose}</dd></div> : null}
+          <div><dt>输入</dt><dd>{item.summary}</dd></div>
+          <div><dt>预期结果</dt><dd>{item.expect}</dd></div>
+          {item.checks?.length ? <div><dt>核查要点</dt><dd><ul>{item.checks.map((check) => <li key={check}>{check}</li>)}</ul></dd></div> : null}
+        </dl>
+      </div>
+    </article>)}</div>
+  </section>;
+}
+
+function EmptyGuide({ mode, selectable, onMode, children }: { mode: Mode; selectable: boolean; onMode: (mode: Mode) => void; children?: ReactNode }) {
   const guide = modeGuides[mode];
   return <div className="chat-empty">
     {selectable ? <div className="chat-mode-cards" role="group" aria-label="选择任务类型">{modes.map(({ id, label, detail, icon: Icon }) => <button type="button" key={id} aria-pressed={mode === id} onClick={() => onMode(id)}><Icon size={20} /><strong>{label}</strong><small>{detail}</small></button>)}</div> : null}
     <section className="chat-guide" aria-label={`${guide.title}流程`}>
       <ol className="chat-flow">{guide.flow.map(({ label, detail, icon: Icon }, index) => <li key={label}><span className="chat-flow-icon"><Icon size={18} /></span><strong>{index + 1}. {label}</strong><small>{detail}</small></li>)}</ol>
-      <p className="chat-guide-hint">{guide.note} 在下方输入任务，或点击一个测试案例直接运行。</p>
+      <p className="chat-guide-hint">{guide.note} {children ? "在下方输入任务，或选择一个测试案例运行。" : "在下方输入任务，或点击一个测试案例直接运行。"}</p>
     </section>
+    {children}
   </div>;
 }
 
@@ -460,7 +486,9 @@ export default function TaskWorkspace({ health, assets, onSelectAsset, onOpenSet
       <ModelSetupNotice health={health} onOpenSettings={onOpenSettings} />
       {health?.publicTrial || health?.metered ? <details className="task-usage-disclosure"><summary>用量与费用</summary><UsagePanel /></details> : null}
       {turns.length ? <div className="chat-thread">{turns.map((turn) => <TurnView key={turn.task.id} turn={turn} assets={assets} onSelectAsset={onSelectAsset} preview={preview} canCancel={canCancel} onCancel={() => void cancel(turn.task)} />)}</div>
-        : <EmptyGuide mode={mode} selectable={!fixedMode} onMode={(next) => { setMode(next); setError(""); setSetupNotice(""); }} />}
+        : <EmptyGuide mode={mode} selectable={!fixedMode} onMode={(next) => { setMode(next); setError(""); setSetupNotice(""); }}>
+            {fixedMode ? <CaseDetails cases={cases} mode={mode} disabled={running || uploading} active={activeCase} onRun={(item) => { void runCase(item); }} /> : null}
+          </EmptyGuide>}
       {pollError ? <div className="task-error" role="alert"><p>{pollError}。任务可能仍在运行，已收到的记录会保留。</p><button className="secondary-button" type="button" onClick={() => { setPollError(""); setPollAttempt((value) => value + 1); }}>重新连接记录</button></div> : null}
     </div>
     <div className="chat-dock">
@@ -482,7 +510,8 @@ export default function TaskWorkspace({ health, assets, onSelectAsset, onOpenSet
           <button className="primary-button" type="submit" aria-label="开始任务" disabled={!allowSubmit}>{running ? <LoaderCircle className="spin" size={18} /> : <Send size={18} />}{running ? "正在执行" : followUp ? "补充并继续" : "发送"}</button>
         </div>
       </form>
-      <CaseRail cases={cases} mode={mode} disabled={running || uploading} active={activeCase} onRun={(item) => { void runCase(item); }} />
+      {/* Task pages show the detailed cases until a conversation starts, then the compact rail. */}
+      {!fixedMode || turns.length ? <CaseRail cases={cases} mode={mode} disabled={running || uploading} active={activeCase} onRun={(item) => { void runCase(item); }} /> : null}
     </div>
   </div>;
 }

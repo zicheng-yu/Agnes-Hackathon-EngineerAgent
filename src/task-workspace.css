@@ -34,6 +34,27 @@ main.main--chat > .inline-error { flex: none; }
 .chat-flow small { color: var(--text-2); font-size: 12px; line-height: 1.45; }
 .chat-guide-hint { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); text-align: center; color: var(--text-3); font-size: 12px; }
 
+/* Detailed demo cases on task pages */
+.case-details h2 { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; font-size: 14px; }
+.case-details h2 svg { align-self: center; color: var(--accent); }
+.case-details h2 span { color: var(--text-3); font-size: 12px; font-weight: 400; }
+.case-detail-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 12px; }
+.case-detail { display: flex; flex-direction: column; gap: 12px; padding: 14px 16px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.case-detail.is-active { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); }
+.case-detail header { display: flex; align-items: center; gap: 8px; }
+.case-detail header h3 { flex: 1; min-width: 0; font-size: 15px; }
+.case-detail header .primary-button { height: 30px; padding: 0 12px; font-size: 13px; }
+.case-detail-body { display: flex; gap: 14px; align-items: flex-start; }
+.case-detail-preview { flex-shrink: 0; width: 132px; border: 1px solid var(--line); border-radius: var(--radius-sm); overflow: hidden; background: #fff; }
+.case-detail-preview img { display: block; width: 100%; aspect-ratio: 297 / 210; object-fit: cover; }
+.case-detail-preview:hover { border-color: var(--accent); }
+.case-detail dl { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; margin: 0; }
+.case-detail dl > div { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 10px; font-size: 13px; line-height: 1.6; }
+.case-detail dt { color: var(--text-3); }
+.case-detail dd { margin: 0; color: var(--text); overflow-wrap: anywhere; }
+.case-detail ul { margin: 0; padding-left: 16px; }
+.case-detail li + li { margin-top: 2px; }
+
 /* Conversation turns */
 .chat-thread { display: flex; flex-direction: column; gap: 28px; }
 .chat-turn { display: flex; flex-direction: column; gap: 12px; }
@@ -226,6 +247,9 @@ main.main--chat > .inline-error { flex: none; }
 }
 @media (max-width: 800px) {
   main.main--chat { padding: 12px 12px 10px; }
+  .case-detail-body { flex-direction: column; }
+  .case-detail-preview { width: 100%; }
+  .case-detail dl > div { grid-template-columns: 1fr; gap: 2px; }
   .chat-help { display: none; }
   .chat-bubble { max-width: 92%; }
   .chat-case { width: 200px; }

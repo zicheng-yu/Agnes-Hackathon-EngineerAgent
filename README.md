@@ -8,7 +8,7 @@
 
 每次任务的工具调用实时显示，并可导出 AGH 原生执行记录供复核。
 
-- 在线体验：<https://engineeragent.zichengyu.site/>（无需安装，模型为 MiniMax-M3）
+- 在线体验：<https://engineeragent.liudonghe.com/>（无需安装，模型为 MiniMax-M3；备用地址 <http://175.27.128.112/>）
 - 开源仓库：<https://github.com/zicheng-yu/Agnes-Hackathon-EngineerAgent>
 
 ## 快速启动

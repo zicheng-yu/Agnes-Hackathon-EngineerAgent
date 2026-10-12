@@ -14,7 +14,8 @@ export const ARCHIVE_NAME = '本科生组-U263-盼盼法式小面包-余梓丞.z
 export const INNER_NAME = 'EngineerAgent.zip';
 export const RECORDS_DIR = 'AGH执行记录';
 export const REPOSITORY_URL = 'https://github.com/zicheng-yu/Agnes-Hackathon-EngineerAgent';
-export const DEMO_URL = 'https://engineeragent.zichengyu.site/';
+export const DEMO_URL = 'https://engineeragent.liudonghe.com/';
+export const DEMO_BACKUP_URL = 'http://175.27.128.112/';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const exec = promisify(execFile);
 const FIXED_TIME = [2026, 10, 10, 0, 0, 0];
@@ -75,7 +76,7 @@ async function walk(base, prefix = '') {
 
 /** The only document at the top of the submission: links and the shortest path to a running app. */
 export function howToStart(demoUrl) {
-  const demo = demoUrl ? `<${demoUrl}>` : '（链接待发布）';
+  const demo = demoUrl ? `<${demoUrl}>（备用地址 <${DEMO_BACKUP_URL}>）` : '（链接待发布）';
   return `# EngineerAgent 启动说明
 
 - 在线体验（无需安装）：${demo}

@@ -155,19 +155,22 @@ describe("TaskWorkspace input and execution evidence", () => {
   it("runs a demo case in one click and sends the next message as a linked supplement", async () => {
     const received: Record<string, unknown>[] = [];
     post = async (body) => { received.push(body); return { ...completed, id: `task-${received.length}`, result: { outcome: "needs_input", clarification: { question: "请补充板厚", missing: [{ item: "厚度", evidence: "主视图标注为 ?" }] } } }; };
-    const fetched = vi.fn(async () => new Response(new Blob(["%PDF-1.4"], { type: "application/pdf" })));
+    const fetched = vi.fn(async () => new Response(new Blob([])));
     vi.stubGlobal("fetch", fetched);
+    const demoRequests: unknown[] = [];
     mockApi.mockImplementation(((url: string, options?: RequestInit) => {
       if (url === "/assets/demo-cases/cases.json") return Promise.resolve({ cases: demoCases });
       if (url === "/api/tasks") return post(JSON.parse(String(options?.body)));
-      if (url === "/api/documents") return Promise.resolve({ id: "drawing-1", name: "d.pdf", mime: "application/pdf", pages: [{ page: 1, text: "" }] });
+      if (url === "/api/demo-documents") { demoRequests.push(JSON.parse(String(options?.body))); return Promise.resolve({ id: "drawing-1", name: "d.pdf", mime: "application/pdf", pages: [{ page: 1, text: "" }] }); }
       throw new Error(`Unexpected API: ${url}`);
     }) as typeof api);
     mount({ ...health, taskRevisions: true }); const user = userEvent.setup();
     expect(screen.queryByRole("button", { name: /填入案例/ })).not.toBeInTheDocument();
     await user.click(await screen.findByRole("button", { name: "运行案例：缺厚度图纸" }));
     await waitFor(() => expect(received).toHaveLength(1));
-    expect(fetched).toHaveBeenCalledWith("/assets/demo-cases/d.pdf");
+    // The drawing is attached on the server; the page never downloads and re-uploads the PDF.
+    expect(demoRequests).toEqual([{ caseId: "drawing-case" }]);
+    expect(fetched).not.toHaveBeenCalled();
     expect(received[0]).toEqual({ mode: "reconstruct", instruction: "重建附件图纸", documentId: "drawing-1", pages: [1] });
     expect(await screen.findByRole("heading", { name: "等待补充资料" })).toBeVisible();
     expect(screen.getByText("主视图标注为 ?")).toBeVisible();

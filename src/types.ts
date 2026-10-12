@@ -23,6 +23,8 @@ export type Asset = {
   tags?: string[];
   [key: string]: unknown;
 };
+export type DemoVideoSource = { hd: string; sd?: string; poster?: string };
+
 export type Health = {
   hasApiKey?: boolean;
   usageEnabled?: boolean;
@@ -31,6 +33,7 @@ export type Health = {
   preview?: boolean;
   publicTrial?: boolean;
   hostedDemo?: boolean;
+  demoVideo?: DemoVideoSource;
   metered?: boolean;
   localMode?: boolean;
   runnerOnline?: boolean;

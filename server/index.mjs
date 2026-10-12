@@ -55,6 +55,15 @@ app.use(
   "/runs",
   express.static(path.join(dataRoot, "runs"), { dotfiles: "deny" }),
 );
+// Promo video for the hosted trial; kept outside the repository so the submission archive stays small.
+const mediaRoot = process.env.ENGINEERAGENT_MEDIA_DIR ? path.resolve(process.env.ENGINEERAGENT_MEDIA_DIR) : null;
+if (mediaRoot) app.use("/media", express.static(mediaRoot, { dotfiles: "deny", maxAge: "1d" }));
+function demoVideo() {
+  if (!mediaRoot) return undefined;
+  const url = (name) => existsSync(path.join(mediaRoot, name)) ? `/media/${name}` : undefined;
+  const hd = url("engineeragent-demo-1080p.mp4");
+  return hd ? { hd, sd: url("engineeragent-demo-720p.mp4"), poster: url("engineeragent-demo-poster.jpg") } : undefined;
+}
 
 const safeId = /^[a-zA-Z0-9_-]+$/;
 const tasks = new Map();
@@ -164,6 +173,7 @@ app.get("/api/health", async (req, res) => {
     taskCancellation: true,
     taskRevisions: true,
     hostedDemo: hosted.enabled,
+    demoVideo: demoVideo(),
   });
 });
 app.get("/api/catalog", async (req, res) => {res.set('Cache-Control','private, max-age=30');res.json(await readCatalog());});
@@ -228,71 +238,69 @@ const upload = multer({
   storage: multer.memoryStorage(),
   limits: { fileSize: 40 * 1024 * 1024, files: 1 },
 });
-app.post("/api/documents", upload.single("file"), async (req, res) => {
-  if (!req.file) return res.status(400).json({ error: "请选择文件" });
-  const extension = path.extname(req.file.originalname).toLowerCase();
-  if (
-    ![
-      ".pdf",
-      ".png",
-      ".jpg",
-      ".jpeg",
-      ".webp",
-      ".dxf",
-      ".step",
-      ".stp",
-      ".json",
-    ].includes(extension)
-  )
-    return res
-      .status(400)
-      .json({ error: "支持 PDF、图片、DXF、STEP 和建模 JSON" });
+const documentExtensions = [".pdf", ".png", ".jpg", ".jpeg", ".webp", ".dxf", ".step", ".stp", ".json"];
+const documentMimes = { ".pdf": "application/pdf", ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp" };
+// Reader failures become a specific, user-actionable message; the raw reason only goes to the server log.
+function documentErrorMessage(reason = "") {
+  if (/empty|EOF marker|0 bytes/i.test(reason)) return "收到的文件是空的，可能是浏览器没有读到文件内容。请重新选择文件上传；若仍失败，请换用 Safari 或 Chrome。";
+  if (/decrypt|encrypt|password/i.test(reason)) return "这个 PDF 设置了打开密码，请先去除密码后再上传。";
+  if (/超过 100 页/.test(reason)) return reason;
+  if (/cannot identify image|image file is truncated|decompression bomb/i.test(reason)) return "无法识别这张图片，请导出为 PNG 或 JPG 后重新上传。";
+  if (/timed out|timeout|超时/i.test(reason)) return "读取文件超时，请稍后重试，或上传页数更少的文件。";
+  return "无法读取此文件，请确认文件未损坏、未加密且能够正常打开，再重新上传。";
+}
+/** Store one uploaded drawing and read its pages; throws {status, error} for rejected input. */
+async function ingestDocument(buffer, originalName) {
+  const extension = path.extname(originalName).toLowerCase();
+  if (!documentExtensions.includes(extension)) throw { status: 400, error: "支持 PDF、图片、DXF、STEP 和建模 JSON" };
+  if (!buffer?.length) {
+    console.warn(`[documents] empty upload (${extension})`);
+    throw { status: 422, error: documentErrorMessage("empty") };
+  }
   const id = randomUUID();
   const dir = path.join(dataRoot, "uploads", id);
   await fs.mkdir(dir);
   const file = path.join(dir, "input" + extension);
-  await fs.writeFile(file, req.file.buffer);
+  await fs.writeFile(file, buffer);
   let parsed = {};
   try {
-    parsed = readJsonOutput(
-      (
-        await run(
-          python,
-          [path.join(root, "tools/read_document.py"), file],
-          60000,
-        )
-      ).stdout,
-    );
+    parsed = readJsonOutput((await run(python, [path.join(root, "tools/read_document.py"), file], 60000)).stdout);
   } catch (e) {
     parsed = { error: e.message };
   }
   if (parsed.error) {
+    console.warn(`[documents] unreadable ${extension} (${buffer.length} bytes): ${String(parsed.error).slice(0, 200)}`);
     await fs.rm(dir, { recursive: true, force: true });
-    return res.status(422).json({ error: '无法读取此文件，请确认文件未损坏、未加密且能够正常打开，再重新上传。' });
+    throw { status: 422, error: documentErrorMessage(String(parsed.error)) };
   }
-  const mime =
-    {
-      ".pdf": "application/pdf",
-      ".png": "image/png",
-      ".jpg": "image/jpeg",
-      ".jpeg": "image/jpeg",
-      ".webp": "image/webp",
-    }[extension] || "application/octet-stream";
-  const record = {
-    id,
-    name: req.file.originalname,
-    mime,
-    url: `/api/documents/${id}/file`,
-    file,
-    createdAt: new Date().toISOString(),
-    ...parsed,
-  };
-  await fs.writeFile(
-    path.join(dir, "record.json"),
-    JSON.stringify(record, null, 2),
-  );
+  const record = { id, name: originalName, mime: documentMimes[extension] || "application/octet-stream", url: `/api/documents/${id}/file`, file, createdAt: new Date().toISOString(), ...parsed };
+  await fs.writeFile(path.join(dir, "record.json"), JSON.stringify(record, null, 2));
   const { file: privateFile, ...publicRecord } = record;
-  res.json(publicRecord);
+  return publicRecord;
+}
+const sendIngest = (res, promise) => promise.then((record) => res.json(record)).catch((error) => {
+  if (error?.status) return res.status(error.status).json({ error: error.error });
+  console.error("[documents] ingest failed", error);
+  res.status(500).json({ error: "文件保存失败，请稍后重试。" });
+});
+app.post("/api/documents", upload.single("file"), (req, res) => {
+  if (!req.file) return res.status(400).json({ error: "请选择文件" });
+  return sendIngest(res, ingestDocument(req.file.buffer, req.file.originalname));
+});
+// Demo cases attach their drawing on the server: some mobile browsers (e.g. in-app WebKit
+// shells) hand fetch() an empty body for a cached PDF, so re-uploading it from the page fails.
+app.post("/api/demo-documents", async (req, res) => {
+  try {
+    const { cases = [] } = JSON.parse(await fs.readFile(path.join(root, "assets/demo-cases/cases.json"), "utf8"));
+    const item = cases.find((entry) => entry.id === req.body?.caseId && entry.document?.url);
+    if (!item) return res.status(404).json({ error: "测试案例不存在或没有附带图纸。" });
+    const relative = decodeURIComponent(item.document.url).replace(/^\/+/, "");
+    if (!relative.startsWith("assets/demo-cases/") || relative.includes("..")) return res.status(400).json({ error: "测试案例图纸路径无效。" });
+    return sendIngest(res, fs.readFile(path.join(root, relative)).then((buffer) => ingestDocument(buffer, item.document.name || path.basename(relative))));
+  } catch (error) {
+    console.error("[documents] demo case failed", error);
+    res.status(500).json({ error: "测试案例图纸载入失败，请稍后重试。" });
+  }
 });
 app.get("/api/documents/:id", async (req, res) => {
   if (!safeId.test(req.params.id))

@@ -430,12 +430,14 @@ export default function TaskWorkspace({ health, assets, onSelectAsset, onOpenSet
     setError(""); setActiveCase(item.id); setNewTaskInstead(true);
     let attached: DocumentRecord | null = null;
     if (item.document) {
+      // The server attaches the bundled drawing directly; re-uploading a fetched copy fails in
+      // some mobile in-app browsers that return an empty body for cached files.
+      setUploading(true); setDocument(null);
       try {
-        const response = await fetch(item.document.url);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const blob = await response.blob();
-        attached = await upload(new File([blob], item.document.name, { type: blob.type || "application/pdf" }));
+        attached = await api<DocumentRecord>("/api/demo-documents", jsonPost({ caseId: item.id }));
+        if (mounted.current) setDocument(attached);
       } catch (cause) { if (mounted.current) setError(`案例图纸载入失败：${(cause as Error).message}`); return; }
+      finally { if (mounted.current) setUploading(false); }
       if (!attached || !mounted.current) return;
       setPages((item.document.pages || [1]).join(", "));
     }

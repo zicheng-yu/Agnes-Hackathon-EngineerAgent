@@ -13,6 +13,17 @@ test('corrupt documents are rejected before they can become task input',async()=
  const form=new FormData();form.append('file',new Blob(['not a valid PDF'],{type:'application/pdf'}),'corrupt-verification.pdf');
  const response=await fetch(base+'/api/documents',{method:'POST',body:form});assert.equal(response.status,422);assert.match((await response.json()).error,/无法读取/);
 });
+test('empty uploads explain that the browser sent no content',async()=>{
+ const form=new FormData();form.append('file',new Blob([],{type:'application/pdf'}),'empty.pdf');
+ const response=await fetch(base+'/api/documents',{method:'POST',body:form});assert.equal(response.status,422);assert.match((await response.json()).error,/空的/);
+});
+test('demo cases attach their bundled drawing on the server',async()=>{
+ const post=body=>fetch(base+'/api/demo-documents',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
+ const ok=await post({caseId:'rec-coupling'});assert.equal(ok.status,200);const record=await ok.json();
+ assert.equal(record.name,'EA-D04-flange-coupling.pdf');assert.equal(record.pageCount,1);assert.match(record.pages[0].text,/FLANGE COUPLING/);assert.equal(record.file,undefined);
+ assert.equal((await post({caseId:'order-standard'})).status,404);
+ assert.equal((await post({caseId:'../../etc/passwd'})).status,404);
+});
 test('history summary endpoint is paginated and does not leak complete event bodies',async()=>{
  const response=await fetch(base+'/api/tasks?summary=1&offset=0&limit=2');assert.equal(response.status,200);const result=await response.json();assert.ok(Array.isArray(result.items));assert.ok(result.items.length<=2);
  for(const task of result.items){assert.equal(task.events,undefined);assert.equal(task.result?.answer,undefined);}

@@ -4,7 +4,8 @@ import type { DemoVideoSource } from "./types";
 
 /** Promo video player; the hosted trial serves the files, the local package has none. */
 export default function DemoVideo({ video, onClose }: { video: DemoVideoSource; onClose: () => void }) {
-  const [quality, setQuality] = useState<"hd" | "sd">("hd");
+  // Start light: the server's ~3 Mbps uplink is shared, and the Cloudflare route is slow from China.
+  const [quality, setQuality] = useState<"hd" | "sd">(video.sd ? "sd" : "hd");
   const player = useRef<HTMLVideoElement>(null);
   const resume = useRef<{ time: number; playing: boolean } | null>(null);
   useEffect(() => {

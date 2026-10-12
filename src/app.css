@@ -303,6 +303,11 @@ main { flex: 1; width: 100%; max-width: 1440px; margin: 0 auto; padding: 28px 32
 .settings-form input[readonly] { color: var(--text-2); background: var(--surface-2); }
 .settings-fieldset { display: contents; border: 0; margin: 0; padding: 0; min-width: 0; }
 .settings-form input:disabled, .settings-form select:disabled { color: var(--text-2); background: var(--surface-2); cursor: not-allowed; }
+.demo-video-dialog { width: min(960px, 100%); }
+.demo-video-body { display: flex; flex-direction: column; gap: 10px; padding: 8px 20px 20px; }
+.demo-video-body video { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: var(--radius-sm); background: #000; }
+.demo-video-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; }
+.demo-video-quality { flex: none; }
 .model-dialog-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 4px; }
 .save-message { color: var(--success); font-size: 13px; }
 

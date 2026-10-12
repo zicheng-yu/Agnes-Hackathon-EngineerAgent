@@ -3,6 +3,7 @@ import {
   Activity,
   Box,
   Boxes,
+  CirclePlay,
   Download,
   ExternalLink,
   FileText,
@@ -18,6 +19,7 @@ import TasksPanel from "./TaskHistory";
 import TaskWorkspace from "./TaskWorkspace";
 import ModelSetupNotice from './ModelSetupNotice';
 import ModelSettings from "./ModelSettings";
+import DemoVideo from "./DemoVideo";
 import {ThemeSwitch} from "./Theme";
 import { api } from "./api";
 import type { Asset, Health } from "./types";
@@ -284,6 +286,7 @@ export default function App() {
   }, []);
   const [modelDialog, setModelDialog] = useState(false);
   const openModel = () => setModelDialog(true);
+  const [videoOpen, setVideoOpen] = useState(false);
   const title = navigation.find((x) => x.id === page)?.label;
   useEffect(() => { document.title = title ? `${title} · EngineerAgent` : "EngineerAgent"; }, [title]);
   return (
@@ -320,6 +323,7 @@ export default function App() {
           ))}
         </nav>
         <div className="sidebar-bottom">
+          {health?.demoVideo ? <button type="button" className="bottom-link" onClick={() => setVideoOpen(true)} title="演示视频"><CirclePlay size={18} /><span>演示视频</span></button> : null}
           <ThemeSwitch />
         </div>
       </aside>
@@ -343,6 +347,7 @@ export default function App() {
         </main>
 
       </div>
+      {videoOpen && health?.demoVideo ? <DemoVideo video={health.demoVideo} onClose={() => setVideoOpen(false)} /> : null}
       {modelDialog ? <ModelSettings refresh={refresh} locked={health?.hostedDemo === true} onClose={() => setModelDialog(false)} /> : null}
       {selected ? (
         <AssetDetail

@@ -55,6 +55,15 @@ app.use(
   "/runs",
   express.static(path.join(dataRoot, "runs"), { dotfiles: "deny" }),
 );
+// Promo video for the hosted trial; kept outside the repository so the submission archive stays small.
+const mediaRoot = process.env.ENGINEERAGENT_MEDIA_DIR ? path.resolve(process.env.ENGINEERAGENT_MEDIA_DIR) : null;
+if (mediaRoot) app.use("/media", express.static(mediaRoot, { dotfiles: "deny", maxAge: "1d" }));
+function demoVideo() {
+  if (!mediaRoot) return undefined;
+  const url = (name) => existsSync(path.join(mediaRoot, name)) ? `/media/${name}` : undefined;
+  const hd = url("engineeragent-demo-1080p.mp4");
+  return hd ? { hd, sd: url("engineeragent-demo-720p.mp4"), poster: url("engineeragent-demo-poster.jpg") } : undefined;
+}
 
 const safeId = /^[a-zA-Z0-9_-]+$/;
 const tasks = new Map();
@@ -164,6 +173,7 @@ app.get("/api/health", async (req, res) => {
     taskCancellation: true,
     taskRevisions: true,
     hostedDemo: hosted.enabled,
+    demoVideo: demoVideo(),
   });
 });
 app.get("/api/catalog", async (req, res) => {res.set('Cache-Control','private, max-age=30');res.json(await readCatalog());});

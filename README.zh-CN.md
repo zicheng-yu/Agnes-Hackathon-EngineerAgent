@@ -13,7 +13,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A524.10-339933)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB)](https://www.python.org/downloads/)
 
-[在线体验](https://engineeragent.liudonghe.com/) · [视频介绍](#demo-video) · [架构介绍](#architecture) · [集成标准](#integration-standards) · [快速启动](#quick-start)
+[在线体验](https://engineeragent.liudonghe.com/) · [项目介绍](#project-overview) · [视频介绍](#demo-video) · [架构介绍](#architecture) · [集成标准](#integration-standards) · [快速启动](#quick-start)
 
 </div>
 

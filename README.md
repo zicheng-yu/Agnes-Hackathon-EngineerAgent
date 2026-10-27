@@ -13,7 +13,7 @@ English | [简体中文](README.zh-CN.md)
 [![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A524.10-339933)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB)](https://www.python.org/downloads/)
 
-[Try online](https://engineeragent.liudonghe.com/) · [Demo Video](#demo-video) · [Architecture](#architecture) · [Integration Standards](#integration-standards) · [Quick Start](#quick-start)
+[Try online](https://engineeragent.liudonghe.com/) · [Project Overview](#project-overview) · [Demo Video](#demo-video) · [Architecture](#architecture) · [Integration Standards](#integration-standards) · [Quick Start](#quick-start)
 
 </div>
 

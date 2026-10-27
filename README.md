@@ -1,72 +1,233 @@
 # EngineerAgent
 
-面向机加工企业的工程智能体。以官方 **Agnes Harness（AGH）** 为运行底座，默认调用 **Agnes 3.0 Flash**，由 AGH 编排工业工具完成三类任务：
+English | [简体中文](README.zh-CN.md)
 
-- **图纸重建**：读取零件图或装配图，构建参数化 CAD 模型，逐项实测校验并回投影；装配图生成可拆解的爆炸视图与 BOM。缺尺寸时暂停并请求补充，不猜测。
-- **订单评审**：逐行解析采购明细，匹配零件库、分配库存、估算待产工时；冲突或未知编号逐行标出并检索候选件。
-- **零件检索**：在 45 条带来源与许可的工程资产中按用途、结构、材料检索，可查看三维模型、拆解视图与部件清单。
+<div align="center">
 
-每次任务的工具调用实时显示，并可导出 AGH 原生执行记录供复核。
+### From engineering drawings to checkable results.
 
-- 在线体验：<https://engineeragent.liudonghe.com/>（无需安装，模型为 MiniMax-M3；备用地址 <http://175.27.128.112/>）
-- 开源仓库：<https://github.com/zicheng-yu/Agnes-Hackathon-EngineerAgent>
+**An engineering agent for machining teams, powered by Agnes Harness.**
 
-## 快速启动
+[![Agnes Harness](https://img.shields.io/badge/Powered%20by-Agnes%20Harness-6366f1)](https://github.com/AgnesAI-Labs/agnes-harness)
+[![License: MIT](https://img.shields.io/badge/License-MIT-2F4F4F)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A524.10-339933)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB)](https://www.python.org/downloads/)
 
-三个平台都需要 [Node.js](https://nodejs.org/) ≥ 24.10、[Python](https://www.python.org/downloads/) 3.12 和 [Git](https://git-scm.com/downloads)，另需本平台的 C/C++ 编译工具（用于构建 AGH 的原生模块）。
+[Try online](https://engineeragent.liudonghe.com/) · [Demo Video](#demo-video) · [Architecture](#architecture) · [Integration Standards](#integration-standards) · [Quick Start](#quick-start)
 
-| 平台 | 额外准备 | 启动 |
-|---|---|---|
-| macOS | Xcode 命令行工具：`xcode-select --install` | 双击 `启动工程助手.command`（首次若被拦截：右键 → 打开） |
-| Windows | Visual Studio Build Tools 的“使用 C++ 的桌面开发”与 Windows SDK；安装 Python 时勾选 “Add to PATH” | 双击 `启动工程助手.bat` |
-| Linux | `build-essential`、`python3.12-venv`（Debian/Ubuntu 包名） | 终端运行下方命令 |
+</div>
 
-任何平台也都可以在项目目录运行：
+EngineerAgent brings drawing reconstruction, order review, and parts retrieval into one workbench. The official **Agnes Harness (AGH)** orchestrates the model and industrial tools; **Agnes 3.0 Flash** is the default model for local installations. Tool calls and measured results remain visible throughout each task, and native AGH execution records can be exported for review.
+
+<details>
+<summary><kbd>Contents</kbd></summary>
+
+- [Project Overview](#project-overview)
+- [Demo Video](#demo-video)
+- [Architecture](#architecture)
+- [Integration Standards](#integration-standards)
+- [Quick Start](#quick-start)
+- [Models](#models)
+- [Examples and Execution Records](#examples-and-execution-records)
+- [FAQ](#faq)
+- [Development and Verification](#development-and-verification)
+- [License](#license)
+
+</details>
+
+## Project Overview
+
+### Background
+
+Small and medium machining businesses handle drawings, purchase orders, parts libraries, and production estimates across separate tools. EngineerAgent connects these steps through an agent workbench: the model interprets the request, AGH coordinates execution, and dedicated tools produce geometry, checks, and order calculations that users can inspect.
+
+### Core capabilities
+
+| Capability | Workflow | Outputs |
+| --- | --- | --- |
+| **Drawing reconstruction** | Read a part or assembly drawing, build a parametric CAD model, measure the actual solid, and project it back into drawing views. Request missing dimensions before building. | STEP/GLB models, front/top/side SVG views, inspection results; assemblies also include an exploded view and bill of materials (BOM). |
+| **Order review** | Parse purchase lines, match part identity/material/revision/specification, allocate available stock within the review, and estimate remaining production hours and capacity gaps. Flag conflicts and search for candidate parts. | Per-line findings, blockers, estimated hours, and capacity evidence, based on the bundled synthetic enterprise ledger. |
+| **Parts retrieval** | Search 45 engineering assets by name, identifier, use case, structure, and related terms, with source and license information. | Candidate parts with model links, 3D previews, and assembly details where available. |
+
+### What makes it useful
+
+- **A geometry verification loop:** the model proposes a plan; CadQuery/OpenCascade builds and measures the solid. Checks cover specified dimensions, hole positions, assembly placement, interference, and sampled disassembly paths. Failures feed back into repairs.
+- **Explicit handling of unknowns:** missing or conflicting engineering evidence produces a structured clarification request instead of guessed dimensions or unsupported estimates.
+- **Reusable industrial tools:** drawing access, catalog search, order rules, and CAD operations are packaged as an AGH plugin rather than embedded in model responses.
+- **Traceable results:** live tool inputs/results, CAD artifacts, and native AGH traces make the result reviewable after the task ends.
+
+The order ledger is demonstration data. Order review calculates allocations without reserving real stock or scheduling production; geometry checks report their defined scope, and disassembly checks use discrete samples. See the [CAD tool contract](tools/cad/README.md) and [demo evidence](docs/demo-cases.md) for details.
+
+## Demo Video
+
+**[Watch the demo — 1080p](https://engineeragent.liudonghe.com/media/engineeragent-demo-1080p.mp4)** · [720p](https://engineeragent.liudonghe.com/media/engineeragent-demo-720p.mp4) · [Open the online workbench](https://engineeragent.liudonghe.com/)
+
+<p align="center">
+  <a href="https://engineeragent.liudonghe.com/media/engineeragent-demo-1080p.mp4">
+    <img src="https://engineeragent.liudonghe.com/media/engineeragent-demo-poster.jpg" alt="EngineerAgent demo video — click to watch" width="100%" />
+  </a>
+</p>
+
+The video is approximately **4 minutes 30 seconds** and records actual local-workbench operation. Model waiting periods are accelerated and labeled; narration uses synthesized speech. Video files are hosted separately from this repository.
+
+To try the workflow yourself:
+
+1. Open the [online demo](https://engineeragent.liudonghe.com/) or follow [Quick Start](#quick-start).
+2. Choose a built-in case under Drawing Reconstruction (图纸重建), Order Review (订单评审), or Parts Retrieval (零件检索).
+3. Inspect the tool calls, checks, and resulting artifacts, then export the execution record from History (历史记录).
+
+The online demo uses **MiniMax-M3** with a deployment-managed connection; local installations default to **Agnes 3.0 Flash** and accept your own API key. The fallback demo address is [http://175.27.128.112/](http://175.27.128.112/). Recorded Agnes runs and expected outcomes are documented in [demo cases](docs/demo-cases.md).
+
+## Architecture
+
+```mermaid
+flowchart TD
+    UI["React + TypeScript workbench / Three.js viewer"]
+    API["Node.js + Express local service"]
+    AGH["Agnes Harness: sessions, model/tool orchestration, traces"]
+    PROXY["Local model proxy"]
+    MODEL["Agnes 3.0 Flash / compatible model service"]
+    TOOLS["AGH industrial-tools plugin"]
+    CAD["Python + CadQuery / OpenCascade"]
+    DATA["Asset catalog, synthetic order ledger, task history"]
+    OUTPUT["STEP, GLB, SVG, manifests, execution records"]
+
+    UI -->|HTTP / JSON| API
+    API -->|Task submission| AGH
+    AGH --> PROXY
+    PROXY --> MODEL
+    AGH -->|Tool calls| TOOLS
+    TOOLS -->|Loopback HTTP| API
+    API -->|JSON plan / CLI| CAD
+    API --> DATA
+    CAD --> OUTPUT
+    AGH -->|Native trace| OUTPUT
+    API -->|Status and artifact URLs| UI
+```
+
+| Module | Implementation | Responsibility |
+| --- | --- | --- |
+| **Workbench and viewer** | [`src/`](src/) — React, TypeScript, Three.js | Task entry, drawing upload, 3D/exploded views, inspection reports, and history. |
+| **Application service** | [`server/`](server/) — Node.js, Express | HTTP endpoints, document ingestion, task scheduling, catalog/order operations, and artifact/record export. |
+| **AGH integration** | [`integrations/agh/`](integrations/agh/) | Runtime setup, model connection, task/session execution, and native trace export. |
+| **Industrial plugin** | [`integrations/agh/industrial-tools/`](integrations/agh/industrial-tools/) | Structured tool definitions for input evidence, catalog search, order review, clarification, and geometry. |
+| **CAD execution** | [`tools/cad/`](tools/cad/) — Python, CadQuery, OpenCascade | Parametric feature plans, solid measurements, assembly checks, projections, and STEP/GLB export. |
+| **Assets and evidence** | [`assets/`](assets/), local `data/` | Versioned reference assets and evaluation records; local uploads, task results, settings, and history. |
+
+The AGH runtime is pinned to upstream commit [`cde816b8`](https://github.com/AgnesAI-Labs/agnes-harness/commit/cde816b88c737b9fd04e7ef55b899e7b4cd55eb7) in [`runtime-lock.json`](integrations/agh/runtime-lock.json). Model credentials are forwarded by the local proxy rather than passed into the AGH process. Geometry conclusions come from tool measurements, with verification results recorded alongside generated artifacts.
+
+## Integration Standards
+
+### AGH plugin contract
+
+The industrial plugin is an ES module package, **`@panpan/industrial-tools`** (version `0.3.0`), declared through `agnes.plugins` in its [`package.json`](integrations/agh/industrial-tools/package.json). It obtains the AGH `extension` service and registers tools with `registerTool`. Parameters use JSON schemas; results include text content plus a structured payload and `isError`.
+
+| Tool | Input contract | Purpose |
+| --- | --- | --- |
+| `industrial_read_input` / `industrial_get_document` | `path` / `documentId` | Read uploaded evidence, document metadata, and extracted text/images. |
+| `industrial_search_catalog` | Optional `query`, `category`, `format`, `limit` | Retrieve candidates with identifiers, model URLs, provenance, and licenses. |
+| `industrial_review_order` | Original purchase `text` | Apply deterministic matching, stock-allocation, and production-hour rules. |
+| `industrial_request_clarification` | `question`, `missing[]` with `item` and optional `evidence` | Return `status: "needs_input"` when evidence is incomplete. |
+| `industrial_geometry` | `operation`, `input` object | Run `build`, `validate`, `project`, `patch`, `assembly`, `import`, or `compare_views`. |
+
+The plugin connects to the application through `AGH_INDUSTRIAL_ROOT` (absolute project path) and `AGH_INDUSTRIAL_API` (an `http://127.0.0.1:PORT` origin). The setup process installs and trusts the local package using its integrity and capability hashes. See the [plugin implementation](integrations/agh/industrial-tools/index.mjs) and [runtime setup](integrations/agh/common.mjs).
+
+### HTTP interfaces
+
+The workbench uses same-origin HTTP endpoints, normally at `http://127.0.0.1:4310`. JSON requests use `Content-Type: application/json`; uploads use `multipart/form-data`. The following are the current application interfaces in [`server/index.mjs`](server/index.mjs):
+
+| Method and path | Request / response |
+| --- | --- |
+| `GET /api/health` | Model configuration, AGH/CAD availability, and application version. |
+| `POST /api/documents` | Upload a `file` field; receive a document record containing its `id`. |
+| `GET /api/documents/:id` | Read document metadata and extracted page content. |
+| `GET /api/catalog` | Read the asset catalog; the plugin applies its search filters to this data. |
+| `POST /api/orders/review` | `{ "text": "..." }` → structured order report. |
+| `POST /api/geometry` | `{ "operation": "build", "input": { ... } }` → `success`, `verified`, `runId`, `manifest`, `artifacts`. |
+| `POST /api/tasks` | `mode`, `instruction`, and drawing `documentId`/`pages` when required → HTTP `202` with a task `id`. Agent modes: `reconstruct`, `order_review`, `catalog_search`. |
+| `GET /api/tasks/:id` | Poll task status, events, and results. |
+| `POST /api/tasks/:id/cancel` | Request cancellation of a queued or running task. |
+| `GET /api/tasks/:id/trace` | Download the native AGH JSONL trace, once available. |
+| `GET /api/history/:id/export` / `GET /api/history/export` | Download one task or all execution records as ZIP. |
+
+For example, after configuring a model in the local workbench, submit this JSON body to `POST /api/tasks`:
+
+```json
+{
+  "mode": "catalog_search",
+  "instruction": "Find a mounting bracket with holes for positioning and clamping."
+}
+```
+
+Then poll `GET /api/tasks/<id>` using the returned task ID. For reconstruction, upload the drawing first and include `documentId` and selected `pages`. Configure an image-capable model for drawing input. These are the current workbench contracts; the repository does not declare a versioned external API.
+
+### CAD and artifact formats
+
+- **Input:** JSON feature/assembly plans with stable feature IDs. The CAD runner accepts defined operations rather than executing user-supplied Python.
+- **Coordinates:** millimeters (`mm`), **Z-up**, including GLB outputs. Integrations must follow the manifest instead of assuming GLB uses meters/Y-up.
+- **Outputs:** STEP for CAD exchange, GLB/mesh JSON for visualization, SVG for projected views, and `manifest.json` for measurements, checks, errors, and artifact references.
+- **Verification:** `status: "completed"` means computation completed. Read `manifest.verification.passed` and the API's `verified` field separately; `null` means verification is unavailable. Disassembly-path results cover the sampled positions.
+- **Records and provenance:** native `trace.agnes.jsonl`, workbench `task.json`, and ZIP exports support review. Export removes credentials and local absolute paths. Public assets retain the source and license terms in [asset sources](docs/asset-sources.md).
+
+The [CAD tool reference](tools/cad/README.md) defines plan fields, supported operations, CLI usage, and verification limits.
+
+### Connecting models and business data
+
+Model connections support official Agnes, OpenAI-compatible, Anthropic-compatible, and OpenRouter providers. Configure the provider, API base URL, model ID, and key in the workbench; external endpoints use HTTPS, with HTTP allowed for loopback services. See [provider settings](server/provider-settings.mjs).
+
+The current catalog and order review read bundled assets and a synthetic ledger. To adapt the project to a business system, replace or extend the application data/service layer and expose the capability through the AGH plugin contract. The current project does not include a live ERP/MES connector or machine-control integration.
+
+## Quick Start
+
+Install [Node.js](https://nodejs.org/) **24.10+**, [Python](https://www.python.org/downloads/) **3.12**, and [Git](https://git-scm.com/downloads). AGH also needs the platform's native C/C++ build tools.
+
+| Platform | Additional setup | Launch |
+| --- | --- | --- |
+| macOS | Xcode command-line tools: `xcode-select --install` | Double-click `启动工程助手.command`. If blocked on first launch, right-click → Open. |
+| Windows | Visual Studio Build Tools with **Desktop development with C++** and Windows SDK; add Python to PATH. | Double-click `启动工程助手.bat`. |
+| Linux | `build-essential`, `python3.12-venv` (Debian/Ubuntu package names). | Run the command below. |
+
+Get the source and start the workbench:
 
 ```sh
+git clone https://github.com/zicheng-yu/Agnes-Hackathon-EngineerAgent.git
+cd Agnes-Hackathon-EngineerAgent
 node scripts/start-local.mjs --install --open
 ```
 
-启动后浏览器打开 <http://127.0.0.1:4310>，点击输入框下方的模型按钮填写 API Key 并保存，再点任一测试案例即可运行。
+The browser opens at [http://127.0.0.1:4310](http://127.0.0.1:4310). Click the model button below the input box, enter and save your API key, then select a built-in case.
 
-首次启动会安装依赖并构建 AGH，需要几分钟。依赖默认从国内镜像下载（Python：清华源；npm/pnpm：npmmirror）；海外网络可设置 `ENGINEERAGENT_MIRROR=off` 改用官方源。终端窗口保持打开，按 Ctrl+C 停止。
+First launch installs dependencies and builds AGH, which can take several minutes. Downloads default to Chinese mirrors (Tsinghua for Python; npmmirror for npm/pnpm). Set `ENGINEERAGENT_MIRROR=off` to use official sources. Keep the terminal open; press Ctrl+C to stop.
 
-## 模型
+## Models
 
-默认 **官方 Agnes / agnes-3.0-flash**；也可接入 OpenAI 兼容或 Anthropic 兼容服务（模型按钮中选择接口、地址、模型名并填写 Key）。各接口的 Key 只保存在本机 `data/` 目录，不进入仓库或提交包。对 MiniMax-M3 会自动关闭思考（请求附带 `thinking: {type: "disabled"}`），避免思考耗尽单次输出额度。
+The local default is **official Agnes / `agnes-3.0-flash`**. Choose a provider, base URL, model, and key through the model button to use another supported service. Provider keys are stored locally under `data/` and excluded from the repository and submission archive. For MiniMax-M3 on compatible connections, the app automatically sends `thinking: {type: "disabled"}` to keep reasoning from consuming the single-request output budget.
 
-## 测试案例与执行记录
+## Examples and Execution Records
 
-每个任务页输入框下方都有测试案例，点击即经 AGH 运行：1 张装配图（4 种零件、15 个实例）、1 张缺尺寸零件图、2 份采购单、3 个检索，分为常规测试、边界测试和异常测试。Agnes 3.0 Flash 的运行结果与核对方法见 [docs/demo-cases.md](docs/demo-cases.md)；原生执行记录在 `assets/evaluation/agh-runs/`，也可在“历史记录”页导出。
+Each task page includes built-in cases: **one assembly drawing** (four part types, 15 instances), **one drawing with a missing dimension**, **two purchase orders**, and **three catalog searches**, covering normal, boundary, and exception cases.
 
-## 工作原理
+Expected outcomes and recorded Agnes 3.0 Flash runs are in [demo cases](docs/demo-cases.md). Native records are stored in [`assets/evaluation/agh-runs/`](assets/evaluation/agh-runs/), indexed by [`report.json`](assets/evaluation/report.json). The earlier single-part drawing runs remain archived there.
 
-```
-浏览器（React）──HTTP──▶ 本地服务（Node/Express）──▶ AGH（锁定 commit，工业插件 + 本机模型代理）
-                                   │                         │ 工具调用
-                                   ▼                         ▼
-                         资产库 / 订单台账 / 历史记录    CAD 工具（Python + CadQuery）
-```
+In the workbench, use **History → Export all execution records** (历史记录 → 导出全部执行记录), or export a single task from its result. Exports contain task records, native AGH traces, input drawings, available CAD artifacts, and a readable summary.
 
-- AGH 锁定官方仓库 [AgnesAI-Labs/agnes-harness](https://github.com/AgnesAI-Labs/agnes-harness) 的 commit `cde816b8`（`integrations/agh/runtime-lock.json`），工业插件位于 `integrations/agh/industrial-tools/`。
-- 模型 Key 由本机代理转发，不进入 AGH 进程。
-- 几何结论来自工具对实体的实测（尺寸、孔位、装配位置、拆卸路径），不采信模型自述。CAD 工具说明见 [tools/cad/README.md](tools/cad/README.md)。
+## FAQ
 
-## 常见问题
+- **Port already in use:** the launcher searches for a free port starting at 4310 and prints the actual address.
+- **Dependency download fails:** retry after checking the reported error; set `ENGINEERAGENT_MIRROR=off` if the mirror is unavailable.
+- **AGH build fails on Windows:** install Visual Studio Build Tools with Desktop development with C++ and Windows SDK.
+- **Python is not 3.12:** set `ENGINEERAGENT_PYTHON=/path/to/python3.12`; move an incompatible existing `.venv` aside before retrying.
+- **The first CadQuery check is slow on macOS:** initial native-library signature verification can take several minutes; progress remains visible in the terminal.
+- **The AGH checkout has local modifications:** setup stops to avoid overwriting them. Move `integrations/agh/vendor-runtime` aside before retrying.
 
-- **端口被占用**：自动从 4310 起寻找空闲端口，终端会显示实际地址。
-- **下载失败**：保留报错重试；镜像不可用时设 `ENGINEERAGENT_MIRROR=off`。
-- **Windows 构建 AGH 失败**：需安装 Visual Studio Build Tools 的“使用 C++ 的桌面开发”与 Windows SDK。
-- **已有 Python 不是 3.12**：可用 `ENGINEERAGENT_PYTHON=/path/to/python3.12` 指定；已有不兼容的 `.venv` 请先移走。
-- **macOS 首次检查 CadQuery 很慢**：系统首次验证原生库签名可能需数分钟，终端会持续显示进度。
-- **AGH 目录被改动**：安装脚本会停止以免覆盖；移走 `integrations/agh/vendor-runtime` 后重试。
-
-## 开发与验证
+## Development and Verification
 
 ```sh
-node scripts/verify-local.mjs   # 构建、界面、打包、CAD、服务与 AGH 测试，无需模型 Key
+node scripts/verify-local.mjs
 ```
 
-## 许可
+Runs build, UI, packaging, CAD, service, and AGH checks without a model API key. See [demo cases](docs/demo-cases.md) for model-backed reproduction and expected results.
 
-本项目代码以 MIT 许可发布。AGH 为 Apache-2.0（许可与 NOTICE 见 `third-party/agnes-harness/`）。公开工程资产保留各自上游许可，来源与条件见 [docs/asset-sources.md](docs/asset-sources.md)。
+## License
+
+Project code is released under the [MIT License](LICENSE). AGH uses Apache-2.0; its license and NOTICE are in [`third-party/agnes-harness/`](third-party/agnes-harness/). Public engineering assets retain their upstream licenses; see [sources and conditions](docs/asset-sources.md).

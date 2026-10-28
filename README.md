@@ -41,6 +41,8 @@ EngineerAgent brings drawing reconstruction, order review, and parts retrieval i
 
 Small and medium machining businesses handle drawings, purchase orders, parts libraries, and production estimates across separate tools. EngineerAgent connects these steps through an agent workbench: the model interprets the request, AGH coordinates execution, and dedicated tools produce geometry, checks, and order calculations that users can inspect.
 
+The workbench is intended for machining engineers reviewing drawings and purchase orders, and for developers exploring AGH-based industrial tools. Start with the bundled cases to inspect the evidence and outputs before adapting the workflow to your own data.
+
 ### Core capabilities
 
 | Capability | Workflow | Outputs |
@@ -77,6 +79,19 @@ To try the workflow yourself:
 3. Inspect the tool calls, checks, and resulting artifacts, then export the execution record from History (历史记录).
 
 The online demo uses **MiniMax-M3** with a deployment-managed connection; local installations default to **Agnes 3.0 Flash** and accept your own API key. The fallback demo address is [http://175.27.128.112/](http://175.27.128.112/). Recorded Agnes runs and expected outcomes are documented in [demo cases](docs/demo-cases.md).
+
+### Reproduction checkpoints
+
+Use the built-in cases to check the workflow after watching the video. These are expected outcomes to compare with your run; model behavior can vary.
+
+| Case | What to inspect |
+| --- | --- |
+| Assembly drawing | STEP/GLB outputs, the exploded view and BOM, and measured geometry checks. |
+| Drawing with a missing dimension | A request for the missing thickness, without a guessed model. |
+| Purchase orders | Stock allocation, estimated hours, and explicit conflicts or unmatched items against the synthetic ledger. |
+| Parts retrieval | Candidate identifiers, model links, and source/license information; an absent part should be reported as absent. |
+
+See [case inputs, expected results, and recorded runs](docs/demo-cases.md) for the comparison evidence.
 
 ## Architecture
 
@@ -115,6 +130,13 @@ flowchart TD
 | **Assets and evidence** | [`assets/`](assets/), local `data/` | Versioned reference assets and evaluation records; local uploads, task results, settings, and history. |
 
 The AGH runtime is pinned to upstream commit [`cde816b8`](https://github.com/AgnesAI-Labs/agnes-harness/commit/cde816b88c737b9fd04e7ef55b899e7b4cd55eb7) in [`runtime-lock.json`](integrations/agh/runtime-lock.json). Model credentials are forwarded by the local proxy rather than passed into the AGH process. Geometry conclusions come from tool measurements, with verification results recorded alongside generated artifacts.
+
+### Task execution flow
+
+1. The workbench submits an instruction and, for drawing reconstruction, an uploaded document and selected pages to the application service.
+2. AGH calls the configured model through the local proxy and invokes the industrial plugin's structured tools.
+3. The application reads catalog/order data or runs the CAD operations requested by the tools. Missing evidence can trigger a clarification request; geometry results include measurements and verification details when available.
+4. The workbench polls task status and displays events and artifacts. Task history and native AGH traces provide records for later review and export.
 
 ## Integration Standards
 
@@ -160,6 +182,19 @@ For example, after configuring a model in the local workbench, submit this JSON 
 ```
 
 Then poll `GET /api/tasks/<id>` using the returned task ID. For reconstruction, upload the drawing first and include `documentId` and selected `pages`. Configure an image-capable model for drawing input. These are the current workbench contracts; the repository does not declare a versioned external API.
+
+### Task submission responses
+
+For `POST /api/tasks` in the three agent modes above, handle the following HTTP responses. Error responses contain an `error` message.
+
+| HTTP status | Meaning / next step |
+| --- | --- |
+| `202` | Task accepted. Use the returned `id` to poll task status; acceptance does not mean the task has completed or passed verification. |
+| `400` | Invalid task mode, instruction, or required input. Correct the request before retrying. |
+| `404` | A referenced drawing or parent task was not found. Check the identifier. |
+| `409` | Model configuration or task usage is unavailable, or the parent task is still active or has a different mode. Check model settings and parent-task state. |
+| `422` | Drawing reconstruction failed model-capability or drawing/page validation. Check image-input support and the selected document/pages. |
+| `429` | The task queue is full. Wait for capacity before retrying. |
 
 ### CAD and artifact formats
 
